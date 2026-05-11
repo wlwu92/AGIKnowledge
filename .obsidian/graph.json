@@ -6,7 +6,29 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#ANI",
+      "color": "#FF0000",
+      "textFilter": "ANI (弱人工智能)",
+      "queryText": "ANI (弱人工智能)",
+      "title": "ANI (弱人工智能)"
+    },
+    {
+      "query": "tag:#AGI",
+      "color": "#00FF00",
+      "textFilter": "AGI (通用人工智能)",
+      "queryText": "AGI (通用人工智能)",
+      "title": "AGI (通用人工智能)"
+    },
+    {
+      "query": "tag:#ASI",
+      "color": "#0000FF",
+      "textFilter": "ASI (超人工智能)",
+      "queryText": "ASI (超人工智能)",
+      "title": "ASI (超人工智能)"
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
