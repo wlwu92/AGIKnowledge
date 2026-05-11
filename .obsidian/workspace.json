@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md",
+                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-11-Sapiens2-高分辨率人体视觉Transformer"
+              "title": "2026-05-11-Video-Motion-Graphs-视频运动图插帧"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DROID-SLAM",
+                "query": "tag:#pose_estimation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,16 +190,29 @@
   },
   "active": "2e2db897cd4f660f",
   "lastOpenFiles": [
-    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-BetterLinkClicker-Obsidian插件.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md",
     "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md",
-    "CLAUDE.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Transformer-Family-架构演进综述.md",
-    "99_索引与地图 (Index & Maps)/processed_bookmarks.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md",
     "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md",
-    "00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
-    "HaMeR.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HandTexturePriors-单目手部重建纹理先验.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DROID-SLAM-深度视觉SLAM.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-mini-WiLoR简化Python包.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-端到端3D手部定位与重建.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DiffSynth-Studio-扩散模型引擎.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-经典Prompt设计-金庸群侠传RPG.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-claude-code-router.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Transformer-Family-架构演进综述.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md",
+    "CLAUDE.md",
     "未命名.base",
+    "00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-BetterLinkClicker-Obsidian插件.md",
+    "99_索引与地图 (Index & Maps)/processed_bookmarks.md",
+    "HaMeR.md",
     "00_资料与素材 (Attachments & Resources)/Inbox",
     "00_资料与素材 (Attachments & Resources)/Clippings",
     "WiLoR.md",
@@ -207,27 +220,15 @@
     "Clippings",
     "00_资料与素材 (Attachments & Resources)/基于 LLM 的智能体 (Agent).md",
     "00_资料与素材 (Attachments & Resources)/测试1.md",
-    "00_资料与素材 (Attachments & Resources)/Transformer - 作为序列处理器.md",
     "未命名.canvas",
-    "01_L1_哲学与理论基石 (Philosophy & Foundation)/L1-1放到.md",
     "知识图谱.canvas",
     "2.canvas",
     "测试一.canvas",
-    "test.md",
-    "1.md",
-    "AGI 知识网格地图.md",
-    "信息论、控制论.md",
-    "欢迎.md",
-    "创建链接.md",
-    "99_索引与地图 (Index & Maps)/AGI知识图谱.md",
-    "99_索引与地图 (Index & Maps)/AGI 知识网络图谱 - MOC.md",
     "AGI知识图谱",
-    "AGI定义与愿景.md",
     "99_索引与地图",
     "00_资料与素材 (Attachments & Resources)",
     "99_索引与地图 (Index & Maps)",
     "04_L4_应用、伦理与前沿 (Applications & Frontiers)",
-    "03_L3_系统架构与路径 (Systems & Architectures)",
-    "Home.md"
+    "03_L3_系统架构与路径 (Systems & Architectures)"
   ]
 }

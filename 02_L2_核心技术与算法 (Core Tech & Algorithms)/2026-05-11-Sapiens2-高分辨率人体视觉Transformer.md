@@ -13,8 +13,8 @@ tags:
 
 > **作者**: Rawal Khirodkar, He Wen, Julieta Martinez 等 (Facebook Research)
 > **会议**: ICLR 2026
-> **代码**: github.com/facebookresearch/sapiens2（CC BY 4.0）
-> **模型规模**: 0.4B–5B 参数
+> **代码**: github.com/facebookresearch/sapiens2（Custom License）
+> **模型规模**: 0.1B–5B 参数（6 个规格）
 
 ## 核心贡献
 
@@ -26,6 +26,20 @@ Sapiens 第二代，基于 10 亿张高质量人体图像预训练的统一人�
 - **数据规模**: 10 亿张精选人体图像，改进任务标注质量和多样性
 - **架构改进**: 融合前沿模型进展，4K 变体使用 windowed attention 处理长空间上下文
 - **新增能力**: pointmap 和 albedo 估计（相比第一代）
+- **backbone 模块可独立使用**: 单文件无依赖，仅需 torch + safetensors
+
+## 模型规格
+
+| 模型 | 参数量 | FLOPs | Embed Dim | Layers | Heads |
+|------|--------|-------|-----------|--------|-------|
+| Sapiens2-0.1B | 0.114B | 0.342T | 768 | 12 | 12 |
+| Sapiens2-0.4B | 0.398B | 1.260T | 1024 | 24 | 16 |
+| Sapiens2-0.8B | 0.818B | 2.592T | 1280 | 32 | 16 |
+| Sapiens2-1B | 1.462B | 4.715T | 1536 | 40 | 24 |
+| Sapiens2-1B (4K) | 1.607B | — | 1536 | 40 | 24 |
+| Sapiens2-5B | 5.071B | 15.722T | 2432 | 56 | 32 |
+
+> 所有模型 patch size 16，训练分辨率 1024×768，需 Python ≥3.12 和 PyTorch ≥2.7。checkpoint 在 Hugging Face 发布。
 
 ## 主要结果
 
