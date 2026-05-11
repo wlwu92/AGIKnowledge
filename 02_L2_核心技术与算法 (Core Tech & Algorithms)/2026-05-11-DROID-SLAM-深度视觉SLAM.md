@@ -1,6 +1,8 @@
 ---
 source: "https://github.com/princeton-vl/DROID-SLAM"
 created: 2026-05-11
+aliases:
+  - DROID-SLAM
 tags:
   - CV
   - SLAM

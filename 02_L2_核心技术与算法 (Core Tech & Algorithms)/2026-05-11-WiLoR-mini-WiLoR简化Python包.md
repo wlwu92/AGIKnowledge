@@ -1,6 +1,8 @@
 ---
 source: "https://github.com/warmshao/WiLoR-mini"
 created: 2026-05-11
+aliases:
+  - WiLoR-mini
 tags:
   - CV
   - 3D重建
