@@ -1,0 +1,27 @@
+{
+  "id": "conv-1778475539122-ihgsz8off",
+  "providerId": "claude",
+  "title": "hello",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778475539126,
+  "updatedAt": 1778475964015,
+  "lastResponseAt": 1778475964015,
+  "sessionId": "7601c68c-9579-4ea6-9386-19911c594043",
+  "providerState": {
+    "providerSessionId": "7601c68c-9579-4ea6-9386-19911c594043",
+    "previousProviderSessionIds": [
+      "4839caef-1052-4580-bd3f-b527344adc41"
+    ]
+  },
+  "currentNote": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 28875,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 28875,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -5,40 +5,26 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ANI",
-      "color": "#FF0000",
-      "textFilter": "ANI (弱人工智能)",
-      "queryText": "ANI (弱人工智能)",
-      "title": "ANI (弱人工智能)"
-    },
-    {
-      "query": "tag:#AGI",
-      "color": "#00FF00",
-      "textFilter": "AGI (通用人工智能)",
-      "queryText": "AGI (通用人工智能)",
-      "title": "AGI (通用人工智能)"
-    },
-    {
-      "query": "tag:#ASI",
-      "color": "#0000FF",
-      "textFilter": "ASI (超人工智能)",
-      "queryText": "ASI (超人工智能)",
-      "title": "ASI (超人工智能)"
+      "query": "tag:#AGI  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 2.50493977864583,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
+  "scale": 3.208206909220229,
   "close": true
 }

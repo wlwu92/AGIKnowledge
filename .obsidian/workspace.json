@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3abbb84c95d0a3ea",
+        "id": "a2ca64b623b15e75",
         "type": "tabs",
         "children": [
           {
-            "id": "3a834b37ae2c6dd5",
+            "id": "2e2db897cd4f660f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99_索引与地图 (Index & Maps)/AGI知识图谱.md",
+                "file": "00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGI知识图谱"
+              "title": "ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "DROID-SLAM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99_索引与地图 (Index & Maps)/AGI知识图谱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AGI知识图谱 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "欢迎 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -142,38 +140,82 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "欢迎 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "baa1ca4a64dcbfb6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "540bd1446c4f591d",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 660.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "080ee81d36a95fd5",
+  "active": "baa1ca4a64dcbfb6",
   "lastOpenFiles": [
-    "99_索引与地图 (Index & Maps)/AGI 知识网络图谱 - MOC.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md",
+    "00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
+    "CLAUDE.md",
+    "HaMeR.md",
+    "未命名.base",
+    "00_资料与素材 (Attachments & Resources)/Inbox",
+    "00_资料与素材 (Attachments & Resources)/Clippings",
+    "WiLoR.md",
+    "Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
+    "Clippings",
+    "00_资料与素材 (Attachments & Resources)/基于 LLM 的智能体 (Agent).md",
+    "00_资料与素材 (Attachments & Resources)/测试1.md",
+    "00_资料与素材 (Attachments & Resources)/Transformer - 作为序列处理器.md",
+    "未命名.canvas",
+    "01_L1_哲学与理论基石 (Philosophy & Foundation)/L1-1放到.md",
+    "知识图谱.canvas",
+    "2.canvas",
+    "测试一.canvas",
+    "test.md",
+    "1.md",
+    "AGI 知识网格地图.md",
+    "信息论、控制论.md",
+    "欢迎.md",
+    "创建链接.md",
     "99_索引与地图 (Index & Maps)/AGI知识图谱.md",
+    "99_索引与地图 (Index & Maps)/AGI 知识网络图谱 - MOC.md",
     "AGI知识图谱",
     "AGI定义与愿景.md",
     "99_索引与地图",
@@ -181,10 +223,6 @@
     "99_索引与地图 (Index & Maps)",
     "04_L4_应用、伦理与前沿 (Applications & Frontiers)",
     "03_L3_系统架构与路径 (Systems & Architectures)",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)",
-    "01_L1_哲学与理论基石 (Philosophy & Foundation)",
-    "Home.md",
-    "download-ripgrepA0Bow6/tmp-file",
-    "download-ripgrepA0Bow6"
+    "Home.md"
   ]
 }
