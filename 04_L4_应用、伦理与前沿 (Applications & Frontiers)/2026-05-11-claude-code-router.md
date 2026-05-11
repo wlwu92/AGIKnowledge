@@ -1,7 +1,7 @@
 ---
 source: "https://github.com/musistudio/claude-code-router"
 created: 2026-05-11
-tags: [claude-code, LLM-router, open-source, tooling, L4]
+tags: [LLM, tooling, L4]
 ---
 
 # claude-code-router

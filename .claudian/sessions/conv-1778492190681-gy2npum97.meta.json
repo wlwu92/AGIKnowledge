@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778492190681-gy2npum97",
+  "providerId": "claude",
+  "title": "Search HaWoR sequel news and lab updates",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778492190681,
+  "updatedAt": 1778492760674,
+  "lastResponseAt": 1778492760674,
+  "sessionId": "1290fff4-c40b-4331-8bbf-ec02e5ac2464",
+  "providerState": {
+    "providerSessionId": "1290fff4-c40b-4331-8bbf-ec02e5ac2464"
+  },
+  "currentNote": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 53,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 50048,
+    "contextWindow": 200000,
+    "contextTokens": 50101,
+    "percentage": 25,
+    "contextWindowIsAuthoritative": true
+  }
+}

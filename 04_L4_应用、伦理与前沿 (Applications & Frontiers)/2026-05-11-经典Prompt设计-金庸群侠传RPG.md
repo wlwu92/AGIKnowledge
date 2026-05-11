@@ -5,7 +5,6 @@ tags:
   - LLM
   - Prompt
   - 角色扮演
-  - PromptEngineering
 ---
 
 # 经典 Prompt 赏析：金庸群侠传 RPG

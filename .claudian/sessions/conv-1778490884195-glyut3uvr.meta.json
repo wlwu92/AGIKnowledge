@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778490884195-glyut3uvr",
+  "providerId": "claude",
+  "title": "Collect and organize PromptHMR",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778490884196,
+  "updatedAt": 1778492153090,
+  "lastResponseAt": 1778491457126,
+  "sessionId": "d8445183-1537-48da-a9de-8eef8f05248a",
+  "providerState": {
+    "providerSessionId": "d8445183-1537-48da-a9de-8eef8f05248a"
+  },
+  "currentNote": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 272,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47744,
+    "contextWindow": 200000,
+    "contextTokens": 48016,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
+  }
+}

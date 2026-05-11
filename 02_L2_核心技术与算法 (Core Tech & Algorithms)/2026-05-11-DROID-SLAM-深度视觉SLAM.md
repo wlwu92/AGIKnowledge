@@ -4,7 +4,7 @@ created: 2026-05-11
 tags:
   - CV
   - SLAM
-  - 3D视觉
+  - 3D重建
   - 深度估计
   - NeurIPS2021
 ---
