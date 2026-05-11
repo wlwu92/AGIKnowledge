@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
+                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos"
+              "title": "2026-05-11-Sapiens2-高分辨率人体视觉Transformer"
             }
           }
         ]
@@ -173,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 660.5
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,11 +188,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "baa1ca4a64dcbfb6",
+  "active": "2e2db897cd4f660f",
   "lastOpenFiles": [
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-BetterLinkClicker-Obsidian插件.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md",
+    "CLAUDE.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Transformer-Family-架构演进综述.md",
+    "99_索引与地图 (Index & Maps)/processed_bookmarks.md",
     "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md",
     "00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
-    "CLAUDE.md",
     "HaMeR.md",
     "未命名.base",
     "00_资料与素材 (Attachments & Resources)/Inbox",
