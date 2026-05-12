@@ -4,12 +4,12 @@ created: 2026-05-11
 aliases:
   - UniMorphGrasp
 tags:
-  - CV
-  - 机器人
-  - 灵巧抓取
-  - 跨形态
-  - 扩散模型
-  - ICRA2026
+  - layer/l2
+  - type/paper
+  - domain/robotics
+  - topic/dexterous-grasping
+  - method/diffusion-model
+  - venue/icra-2026
 ---
 
 # UniMorphGrasp: 跨形态灵巧抓取的扩散模型

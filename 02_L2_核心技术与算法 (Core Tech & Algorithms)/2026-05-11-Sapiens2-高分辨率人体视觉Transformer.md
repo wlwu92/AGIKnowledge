@@ -2,11 +2,13 @@
 source: "https://arxiv.org/abs/2604.21681"
 created: 2026-05-11
 tags:
-  - CV
-  - 人体视觉
-  - Transformer
-  - ICLR2026
-  - pose_estimation
+  - layer/l2
+  - type/paper
+  - domain/cv
+  - topic/human-mesh-recovery
+  - topic/pose-estimation
+  - method/transformer
+  - venue/iclr-2026
 ---
 
 # Sapiens2: High-Resolution Human-Centric Vision Transformers

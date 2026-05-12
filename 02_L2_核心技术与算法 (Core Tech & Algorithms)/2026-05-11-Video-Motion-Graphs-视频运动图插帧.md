@@ -1,7 +1,13 @@
 ---
 source: "https://h-liu1997.github.io/Video-Motion-Graphs/"
 created: 2026-05-11
-tags: [video-generation, frame-interpolation, diffusion-models, CV, motion-graphs]
+tags:
+  - layer/l2
+  - type/paper
+  - domain/cv
+  - topic/video-generation
+  - method/frame-interpolation
+  - method/diffusion-model
 ---
 
 # Video Motion Graphs — 视频运动图插帧

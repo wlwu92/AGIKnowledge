@@ -2,13 +2,16 @@
 source: "https://github.com/yufu-wang/PromptHMR"
 created: 2026-05-11
 tags:
-  - CV
-  - 3D重建
-  - 人体重建
-  - HPS
-  - SMPL-X
-  - CVPR2025
-  - Prompt
+  - layer/l2
+  - type/paper
+  - domain/cv
+  - topic/3d-reconstruction
+  - topic/human-mesh-recovery
+  - topic/parametric-body-model
+  - topic/prompting
+  - method/transformer
+  - entity/smpl-x
+  - venue/cvpr-2025
 ---
 
 # PromptHMR: Promptable Human Mesh Recovery

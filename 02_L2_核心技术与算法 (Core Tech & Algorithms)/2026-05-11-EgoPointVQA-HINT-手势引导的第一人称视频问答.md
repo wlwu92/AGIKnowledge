@@ -5,13 +5,15 @@ aliases:
   - EgoPointVQA
   - HINT
 tags:
-  - CV
-  - 多模态
-  - 手部重建
-  - 手势理解
-  - 第一人称视角
-  - CVPR2026
-  - LLM应用
+  - layer/l2
+  - type/paper
+  - domain/cv
+  - domain/multimodal
+  - domain/llm
+  - topic/egocentric-vision
+  - topic/hand-reconstruction
+  - method/vision-language-model
+  - venue/cvpr-2026
 ---
 
 # EgoPointVQA / HINT: 手势引导的第一人称视频问答

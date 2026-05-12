@@ -4,10 +4,11 @@ created: 2026-05-11
 aliases:
   - WiLoR-mini
 tags:
-  - CV
-  - 3D重建
-  - 手部重建
-  - 工具
+  - layer/l2
+  - type/tool
+  - domain/cv
+  - topic/3d-reconstruction
+  - topic/hand-reconstruction
 ---
 
 # WiLoR-mini: WiLoR 简化 Python 包

@@ -2,11 +2,12 @@
 source: "https://gkarv.github.io/hand-texture-module/"
 created: 2026-05-11
 tags:
-  - CV
-  - 3D重建
-  - 手部重建
-  - 纹理
-  - WACV2026
+  - layer/l2
+  - type/paper
+  - domain/cv
+  - topic/3d-reconstruction
+  - topic/hand-reconstruction
+  - venue/wacv-2026
 ---
 
 # Enhancing Monocular 3D Hand Reconstruction with Learned Texture Priors

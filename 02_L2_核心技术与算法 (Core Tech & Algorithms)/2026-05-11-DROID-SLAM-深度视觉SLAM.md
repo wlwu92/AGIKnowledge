@@ -4,11 +4,14 @@ created: 2026-05-11
 aliases:
   - DROID-SLAM
 tags:
-  - CV
-  - SLAM
-  - 3D重建
-  - 深度估计
-  - NeurIPS2021
+  - layer/l2
+  - type/paper
+  - domain/cv
+  - topic/3d-reconstruction
+  - topic/depth-estimation
+  - method/slam
+  - entity/droid-slam
+  - venue/neurips-2021
 ---
 
 # DROID-SLAM: Deep Visual SLAM

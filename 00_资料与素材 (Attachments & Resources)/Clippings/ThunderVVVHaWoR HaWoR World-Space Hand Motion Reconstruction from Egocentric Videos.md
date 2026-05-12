@@ -6,8 +6,7 @@ published:
 created: 2026-05-11
 description: "HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos - ThunderVVV/HaWoR"
 tags:
-  - "clippings"
-  - "已整理"
+  - type/clipping
 status: processed
 processed_at: 2026-05-11
 processed_to: "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md"

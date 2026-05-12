@@ -1,0 +1,334 @@
+{
+  "id": "conv-1778565934452-p8qinlsqj",
+  "providerId": "claude",
+  "title": "Compare human body models and SOMA-X bridge",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778565934452,
+  "updatedAt": 1778567507784,
+  "lastResponseAt": 1778567507784,
+  "sessionId": "622cb984-9c2c-4aca-bbca-3671b444cc37",
+  "providerState": {
+    "providerSessionId": "622cb984-9c2c-4aca-bbca-3671b444cc37",
+    "subagentData": {
+      "call_00_TliZoyEwg30ccSEcdIyu0241": {
+        "id": "call_00_TliZoyEwg30ccSEcdIyu0241",
+        "description": "Search for related body model notes",
+        "prompt": "Search the vault for any notes related to human body models: SMPL, SMPL-X, MHR, Anny, SOMA, parametric body models, or 3D human reconstruction. Search in:\n1. All markdown files containing \"SMPL\" or \"SMPL-X\" or \"MHR\" or \"Anny\" or \"SOMA\" or \"parametric body\"\n2. Any files in folders matching \"02_L2_*\" or \"03_L3_*\" that mention body models\n\nReport the full paths and a brief summary of what each file contains.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_lHqYiDmVJqtkqovDnXvx4702",
+            "name": "Grep",
+            "input": {
+              "pattern": "SMPL",
+              "glob": "**/*.md",
+              "output_mode": "files_with_matches",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 8 files\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SMPL-蒙皮多人线性模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-PromptHMR-Promptable人类网格恢复.md"
+          },
+          {
+            "id": "call_01_KeaF4VEQa2jd5JHx2lH29687",
+            "name": "Grep",
+            "input": {
+              "pattern": "SMPL-X",
+              "glob": "**/*.md",
+              "output_mode": "files_with_matches",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 7 files\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SMPL-蒙皮多人线性模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-PromptHMR-Promptable人类网格恢复.md"
+          },
+          {
+            "id": "call_02_FwGd8Xiia7S80LZ2OVAS9099",
+            "name": "Grep",
+            "input": {
+              "pattern": "MHR",
+              "glob": "**/*.md",
+              "output_mode": "files_with_matches",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 3 files\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md"
+          },
+          {
+            "id": "call_03_C96fQETUp0khvxtYv5vn6366",
+            "name": "Grep",
+            "input": {
+              "pattern": "Anny",
+              "glob": "**/*.md",
+              "output_mode": "files_with_matches",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 2 files\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md"
+          },
+          {
+            "id": "call_04_oauWFQux1g1EmiQYpVUE8072",
+            "name": "Grep",
+            "input": {
+              "pattern": "SOMA",
+              "glob": "**/*.md",
+              "output_mode": "files_with_matches",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 1 file\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md"
+          },
+          {
+            "id": "call_05_gfOwUrxv631I3CSf4NeF2968",
+            "name": "Grep",
+            "input": {
+              "pattern": "parametric body",
+              "glob": "**/*.md",
+              "-i": true,
+              "output_mode": "files_with_matches",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_06_sssRkCsX8uarKKG9glbP1393",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/02_L2_*/**/*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Transformer-Family-架构演进综述.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DiffSynth-Studio-扩散模型引擎.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HandTexturePriors-单目手部重建纹理先验.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-PromptHMR-Promptable人类网格恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DROID-SLAM-深度视觉SLAM.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-mini-WiLoR简化Python包.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HORT-单目手持物体重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHOLE-世界坐标系手物联合重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-CEDex-跨形态灵巧抓取.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MaDiS-掩码扩散手语生成.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-端到端3D手部定位与重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-GarmentMeasurements-服装测量生成.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SMPL-蒙皮多人线性模型.md"
+          },
+          {
+            "id": "call_07_J2Amwa0bfIXuV4R3vobp5426",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/03_L3_*/**/*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_00_rQrlveP6azglddGTBYV87411",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SMPL-蒙皮多人线性模型.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: https://smpl.is.tue.mpg.de/\n3\tcreated: 2026-05-12\n4\ttags:\n5\t  - CV\n6\t  - 3D-Reconstruction\n7\t  - Parametric-Body-Model\n8\t  - SMPL\n9\t  - SMPL-X\n10\t  - MANO\n11\t  - STAR\n12\t  - MPII\n13\t---\n14\t\n15\t# SMPL — Skinned Multi-Person Linear Model\n16\t\n17\t## 概述\n18\t\n19\tMPII 开发的逼真 3D 人体模型，基于蒙皮和混合形状，从数千个 3D 人体扫描中学习得到。参数化人体模型的行业标准。\n20\t\n21\t**论文**: SIGGRAPH Asia 2015, ACM Trans. Graphics (Loper et al.)\n22\t\n23\t## 模型特点\n24\t\n25\t- **姿态依赖混合形状**: 姿态旋转矩阵元素的线性函数\n26\t- **身份依赖混合形状**: 最多 300 个形状分量\n27\t- **男/女/中性版本**: 三种性别版本\n28\t- **支持线性及双四元数蒙皮**\n29\t- **动态软组织变形**\n30\t- **Maya/Python/Unity/Blender/Unreal 插件**\n31\t\n32\t## 模型系列\n33\t\n34\t| 模型                | 特点              |\n35\t| ----------------- | --------------- |\n36\t| **SMPL**          | 基础人体模型          |\n37\t| **MANO / SMPL+H** | 加可关节手部          |\n38\t| **SMPL-X**        | 加可关节手部和面部表达     |\n39\t| **STAR**          | 紧凑模型，稀疏局部矫正混合形状 |\n40\t| **SUPR**          | 因式分解表示，含足部模型    |\n41\t| **SKEL**          | 含皮肤和骨骼网格的生物力学模型 |\n42\t\n43\t## 许可\n44\t\n45\t需要注册获取下载权限。商用许可联系 Max Planck Innovation。\n46\t"
+          },
+          {
+            "id": "call_01_uZmWBYrErBYyOq2xVtqx7744",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: https://github.com/NVlabs/SOMA-X\n3\tcreated: 2026-05-12\n4\ttags:\n5\t  - CV\n6\t  - 3D-Reconstruction\n7\t  - Parametric-Body-Model\n8\t  - SMPL\n9\t  - MHR\n10\t  - Anny\n11\t  - NVIDIA\n12\t---\n13\t\n14\t# SOMA-X — 统一参数化人体模型中间表示\n15\t\n16\t## 概述\n17\t\n18\tNVIDIA Labs 开发的规范人体拓扑与骨架系统，作为多种参数化人体模型之间的通用桥接层。解决 SMPL、SMPL-X、MHR、Anny 等模型之间拓扑和参数化不兼容的问题。\n19\t\n20\t**License**: Apache-2.0\n21\t\n22\t## 核心能力\n23\t\n24\t- **统一动画管线**: 任何支持的模型通过单一管线驱动\n25\t- **端到端可微**: 基于 NVIDIA Warp，GPU 加速\n26\t- **统一姿态矫正**: 姿态依赖变形在所有支持模型上通用\n27\t- **格式转换**: SMPL ↔ SOMA、MHR ↔ SOMA 的双向转换\n28\t\n29\t## 支持的模型\n30\t\n31\t| 模型 | 来源 |\n32\t|------|------|\n33\t| MHR | Facebook Research |\n34\t| Anny | NAVER |\n35\t| SMPL/SMPL-X | MPII/Tübingen |\n36\t| SOMA-shape | 自研 PCA 模型 |\n37\t| GarmentMeasurement | mbotsch |\n38\t\n39\t## 性能\n40\t\n41\tAMASS → SOMA 转换在 A100 上可达 17393 FPS，平均误差 0.53cm。\n42\t\n43\t安装: `pip install py-soma-x`\n44\t"
+          },
+          {
+            "id": "call_02_RulTXc0Ta3l540Xwzu681897",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: https://github.com/naver/anny\n3\tcreated: 2026-05-12\n4\ttags:\n5\t  - CV\n6\t  - 3D-Reconstruction\n7\t  - Parametric-Body-Model\n8\t  - Anny\n9\t  - NAVER\n10\t  - PyTorch\n11\t  - Differentiable\n12\t---\n13\t\n14\t# Anny — 全年龄段可微分人体模型\n15\t\n16\t## 概述\n17\t\n18\tNAVER 开发的 PyTorch 可微分人体网格模型，覆盖从婴儿到老年人的全年龄段人体形状表示。\n19\t\n20\t**论文**: arXiv 2511.03589 (Brégier et al., 2025)\n21\t**License**: Apache-2.0\n22\t\n23\t## 核心特点\n24\t\n25\t- **全年龄段覆盖**: 区别于 SMPL 等仅关注成人的模型\n26\t- **完全可微**: 纯 PyTorch 实现，适合深度学习管线\n27\t- **统一拓扑和参数空间**: 共享底层结构简化跨年龄比较和动画\n28\t- **模块化**: 单独的手部和面部子模型\n29\t- **多拓扑支持**: v0.2 引入多拓扑，v0.3 引入 SMPL-X 拓扑（非商业）\n30\t\n31\t## 差异化优势\n32\t\n33\t- **开源免费**: SMPL 系列需要许可，Anny 完全 Apache-2.0\n34\t- **全年龄段**: 其他模型主要使用成人扫描数据训练\n35\t- **基于 MakeHuman/MPFB2 生态**: 基于 CC0 许可的社区资源\n36\t\n37\t## 安装\n38\t\n39\t```bash\n40\tpip install anny[warp,examples]\n41\t```\n42\t\n43\tGradio 交互式演示: `anny.examples.interactive_demo`\n44\t"
+          },
+          {
+            "id": "call_03_EqP0KAMM0htxHxaYdBlK3238",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/facebookresearch/MHR\"\n3\tcreated: 2026-05-12\n4\ttags: [L2, CV, 3D-Reconstruction, Parametric-Body-Model, MHR, Meta, CG]\n5\t---\n6\t\n7\t# MHR (Momentum Human Rig) — 解剖学启发参数化人体模型\n8\t\n9\t## 概述\n10\t\n11\tMeta 开发的开源、解剖学启发的参数化 3D 人体模型，同时服务计算机图形学 (CG) 和计算机视觉 (CV) 社区。\n12\t\n13\t**论文**: arXiv 2511.15586\n14\t**License**: Apache-2.0\n15\t\n16\t## 参数化\n17\t\n18\t- **身份参数**: 45 个参数（身体 20 + 头部 20 + 手部 5），范围 -3 ~ +3\n19\t- **全身姿态**: 204 个参数编码关节角度和缩放\n20\t- **面部表情**: 72 个参数，范围 -1 ~ +1\n21\t\n22\t## 技术特点\n23\t\n24\t- **7 级细节层次 (LOD 0-6)**: 平衡质量与计算开销\n25\t- **非线性姿态矫正**: 基于 MLP 稀疏激活的神经网络\n26\t- **PyTorch 集成**: GPU 加速推理\n27\t- **TorchScript**: 无需完整代码库即可使用\n28\t- **SMPL/SMPL-X 转换工具**: 与其他模型互操作\n29\t\n30\t## 相关项目\n31\t\n32\tMHR 是 SAM 3D Body 的基础网格表示。支持 PyMomentum 框架。\n33\t"
+          },
+          {
+            "id": "call_04_F6eOvv9NbdM3GxeCypH43021",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://mano.is.tue.mpg.de/\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - MANO模型\n6\t  - MANO\n7\ttags:\n8\t  - CV\n9\t  - 3D重建\n10\t  - 手部重建\n11\t  - 参数化模型\n12\t  - SIGGRAPHAsia2017\n13\t---\n14\t\n15\t# MANO: Hand Model with Articulated and Non-rigid Deformations\n16\t\n17\t> **作者**: Javier Romero, Dimitrios Tzionas, Michael J. Black (MPI)\n18\t> **会议**: SIGGRAPH Asia 2017\n19\t> **网站**: mano.is.tue.mpg.de\n20\t\n21\t## 核心贡献\n22\t\n23\t手部 **3D 参数化模型**（类似 SMPL 之于全身），从 ~1000 张高分辨率手部扫描中学习，提供低维手部姿态表达。\n24\t\n25\t## 技术要点\n26\t\n27\t- 从 31 个被试、~1000 张手部扫描中学习\n28\t- 低维手部姿态 → 姿态混合形状 (pose blend shapes) 映射\n29\t- 包含姿态相关的非刚性变形 (pose-dependent deformations)\n30\t- 与 SMPL 身体模型组合形成 **SMPL+H**（全身+手部联合模型）\n31\t- SMPL+H + 面部 = **SMPL-X**（完整表达性人体模型）\n32\t- v1.0 (2017) → v1.1 (2018 shape scaled) → v1.2 (2019 bug fixes)\n33\t\n34\t## 应用\n35\t\n36\t- RGB→MANO 回归（ObMan, ExPose, RGB2Hands 等）\n37\t- 数据集标注（InterHand2.6M, FreiHand, HO-3D, GRAB, OakInk）\n38\t- 下游应用的基础模型\n39\t\n40\t## 关联知识\n41\t\n42\t- [[2026-05-11-HaMeR-3D手部重建]] — 基于 MANO 的手部重建方法\n43\t- [[2026-05-11-WiLoR-端到端3D手部定位与重建]] — 基于 MANO 的手部重建\n44\t- [[SMPL-X]] — 完整表达性人体模型（SMPL+MANO+面部）\n45\t\n46\t## 思考\n47\t\n48\tMANO 是现代 3D 手部重建的事实标准参数化模型，几乎所有 RGB→3D hand 方法都依赖它。学术研究免费，需注册获取。\n49\t"
+          },
+          {
+            "id": "call_05_xrT0ohcNidKTnH9KC8O92307",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-PromptHMR-Promptable人类网格恢复.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/yufu-wang/PromptHMR\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - CV\n6\t  - 3D重建\n7\t  - 人体重建\n8\t  - HPS\n9\t  - SMPL-X\n10\t  - CVPR2025\n11\t  - Prompt\n12\t---\n13\t\n14\t# PromptHMR: Promptable Human Mesh Recovery\n15\t\n16\t> **作者**: Yufu Wang, Yu Sun, Priyanka Patel, Kostas Daniilidis, Michael J. Black, Muhammed Kocabas\n17\t> **机构**: UPenn, Meshcapade, Max Planck Institute for Intelligent Systems\n18\t> **论文**: arXiv:2504.06397 | CVPR 2025\n19\t> **项目页**: [yufu-wang.github.io/phmr-page](https://yufu-wang.github.io/phmr-page)\n20\t> **代码**: [github.com/yufu-wang/PromptHMR](https://github.com/yufu-wang/PromptHMR)\n21\t\n22\t## 核心贡献\n23\t\n24\t提出 **Promptable（可提示的）** 3D 人体姿态与形状（HPS）估计框架，将 HPS 问题重构成通过 **空间提示** 和 **语义提示** 引导的网格恢复任务。与 crop-based 方法不同，**处理全图以保留场景上下文**。\n25\t\n26\t## 方法架构\n27\t\n28\t```\n29\t输入图片 ──→ Vision Transformer ──→ 图像嵌入 ──┐\n30\t                                                ├──→ SMPL-X Decoder ──→ SMPL-X 参数\n31\t空间/语义提示 ──→ Mask/Prompt Encoder ──→ 提示 Tokens ──┘\n32\t(可选) 相机内参 ──→ 内参嵌入 ──────────────┘\n33\t```\n34\t\n35\t### Key Components\n36\t\n37\t| 组件 | 来源 |\n38\t|------|------|\n39\t| Promptable 骨干设计 | SAM（Facebook） |\n40\t| 多人体基线 | MultiHMR & BEV |\n41\t| Video Head 设计 | **GVHMR** |\n42\t| 标注方案 | CamHMR |\n43\t| 双人交互 | BUDDI |\n44\t| 图像编码器 | DINOv2 Vision Transformer |\n45\t| 可视化 | Viser & Gloss |\n46\t| Pipeline 组件 | Detectron2, SAM2, DROID-SLAM, Metric3D, ViTPose, SPEC |\n47\t\n48\t## 提示类型\n49\t\n50\t### 空间提示（引导\"在哪里\"恢复）\n51\t- **(a) 人脸边界框** — 适用于拥挤场景，人脸框即可定位\n52\t- **(b) 局部或完整人体检测框** — 标准人体检测\n53\t- **(c) 分割掩码** — 像素级定位\n54\t\n55\t### 语义提示（引导\"是什么\"）\n56\t- **(d) 人与人交互标签** — 用于近距离接触场景，消除歧义\n57\t- **(e) 自然语言身体形状描述** — 例如 \"a muscular and tall male\"，优化形状预测\n58\t- 语言和交互提示为**可选项**，但提供后可提升精度\n59\t\n60\t## 视频版本（PromptHMR-video）"
+          },
+          {
+            "id": "call_06_dMdvKyMsEE9UnShPa3HZ6805",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/geopavlakos/hamer\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - HaMeR\n6\ttags:\n7\t  - CV\n8\t  - 3D重建\n9\t  - 手部重建\n10\t  - Transformer\n11\t  - CVPR2024\n12\t---\n13\t\n14\t# HaMeR: Hand Mesh Recovery\n15\t\n16\t> **作者**: Georgios Pavlakos 等\n17\t> **会议**: CVPR 2024\n18\t> **代码**: github.com/geopavlakos/hamer（MIT 协议）\n19\t> **数据集**: HInt\n20\t\n21\t## 核心贡献\n22\t\n23\t从单张/多张图像中重建 **3D 手部网格**（pose + shape）。使用 Transformer 架构进行手部重建。\n24\t\n25\t## 技术要点\n26\t\n27\t- 基于 Transformer 的 3D 手部网格回归\n28\t- 使用 ViTPose 做 2D 关键点检测\n29\t- 支持 batch 推理、多视角重建\n30\t- 发布了 HInt 数据集（手部交互标注）\n31\t- Ego-Exo4D Challenge 手部任务第二名\n32\t\n33\t## 关联知识\n34\t\n35\t- [[2026-05-11-HaWoR-世界坐标系手部运动重建]] — 后续工作，将手部重建从相机坐标系扩展到世界坐标系\n36\t- [[4DHumans]] — 同一团队的人体网格重建工作\n37\t- [[SMPL-X]] / MANO — 手部参数化模型\n38\t\n39\t## 思考\n40\t\n41\tHaMeR 是 CVPR 2024 的手部重建基准方法，HaWoR（CVPR 2025 Highlight）在此基础上扩展了世界坐标系。代码 MIT 协议开源，适合作为手部重建的 baseline。\n42\t"
+          },
+          {
+            "id": "call_07_O00z0gnPpQiLCm9qJ0Kg6113",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/yohanshin/WHAM\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - CV\n6\t  - 3D重建\n7\t  - 人体重建\n8\t  - SLAM\n9\t  - CVPR2024\n10\t---\n11\t\n12\t# WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion\n13\t\n14\t> **作者**: Soyong Shin, Juyong Kim, Eni Halilaj, Michael J. Black (MPI / CMU)\n15\t> **会议**: CVPR 2024\n16\t> **代码**: github.com/yohanshin/WHAM（MIT 协议）\n17\t> **论文**: arXiv:2312.07531\n18\t> **项目页**: wham.is.tue.mpg.de\n19\t\n20\t## 核心贡献\n21\t\n22\t从单目视频中恢复 **世界坐标系下的人体运动**，重建结果与世界坐标系对齐，具有精确的 3D 运动轨迹。\n23\t\n24\t## 技术要点\n25\t\n26\t两阶段训练：\n27\t1. **Stage 1** — 通过 AMASS 数据集学习 2D→SMPL 映射\n28\t2. **Stage 2** — 在真实视频数据上微调，集成视觉特征\n29\t- ViTPose 做 2D 关键点检测\n30\t- 可选 DPVO / DROID-SLAM 做相机运动估计\n31\t- Temporal SMPLify 做后处理优化\n32\t- 评估数据集：3DPW, EMDB, RICH\n33\t- 代码基于 VIBE 和 TCMR_RELEASE\n34\t\n35\t## 关联知识\n36\t\n37\t- [[2026-05-11-GVHMR-重力视角人体运动恢复]] — 基于 WHAM 扩展 Gravity-View Coordinates\n38\t- [[2026-05-11-TRAM-全局3D人体轨迹与运动重建]] — 类似目标\n39\t- [[2026-05-11-DROID-SLAM-深度视觉SLAM]] — 可选 SLAM 组件\n40\t\n41\t## 思考\n42\t\n43\tWHAM 是 3D 人体运动重建从\"相机坐标系\"到\"世界坐标系\"转变的代表性工作，后续 GVHMR、TRAM 等均在此基础上扩展。两阶段训练策略（AMASS 合成数据 + 真实视频微调）是有效范式。\n44\t"
+          },
+          {
+            "id": "call_08_qng8HQkOkEPFHHepEuuS2323",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/facebookresearch/sam-3d-body\"\n3\tcreated: 2026-05-12\n4\ttags: [L2, CV, 3D-Reconstruction, Human-Mesh-Recovery, HMR, Meta, Parametric-Body-Model]\n5\t---\n6\t\n7\t# SAM 3D Body — 单图全身 3D 网格恢复\n8\t\n9\t## 概述\n10\t\n11\tMeta Superintelligence Labs 提出的单图全身体网格恢复模型，属于 SAM 3D 系列。能从单张图像恢复包含身体、脚、手的全身 3D 人体网格。\n12\t\n13\t**论文**: arXiv 2602.15989\n14\t\n15\t## 核心技术特点\n16\t\n17\t- **Momentum Human Rig (MHR)**: 新的参数化网格表示，解耦骨骼结构和表面形状\n18\t- **可提示架构**: 支持 2D 关键点和 mask 等辅助提示\n19\t- **编码器-解码器架构**: 包含可选的手部解码器用于手部细化\n20\t- **多阶段训练**: 可微优化、多视图几何、密集关键点检测\n21\t\n22\t## 性能\n23\t\n24\t| 指标 | DINOv3-H+ (840M) | ViT-H (631M) |\n25\t|------|------------------|--------------|\n26\t| 3DPW MPJPE | 54.8 | 54.8 |\n27\t| EMDB MPJPE | 61.7 | 62.9 |\n28\t| RICH PVE | 60.3 | 61.7 |\n29\t\n30\t## 使用\n31\t\n32\t```python\n33\testimator = setup_sam_3d_body(hf_repo_id=\"facebook/sam-3d-body-dinov3\")\n34\toutputs = estimator.process_one_image(img_rgb)\n35\t```\n36\t\n37\t检查点托管在 Hugging Face，支持 DINOv3-H+ 和 ViT-H 两种规格。\n38\t"
+          },
+          {
+            "id": "call_00_YthjRAL2AoRCpyordIme4918",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md",
+              "limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/zju3dv/GVHMR\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - CV\n6\t  - 3D重建\n7\t  - 人体重建\n8\t  - 重力估计\n9\t  - SIGGRAPHAsia2024\n10\t---\n11\t\n12\t# GVHMR: World-Grounded Human Motion Recovery via Gravity-View Coordinates\n13\t\n14\t> **作者**: Zehong Shen, Huaijin Pi, Yan Xia 等（浙江大学 zju3dv 组）\n15\t> **会议**: SIGGRAPH Asia 2024\n16\t> **代码**: github.com/zju3dv/GVHMR\n17\t> **论文**: arXiv:2409.06662\n18\t\n19\t## 核心贡献\n20\t\n21\t通过 **Gravity-View Coordinates**（重力-视角坐标系），从单目视频中恢复与物理世界一致（重力对齐、全局轨迹）的 3D 人体运动。\n22\t\n23\t## 技术要点\n24\t\n25\t- **Gravity-View Coordinate**：同时对齐重力方向和相机视角的坐标系，使输出物理可落地\n26\t- 支持静态和运动相机（DPVO/SimpleVO 做视觉里程计）\n27\t- 基于 WHAM、4D-Humans、ViTPose-Pytorch\n28\t- 训练：2× NVIDIA 4090 GPU，420 epochs\n29\t- 评估数据集：3DPW, RICH, EMDB\n30\t- 2025 年 3 月更新：增加 SimpleVO 选项替代 DPVO，新增 `f_mm` 焦距参数\n31\t\n32\t## 关联知识\n33\t\n34\t- [[2026-05-11-WHAM-世界坐标系人体运动重建]] — GVHMR 基于 WHAM 构建\n35\t- [[2026-05-11-TRAM-全局3D人体轨迹与运动重建]] — 类似目标的世界坐标系人体重建\n36\t\n37\t## 思考\n38\t\n39\t与 TRAM、WHAM 同属世界坐标系人体运动重建方向。GVHMR 的特色在于 Gravity-View Coordinates——通过引入重力先验使人体运动物理对齐，而非仅在相机坐标系中重建。\n40\t"
+          },
+          {
+            "id": "call_01_4tWUyGl7S5taxSaMDcdk6653",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md",
+              "limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/yufu-wang/tram\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - CV\n6\t  - 3D重建\n7\t  - 人体重建\n8\t  - SLAM\n9\t---\n10\t\n11\t# TRAM: Global Trajectory and Motion of 3D Humans\n12\t\n13\t> **作者**: Yufu Wang, Ziyun Wang, Lingjie Liu, Kostas Daniilidis (UPenn)\n14\t> **论文**: arXiv:2403.17346 (2024)\n15\t> **项目页**: yufu-wang.github.io/tram4d/\n16\t> **代码**: github.com/yufu-wang/tram（MIT 协议）\n17\t\n18\t## 核心贡献\n19\t\n20\t从 in-the-wild 视频中恢复 **全局 3D 人体轨迹和运动**（4D 人体捕捉），结合 SLAM 实现世界坐标系下的人体运动重建。\n21\t\n22\t## 技术要点\n23\t\n24\t三级流水线：\n25\t1. **Masked DROID-SLAM + 人体检测/跟踪** — 估计相机运动，支持静态相机模式\n26\t2. **4D 人体捕捉 (VIMO)** — 估计人体姿态、形状和全局轨迹\n27\t3. **可视化** — 合成渲染输出视频\n28\t- 基于 HMR2.0 / 4D-Humans 的姿态/形状主干\n29\t- ZoeDepth 做度量深度估计\n30\t- 2025 年 2 月更新增加重力/地面预测\n31\t- 评估数据集：EMDB\n32\t\n33\t## 关联知识\n34\t\n35\t- [[DROID-SLAM]] — 使用的 SLAM 骨干\n36\t- [[2026-05-11-GVHMR-重力视角人体运动恢复]] — 类似目标的世界坐标系人体重建\n37\t- [[2026-05-11-WHAM-世界坐标系人体运动重建]] — 类似目标\n38\t\n39\t## 思考\n40\t"
+          },
+          {
+            "id": "call_02_m5sjnQu4eODJo4QnpZra1351",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-GarmentMeasurements-服装测量生成.md",
+              "limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: https://github.com/mbotsch/GarmentMeasurements\n3\tcreated: 2026-05-12\n4\ttags:\n5\t  - CV\n6\t  - 3D-Reconstruction\n7\t  - Garment\n8\t  - Measurement\n9\t  - CGAL\n10\t  - GarmentCode\n11\t---\n12\t\n13\t# GarmentMeasurements — 3D 服装形状采样与测量生成\n14\t\n15\t## 概述\n16\t\n17\t面向研究用途的 C++ 实现，处理 GarmentCodeData 数据集中的形状采样和测量提取部分。生成 3D 量体定制服装及缝纫图案。\n18\t\n19\t**License**: GPL-3.0\n20\t\n21\t## 核心功能\n22\t\n23\t- **形状生成**: 基于 PCA 参数生成 3D 服装网格\n24\t- **测量提取**: 从生成网格提取结构化的 YAML 格式测量数据\n25\t- **蒙皮管线**: 输出 `.obj` 格式网格\n26\t- 与 **GarmentCode** 拟合工具配套使用\n27\t\n28\t## 使用\n29\t\n30\t```bash\n31\tcmake -S . -B build\n32\tcmake --build build\n33\t./generate_shapes        # 生成服装网格\n34\t./measurements output.obj measurements.yaml  # 提取测量\n35\t```\n36\t\n37\t**依赖**: CGAL (Homebrew 安装) + FBX SDK 2020.3 (手动下载)\n38\t"
+          },
+          {
+            "id": "call_03_CHwrBFfGiCQkJmL6YjFt2597",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md",
+              "limit": 40
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2604.21681\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - CV\n6\t  - 人体视觉\n7\t  - Transformer\n8\t  - ICLR2026\n9\t  - pose_estimation\n10\t---\n11\t\n12\t# Sapiens2: High-Resolution Human-Centric Vision Transformers\n13\t\n14\t> **作者**: Rawal Khirodkar, He Wen, Julieta Martinez 等 (Facebook Research)\n15\t> **会议**: ICLR 2026\n16\t> **代码**: github.com/facebookresearch/sapiens2（Custom License）\n17\t> **模型规模**: 0.1B–5B 参数（6 个规格）\n18\t\n19\t## 核心贡献\n20\t\n21\tSapiens 第二代，基于 10 亿张高质量人体图像预训练的统一人体视觉模型族，支持 1K–4K 原生分辨率。\n22\t\n23\t## 技术要点\n24\t\n25\t- **统一预训练目标**: 掩码图像重建 + 自蒸馏对比学习，兼顾低级细节与高级语义\n26\t- **数据规模**: 10 亿张精选人体图像，改进任务标注质量和多样性\n27\t- **架构改进**: 融合前沿模型进展，4K 变体使用 windowed attention 处理长空间上下文\n28\t- **新增能力**: pointmap 和 albedo 估计（相比第一代）\n29\t- **backbone 模块可独立使用**: 单文件无依赖，仅需 torch + safetensors\n30\t\n31\t## 模型规格\n32\t\n33\t| 模型 | 参数量 | FLOPs | Embed Dim | Layers | Heads |\n34\t|------|--------|-------|-----------|--------|-------|\n35\t| Sapiens2-0.1B | 0.114B | 0.342T | 768 | 12 | 12 |\n36\t| Sapiens2-0.4B | 0.398B | 1.260T | 1024 | 24 | 16 |\n37\t| Sapiens2-0.8B | 0.818B | 2.592T | 1280 | 32 | 16 |\n38\t| Sapiens2-1B | 1.462B | 4.715T | 1536 | 40 | 24 |\n39\t| Sapiens2-1B (4K) | 1.607B | — | 1536 | 40 | 24 |\n40\t| Sapiens2-5B | 5.071B | 15.722T | 2432 | 56 | 32 |"
+          }
+        ],
+        "isExpanded": false,
+        "result": "以下是 vault 中与人体模型相关的所有笔记的完整报告。\n\n---\n\n## 核心参数化人体模型笔记（4 个文件）\n\n### 1. SMPL -- 蒙皮多人线性模型\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SMPL-蒙皮多人线性模型.md`\n\n**摘要：** 涵盖 MPII 开发的 SMPL（Skinned Multi-Person Linear Model），这是参数化人体建模的行业标准。该笔记列出了整个模型家族：基础 SMPL、MANO/SMPL+H（带可关节手部）、SMPL-X（带手部和面部表情）、STAR（紧凑稀疏校正）、SUPR（分解表示，含足部）以及 SKEL（生物力学模型）。解释了姿态依赖和身份依赖的混合变形、蒙皮选项以及软件插件。\n\n**标签：** `CV`, `3D-Reconstruction`, `Parametric-Body-Model`, `SMPL`, `SMPL-X`, `MANO`, `STAR`, `MPII`\n\n---\n\n### 2. SOMA-X -- 统一参数化人体模型中间表示\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md`\n\n**摘要：** 介绍 NVIDIA Labs 的 SOMA-X，这是一个规范的人体拓扑和骨架系统，作为 SMPL、SMPL-X、MHR 和 Anny 等参数化模型之间的统一桥接层。它是一个基于 NVIDIA Warp、GPU 加速、端到端可微的管线，支持双向格式转换。性能数据显示，在 A100 上从 AMASS 转换到 SOMA 可达 17,393 FPS，平均误差为 0.53 厘米。可通过 `pip install py-soma-x` 安装。\n\n**标签：** `CV`, `3D-Reconstruction`, `Parametric-Body-Model`, `SMPL`, `MHR`, `Anny`, `NVIDIA`\n\n---\n\n### 3. Anny -- 全年龄段可微分人体模型\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md`\n\n**摘要：** 介绍 NAVER 的 Anny，一个覆盖从婴儿到老年人的全年龄段的纯 PyTorch 可微分人体网格模型。与主要面向成人、需要许可证的 SMPL 系列不同，Anny 完全使用 Apache-2.0 许可免费开源。它建立在 MakeHuman/MPFB2 生态系统之上，具有统一的拓扑和参数空间，支持模块化的手部和面部子模型，并在 v0.3 中添加了 SMPL-X 拓扑（非商业用途）。\n\n**标签：** `CV`, `3D-Reconstruction`, `Parametric-Body-Model`, `Anny`, `NAVER`, `PyTorch`, `Differentiable`\n\n---\n\n### 4. MHR (Momentum Human Rig) -- 解剖学启发参数化人体模型\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md`\n\n**摘要：** 介绍 Meta 的 MHR，一个受解剖学启发的开源参数化 3D 人体模型，面向计算机图形学和计算机视觉社区。它使用 45 个身份参数（身体、头部、手部）、204 个全身姿态参数和 72 个面部表情参数。关键特性包括 7 个细节层次（LOD 0-6）、基于 MLP 的非线性姿态校正、PyTorch GPU 推理以及 SMPL/SMPL-X 转换工具。MHR 是 SAM 3D Body 项目的基础网格表示。\n\n**标签：** `L2`, `CV`, `3D-Reconstruction`, `Parametric-Body-Model`, `MHR`, `Meta`, `CG`\n\n---\n\n## 手部参数化模型笔记（1 个文件）\n\n### 5. MANO -- 手部模型，带关节和非刚性变形\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md`\n\n**摘要：** 解释 MPI 的 MANO 模型，这是手部重建的事实标准参数化模型（类似于 SMPL 之于全身）。它从约 1,000 张高分辨率手部扫描中学习，提供低维手部姿态表示，包含依赖姿态的变形。MANO 与 SMPL 组合形成 SMPL+H，进一步与面部结合形成 SMPL-X。广泛应用于 ObMan、ExPose、InterHand2.6M、FreiHand、HO-3D、GRAB 和 OakInk 等方法中。\n\n**标签：** `CV`, `3D重建`, `手部重建`, `参数化模型`, `SIGGRAPHAsia2017`\n\n---\n\n## 基于参数化模型的 3D 人体/手部重建方法（5 个文件）\n\n### 6. PromptHMR -- 可提示人体网格恢复\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-PromptHMR-Promptable人类网格恢复.md`\n\n**摘要：** CVPR 2025 论文，提出通过空间提示（人脸/人体检测框、分割掩码）和语义提示（交互标签、自然语言身体描述）引导、基于 SMPL-X 的 3D 人体姿态与形状估计框架。它处理全图以保留场景上下文，并使用 DINOv2 Vision Transformer 骨干网络。支持多人场景和视频输入。\n\n**标签：** `CV`, `3D重建`, `人体重建`, `HPS`, `SMPL-X`, `CVPR2025`, `Prompt`\n\n---\n\n### 7. HaMeR -- 手部网格恢复\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md`\n\n**摘要：** CVPR 2024 论文，基于 Transformer 架构从单张或多张图像进行 3D 手部网格重建（姿态 + 形状）。使用 ViTPose 进行 2D 关键点检测，基于 MANO 参数化模型，发布了 HInt 手部交互标注数据集。代码以 MIT 许可证开源。\n\n**标签：** `CV`, `3D重建`, `手部重建`, `Transformer`, `CVPR2024`\n\n---\n\n### 8. WHAM -- 基于精确 3D 运动的世界坐标系人体重建\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md`\n\n**摘要：** CVPR 2024 论文，从单目视频恢复世界坐标系下的人体运动。采用两阶段训练策略：第一阶段通过 AMASS 数据集学习 2D 到 SMPL 映射，第二阶段在真实视频上微调。使用 ViTPose 进行 2D 关键点检测，可选 DROID-SLAM 进行相机运动估计，使用 Temporal SMPLify 进行后处理优化。\n\n**标签：** `CV`, `3D重建`, `人体重建`, `SLAM`, `CVPR2024`\n\n---\n\n### 9. SAM 3D Body -- 单图全身 3D 网格恢复\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md`\n\n**摘要：** Meta Superintelligence Labs 提出的单图全身 3D 网格恢复模型。使用 MHR 作为其参数化网格表示，支持 2D 关键点和掩码等可提示输入。采用编码器-解码器架构，包含可选的手部解码器用于手部细化。在多阶段流程中结合了可微优化、多视图几何和密集关键点检测。模型检查点托管在 Hugging Face 上。\n\n**标签：** `L2`, `CV`, `3D-Reconstruction`, `Human-Mesh-Recovery`, `HMR`, `Meta`, `Parametric-Body-Model`\n\n---\n\n### 10. GVHMR -- 基于重力视角坐标系的世界坐标系人体运动恢复\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md`\n\n**摘要：** SIGGRAPH Asia 2024 论文（浙江大学），通过 Gravity-View Coordinates 从单目视频恢复与物理世界一致（重力对齐、全局轨迹）的 3D 人体运动。基于 WHAM 和 4D-Humans 构建，支持静态和运动相机。\n\n**标签：** `CV`, `3D重建`, `人体重建`, `重力估计`, `SIGGRAPHAsia2024`\n\n---\n\n### 11. TRAM -- 全局 3D 人体轨迹与运动\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md`\n\n**摘要：** UPenn 的论文，从现实世界视频中恢复全局 3D 人体轨迹和运动，结合 SLAM 实现世界坐标系下的人体运动重建。采用三级流水线：Masked DROID-SLAM 加人体检测/跟踪、4D 人体捕捉（基于 HMR2.0/4D-Humans，使用 SMPL 参数化）、以及可视化渲染。\n\n**标签：** `CV`, `3D重建`, `人体重建`, `SLAM`\n\n---\n\n## 间接相关的笔记（2 个文件）\n\n### 12. GarmentMeasurements -- 3D 服装形状采样与测量生成\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-GarmentMeasurements-服装测量生成.md`\n\n**摘要：** 基于 CGAL 的 C++ 实现，用于在 GarmentCodeData 数据集中生成 3D 服装形状和提取测量数据。相关场景中与人体模型配合使用，但本身并非人体模型。GPL-3.0 许可。\n\n**标签：** `CV`, `3D-Reconstruction`, `Garment`, `Measurement`, `CGAL`, `GarmentCode`\n\n---\n\n### 13. Sapiens2 -- 高分辨率人体视觉 Transformer\n\n**完整路径：** `/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md`\n\n**摘要：** ICLR 2026 论文（Meta），在 10 亿张人体图像上预训练的统一人体视觉 Transformer 模型家族，支持 1K-4K 原生分辨率。覆盖姿态估计、分割、深度和法线估计等任务。虽然不直接是参数化人体模型，但作为人体中心视觉理解的基础骨干网络具有高度相关性。**标签：** `CV`, `人体视觉`, `Transformer`, `ICLR2026`, `pose_estimation`\n\n---\n\n## 位置模式摘要\n\n所有 13 个笔记均位于文件夹 `02_L2_核心技术与算法 (Core Tech & Algorithms)/` 下。`03_L3_*` 文件夹中未找到相关文件。`\"parametric body\"` 这一确切短语在 vault 中未出现，但相关概念通过 `Parametric-Body-Model` 标签标注在每个笔记的 front matter 中。"
+      },
+      "call_00_gcHx7DgdEqR5X9HMxQZB8746": {
+        "id": "call_00_gcHx7DgdEqR5X9HMxQZB8746",
+        "description": "List all body model related notes",
+        "prompt": "List all markdown files in /Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/ that contain \"SMPL\", \"MHR\", \"Anny\", \"MANO\", \"SOMA\", \"body\", \"parametric\", or \"人体\" in their filename. Also check 99_索引与地图 folder for any related index files. Just list the exact filenames with correct paths.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_GRB0Xrhmj7TCiQOeAMrQ2922",
+            "name": "Bash",
+            "input": {
+              "command": "ls -1 \"/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/\" 2>/dev/null | sort",
+              "description": "List files in Core Tech & Algorithms directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "2026-05-11-CEDex-跨形态灵巧抓取.md\n2026-05-11-DROID-SLAM-深度视觉SLAM.md\n2026-05-11-DiffSynth-Studio-扩散模型引擎.md\n2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md\n2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md\n2026-05-11-GVHMR-重力视角人体运动恢复.md\n2026-05-11-HORT-单目手持物体重建.md\n2026-05-11-HaMeR-3D手部重建.md\n2026-05-11-HaWoR-世界坐标系手部运动重建.md\n2026-05-11-HandTexturePriors-单目手部重建纹理先验.md\n2026-05-11-MANO-手部参数化模型.md\n2026-05-11-MaDiS-掩码扩散手语生成.md\n2026-05-11-PromptHMR-Promptable人类网格恢复.md\n2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md\n2026-05-11-TRAM-全局3D人体轨迹与运动重建.md\n2026-05-11-Transformer-Family-架构演进综述.md\n2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md\n2026-05-11-Video-Motion-Graphs-视频运动图插帧.md\n2026-05-11-WHAM-世界坐标系人体运动重建.md\n2026-05-11-WHOLE-世界坐标系手物联合重建.md\n2026-05-11-WiLoR-mini-WiLoR简化Python包.md\n2026-05-11-WiLoR-端到端3D手部定位与重建.md\n2026-05-12-Anny-全年龄段可微分人体模型.md\n2026-05-12-GarmentMeasurements-服装测量生成.md\n2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md\n2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md\n2026-05-12-SMPL-蒙皮多人线性模型.md\n2026-05-12-SOMA-X-统一参数化人体模型.md"
+          },
+          {
+            "id": "call_01_qKnHcafv85BnkMAK14r42275",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/99_索引与地图 (Index & Maps)"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_00_dc1WymcjYes4tnBz6JnA7942",
+            "name": "Bash",
+            "input": {
+              "command": "ls -d \"/Users/wuwanglong/work2/obsidian/AGIKnowledge/99_索引与地图\"* 2>/dev/null",
+              "description": "Check 99_索引与地图 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/99_索引与地图 (Index & Maps)"
+          },
+          {
+            "id": "call_00_tYhge3L6FERigvpSI1vv8787",
+            "name": "Bash",
+            "input": {
+              "command": "ls -1 \"/Users/wuwanglong/work2/obsidian/AGIKnowledge/99_索引与地图 (Index & Maps)/\" 2>/dev/null",
+              "description": "List files in 99_索引与地图 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          }
+        ],
+        "isExpanded": false,
+        "result": "Here are the results:\n\n**`02_L2_核心技术与算法 (Core Tech & Algorithms)` — matching files:**\n\n1. `2026-05-11-MANO-手部参数化模型.md` (matches: MANO, 参数化)\n2. `2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md` (matches: 人体)\n3. `2026-05-12-Anny-全年龄段可微分人体模型.md` (matches: Anny, 人体)\n4. `2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md` (matches: MHR, 参数化, 人体)\n5. `2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md` (matches: Body)\n6. `2026-05-12-SMPL-蒙皮多人线性模型.md` (matches: SMPL)\n7. `2026-05-12-SOMA-X-统一参数化人体模型.md` (matches: SOMA, 参数化, 人体)\n\n**`99_索引与地图 (Index & Maps)` — matching files:**\n\nThe directory exists but is currently empty -- no index files found.\n\nAll absolute paths for the matching files above are under:\n`/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/`\n\nTotal: 7 files matching the keyword criteria."
+      }
+    }
+  },
+  "currentNote": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 1001,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 67840,
+    "contextWindow": 200000,
+    "contextTokens": 68841,
+    "percentage": 34,
+    "contextWindowIsAuthoritative": true
+  }
+}

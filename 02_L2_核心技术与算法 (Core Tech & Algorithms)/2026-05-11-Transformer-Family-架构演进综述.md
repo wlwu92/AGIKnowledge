@@ -2,10 +2,10 @@
 source: "https://lilianweng.github.io/posts/2020-04-07-the-transformer-family/"
 created: 2026-05-11
 tags:
-  - LLM
-  - Transformer
-  - 注意力机制
-  - 架构演进
+  - layer/l2
+  - type/survey
+  - domain/llm
+  - method/transformer
 ---
 
 # The Transformer Family — 架构演进综述

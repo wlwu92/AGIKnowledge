@@ -2,9 +2,11 @@
 source: "https://www.cnblogs.com/ghj1976/p/17988859/jing-dianprompt-xin-shang--jin-yong-qun-xia-chuan"
 created: 2026-05-11
 tags:
-  - LLM
-  - Prompt
-  - 角色扮演
+  - layer/l4
+  - type/article
+  - domain/llm
+  - topic/prompting
+  - topic/role-playing
 ---
 
 # 经典 Prompt 赏析：金庸群侠传 RPG

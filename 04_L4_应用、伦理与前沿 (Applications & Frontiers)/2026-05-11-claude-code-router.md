@@ -1,7 +1,11 @@
 ---
 source: "https://github.com/musistudio/claude-code-router"
 created: 2026-05-11
-tags: [LLM, tooling, L4]
+tags:
+  - layer/l4
+  - type/tool
+  - domain/llm
+  - domain/ai-infra
 ---
 
 # claude-code-router

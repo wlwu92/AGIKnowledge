@@ -2,11 +2,14 @@
 source: "https://github.com/modelscope/DiffSynth-Studio/tree/main"
 created: 2026-05-11
 tags:
-  - CV
-  - 扩散模型
-  - 训练框架
-  - 推理优化
-  - ModelScope
+  - layer/l2
+  - type/tool
+  - domain/cv
+  - domain/ai-infra
+  - method/diffusion-model
+  - method/training-framework
+  - method/inference-optimization
+  - entity/modelscope
 ---
 
 # DiffSynth-Studio: 统一扩散模型引擎
