@@ -2,7 +2,7 @@
   "userName": "",
   "permissionMode": "yolo",
   "model": "deepseek-chat",
-  "thinkingBudget": "off",
+  "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -44,9 +44,9 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "dragon007-MacBook-Pro.local": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
@@ -70,12 +70,12 @@
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "high"
   },
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
-  "lastCustomModel": "",
+  "lastCustomModel": "deepseek-chat",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

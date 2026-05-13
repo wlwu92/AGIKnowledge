@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Summary Inbox Bridge",
+  "version": "1.0.0",
+  "description": "Bridge for Claude Code summary-inbox skill — exposes chrome.bookmarks API via Native Messaging",
+  "permissions": [
+    "bookmarks",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

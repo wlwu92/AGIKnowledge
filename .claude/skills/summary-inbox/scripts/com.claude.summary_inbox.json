@@ -1,0 +1,7 @@
+{
+  "name": "com.claude.summary_inbox",
+  "description": "Summary Inbox — Native messaging bridge for Chrome bookmark operations",
+  "path": "__WRAPPER_SCRIPT_PATH__",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://__EXTENSION_ID__/"]
+}
