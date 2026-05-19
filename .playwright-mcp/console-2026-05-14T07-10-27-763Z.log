@@ -1,0 +1,62 @@
+[     599ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     599ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     599ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     600ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     600ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     600ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     600ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     600ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     600ms] [LOG] DetectTierIphone false @ https://j.gamersky.com/g/mobileesp.js:1038
+[     649ms] [LOG] null @ https://j.gamersky.com/g/login/js/verify.js?20220803:22
+[     815ms] [LOG] guideiCard执行 @ https://j.gamersky.com/js/??web2015/js/Digg.js,web2015/js/content_zxing.js,web2015/js/lyz.delayLoading.min.js,g/gs.guideCard.all.js:3
+[     816ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://hm.baidu.com/h.js?dcb5060fba0123ff56d253331f28db6a, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://www.gamersky.com/news/202604/2121399.shtml:956
+[     816ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://hm.baidu.com/h.js?dcb5060fba0123ff56d253331f28db6a, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://www.gamersky.com/news/202604/2121399.shtml:956
+[     859ms] [LOG] init @ https://j.gamersky.com/js/??g/jquery-1.8.3.js,web2015/js/content.js,?20250910:1
+[     863ms] [LOG] $elements init @ https://j.gamersky.com/js/??web2015/js/Digg.js,web2015/js/content_zxing.js,web2015/js/lyz.delayLoading.min.js,g/gs.guideCard.all.js:3
+[     863ms] [WARNING] 未找到指定DOM元素，跳过加载：.guide-card-zp @ https://j.gamersky.com/js/??web2015/js/Digg.js,web2015/js/content_zxing.js,web2015/js/lyz.delayLoading.min.js,g/gs.guideCard.all.js:3
+[     864ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://www.gamersky.com/news/202604/2121399.shtml:0
+[     864ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://www.gamersky.com/news/202604/2121399.shtml:0
+[    1320ms] [LOG] true @ https://j.gamersky.com/g/jquery.gamersky.v4.min.js?20251212:289
+[    1321ms] [LOG] true @ https://j.gamersky.com/g/jquery.gamersky.v4.min.js?20251212:289
+[    1486ms] [LOG] {tid: #gsTopJs, url: game/gs.top.all.js} @ :527
+[    1487ms] [LOG] {tid: #new_top_allsite_970_1, url: banner/new_top_allsite_970_1.js} @ :527
+[    1487ms] [LOG] {tid: #new_top_allsite_970_2, url: banner/new_top_allsite_970_2.js} @ :527
+[    1488ms] [LOG] {tid: #new_top_allsite_970_3, url: banner/new_top_allsite_970_3.js} @ :527
+[    1488ms] [LOG] {tid: #top_allsite_660, url: banner/top_allsite_660.js} @ :527
+[    1488ms] [LOG] {tid: #new_page_allsite_620, url: banner/new_page_allsite_620.js} @ :527
+[    1489ms] [LOG] {tid: #tgs_back_news1000, url: background/back_news1000.js} @ :527
+[    1489ms] [LOG] {tid: body, url: common/content_zdyd.js} @ :527
+[    1490ms] [LOG] {tid: #adscontainer_block_300_1, url: block/news_content_300_1.js} @ :527
+[    1490ms] [LOG] {tid: #adscontainer_block_300_2, url: block/news_content_300_2.js} @ :527
+[    1491ms] [LOG] {tid: #adscontainer_block_300_3, url: block/news_content_300_3.js} @ :527
+[    1491ms] [LOG] {tid: #adscontainer_block_300_4, url: block/news_content_300_4.js} @ :527
+[    1549ms] [LOG] %c欢迎使用%cGamerSky-H5-Tools padding: 3px; background-color: #409EFF;color:#fff; padding: 3px; background-color: #EB413D;color:#fff; @ https://app.gamersky.com/pages/wenNeiKaPian/static/js/vendor-61ae6b12.js:59
+[    1669ms] [LOG] PC内容页侧栏方块1 1 @ :1277
+[    1669ms] [LOG] PC内容页侧栏方块1 2 @ :1277
+[    1673ms] [LOG] PC内容页侧栏方块1 3 @ :1277
+[    1673ms] [LOG] PC内容页侧栏方块1 4 @ :1277
+[    1674ms] [LOG] PC全站通栏2 1 @ :1277
+[    1674ms] [LOG] PC全站通栏2 2 @ :1277
+[    1702ms] [LOG] PC内容页侧栏方块3 1 @ :1277
+[    1702ms] [LOG] PC内容页侧栏方块3 2 @ :1277
+[    1704ms] [LOG] PC内容页侧栏方块3 3 @ :1277
+[    1704ms] [LOG] PC内容页侧栏方块3 4 @ :1277
+[    1704ms] [LOG] PC新闻内页背景 1 @ :1277
+[    1704ms] [LOG] PC新闻内页背景 2 @ :1277
+[    1705ms] [LOG] PC全站通栏2 5 @ :1895
+[    1706ms] [LOG] Bw 90 @ :1743
+[    1706ms] [LOG] YsBW 465 @ :1745
+[    1706ms] [LOG] ZoomNum 19.35483870967742 @ :1747
+[    1707ms] [LOG] PC新闻内页背景 3 @ :1277
+[    1707ms] [LOG] PC新闻内页背景 4 @ :1277
+[    1707ms] [LOG] PC新闻内页背景 5 @ :1277
+[    1813ms] [LOG] https://imgf.gamersky.com/img/tqbc2010/mm_620x90_0720.jpg @ https://j.gamersky.com/g/gs.news.bottom.js?_=1778742629345:83
+[    1813ms] [LOG] 1341933 @ https://j.gamersky.com/g/gs.news.bottom.js?_=1778742629345:16
+[    1817ms] [LOG] PC全站通栏2 3 @ :1277
+[    1817ms] [LOG] PC全站通栏2 4 @ :1277
+[    1860ms] [LOG] value 0 0 @ https://app.gamersky.com/pages/wenNeiKaPian/static/js/steamPositiveRate-95b67847.js:7
+[    1860ms] [LOG] value 3 0 @ https://app.gamersky.com/pages/wenNeiKaPian/static/js/steamPositiveRate-95b67847.js:7
+[    1863ms] [LOG] value 0 0 @ https://app.gamersky.com/pages/wenNeiKaPian/static/js/steamPositiveRate-95b67847.js:7
+[    1863ms] [LOG] value 3 0 @ https://app.gamersky.com/pages/wenNeiKaPian/static/js/steamPositiveRate-95b67847.js:7
+[    1974ms] [LOG] PC内容页侧栏方块1 5 @ :1895
+[    2995ms] [LOG] 上报成功 @ :1322

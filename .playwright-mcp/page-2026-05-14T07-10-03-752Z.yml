@@ -1,0 +1,448 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0QPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: EMAGE 音乐 异美工作室 EMAGE 音乐 异美工作室
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEMAGE%2B%25E9%259F%25B3%25E4%25B9%2590%2B%25E5%25BC%2582%25E7%25BE%258E%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9WHPS5gXUimScGjggRJrgaA43xlMjo_yzC7OOal9CzgQCSZl_rj3ZRIPphnBrfH6BdKJtMgbI-a_do2UggGh9t0oIJWVSLkLy2K0xNhEIc1E-8HjC5MR13Q60ShWE0YaHXX-5fqUoT-Pr3AAd7yN64AL5sQw&aep=1&ntc=1&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q2J8OegQIERAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "视频" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9WHPS5gXUimScGjggRJrgaA43xlMjo_yzC7OOal9CzgQCSZl_rj3ZRIPphnBrfH6BdKJtMgbI-a_do2UggGh9t0oIJWVSLkLy2K0xNhEIc1E-8HjC5MR13Q60ShWE0YaHXX-5fqUoT-Pr3AAd7yN64AL5sQw&q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0QtKgLegQIFxAB
+              - generic [ref=e91]: 视频
+          - listitem [ref=e92]:
+            - link "图片" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9WHPS5gXUimScGjggRJrgaA43xlMjo_yzC7OOal9CzgQCSZl_rj3ZRIPphnBrfH6BdKJtMgbI-a_do2UggGh9t0oIJWVSLkLy2K0xNhEIc1E-8HjC5MR13Q60ShWE0YaHXX-5fqUoT-Pr3AAd7yN64AL5sQw&q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0QtKgLegQIFhAB
+              - generic [ref=e95]: 图片
+          - listitem [ref=e96]:
+            - link "短视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9WHPS5gXUimScGjggRJrgaA43xlMjo_yzC7OOal9CzgQCSZl_rj3ZRIPphnBrfH6BdKJtMgbI-a_do2UggGh9t0oIJWVSLkLy2K0xNhEIc1E-8HjC5MR13Q60ShWE0YaHXX-5fqUoT-Pr3AAd7yN64AL5sQw&q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Qs6gLegQIFRAB
+              - generic [ref=e99]: 短视频
+          - listitem [ref=e100]:
+            - link "购物" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9WHPS5gXUimScGjggRJrgaA43xlMjo_yzC7OOal9CzgQCSZl_rj3ZRIPphnBrfH6BdKJtMgbI-a_do2UggGh9t0oIJWVSLkLy2K0xNhEIc1E-8HjC5MR13Q60ShWE0YaHXX-5fqUoT-Pr3AAd7yN64AL5sQw&q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&ved=1t:220175&ictx=111
+              - generic [ref=e103]: 购物
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9WHPS5gXUimScGjggRJrgaA43xlMjo_yzC7OOal9CzgQCSZl_rj3ZRIPphnBrfH6BdKJtMgbI-a_do2UggGh9t0oIJWVSLkLy2K0xNhEIc1E-8HjC5MR13Q60ShWE0YaHXX-5fqUoT-Pr3AAd7yN64AL5sQw&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q0pQJegQIFBAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e144]:
+        - generic [ref=e149]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - img [ref=e153]
+              - heading "AI 概览" [level=2] [ref=e155]
+            - button "关于这条结果的详细信息" [ref=e159]:
+              - img [ref=e161]
+          - generic [ref=e182]:
+            - generic [ref=e185]:
+              - generic [ref=e186]: 关于“EMAGE 音乐”和“异美工作室”，基于现有信息为您梳理如下：
+              - strong [ref=e188]: 异美工作室 (Gratesca Studio)
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - generic [ref=e192]:
+                    - strong [ref=e193]: 定位
+                    - text: ：这是一个中国游戏制作组，前身为“红茶Games”。
+                - listitem [ref=e194]:
+                  - generic [ref=e195]:
+                    - strong [ref=e196]: 作品
+                    - text: ：
+                  - list [ref=e197]:
+                    - listitem [ref=e198]:
+                      - generic [ref=e199]:
+                        - strong [ref=e200]: 《海沙风云》
+                        - text: ：这是异美工作室的第一款作品，是一款硬核文字冒险游戏（AVG），于2021年8月18日在Steam发行。
+                    - listitem [ref=e201]:
+                      - generic [ref=e202]:
+                        - strong [ref=e203]: 《梦灯花》
+                        - text: ：工作室的另一款作品。
+                - listitem [ref=e204]:
+                  - generic [ref=e205]:
+                    - strong [ref=e206]: 平台
+                    - text: ：除了Steam，其作品预计未来会登陆iOS和安卓平台。
+                - listitem [ref=e207]:
+                  - generic [ref=e208]:
+                    - strong [ref=e209]: 风格
+                    - text: ：主打国家情怀，国际视野。
+                  - generic [ref=e211]:
+                    - link [ref=e212] [cursor=pointer]:
+                      - /url: https://space.bilibili.com/7269507/
+                    - button [ref=e213] [cursor=pointer]:
+                      - generic [ref=e215]:
+                        - generic [ref=e216]: Bilibili
+                        - generic [ref=e217]: "+2"
+              - generic [ref=e219]:
+                - strong [ref=e220]: EMAGE 音乐 / 关联
+                - text: 在公开信息中，直接将“EMAGE”作为专有名词与“异美工作室”的音乐作品对应的信息有限。异美工作室（Gratesca Studio）主要专注于游戏内容的开发。
+              - generic [ref=e222]: 您是否是指异美工作室旗下作品（如《海沙风云》）的音乐OST，或者是其他特定的音乐项目？
+              - generic [ref=e224]: 为了更好帮您找到相关信息，您可以提供：
+              - list [ref=e226]:
+                - listitem [ref=e227]:
+                  - generic [ref=e228]:
+                    - text: 这个“EMAGE”是指
+                    - strong [ref=e229]: 游戏内的音乐名称
+                    - text: 吗？
+                - listitem [ref=e230]:
+                  - generic [ref=e231]:
+                    - text: 或者是某个特定的
+                    - strong [ref=e232]: 音乐人/创作者名称
+                    - text: ？
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - generic [ref=e244]:
+                  - link "异美工作室. 在新标签页中打开。" [ref=e245] [cursor=pointer]:
+                    - /url: https://space.bilibili.com/7269507/
+                  - generic [ref=e246]:
+                    - generic [ref=e248]:
+                      - generic [ref=e249]: 异美工作室
+                      - generic [ref=e250]: 哔哩哔哩异美工作室的个人空间，提供异美工作室分享的视频、音频、文章、动态、收藏等内容，关注异美工作室账号，第一时间了解U...
+                    - generic [ref=e252]:
+                      - generic [ref=e257]: Bilibili
+                      - button "关于这条结果" [ref=e259] [cursor=pointer]:
+                        - img [ref=e260]
+              - listitem [ref=e263]:
+                - generic [ref=e264]:
+                  - link "海沙风云- 维基百科，自由的百科全书. 在新标签页中打开。" [ref=e265] [cursor=pointer]:
+                    - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                  - generic [ref=e266]:
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: 海沙风云- 维基百科，自由的百科全书
+                      - generic [ref=e270]: 《海沙风云》是中国异美工作室（旧名红茶Games）制作的一款文字冒险游戏，游戏于2021年8月18日在Steam发行。本...
+                    - generic [ref=e272]:
+                      - generic [ref=e277]: 维基百科
+                      - button [ref=e279] [cursor=pointer]:
+                        - img [ref=e280]
+              - listitem [ref=e283]:
+                - generic [ref=e284]:
+                  - link [ref=e285] [cursor=pointer]:
+                    - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                  - generic [ref=e286]:
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: 海沙風雲- 維基百科，自由的百科全書
+                      - generic [ref=e290]: 《海沙風雲》是中國異美工作室（舊名紅茶Games）製作的一款文字冒險遊戲，遊戲於2021年8月18日在Steam發行。本...
+                    - generic [ref=e292]:
+                      - generic [ref=e297]: 维基百科
+                      - button [ref=e299] [cursor=pointer]:
+                        - img [ref=e300]
+        - button "显示更多 AI 概览" [ref=e305]:
+          - generic [ref=e307] [cursor=pointer]:
+            - generic [ref=e308]: 展开
+            - img [ref=e310]
+      - main [ref=e313]:
+        - generic [ref=e317]:
+          - generic [ref=e320]:
+            - heading "网页搜索结果" [level=2] [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e325]:
+                - link "海沙风云- 维基百科，自由的百科全书 维基百科 https://zh.wikipedia.org › zh-cn › 海沙風雲" [ref=e327] [cursor=pointer]:
+                  - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                  - heading "海沙风云- 维基百科，自由的百科全书" [level=3] [ref=e328]
+                  - generic [ref=e333]:
+                    - generic [ref=e335]: 维基百科
+                    - generic [ref=e337]: https://zh.wikipedia.org › zh-cn › 海沙風雲
+                - button "关于这条结果的详细信息" [ref=e338] [cursor=pointer]:
+                  - img [ref=e341]
+              - generic [ref=e345]:
+                - text: 《海沙风云》是中国
+                - emphasis [ref=e346]: 异美工作室
+                - text: （旧名红茶Games）制作的一款文字冒险游戏，游戏于2021年8月18日在Steam发行。本作是
+                - emphasis [ref=e347]: 异美工作室
+                - text: 的第一款作品，未来预计会登陆iOS和安卓平台。
+          - generic [ref=e351]:
+            - generic [ref=e354]:
+              - link "异美工作室GratescaStudio X · Gratesca_Studio 超过 470位关注者" [ref=e356] [cursor=pointer]:
+                - /url: https://x.com/Gratesca_Studio
+                - heading "异美工作室GratescaStudio" [level=3] [ref=e357]
+                - generic [ref=e362]:
+                  - generic [ref=e364]: X · Gratesca_Studio
+                  - generic [ref=e366]: 超过 470位关注者
+              - button "关于这条结果的详细信息" [ref=e367] [cursor=pointer]:
+                - img [ref=e370]
+            - generic [ref=e374]:
+              - text: "Developer of Far Away and Noctuary, devoted to the making of high-quality games. Steam: Gratesca YouTube:"
+              - emphasis [ref=e375]: 异美工作室
+              - text: "GratescaStudio. Website: gratesca.com. Posts."
+            - link "来自x.com的“EMAGE 音乐 异美工作室”" [ref=e378] [cursor=pointer]:
+              - /url: https://x.com/Gratesca_Studio
+              - img "来自x.com的“EMAGE 音乐 异美工作室”" [ref=e380]
+            - generic [ref=e382]:
+              - text: 缺少字词： 音乐 ‎| 必须包含：
+              - link "音乐" [ref=e383] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=EMAGE+%22%E9%9F%B3%E4%B9%90%22+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q5t4CegQIKBAB
+          - generic [ref=e387]:
+            - generic [ref=e390]:
+              - link "异美工作室GratescaStudio YouTube · 异美工作室GratescaStudio 超过 110位关注者" [ref=e392] [cursor=pointer]:
+                - /url: https://www.youtube.com/@gratescastudio9046
+                - heading "异美工作室GratescaStudio" [level=3] [ref=e393]
+                - generic [ref=e398]:
+                  - generic [ref=e400]: YouTube · 异美工作室GratescaStudio
+                  - generic [ref=e402]: 超过 110位关注者
+              - button "关于这条结果的详细信息" [ref=e403] [cursor=pointer]:
+                - img [ref=e406]
+            - generic [ref=e410]:
+              - emphasis [ref=e411]: 异美工作室GratescaStudio
+              - text: . Home. Shorts. Library. 异美工作室GratescaStudio. @gratescastudio9046. 120 subscribers•16 videos. Game studio ...more. Game studio
+            - link "来自www.youtube.com的“EMAGE 音乐 异美工作室”" [ref=e414] [cursor=pointer]:
+              - /url: https://www.youtube.com/@gratescastudio9046
+              - img "来自www.youtube.com的“EMAGE 音乐 异美工作室”" [ref=e416]
+            - generic [ref=e418]: 缺少字词： EMAGE ‎音乐
+          - generic [ref=e422]:
+            - generic [ref=e425]:
+              - link "异美工作室 Bilibili https://space.bilibili.com › ..." [ref=e427] [cursor=pointer]:
+                - /url: https://space.bilibili.com/7269507/
+                - heading "异美工作室" [level=3] [ref=e428]
+                - generic [ref=e430]:
+                  - img [ref=e434]
+                  - generic [ref=e436]:
+                    - generic [ref=e438]: Bilibili
+                    - generic [ref=e440]: https://space.bilibili.com › ...
+              - button "关于这条结果的详细信息" [ref=e441] [cursor=pointer]:
+                - img [ref=e444]
+            - generic [ref=e448]:
+              - text: 哔哩哔哩
+              - emphasis [ref=e449]: 异美工作室
+              - text: 的个人空间，提供
+              - emphasis [ref=e450]: 异美工作室
+              - text: 分享的视频、音频、文章、动态、收藏等内容，关注
+              - emphasis [ref=e451]: 异美工作室
+              - text: 账号，第一时间了解UP注动态。
+              - emphasis [ref=e452]: 异美工作室
+              - text: (Gratesca Studio)。
+            - generic [ref=e454]: 缺少字词： EMAGE ‎音乐
+          - generic [ref=e458]:
+            - generic [ref=e461]:
+              - link "海沙風雲- 維基百科，自由的百科全書 维基百科 https://zh.wikipedia.org › zh-tw › 海沙..." [ref=e463] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙風雲- 維基百科，自由的百科全書" [level=3] [ref=e464]
+                - generic [ref=e469]:
+                  - generic [ref=e471]: 维基百科
+                  - generic [ref=e473]: https://zh.wikipedia.org › zh-tw › 海沙...
+              - generic [ref=e474]:
+                - generic [ref=e475]: ·
+                - link "转为简体网页" [ref=e476] [cursor=pointer]:
+                  - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+              - button "关于这条结果的详细信息" [ref=e477] [cursor=pointer]:
+                - img [ref=e480]
+            - generic [ref=e484]:
+              - text: 《海沙風雲》是中國
+              - emphasis [ref=e485]: 異美工作室
+              - text: （舊名紅茶Games）製作的一款文字冒險遊戲，遊戲於2021年8月18日在Steam發行。本作是
+              - emphasis [ref=e486]: 異美工作室
+              - text: 的第一款作品，未來預計會登陸iOS和安卓平台。
+          - generic [ref=e490]:
+            - heading "图片" [level=2] [ref=e494]
+            - generic [ref=e498]:
+              - generic [ref=e502] [cursor=pointer]:
+                - link "這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ... Threads":
+                  - /url: https://www.threads.com/@cool_magazine_taiwan/post/DYMmSQGj91J/%E9%80%99%E9%A6%96%E7%9C%9F%E7%9A%84%E5%A4%AA%E5%A5%BD%E8%81%BD%E4%BA%BA%E4%B8%AD%E4%B9%8B%E9%BE%8D%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%8D%B3%E5%B0%87%E5%9C%A8%E4%BB%8A%E5%B9%B4%E5%86%AC%E5%AD%A3%E5%B8%B6%E4%BE%86%E5%85%A8%E6%96%B0%E4%BD%9C%E5%93%81%E7%95%B0%E6%96%BC%E5%A4%A9%E5%A0%82stranger-than-heaven%E6%9C%AC%E4%BD%9C%E8%AC%9B%E8%BF%B0%E4%BA%86%E7%BE%8E%E6%97%A5%E6%B7%B7%E8%A1%80%E5%85%92%E5%A4%A7%E6%9D%B1-%E7%9C%9F%E5%9C%A8%E5%A4%B1%E5%8E%BB%E9%9B%99%E8%A6%AA%E5%BE%8C%E5%89%8D%E5%BE%80%E6%AF%8D%E8%A6%AA%E7%9A%84%E6%95%85%E9%84%89%E6%97%A5%E6%9C%AC
+                - button "這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ... 2 天前" [ref=e504]:
+                  - img "這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ..." [ref=e507]
+                  - generic [ref=e508]:
+                    - generic:
+                      - generic: 2 天前
+                - generic [ref=e510]:
+                  - generic [ref=e512]: 這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ...
+                  - generic [ref=e513]:
+                    - generic [ref=e520]: Threads
+                    - button "关于这条结果的详细信息" [ref=e523]:
+                      - img [ref=e526]
+              - generic [ref=e531] [cursor=pointer]:
+                - link "這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ... Threads":
+                  - /url: https://www.threads.com/@cool_magazine_taiwan/post/DYMmSQGj91J/%E9%80%99%E9%A6%96%E7%9C%9F%E7%9A%84%E5%A4%AA%E5%A5%BD%E8%81%BD%E4%BA%BA%E4%B8%AD%E4%B9%8B%E9%BE%8D%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%8D%B3%E5%B0%87%E5%9C%A8%E4%BB%8A%E5%B9%B4%E5%86%AC%E5%AD%A3%E5%B8%B6%E4%BE%86%E5%85%A8%E6%96%B0%E4%BD%9C%E5%93%81%E7%95%B0%E6%96%BC%E5%A4%A9%E5%A0%82stranger-than-heaven%E6%9C%AC%E4%BD%9C%E8%AC%9B%E8%BF%B0%E4%BA%86%E7%BE%8E%E6%97%A5%E6%B7%B7%E8%A1%80%E5%85%92%E5%A4%A7%E6%9D%B1-%E7%9C%9F%E5%9C%A8%E5%A4%B1%E5%8E%BB%E9%9B%99%E8%A6%AA%E5%BE%8C%E5%89%8D%E5%BE%80%E6%AF%8D%E8%A6%AA%E7%9A%84%E6%95%85%E9%84%89%E6%97%A5%E6%9C%AC
+                - button "這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ... 2 天前" [ref=e533]:
+                  - img "這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ..." [ref=e536]
+                  - generic [ref=e537]:
+                    - generic:
+                      - generic: 2 天前
+                - generic [ref=e539]:
+                  - generic [ref=e541]: 這首真的太好聽！ 人中之龍工作室即將在今年冬季帶來全新作品 ...
+                  - generic [ref=e542]:
+                    - generic [ref=e549]: Threads
+                    - button "关于这条结果的详细信息" [ref=e552]:
+                      - img [ref=e555]
+              - generic [ref=e560] [cursor=pointer]:
+                - link "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X Twitter":
+                  - /url: https://x.com/Gratesca_Studio
+                - button "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e562]:
+                  - img "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e564]
+                - generic [ref=e566]:
+                  - generic [ref=e568]: 异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X
+                  - generic [ref=e569]:
+                    - generic [ref=e576]: Twitter
+                    - button "关于这条结果的详细信息" [ref=e579]:
+                      - img [ref=e582]
+            - button "显示更多图片" [ref=e585] [cursor=pointer]:
+              - separator [ref=e586]
+              - generic [ref=e587]:
+                - generic [ref=e588]: 显示更多图片
+                - img [ref=e590]
+          - generic [ref=e594]:
+            - heading "网页搜索结果" [level=2] [ref=e595]
+            - generic [ref=e596]:
+              - generic [ref=e599]:
+                - link "异美工作室GratescaStudio YouTube https://www.youtube.com › about" [ref=e601] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@gratescastudio9046/about
+                  - heading "异美工作室GratescaStudio" [level=3] [ref=e602]
+                  - generic [ref=e607]:
+                    - generic [ref=e609]: YouTube
+                    - generic [ref=e611]: https://www.youtube.com › about
+                - button "关于这条结果的详细信息" [ref=e612] [cursor=pointer]:
+                  - img [ref=e615]
+              - generic [ref=e618]: Videos ; 【梦灯花】主机版及免费DLC现已上线！ 96 views ; NOCTUARY CONSOLE VERSION and FREE DLC OUT NOW! 143 views ; 『夢灯華』大型アップデート！無料DLCついに配信！
+              - generic [ref=e620]: 缺少字词： EMAGE ‎音乐
+          - generic [ref=e624]:
+            - generic [ref=e627]:
+              - link "Home | Defense Security Cooperation Agency Defense Security Cooperation Agency (DSCA) (.mil) https://www.dsca.mil" [ref=e629] [cursor=pointer]:
+                - /url: https://www.dsca.mil/
+                - heading "Home | Defense Security Cooperation Agency" [level=3] [ref=e630]
+                - generic [ref=e635]:
+                  - generic [ref=e637]: Defense Security Cooperation Agency (DSCA) (.mil)
+                  - generic [ref=e639]: https://www.dsca.mil
+              - generic [ref=e640]:
+                - generic [ref=e641]: ·
+                - link "翻译此页" [ref=e642] [cursor=pointer]:
+                  - /url: https://www.dsca.mil/
+              - button "关于这条结果的详细信息" [ref=e643] [cursor=pointer]:
+                - img [ref=e646]
+            - generic [ref=e649]: DSCA's mission is to advance U.S. national security and foreign policy interests by building the capacity of foreign security forces to respond to shared ...
+            - generic [ref=e651]: 缺少字词： EMAGE ‎音乐 ‎异
+          - generic [ref=e655]:
+            - generic [ref=e658]:
+              - link "timeliness and performative into art forms that have not yet ... Instagram · harthongkong 20+ 个赞 · 3年前" [ref=e660] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/CrS6cy6PfbD/
+                - heading "timeliness and performative into art forms that have not yet ..." [level=3] [ref=e661]
+                - generic [ref=e666]:
+                  - generic [ref=e668]: Instagram · harthongkong
+                  - generic [ref=e670]: 20+ 个赞 · 3年前
+              - button "关于这条结果的详细信息" [ref=e671] [cursor=pointer]:
+                - img [ref=e674]
+            - generic [ref=e677]: 零碎的事實可以是全部，完整的片段也可以是個別例子。當我們都習慣了這種化腐朽為神奇的日常，零碎的當下又是否能塑造另一種圓滿? 'Music for 9' Media Art ...
+          - generic [ref=e681]:
+            - generic [ref=e684]:
+              - link "NVLMNS Pro APP Reviews Projects Behance https://www.behance.net › search › projects" [ref=e686] [cursor=pointer]:
+                - /url: https://www.behance.net/search/projects/NVLMNS%20Pro%20APP%20Reviews
+                - heading "NVLMNS Pro APP Reviews Projects" [level=3] [ref=e687]
+                - generic [ref=e692]:
+                  - generic [ref=e694]: Behance
+                  - generic [ref=e696]: https://www.behance.net › search › projects
+              - button "关于这条结果的详细信息" [ref=e697] [cursor=pointer]:
+                - img [ref=e700]
+            - generic [ref=e703]: Behance is the world's largest creative network for showcasing and discovering creative NVLMNS Pro APP Reviews work.
+        - generic [ref=e705]:
+          - generic [ref=e710]:
+            - heading "用户还搜索了" [level=2] [ref=e712]
+            - generic [ref=e714]:
+              - generic [ref=e715]:
+                - link "海沙风云" [ref=e719] [cursor=pointer]:
+                  - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q1QJ6BAg-EAE
+                  - generic [ref=e720]:
+                    - generic [ref=e725]: 海沙风云
+                    - img [ref=e729]
+                - link "Gratesca" [ref=e734] [cursor=pointer]:
+                  - /url: /search?sca_esv=4c0e757566be5d36&q=Gratesca&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q1QJ6BAg_EAE
+                  - generic [ref=e735]:
+                    - generic [ref=e740]: Gratesca
+                    - img [ref=e744]
+              - link "成都异美" [ref=e750] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%88%90%E9%83%BD%E5%BC%82%E7%BE%8E&sa=X&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q1QJ6BAg9EAE
+                - generic [ref=e751]:
+                  - generic [ref=e756]: 成都异美
+                  - img [ref=e760]
+          - navigation [ref=e762]:
+            - heading "网页导航" [level=1] [ref=e763]
+            - text: "1"
+            - link "Page 2" [ref=e766] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=10&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAE
+              - text: "2"
+            - link "Page 3" [ref=e768] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=20&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAG
+              - text: "3"
+            - link "Page 4" [ref=e770] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=30&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAI
+              - text: "4"
+            - link "Page 5" [ref=e772] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=40&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAK
+              - text: "5"
+            - link "Page 6" [ref=e774] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=50&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAM
+              - text: "6"
+            - link "Page 7" [ref=e776] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=60&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAO
+              - text: "7"
+            - link "Page 8" [ref=e778] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=70&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8tMDegQIOxAQ
+              - text: "8"
+            - heading "下一页" [level=2] [ref=e780]:
+              - link "下一页" [ref=e781] [cursor=pointer]:
+                - /url: /search?q=EMAGE+%E9%9F%B3%E4%B9%90+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sca_esv=4c0e757566be5d36&ei=R3UFap78ErfekPIPv8Hr6Ag&start=10&sa=N&sstk=Af77f_c2f2D857wiPSQmIv3hGzLBHmXFd8MBUCWKnCCjrHfnGi7gCXG0N6u4hI7WryGi2GkQXeR1j0BpcnkxJsUD5PZdbSmTtjDRuA&ved=2ahUKEwjeu53GnLiUAxU3L0QIHb_gGo0Q8NMDegQIOxAS
+                - generic [ref=e783]: 下一页
+        - navigation
+    - contentinfo [ref=e784]:
+      - heading "页脚链接" [level=1] [ref=e785]
+      - generic [ref=e789]:
+        - generic [ref=e793]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e795] [cursor=pointer]:
+            - generic [ref=e796]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e798]:
+              - text: "-"
+              - generic [ref=e799]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e801] [cursor=pointer]: 更新位置信息
+        - generic [ref=e804]:
+          - link "帮助" [ref=e805] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e806] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e807] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e808] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

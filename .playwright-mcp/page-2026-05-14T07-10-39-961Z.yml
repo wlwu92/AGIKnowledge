@@ -1,0 +1,504 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: 梦灯花 花海风云 Noctuary New Journey EMAGE 梦灯花 花海风云 Noctuary New Journey EMAGE
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%25E6%25A2%25A6%25E7%2581%25AF%25E8%258A%25B1%2B%25E8%258A%25B1%25E6%25B5%25B7%25E9%25A3%258E%25E4%25BA%2591%2BNoctuary%2BNew%2BJourney%2BEMAGE&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&aep=1&ntc=1&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ2J8OegQIEhAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "图片" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQtKgLegQIGBAB
+              - generic [ref=e91]: 图片
+          - listitem [ref=e92]:
+            - link "视频" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQtKgLegQIFxAB
+              - generic [ref=e95]: 视频
+          - listitem [ref=e96]:
+            - link "购物" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&ved=1t:220175&ictx=111
+              - generic [ref=e99]: 购物
+          - listitem [ref=e100]:
+            - link "短视频" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQs6gLegQIFRAB
+              - generic [ref=e103]: 短视频
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ0pQJegQIFBAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e142]:
+        - generic [ref=e147]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - img [ref=e151]
+              - heading "AI 概览" [level=2] [ref=e153]
+            - button "关于这条结果的详细信息" [ref=e157]:
+              - img [ref=e159]
+          - generic [ref=e180]:
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - text: 您提到的内容是关于国产视觉小说/冒险游戏
+                  - strong [ref=e186]: 《梦灯花》（Noctuary）
+                  - text: 的内容。基于您提供的关键词，这是关于其免费DLC的相关信息
+                - text: 。
+                - generic [ref=e188]:
+                  - link "Steam - 查看相关链接" [ref=e189] [cursor=pointer]:
+                    - /url: https://store.steampowered.com/app/3879310/Noctuary_Free_DLC_New_Journey/?l=schinese&snr=1_5_9__405
+                  - button "Steam - 查看相关链接" [ref=e190] [cursor=pointer]:
+                    - generic [ref=e193]: Steam
+              - 'heading "梦灯花：花海风云 (Noctuary: New Journey)" [level=3] [ref=e194]'
+              - list [ref=e196]:
+                - listitem [ref=e197]:
+                  - generic [ref=e198]:
+                    - strong [ref=e199]: 内容概述
+                    - text: ：这是《梦灯花》的免费DLC，被称为“新旅程”。
+                - listitem [ref=e200]:
+                  - generic [ref=e201]:
+                    - strong [ref=e202]: 故事规模
+                    - text: ：包含
+                    - strong [ref=e203]: 6 篇故事
+                    - text: ，共计
+                    - strong [ref=e204]: 17 个小节
+                    - text: 。
+                - listitem [ref=e205]:
+                  - generic [ref=e206]:
+                    - strong [ref=e207]: 主要内容
+                    - text: ：探索贝让大陆的柯灯罗莎夜、晶灯家族覆灭的秘密、以及神秘“光使侠”等故事。
+                - listitem [ref=e208]:
+                  - generic [ref=e209]:
+                    - strong [ref=e210]: 可操作角色
+                    - text: ：拥有 3 位可操作的角色。
+                - listitem [ref=e211]:
+                  - generic [ref=e212]:
+                    - strong [ref=e213]: 启动方式
+                    - text: ：在更新后，进入《梦灯花》游戏本体，在任务界面左下角的“故事集”进入。
+                - listitem [ref=e214]:
+                  - generic [ref=e215]:
+                    - strong [ref=e216]: 美术集
+                    - text: ：除了DLC，该游戏还有一个172页的电子版美术集，包含人物立绘和CG。
+                  - generic [ref=e218]:
+                    - link [ref=e219] [cursor=pointer]:
+                      - /url: https://store.steampowered.com/dlc/2143680/Noctuary/?l=schinese&snr=1_5_9__1061
+                    - button [ref=e220] [cursor=pointer]:
+                      - generic [ref=e222]:
+                        - generic [ref=e223]: Steam
+                        - generic [ref=e224]: "+2"
+              - generic [ref=e226]:
+                - text: 该DLC进一步扩展了无夜原和光使少女绚夜、此夜的冒险故事。
+                - generic [ref=e228]:
+                  - link [ref=e229] [cursor=pointer]:
+                    - /url: https://store.steampowered.com/app/2143680/Noctuary/?l=schinese&utm_source=GameDB&utm_medium=link&curator_clanid=
+                  - button [ref=e230] [cursor=pointer]:
+                    - generic [ref=e233]: Steam
+              - generic [ref=e235]: 如果您想聊聊游戏剧情，告诉我：
+              - list [ref=e237]:
+                - listitem [ref=e238]:
+                  - generic [ref=e239]:
+                    - text: 你最喜欢的
+                    - strong [ref=e240]: 角色
+                    - text: 是谁？
+                - listitem [ref=e241]:
+                  - generic [ref=e242]:
+                    - text: 是否在DLC的特定
+                    - strong [ref=e243]: 关卡
+                    - text: 卡关了？
+              - generic [ref=e245]: 我可以帮你分析角色能力或寻找攻略方向。
+            - generic [ref=e252]:
+              - list [ref=e255]:
+                - listitem [ref=e256]:
+                  - generic [ref=e257]:
+                    - link "梦灯花- Steam DLC 页面. 在新标签页中打开。" [ref=e258] [cursor=pointer]:
+                      - /url: https://store.steampowered.com/dlc/2143680/Noctuary/?l=schinese&snr=1_5_9__1061
+                    - generic [ref=e259]:
+                      - generic [ref=e261]:
+                        - generic [ref=e262]: 梦灯花- Steam DLC 页面
+                        - generic [ref=e263]: 2025年9月15日 — “【梦灯花DLC：花海风云】包含共计6篇故事，17个小节，3位可操控角色。一切谜团与冒险，等待你来体验！” ... “游...
+                      - generic [ref=e265]:
+                        - generic [ref=e270]: Steam
+                        - button "关于这条结果" [ref=e272] [cursor=pointer]:
+                          - img [ref=e273]
+                - listitem [ref=e276]:
+                  - generic [ref=e277]:
+                    - link "Steam 上的梦灯花DLC：《花海风云》. 在新标签页中打开。" [ref=e278] [cursor=pointer]:
+                      - /url: https://store.steampowered.com/app/3879310/Noctuary_Free_DLC_New_Journey/?l=schinese&snr=1_5_9__405
+                    - generic [ref=e279]:
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: Steam 上的梦灯花DLC：《花海风云》
+                        - generic [ref=e283]: 2025年10月7日 — 关于此内容. 开启梦灯花世界新旅程. 【DLC启动方式】. 更新后启动《梦灯花》游戏本体。 在任务界面左下角找到“故事集...
+                      - generic [ref=e285]:
+                        - generic [ref=e290]: Steam
+                        - button [ref=e292] [cursor=pointer]:
+                          - img [ref=e293]
+                - listitem [ref=e296]:
+                  - generic [ref=e297]:
+                    - link [ref=e298] [cursor=pointer]:
+                      - /url: https://store.steampowered.com/app/2143680/Noctuary/?l=schinese&utm_source=GameDB&utm_medium=link&curator_clanid=
+                    - generic [ref=e299]:
+                      - generic [ref=e301]:
+                        - generic [ref=e302]: Steam 上的梦灯花Noctuary
+                        - generic [ref=e303]: 2023年11月28日 — 年轻的光使女孩此夜与绚夜，在明媚又梦幻的无夜原四处冒险。 这一切只为了——再次成为令人信赖的游园者？！
+                      - generic [ref=e305]:
+                        - generic [ref=e310]: Steam
+                        - button [ref=e312] [cursor=pointer]:
+                          - img [ref=e313]
+              - button [ref=e316] [cursor=pointer]:
+                - generic [ref=e317]: 全部显示
+        - button "显示更多 AI 概览" [ref=e321]:
+          - generic [ref=e323] [cursor=pointer]:
+            - generic [ref=e324]: 展开
+            - img [ref=e326]
+      - main [ref=e329]:
+        - generic [ref=e333]:
+          - generic [ref=e337]:
+            - generic [ref=e339]:
+              - heading "视频" [level=2] [ref=e340]
+              - button "关于这条结果的详细信息" [ref=e341] [cursor=pointer]:
+                - img [ref=e344]
+            - generic [ref=e347]:
+              - generic [ref=e354]:
+                - generic [ref=e355]:
+                  - link "《夢燈花》中文版Trailer | Nintendo Switch™️ / PlayStation ... YouTube GSE | GAME SOURCE ENTERTAINMENT 2024年9月11日" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=grKTk96IUU8
+                    - heading "《夢燈花》中文版Trailer | Nintendo Switch™️ / PlayStation ... YouTube GSE | GAME SOURCE ENTERTAINMENT 2024年9月11日" [level=3] [ref=e358]:
+                      - generic [ref=e361]: 《夢燈花》中文版Trailer | Nintendo Switch™️ / PlayStation ...
+                      - generic [ref=e363]:
+                        - generic [ref=e364]:
+                          - text: YouTube
+                          - generic [ref=e365]: · GSE | GAME SOURCE ENTERTAINMENT
+                        - generic [ref=e366]: 2024年9月11日
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · GSE | GAME SOURCE ENTERTAINMENT
+                      - button "关于这条结果的详细信息" [ref=e367] [cursor=pointer]:
+                        - img [ref=e370]
+                - button "《夢燈花》中文版Trailer | Nintendo Switch™️ / PlayStation ...，由GSE | GAME SOURCE ENTERTAINMENT上传到YouTube上. 在 Google 上播放. 3:10" [ref=e372] [cursor=pointer]:
+                  - generic [ref=e373]:
+                    - img [ref=e379]
+                    - generic [ref=e382]:
+                      - generic [ref=e383]: 3:10
+                      - img [ref=e386]
+              - generic [ref=e393]:
+                - generic [ref=e394]:
+                  - link "《梦灯花| Noctuary》百元遊戲特價8折文字冒險+角色動作絕區 ... YouTube 1% 遊戲 / 1% Game 2023年11月28日" [ref=e396] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=kIHR1w7uTuw
+                    - heading "《梦灯花| Noctuary》百元遊戲特價8折文字冒險+角色動作絕區 ... YouTube 1% 遊戲 / 1% Game 2023年11月28日" [level=3] [ref=e397]:
+                      - generic [ref=e400]: 《梦灯花| Noctuary》百元遊戲特價8折文字冒險+角色動作絕區 ...
+                      - generic [ref=e402]:
+                        - generic [ref=e403]:
+                          - text: YouTube
+                          - generic [ref=e404]: · 1% 遊戲 / 1% Game
+                        - generic [ref=e405]: 2023年11月28日
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · 1% 遊戲 / 1% Game
+                      - button "关于这条结果的详细信息" [ref=e406] [cursor=pointer]:
+                        - img [ref=e409]
+                - button "《梦灯花| Noctuary》百元遊戲特價8折文字冒險+角色動作絕區 ...，由1% 遊戲 / 1% Game上传到YouTube上. 在 Google 上播放. 6:31:56" [ref=e411] [cursor=pointer]:
+                  - generic [ref=e412]:
+                    - img [ref=e415]
+                    - generic [ref=e418]:
+                      - generic [ref=e419]: 6:31:56
+                      - img [ref=e422]
+            - link "查看所有视频" [ref=e426] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ8ccDKAJ6BAgbEAQ
+              - separator [ref=e427]
+              - generic [ref=e428]:
+                - generic [ref=e429]: 查看全部
+                - img [ref=e431]
+          - generic [ref=e435]:
+            - heading "网页搜索结果" [level=2] [ref=e436]
+            - generic [ref=e437]:
+              - generic [ref=e440]:
+                - link "梦灯花DLC：《花海风云》 Steam https://store.steampowered.com › app › Noctuary_Free_..." [ref=e442] [cursor=pointer]:
+                  - /url: https://store.steampowered.com/app/3879310/Noctuary_Free_DLC_New_Journey/?l=schinese&snr=1_5_9__405
+                  - heading "梦灯花DLC：《花海风云》" [level=3] [ref=e443]
+                  - generic [ref=e448]:
+                    - generic [ref=e450]: Steam
+                    - generic [ref=e452]: https://store.steampowered.com › app › Noctuary_Free_...
+                - button "关于这条结果的详细信息" [ref=e453] [cursor=pointer]:
+                  - img [ref=e456]
+              - generic [ref=e460]:
+                - text: 关于此内容. 开启
+                - emphasis [ref=e461]: 梦灯花
+                - text: 世界新旅程. 【DLC启动方式】. 更新后启动《
+                - emphasis [ref=e462]: 梦灯花
+                - text: 》游戏本体。 在任务界面左下角找到“故事集” 入口。 解锁条件：为保最佳体验，首个DLC故事需在 ...
+              - generic [ref=e465]: 14 天内可退货
+              - generic [ref=e467]:
+                - text: 缺少字词： EMAGE ‎| 必须包含：
+                - link "EMAGE" [ref=e468] [cursor=pointer]:
+                  - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+%22EMAGE%22&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ5t4CegQIHxAB
+          - generic [ref=e472]:
+            - generic [ref=e475]:
+              - link "夢燈花（Noctuary）｜下載版軟體｜任天堂 Nintendo https://ec.nintendo.com › titles" [ref=e477] [cursor=pointer]:
+                - /url: https://ec.nintendo.com/HK/zh/titles/70010000096950
+                - heading "夢燈花（Noctuary）｜下載版軟體｜任天堂" [level=3] [ref=e478]
+                - generic [ref=e483]:
+                  - generic [ref=e485]: Nintendo
+                  - generic [ref=e487]: https://ec.nintendo.com › titles
+              - generic [ref=e488]:
+                - generic [ref=e489]: ·
+                - link "转为简体网页" [ref=e490] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://ec.nintendo.com/HK/zh/titles/70010000096950&hl=zh-CN&sl=zh-TW&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e491] [cursor=pointer]:
+                - img [ref=e494]
+            - generic [ref=e497]: 成為掌握光之力量的少女，在童話般的故事中探索世界的真相吧！
+            - generic [ref=e499]: 缺少字词： 花 ‎海 ‎风云 ‎Journey ‎EMAGE
+          - generic [ref=e503]:
+            - generic [ref=e506]:
+              - 'link "梦灯花 :: 📢 NOCTUARY MAJOR UPDATE! CONSOLE ... Steam Community https://steamcommunity.com › games › detail" [ref=e508] [cursor=pointer]':
+                - /url: https://steamcommunity.com/games/2143680/announcements/detail/539986853961400389
+                - 'heading "梦灯花 :: 📢 NOCTUARY MAJOR UPDATE! CONSOLE ..." [level=3] [ref=e509]'
+                - generic [ref=e514]:
+                  - generic [ref=e516]: Steam Community
+                  - generic [ref=e518]: https://steamcommunity.com › games › detail
+              - generic [ref=e519]:
+                - generic [ref=e520]: ·
+                - link "翻译此页" [ref=e521] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://steamcommunity.com/games/2143680/announcements/detail/539986853961400389&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e522] [cursor=pointer]:
+                - img [ref=e525]
+            - generic [ref=e528]:
+              - generic [ref=e529]: 2025年7月30日 —
+              - generic [ref=e530]:
+                - text: Update Highlights. I.
+                - emphasis [ref=e531]: Noctuary
+                - text: "Free DLC:"
+                - emphasis [ref=e532]: New Journey
+                - text: ". Immerse in New Stories: Experience 6 exciting chapters consisting of 17 episodes!"
+            - generic [ref=e534]: 缺少字词： 海 ‎风云 ‎EMAGE
+          - generic [ref=e538]:
+            - generic [ref=e541]:
+              - link "梦灯花- Steam DLC 页面 Steam https://store.steampowered.com › dlc › Noctuary" [ref=e543] [cursor=pointer]:
+                - /url: https://store.steampowered.com/dlc/2143680/Noctuary/?l=schinese&snr=1_5_9__1061
+                - heading "梦灯花- Steam DLC 页面" [level=3] [ref=e544]
+                - generic [ref=e549]:
+                  - generic [ref=e551]: Steam
+                  - generic [ref=e553]: https://store.steampowered.com › dlc › Noctuary
+              - button "关于这条结果的详细信息" [ref=e554] [cursor=pointer]:
+                - img [ref=e557]
+            - generic [ref=e561]:
+              - text: “【
+              - emphasis [ref=e562]: 梦灯花
+              - text: DLC：
+              - emphasis [ref=e563]: 花海风云
+              - text: 】包含共计6篇故事，17个小节，3位可操控角色。一切谜团与冒险，等待你来体验！” ... “游戏《
+              - emphasis [ref=e564]: 梦灯花
+              - text: 》的美术集电子版，共172页。包含人物立绘，游戏CG ...
+            - generic [ref=e566]: 缺少字词： New ‎Journey ‎EMAGE
+          - generic [ref=e570]:
+            - heading "图片" [level=2] [ref=e574]
+            - generic [ref=e578]:
+              - generic [ref=e582] [cursor=pointer]:
+                - link "Steam DLC 页面：梦灯花 Steam":
+                  - /url: https://store.steampowered.com/dlc/2143680/Noctuary/?l=schinese&snr=1_5_9__1061
+                - button "Steam DLC 页面：梦灯花" [ref=e584]:
+                  - img "Steam DLC 页面：梦灯花" [ref=e586]
+                - generic [ref=e588]:
+                  - generic [ref=e590]: Steam DLC 页面：梦灯花
+                  - generic [ref=e591]:
+                    - generic [ref=e598]: Steam
+                    - button "关于这条结果的详细信息" [ref=e601]:
+                      - img [ref=e604]
+              - generic [ref=e609] [cursor=pointer]:
+                - 'link "梦灯花：花海风云- Noctuary: New Journey | indienova GameDB ... Indienova"':
+                  - /url: https://indienova.com/game/noctuary-new-journey
+                - 'button "梦灯花：花海风云- Noctuary: New Journey | indienova GameDB ..." [ref=e611]':
+                  - 'img "梦灯花：花海风云- Noctuary: New Journey | indienova GameDB ..." [ref=e613]'
+                - generic [ref=e615]:
+                  - generic [ref=e617]: "梦灯花：花海风云- Noctuary: New Journey | indienova GameDB ..."
+                  - generic [ref=e618]:
+                    - generic [ref=e625]: Indienova
+                    - button "关于这条结果的详细信息" [ref=e628]:
+                      - img [ref=e631]
+              - generic [ref=e636] [cursor=pointer]:
+                - 'link "Steam :: 梦灯花 :: 📢 NOCTUARY MAJOR UPDATE! CONSOLE VERSION ... Steam Community"':
+                  - /url: https://steamcommunity.com/games/2143680/announcements/detail/539986853961400389
+                - 'button "Steam :: 梦灯花 :: 📢 NOCTUARY MAJOR UPDATE! CONSOLE VERSION ..." [ref=e638]':
+                  - 'img "Steam :: 梦灯花 :: 📢 NOCTUARY MAJOR UPDATE! CONSOLE VERSION ..." [ref=e640]'
+                - generic [ref=e642]:
+                  - generic [ref=e644]: "Steam :: 梦灯花 :: 📢 NOCTUARY MAJOR UPDATE! CONSOLE VERSION ..."
+                  - generic [ref=e645]:
+                    - generic [ref=e652]: Steam Community
+                    - button "关于这条结果的详细信息" [ref=e655]:
+                      - img [ref=e658]
+            - button "显示更多图片" [ref=e661] [cursor=pointer]:
+              - separator [ref=e662]
+              - generic [ref=e663]:
+                - generic [ref=e664]: 显示更多图片
+                - img [ref=e666]
+          - generic [ref=e670]:
+            - heading "网页搜索结果" [level=2] [ref=e671]
+            - generic [ref=e672]:
+              - generic [ref=e675]:
+                - link "梦灯花Noctuary Bilibili https://m.bilibili.com › topic-detail › topic_name=梦灯..." [ref=e677] [cursor=pointer]:
+                  - /url: https://m.bilibili.com/topic-detail?topic_id=1166667&topic_name=%E6%A2%A6%E7%81%AF%E8%8A%B1Noctuary&spm_id_from=0.0.top.function_card.click
+                  - heading "梦灯花Noctuary" [level=3] [ref=e678]
+                  - generic [ref=e683]:
+                    - generic [ref=e685]: Bilibili
+                    - generic [ref=e687]: https://m.bilibili.com › topic-detail › topic_name=梦灯...
+                - button "关于这条结果的详细信息" [ref=e688] [cursor=pointer]:
+                  - img [ref=e691]
+              - generic [ref=e695]:
+                - text: ... 旅程--
+                - emphasis [ref=e696]: 花海风云
+                - text: "-6个故事，17个小节来自贝让大陆的柯灯罗莎夜，晶灯家族一朝覆灭的秘密，被称为“光使侠”的神秘光使等等等等...... 一切谜团与冒险，尽在【"
+                - emphasis [ref=e697]: 梦灯花
+                - text: DLC：
+                - emphasis [ref=e698]: 花海风云
+                - text: 】！
+              - generic [ref=e700]:
+                - text: 缺少字词： EMAGE ‎| 必须包含：
+                - link "EMAGE" [ref=e701] [cursor=pointer]:
+                  - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+%22EMAGE%22&sa=X&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ5t4CegQINRAB
+          - generic [ref=e705]:
+            - generic [ref=e708]:
+              - link "Steam 上的梦灯花Noctuary Steam https://store.steampowered.com › app › Noctuary" [ref=e710] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/2143680/Noctuary/?l=schinese&utm_source=GameDB&utm_medium=link&curator_clanid=
+                - heading "Steam 上的梦灯花Noctuary" [level=3] [ref=e711]
+                - generic [ref=e716]:
+                  - generic [ref=e718]: Steam
+                  - generic [ref=e720]: https://store.steampowered.com › app › Noctuary
+              - button "关于这条结果的详细信息" [ref=e721] [cursor=pointer]:
+                - img [ref=e724]
+            - generic [ref=e727]: 年轻的光使女孩此夜与绚夜，在明媚又梦幻的无夜原四处冒险。 这一切只为了——再次成为令人信赖的游园者？！
+            - img "评分为 4.5 星（最高 5 星）， (2,008) 条用户评价" [ref=e732]:
+              - text: 9/10
+              - img [ref=e733]
+              - text: (2,008)
+            - generic [ref=e737]: 缺少字词： Journey ‎EMAGE
+          - generic [ref=e741]:
+            - generic [ref=e744]:
+              - link "《Noctuary》 Release Announcement Steam https://store.steampowered.com › app › view" [ref=e746] [cursor=pointer]:
+                - /url: https://store.steampowered.com/news/app/2143680/view/3898490381785503474?l=koreana
+                - heading "《Noctuary》 Release Announcement" [level=3] [ref=e747]
+                - generic [ref=e752]:
+                  - generic [ref=e754]: Steam
+                  - generic [ref=e756]: https://store.steampowered.com › app › view
+              - generic [ref=e757]:
+                - generic [ref=e758]: ·
+                - link "翻译此页" [ref=e759] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://store.steampowered.com/news/app/2143680/view/3898490381785503474?l%3Dkoreana&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e760] [cursor=pointer]:
+                - img [ref=e763]
+            - generic [ref=e767]:
+              - text: Hello everyone, we are excited to announce that our latest entertainment creation, "
+              - emphasis [ref=e768]: Noctuary
+              - text: ",\" is now available on the Steam platform."
+            - generic [ref=e770]: 缺少字词： 花 ‎海 ‎风云 ‎New ‎Journey ‎EMAGE
+          - generic [ref=e774]:
+            - generic [ref=e777]:
+              - link "一些mod领袖 Steam Community https://steamcommunity.com › sharedfiles › filedetails" [ref=e779] [cursor=pointer]:
+                - /url: https://steamcommunity.com/sharedfiles/filedetails/?id=3547111438
+                - heading "一些mod领袖" [level=3] [ref=e780]
+                - generic [ref=e785]:
+                  - generic [ref=e787]: Steam Community
+                  - generic [ref=e789]: https://steamcommunity.com › sharedfiles › filedetails
+              - button "关于这条结果的详细信息" [ref=e790] [cursor=pointer]:
+                - img [ref=e793]
+            - generic [ref=e796]:
+              - generic [ref=e797]: 2025年8月11日 —
+              - generic [ref=e798]:
+                - text: ... 海姆”和新领袖“曼旎Money”。曼旎是从异世界华纳海姆穿越了来的天才 ...
+                - emphasis [ref=e799]: 梦灯花
+                - text: 增强补丁(
+                - emphasis [ref=e800]: Noctuary
+                - text: Enhanced). Created by UFO300. Enhanced content ...
+        - navigation [ref=e803]:
+          - heading "网页导航" [level=1] [ref=e804]
+          - text: "1"
+          - link "Page 2" [ref=e807] [cursor=pointer]:
+            - /url: /search?q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sca_esv=4c0e757566be5d36&ei=a3UFat2ANP_dkPIP1N2eyAQ&start=10&sa=N&sstk=Af77f_eDJq97BT4WvLstX4G1Yzf_wFhboXSdmNAG0IN8NONr4X39c78Fe8-fSsHR_sen6Vw27-vYsrXJ9q9Zo7VSKEX3O6PZZ4ipuw&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ8tMDegQIIRAE
+            - text: "2"
+          - link "Page 3" [ref=e809] [cursor=pointer]:
+            - /url: /search?q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sca_esv=4c0e757566be5d36&ei=a3UFat2ANP_dkPIP1N2eyAQ&start=20&sa=N&sstk=Af77f_eDJq97BT4WvLstX4G1Yzf_wFhboXSdmNAG0IN8NONr4X39c78Fe8-fSsHR_sen6Vw27-vYsrXJ9q9Zo7VSKEX3O6PZZ4ipuw&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ8tMDegQIIRAG
+            - text: "3"
+          - link "Page 4" [ref=e811] [cursor=pointer]:
+            - /url: /search?q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sca_esv=4c0e757566be5d36&ei=a3UFat2ANP_dkPIP1N2eyAQ&start=30&sa=N&sstk=Af77f_eDJq97BT4WvLstX4G1Yzf_wFhboXSdmNAG0IN8NONr4X39c78Fe8-fSsHR_sen6Vw27-vYsrXJ9q9Zo7VSKEX3O6PZZ4ipuw&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ8tMDegQIIRAI
+            - text: "4"
+          - link "Page 5" [ref=e813] [cursor=pointer]:
+            - /url: /search?q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sca_esv=4c0e757566be5d36&ei=a3UFat2ANP_dkPIP1N2eyAQ&start=40&sa=N&sstk=Af77f_eDJq97BT4WvLstX4G1Yzf_wFhboXSdmNAG0IN8NONr4X39c78Fe8-fSsHR_sen6Vw27-vYsrXJ9q9Zo7VSKEX3O6PZZ4ipuw&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ8tMDegQIIRAK
+            - text: "5"
+          - heading "下一页" [level=2] [ref=e815]:
+            - link "下一页" [ref=e816] [cursor=pointer]:
+              - /url: /search?q=%E6%A2%A6%E7%81%AF%E8%8A%B1+%E8%8A%B1%E6%B5%B7%E9%A3%8E%E4%BA%91+Noctuary+New+Journey+EMAGE&sca_esv=4c0e757566be5d36&ei=a3UFat2ANP_dkPIP1N2eyAQ&start=10&sa=N&sstk=Af77f_eDJq97BT4WvLstX4G1Yzf_wFhboXSdmNAG0IN8NONr4X39c78Fe8-fSsHR_sen6Vw27-vYsrXJ9q9Zo7VSKEX3O6PZZ4ipuw&ved=2ahUKEwid4tPXnLiUAxX_LkQIHdSuB0kQ8NMDegQIIRAM
+              - generic [ref=e818]: 下一页
+        - navigation
+    - contentinfo [ref=e819]:
+      - heading "页脚链接" [level=1] [ref=e820]
+      - generic [ref=e824]:
+        - generic [ref=e828]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e830] [cursor=pointer]:
+            - generic [ref=e831]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e833]:
+              - text: "-"
+              - generic [ref=e834]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e836] [cursor=pointer]: 更新位置信息
+        - generic [ref=e839]:
+          - link "帮助" [ref=e840] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e841] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e842] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e843] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

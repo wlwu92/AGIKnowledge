@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778742455995-9vcpx6hiy",
+  "providerId": "claude",
+  "title": "Research EMAGE sequel status",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778742455996,
+  "updatedAt": 1779169796477,
+  "lastResponseAt": 1778744372851,
+  "sessionId": "74ec4390-8e0d-4444-97fc-b5d9044f802c",
+  "providerState": {
+    "providerSessionId": "74ec4390-8e0d-4444-97fc-b5d9044f802c"
+  },
+  "currentNote": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-EMAGE-全身共语手势生成.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 512,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52352,
+    "contextWindow": 200000,
+    "contextTokens": 52864,
+    "percentage": 26,
+    "contextWindowIsAuthoritative": true
+  }
+}

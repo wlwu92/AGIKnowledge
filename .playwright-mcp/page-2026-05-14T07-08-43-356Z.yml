@@ -1,0 +1,315 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: EMAGE 异美工作室 Gratesca Noctuary 海沙风云 续作 EMAGE 异美工作室 Gratesca Noctuary 海沙风云 续作
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEMAGE%2B%25E5%25BC%2582%25E7%25BE%258E%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%2BGratesca%2BNoctuary%2B%25E6%25B5%25B7%25E6%25B2%2599%25E9%25A3%258E%25E4%25BA%2591%2B%25E7%25BB%25AD%25E4%25BD%259C&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVdT1AH597TDgg0OUtxFKYqhQBr5-a0QvdNoNe956ZvS1yt-UfvQy3EzQHV0aEXy6Iq8W5hOIdfHJp8oBEd0OQRR7I9zn-0MgJkmNLsFSH4L6kigJqQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQ2J8OegQIExAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "视频" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVdT1AH597TDgg0OUtxFKYqhQBr5-a0QvdNoNe956ZvS1yt-UfvQy3EzQHV0aEXy6Iq8W5hOIdfHJp8oBEd0OQRR7I9zn-0MgJkmNLsFSH4L6kigJqQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQtKgLegQIGRAB
+              - generic [ref=e91]: 视频
+          - listitem [ref=e92]:
+            - link "图片" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVdT1AH597TDgg0OUtxFKYqhQBr5-a0QvdNoNe956ZvS1yt-UfvQy3EzQHV0aEXy6Iq8W5hOIdfHJp8oBEd0OQRR7I9zn-0MgJkmNLsFSH4L6kigJqQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQtKgLegQIGBAB
+              - generic [ref=e95]: 图片
+          - listitem [ref=e96]:
+            - link "购物" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVdT1AH597TDgg0OUtxFKYqhQBr5-a0QvdNoNe956ZvS1yt-UfvQy3EzQHV0aEXy6Iq8W5hOIdfHJp8oBEd0OQRR7I9zn-0MgJkmNLsFSH4L6kigJqQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&ved=1t:220175&ictx=111
+              - generic [ref=e99]: 购物
+          - listitem [ref=e100]:
+            - link "短视频" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVdT1AH597TDgg0OUtxFKYqhQBr5-a0QvdNoNe956ZvS1yt-UfvQy3EzQHV0aEXy6Iq8W5hOIdfHJp8oBEd0OQRR7I9zn-0MgJkmNLsFSH4L6kigJqQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQs6gLegQIFhAB
+              - generic [ref=e103]: 短视频
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVdT1AH597TDgg0OUtxFKYqhQBr5-a0QvdNoNe956ZvS1yt-UfvQy3EzQHV0aEXy6Iq8W5hOIdfHJp8oBEd0OQRR7I9zn-0MgJkmNLsFSH4L6kigJqQ&sa=X&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQ0pQJegQIFRAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e142]:
+        - heading "正在思考" [level=2] [ref=e146]:
+          - generic [ref=e147]: 正在思考
+        - progressbar [ref=e148]
+      - main [ref=e150]:
+        - generic [ref=e154]:
+          - generic [ref=e157]:
+            - heading "网页搜索结果" [level=2] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e162]:
+                - link "Steam 上的海沙风云Far Away Steam https://store.steampowered.com › app › Far_Away" [ref=e164] [cursor=pointer]:
+                  - /url: https://store.steampowered.com/app/1250760/Far_Away/?l=schinese&snr=1_300_morelikev2__104_16
+                  - heading "Steam 上的海沙风云Far Away" [level=3] [ref=e165]
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: Steam
+                    - generic [ref=e174]: https://store.steampowered.com › app › Far_Away
+                - button "关于这条结果的详细信息" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+              - generic [ref=e181]:
+                - generic [ref=e182]: 2021年8月17日 —
+                - generic [ref=e183]:
+                  - text: 《
+                  - emphasis [ref=e184]: 海沙风云
+                  - text: 》是一款“硬派+黑色幽默”风格的文字冒险游戏，玩家扮演打工人少女柯罗莎，在名为贝让的港口城市被卷入了一次涉及帮派斗争、犯罪阴谋、家族 ...
+              - img "评分为 4.5 星（最高 5 星）， (7,206) 条用户评价" [ref=e189]:
+                - text: 9/10
+                - img [ref=e190]
+                - text: (7,206)
+              - generic [ref=e194]: 缺少字词： EMAGE ‎Noctuary
+          - generic [ref=e198]:
+            - generic [ref=e201]:
+              - link "异美拿回《海沙风云》发行权续作有望|《王国之心》上架Steam Bilibili https://www.bilibili.com › video" [ref=e203] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV16n4y1X7pa/
+                - heading "异美拿回《海沙风云》发行权续作有望|《王国之心》上架Steam" [level=3] [ref=e204]
+                - generic [ref=e209]:
+                  - generic [ref=e211]: Bilibili
+                  - generic [ref=e213]: https://www.bilibili.com › video
+              - button "关于这条结果的详细信息" [ref=e214] [cursor=pointer]:
+                - img [ref=e217]
+            - generic [ref=e221]:
+              - text: 下载App. 打开App，流畅又高清. 活动.
+              - emphasis [ref=e222]: 异美拿回《海沙风云》发行权续作有望
+              - text: "|《王国之心》上架Steam|幸存者like 《苦痛殿堂》添加中文支持. 嗨游君. 相关推荐. 查看更多."
+            - generic [ref=e224]: 缺少字词： EMAGE ‎工作 ‎Gratesca ‎Noctuary
+          - generic [ref=e228]:
+            - generic [ref=e231]:
+              - link "海沙風雲- 維基百科，自由的百科全書 维基百科 https://zh.wikipedia.org › zh-tw › 海沙..." [ref=e233] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙風雲- 維基百科，自由的百科全書" [level=3] [ref=e234]
+                - generic [ref=e239]:
+                  - generic [ref=e241]: 维基百科
+                  - generic [ref=e243]: https://zh.wikipedia.org › zh-tw › 海沙...
+              - generic [ref=e244]:
+                - generic [ref=e245]: ·
+                - link "转为简体网页" [ref=e246] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://zh.wikipedia.org/zh-tw/%25E6%25B5%25B7%25E6%25B2%2599%25E9%25A2%25A8%25E9%259B%25B2&hl=zh-CN&sl=zh-TW&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e247] [cursor=pointer]:
+                - img [ref=e250]
+            - generic [ref=e254]:
+              - text: 《
+              - emphasis [ref=e255]: 海沙風雲
+              - text: 》是中國
+              - emphasis [ref=e256]: 異美工作室
+              - text: （舊名紅茶Games）製作的一款文字冒險遊戲，遊戲於2021年8月18日在Steam發行。本作是
+              - emphasis [ref=e257]: 異美工作室
+              - text: 的第一款作品，未來預計會登陸iOS和安卓平台。
+            - generic [ref=e259]: 缺少字词： Gratesca ‎Noctuary
+          - generic [ref=e263]:
+            - generic [ref=e266]:
+              - link "《海沙风云》周边众筹正式开启将登陆PS5/PS4/Switch平台 旅法师营地 https://www.iyingdi.com › post" [ref=e268] [cursor=pointer]:
+                - /url: https://www.iyingdi.com/tz/post/5222489
+                - heading "《海沙风云》周边众筹正式开启将登陆PS5/PS4/Switch平台" [level=3] [ref=e269]
+                - generic [ref=e274]:
+                  - generic [ref=e276]: 旅法师营地
+                  - generic [ref=e278]: https://www.iyingdi.com › post
+              - button "关于这条结果的详细信息" [ref=e279] [cursor=pointer]:
+                - img [ref=e282]
+            - generic [ref=e285]:
+              - generic [ref=e286]: 2022年10月13日 —
+              - generic [ref=e287]:
+                - text: 【2022年10月13日，北京】今日，由
+                - emphasis [ref=e288]: 异美工作室
+                - text: 开发、热脉游戏发行的文字冒险游戏《
+                - emphasis [ref=e289]: 海沙风云
+                - text: 》的周边众筹项目已在【摩点】、【Kickstarter】平台正式开启。
+            - generic [ref=e291]: 缺少字词： EMAGE ‎Gratesca ‎Noctuary
+          - generic [ref=e295]:
+            - generic [ref=e298]:
+              - link "Steam 上的海沙风云Far Away Steam https://store.steampowered.com › app › Far_Away" [ref=e300] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/1250760/Far_Away/?l=schinese&curator_clanid=34464054&curator_listid=82200
+                - heading "Steam 上的海沙风云Far Away" [level=3] [ref=e301]
+                - generic [ref=e306]:
+                  - generic [ref=e308]: Steam
+                  - generic [ref=e310]: https://store.steampowered.com › app › Far_Away
+              - button "关于这条结果的详细信息" [ref=e311] [cursor=pointer]:
+                - img [ref=e314]
+            - generic [ref=e318]:
+              - text: 《
+              - emphasis [ref=e319]: 海沙风云
+              - text: 》是一款“硬派+黑色幽默”风格的文字冒险游戏，玩家扮演打工人少女柯罗莎，在名为贝让的港口城市被卷入了一次涉及帮派斗争、犯罪阴谋、家族恩怨等的惊魂历险。
+            - img "评分为 4.5 星（最高 5 星）， (7,189) 条用户评价" [ref=e324]:
+              - text: 9/10
+              - img [ref=e325]
+              - text: (7,189)
+            - generic [ref=e329]: 缺少字词： EMAGE ‎Noctuary
+          - generic [ref=e333]:
+            - generic [ref=e336]:
+              - link "异美工作室GratescaStudio YouTube https://www.youtube.com › @gratescastudio9046 › about" [ref=e338] [cursor=pointer]:
+                - /url: https://www.youtube.com/@gratescastudio9046/about
+                - heading "异美工作室GratescaStudio" [level=3] [ref=e339]
+                - generic [ref=e344]:
+                  - generic [ref=e346]: YouTube
+                  - generic [ref=e348]: https://www.youtube.com › @gratescastudio9046 › about
+              - button "关于这条结果的详细信息" [ref=e349] [cursor=pointer]:
+                - img [ref=e352]
+            - generic [ref=e356]:
+              - emphasis [ref=e357]: NOCTUARY
+              - text: "CONSOLE VERSION and FREE DLC OUT NOW! 143 views. 8 months ago ... Description. Game studio Released games:"
+              - emphasis [ref=e358]: 海沙风云
+              - text: Far Away. Links. steamstore ...
+            - generic [ref=e360]: 缺少字词： EMAGE ‎续
+          - generic [ref=e364]:
+            - generic [ref=e367]:
+              - link "海沙风云- 维基百科，自由的百科全书 维基百科 https://zh.wikipedia.org › zh-cn › 海沙風雲" [ref=e369] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙风云- 维基百科，自由的百科全书" [level=3] [ref=e370]
+                - generic [ref=e375]:
+                  - generic [ref=e377]: 维基百科
+                  - generic [ref=e379]: https://zh.wikipedia.org › zh-cn › 海沙風雲
+              - button "关于这条结果的详细信息" [ref=e380] [cursor=pointer]:
+                - img [ref=e383]
+            - generic [ref=e387]:
+              - text: 《
+              - emphasis [ref=e388]: 海沙风云
+              - text: 》是中国
+              - emphasis [ref=e389]: 异美工作室
+              - text: （旧名红茶Games）制作的一款文字冒险游戏，游戏于2021年8月18日在Steam发行。本作是
+              - emphasis [ref=e390]: 异美工作室
+              - text: 的第一款作品，未来预计会登陆iOS和安卓平台。
+            - generic [ref=e392]: 缺少字词： Gratesca ‎Noctuary
+          - generic [ref=e396]:
+            - generic [ref=e399]:
+              - link "游戏库- 公司：异美工作室 indienova 独立游戏 https://indienova.com › company › gratesca-studio" [ref=e401] [cursor=pointer]:
+                - /url: https://indienova.com/gamedb/company/gratesca-studio/p/1
+                - heading "游戏库- 公司：异美工作室" [level=3] [ref=e402]
+                - generic [ref=e404]:
+                  - img [ref=e408]
+                  - generic [ref=e410]:
+                    - generic [ref=e412]: indienova 独立游戏
+                    - generic [ref=e414]: https://indienova.com › company › gratesca-studio
+              - button "关于这条结果的详细信息" [ref=e415] [cursor=pointer]:
+                - img [ref=e418]
+            - generic [ref=e422]:
+              - text: 游戏公司：
+              - emphasis [ref=e423]: 异美工作室
+              - text: ". COMPANY:"
+              - emphasis [ref=e424]: GRATESCA
+              - text: STUDIO. 按最近更新排列 按发行时间排列 按媒体评分排列 按会员评分排列 · 梦灯花
+              - emphasis [ref=e425]: Noctuary
+              - text: .
+              - emphasis [ref=e426]: 海沙风云
+              - text: Far Away.
+            - generic [ref=e428]: 缺少字词： EMAGE ‎续
+          - generic [ref=e432]:
+            - generic [ref=e435]:
+              - link "Steam 鉴赏家：Gratesca Steam https://store.steampowered.com › 44891021-Gratesca" [ref=e437] [cursor=pointer]:
+                - /url: https://store.steampowered.com/curator/44891021-Gratesca/?l=schinese
+                - heading "Steam 鉴赏家：Gratesca" [level=3] [ref=e438]
+                - generic [ref=e443]:
+                  - generic [ref=e445]: Steam
+                  - generic [ref=e447]: https://store.steampowered.com › 44891021-Gratesca
+              - button "关于这条结果的详细信息" [ref=e448] [cursor=pointer]:
+                - img [ref=e451]
+            - generic [ref=e455]:
+              - text: 《
+              - emphasis [ref=e456]: 海沙风云
+              - text: 》是一款“硬派+黑色幽默”风格的文字冒险游戏，玩家扮演打工人少女柯罗莎，在名为贝让的港口城市被卷入了一次涉及帮派斗争、犯罪阴谋、家族恩怨等的惊魂历险 ...
+            - generic [ref=e458]: 缺少字词： EMAGE ‎续
+          - generic [ref=e462]:
+            - generic [ref=e465]:
+              - link "海沙风云Far Away - 冒险‎游戏 Steam https://store.steampowered.com › app › Far_Away" [ref=e467] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/1250760/Far_Away/?l=schinese&curator_clanid=30950813
+                - heading "海沙风云Far Away - 冒险‎游戏" [level=3] [ref=e468]
+                - generic [ref=e473]:
+                  - generic [ref=e475]: Steam
+                  - generic [ref=e477]: https://store.steampowered.com › app › Far_Away
+              - button "关于这条结果的详细信息" [ref=e478] [cursor=pointer]:
+                - img [ref=e481]
+            - generic [ref=e485]:
+              - text: 《
+              - emphasis [ref=e486]: 海沙风云
+              - text: 》是一款“硬派+黑色幽默”风格的文字冒险游戏，玩家扮演打工人少女柯罗莎，在名为贝让的港口城市被卷入了一次涉及帮派斗争、犯罪阴谋、家族恩怨等的惊魂历险。
+            - generic [ref=e488]:
+              - generic [ref=e489]: US$12.99
+              - text: ·
+              - generic [ref=e490]: 现货
+              - text: ·
+              - img "评分为 4.6 星（最高 5 星）， (7,511) 条用户评价" [ref=e496]:
+                - text: "4.6"
+                - img [ref=e497]
+                - text: (7,511)
+              - text: ·
+              - generic [ref=e500]: 14 天内可退货
+            - generic [ref=e502]: 缺少字词： EMAGE ‎Noctuary
+        - navigation [ref=e505]:
+          - heading "网页导航" [level=1] [ref=e506]
+          - text: "1"
+          - link "Page 2" [ref=e509] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=-nQFas_cDqnKkPIP3dvj0Qk&start=10&sa=N&sstk=Af77f_cIwEXK5l1ea8wLVsW5NrJlyjjCc9XkYcoTzvWUwIv4bqm_iBzDAnjUqml0TYOc23Yde27aMmEg3Vd5fbaXZbbENjR9nRgYsA&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQ8tMDegQIJxAE
+            - text: "2"
+          - link "Page 3" [ref=e511] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=-nQFas_cDqnKkPIP3dvj0Qk&start=20&sa=N&sstk=Af77f_cIwEXK5l1ea8wLVsW5NrJlyjjCc9XkYcoTzvWUwIv4bqm_iBzDAnjUqml0TYOc23Yde27aMmEg3Vd5fbaXZbbENjR9nRgYsA&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQ8tMDegQIJxAG
+            - text: "3"
+          - heading "下一页" [level=2] [ref=e513]:
+            - link "下一页" [ref=e514] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+Gratesca+Noctuary+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=-nQFas_cDqnKkPIP3dvj0Qk&start=10&sa=N&sstk=Af77f_cIwEXK5l1ea8wLVsW5NrJlyjjCc9XkYcoTzvWUwIv4bqm_iBzDAnjUqml0TYOc23Yde27aMmEg3Vd5fbaXZbbENjR9nRgYsA&ved=2ahUKEwjPwb2hnLiUAxUpJUQIHd3tOJoQ8NMDegQIJxAI
+              - generic [ref=e516]: 下一页
+        - navigation
+    - contentinfo [ref=e517]:
+      - heading "页脚链接" [level=1] [ref=e518]
+      - generic [ref=e522]:
+        - generic [ref=e526]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e528] [cursor=pointer]:
+            - generic [ref=e529]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e531]:
+              - text: "-"
+              - generic [ref=e532]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e534] [cursor=pointer]: 更新位置信息
+        - generic [ref=e537]:
+          - link "帮助" [ref=e538] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e539] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e540] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e541] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

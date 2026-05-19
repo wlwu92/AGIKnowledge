@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: Emage 游戏 续作 Emage 游戏 续作
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEmage%2B%25E6%25B8%25B8%25E6%2588%258F%2B%25E7%25BB%25AD%25E4%25BD%259C&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOyttXt7jTzcnOZfs0s2zGyFL1cSBaHawquMwHMgkKovKsza-5qnYSR1Ef47wFaP_QE0CDx5qFdPMVDi_ydz9B3kmsvFzw&aep=1&ntc=1&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ2J8OegQIEBAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "购物" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOyttXt7jTzcnOZfs0s2zGyFL1cSBaHawquMwHMgkKovKsza-5qnYSR1Ef47wFaP_QE0CDx5qFdPMVDi_ydz9B3kmsvFzw&q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&ved=1t:220175&ictx=111
+              - generic [ref=e91]: 购物
+          - listitem [ref=e92]:
+            - link "图片" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOyttXt7jTzcnOZfs0s2zGyFL1cSBaHawquMwHMgkKovKsza-5qnYSR1Ef47wFaP_QE0CDx5qFdPMVDi_ydz9B3kmsvFzw&q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQtKgLegQIFRAB
+              - generic [ref=e95]: 图片
+          - listitem [ref=e96]:
+            - link "视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOyttXt7jTzcnOZfs0s2zGyFL1cSBaHawquMwHMgkKovKsza-5qnYSR1Ef47wFaP_QE0CDx5qFdPMVDi_ydz9B3kmsvFzw&q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQtKgLegQIFBAB
+              - generic [ref=e99]: 视频
+          - listitem [ref=e100]:
+            - link "新闻" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOyttXt7jTzcnOZfs0s2zGyFL1cSBaHawquMwHMgkKovKsza-5qnYSR1Ef47wFaP_QE0CDx5qFdPMVDi_ydz9B3kmsvFzw&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ0pQJegQIExAB
+              - generic [ref=e103]: 新闻
+          - listitem [ref=e104]:
+            - link "短视频" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOyttXt7jTzcnOZfs0s2zGyFL1cSBaHawquMwHMgkKovKsza-5qnYSR1Ef47wFaP_QE0CDx5qFdPMVDi_ydz9B3kmsvFzw&q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQs6gLegQIEhAB
+              - generic [ref=e107]: 短视频
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - main [ref=e126]:
+      - generic [ref=e130]:
+        - generic [ref=e133]:
+          - heading "网页搜索结果" [level=2] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e138]:
+              - link "MAGES. 计划在2024 年发布一个“续作”游戏；可能是《命运石 ... Reddit · r/steinsgate 60+ 条评论 · 2年前" [ref=e140] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/steinsgate/comments/18u6oug/mages_planning_to_release_a_sequel_title_in_2024/?tl=zh-hans
+                - heading "MAGES. 计划在2024 年发布一个“续作”游戏；可能是《命运石 ..." [level=3] [ref=e141]
+                - generic [ref=e146]:
+                  - generic [ref=e148]: Reddit · r/steinsgate
+                  - generic [ref=e150]: 60+ 条评论 · 2年前
+              - button "关于这条结果的详细信息" [ref=e151] [cursor=pointer]:
+                - img [ref=e154]
+            - generic [ref=e158]:
+              - text: 《命运石之门0 精英版》，备受赞誉的电子
+              - emphasis [ref=e159]: 游戏
+              - text: 《命运石之门精英版》的著名
+              - emphasis [ref=e160]: 续作
+              - text: ！
+        - generic [ref=e171]:
+          - heading "正在搜索 再多想一会儿" [level=2] [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e178]: 正在搜索
+              - generic [ref=e188]: 再多想一会儿
+          - progressbar [ref=e190]
+        - generic [ref=e234]:
+          - heading "网页搜索结果" [level=2] [ref=e235]
+          - generic [ref=e236]:
+            - generic [ref=e239]:
+              - link "法国JRPG《Edge of Memories》新预告 Bilibili https://www.bilibili.com › video" [ref=e241] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1UH2FBcEFH/
+                - heading "法国JRPG《Edge of Memories》新预告" [level=3] [ref=e242]
+                - generic [ref=e247]:
+                  - generic [ref=e249]: Bilibili
+                  - generic [ref=e251]: https://www.bilibili.com › video
+              - button "关于这条结果的详细信息" [ref=e252] [cursor=pointer]:
+                - img [ref=e255]
+            - generic [ref=e258]: App. 类火纹战棋新游《Rise Eterna 2》发售预告| 现已登陆PS5/NS/XBOX/Steam平台. 《最终幻想8重制版》概念宣传片. 12.2万 231. 01:23.
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "MAGES. - 萌娘百科万物皆可萌的百科全书 萌娘百科 https://zh.moegirl.org.cn › MAGES" [ref=e267] [cursor=pointer]:
+              - /url: https://zh.moegirl.org.cn/MAGES.
+              - heading "MAGES. - 萌娘百科万物皆可萌的百科全书" [level=3] [ref=e268]
+              - generic [ref=e270]:
+                - img [ref=e274]
+                - generic [ref=e276]:
+                  - generic [ref=e278]: 萌娘百科
+                  - generic [ref=e280]: https://zh.moegirl.org.cn › MAGES
+            - button "关于这条结果的详细信息" [ref=e281] [cursor=pointer]:
+              - img [ref=e284]
+          - generic [ref=e287]:
+            - generic [ref=e288]: 2025年10月9日 —
+            - generic [ref=e289]:
+              - text: 宣布，为加强品牌塑造，今后将逐步把
+              - emphasis [ref=e290]: 游戏
+              - text: 、音乐方面的品牌“5pb.”更换为“
+              - emphasis [ref=e291]: MAGES
+              - text: .”。 2020年4月3日，成为COLOPL的子公司。 2023年1月4日 ...
+        - generic [ref=e295]:
+          - generic [ref=e298]:
+            - link "MAGE (2026) IGDB.com https://www.igdb.com › games › mage--1" [ref=e300] [cursor=pointer]:
+              - /url: https://www.igdb.com/games/mage--1
+              - heading "MAGE (2026)" [level=3] [ref=e301]
+              - generic [ref=e306]:
+                - generic [ref=e308]: IGDB.com
+                - generic [ref=e310]: https://www.igdb.com › games › mage--1
+            - generic [ref=e311]:
+              - generic [ref=e312]: ·
+              - link "翻译此页" [ref=e313] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.igdb.com/games/mage--1&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e314] [cursor=pointer]:
+              - img [ref=e317]
+          - generic [ref=e321]:
+            - text: An action-packed 2D projectile fighter inspired by controller couch party classics. Players can master one of 21 unique
+            - emphasis [ref=e322]: Mages
+            - text: across over 200 maps with only ...
+        - generic [ref=e326]:
+          - generic [ref=e329]:
+            - link "法式JRPG新游《Edge Of Memories》预告：女主觉醒黑暗力量 ... 360游戏大厅 https://360game.360.cn › article › content" [ref=e331] [cursor=pointer]:
+              - /url: https://360game.360.cn/article/content?id=690c85d7ee62d2463f168109
+              - heading "法式JRPG新游《Edge Of Memories》预告：女主觉醒黑暗力量 ..." [level=3] [ref=e332]
+              - generic [ref=e337]:
+                - generic [ref=e339]: 360游戏大厅
+                - generic [ref=e341]: https://360game.360.cn › article › content
+            - button "关于这条结果的详细信息" [ref=e342] [cursor=pointer]:
+              - img [ref=e345]
+          - generic [ref=e348]:
+            - generic [ref=e349]: 2025年11月6日 —
+            - generic [ref=e350]:
+              - text: 作为2021年发售的《永恒边缘》（
+              - emphasis [ref=e351]: Edge
+              - text: Of Eternity）的精神
+              - emphasis [ref=e352]: 续作
+              - text: ，本作在延续原版世界观的基础上，将继续展开致敬日式RPG文化的宏大叙事。
+              - emphasis [ref=e353]: 游戏
+              - text: 采用实时 ...
+        - generic [ref=e357]:
+          - generic [ref=e360]:
+            - 'link "Ages of Mages: The last keeper Steam https://store.steampowered.com › app › Ages_of_Mages..." [ref=e362] [cursor=pointer]':
+              - /url: https://store.steampowered.com/app/820610/Ages_of_Mages_The_last_keeper/?l=schinese&curator_clanid=28763059
+              - 'heading "Ages of Mages: The last keeper" [level=3] [ref=e363]'
+              - generic [ref=e368]:
+                - generic [ref=e370]: Steam
+                - generic [ref=e372]: https://store.steampowered.com › app › Ages_of_Mages...
+            - button "关于这条结果的详细信息" [ref=e373] [cursor=pointer]:
+              - img [ref=e376]
+          - generic [ref=e380]:
+            - text: 魔法年代：最后守护者(Ages of
+            - emphasis [ref=e381]: Mages
+            - text: ": The last keeper)是一款合家欢的横版射击过关"
+            - emphasis [ref=e382]: 游戏
+            - text: ，让您和您的家人朋友愉快整个周末！ 在唯美的魔幻世界里，四个蠢萌蠢萌的魔法师是 ...
+        - generic [ref=e386]:
+          - generic [ref=e389]:
+            - link "MAGES. 完全新作ADV《岩仓亚里亚》PV Bilibili https://www.bilibili.com › video" [ref=e391] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1gx4y1r7db/
+              - heading "MAGES. 完全新作ADV《岩仓亚里亚》PV" [level=3] [ref=e392]
+              - generic [ref=e397]:
+                - generic [ref=e399]: Bilibili
+                - generic [ref=e401]: https://www.bilibili.com › video
+            - button "关于这条结果的详细信息" [ref=e402] [cursor=pointer]:
+              - img [ref=e405]
+          - generic [ref=e409]:
+            - emphasis [ref=e410]: MAGES. 完全新作ADV《岩仓亚里亚》
+            - text: PV. A9VG. 相关推荐. 查看更多. 《Tokyo Stories》BitSummit 宣传片. 6103 1. 01:15. App. 《Tokyo Stories》BitSummit 宣传片.
+        - generic [ref=e414]:
+          - generic [ref=e417]:
+            - link "漫改ADV《夏日重现》主视觉图公开MAGES.担任开发 Sohu https://www.sohu.com › 搜狐文章页 › 游民星空" [ref=e419] [cursor=pointer]:
+              - /url: https://www.sohu.com/a/582968005_119573
+              - heading "漫改ADV《夏日重现》主视觉图公开MAGES.担任开发" [level=3] [ref=e420]
+              - generic [ref=e425]:
+                - generic [ref=e427]: Sohu
+                - generic [ref=e429]: https://www.sohu.com › 搜狐文章页 › 游民星空
+            - button "关于这条结果的详细信息" [ref=e430] [cursor=pointer]:
+              - img [ref=e433]
+          - generic [ref=e436]:
+            - generic [ref=e437]: 2022年9月6日 —
+            - generic [ref=e438]:
+              - text: 改编自动漫作品《夏日重现》的时间循环主题ADV
+              - emphasis [ref=e439]: 游戏
+              - text: 《夏日重现Another Horizon》正式公开主视觉图。 《夏日重现》是田中靖规于2017年10月23日～2021年2 ...
+        - generic [ref=e443]:
+          - heading "图片" [level=2] [ref=e447]
+          - generic [ref=e451]:
+            - generic [ref=e455] [cursor=pointer]:
+              - link "遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ... Instagram":
+                - /url: https://www.instagram.com/p/DVh194gj6Uf/
+              - button "遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ..." [ref=e457]:
+                - img "遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ..." [ref=e459]
+              - generic [ref=e461]:
+                - generic [ref=e463]: 遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ...
+                - generic [ref=e464]:
+                  - generic [ref=e471]: Instagram
+                  - button "关于这条结果的详细信息" [ref=e474]:
+                    - img [ref=e477]
+            - generic [ref=e482] [cursor=pointer]:
+              - link "知名國民RPG《勇者鬥惡龍》推出全新手機作《勇者鬥惡龍 破限亂鬥》啦！, 這次不走傳統回合制，直接變身超直覺ARPG，單手滑也能爽快打怪。, 你將扮演「龍之翼」傭兵團新人，與神秘機器人「瑪魯」相遇，拿起熟悉的「冒險之書」成為勇者，, 目標就是踏平裂隙、擊倒霸主拯救世界！, 戰鬥採三人小隊，自由切換職業與武器，走位靠搖桿、停下就自動開打，輕鬆又上頭~, ... Instagram":
+                - /url: https://www.instagram.com/reel/DXawi3sDPkW/
+              - button "知名國民RPG《勇者鬥惡龍》推出全新手機作《勇者鬥惡龍 破限亂鬥》啦！, 這次不走傳統回合制，直接變身超直覺ARPG，單手滑也能爽快打怪。, 你將扮演「龍之翼」傭兵團新人，與神秘機器人「瑪魯」相遇，拿起熟悉的「冒險之書」成為勇者，, 目標就是踏平裂隙、擊倒霸主拯救世界！, 戰鬥採三人小隊，自由切換職業與武器，走位靠搖桿、停下就自動開打，輕鬆又上頭~, ..." [ref=e484]:
+                - img "知名國民RPG《勇者鬥惡龍》推出全新手機作《勇者鬥惡龍 破限亂鬥》啦！, 這次不走傳統回合制，直接變身超直覺ARPG，單手滑也能爽快打怪。, 你將扮演「龍之翼」傭兵團新人，與神秘機器人「瑪魯」相遇，拿起熟悉的「冒險之書」成為勇者，, 目標就是踏平裂隙、擊倒霸主拯救世界！, 戰鬥採三人小隊，自由切換職業與武器，走位靠搖桿、停下就自動開打，輕鬆又上頭~, ..." [ref=e486]
+              - generic [ref=e488]:
+                - generic [ref=e490]: 知名國民RPG《勇者鬥惡龍》推出全新手機作《勇者鬥惡龍 破限亂鬥》啦！, 這次不走傳統回合制，直接變身超直覺ARPG，單手滑也能爽快打怪。, 你將扮演「龍之翼」傭兵團新人，與神秘機器人「瑪魯」相遇，拿起熟悉的「冒險之書」成為勇者，, 目標就是踏平裂隙、擊倒霸主拯救世界！, 戰鬥採三人小隊，自由切換職業與武器，走位靠搖桿、停下就自動開打，輕鬆又上頭~, ...
+                - generic [ref=e491]:
+                  - generic [ref=e498]: Instagram
+                  - button "关于这条结果的详细信息" [ref=e501]:
+                    - img [ref=e504]
+            - generic [ref=e509] [cursor=pointer]:
+              - link "遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ... Instagram":
+                - /url: https://www.instagram.com/p/DVh194gj6Uf/
+              - button "遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ..." [ref=e511]:
+                - img "遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ..." [ref=e513]
+              - generic [ref=e515]:
+                - generic [ref=e517]: 遊戲介紹】四人合作的像素風格類魂，備受外國玩家期待很多年了 ...
+                - generic [ref=e518]:
+                  - generic [ref=e525]: Instagram
+                  - button "关于这条结果的详细信息" [ref=e528]:
+                    - img [ref=e531]
+          - button "显示更多图片" [ref=e534] [cursor=pointer]:
+            - separator [ref=e535]
+            - generic [ref=e536]:
+              - generic [ref=e537]: 显示更多图片
+              - img [ref=e539]
+        - generic [ref=e543]:
+          - heading "網頁搜尋結果" [level=2] [ref=e544]
+          - generic [ref=e545]:
+            - generic [ref=e548]:
+              - link "以下是原文引用： 邊緣戰區是一款DOS 橫向捲軸射擊遊戲 Facebook · 骨灰集散地 7条评论 · 3周前" [ref=e550] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/1659118727741582/posts/4503514913301935/
+                - heading "以下是原文引用： 邊緣戰區是一款DOS 橫向捲軸射擊遊戲" [level=3] [ref=e551]
+                - generic [ref=e556]:
+                  - generic [ref=e558]: Facebook · 骨灰集散地
+                  - generic [ref=e560]: 7条评论 · 3周前
+              - button "关于这条结果的详细信息" [ref=e561] [cursor=pointer]:
+                - img [ref=e564]
+            - generic [ref=e568]:
+              - text: 在2013 年的十月，我們得到了
+              - emphasis [ref=e569]: 遊戲
+              - text: 製作人Jimmy 的允許，可以在非營利的條件下，自由散佈邊緣戰區的 原始版本。我們希望各位玩家能和我們一樣喜愛這款遊 戲。
+            - link "来自www.facebook.com的“Emage 游戏 续作”" [ref=e572] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/1659118727741582/posts/4503514913301935/
+              - img "来自www.facebook.com的“Emage 游戏 续作”" [ref=e574]
+      - generic [ref=e576]:
+        - generic [ref=e581]:
+          - heading "用户还搜索了" [level=2] [ref=e583]
+          - generic [ref=e585]:
+            - generic [ref=e586]:
+              - link "5pb" [ref=e590] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=5pb&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ1QJ6BAg3EAE
+                - generic [ref=e591]:
+                  - generic [ref=e596]: 5pb
+                  - img [ref=e600]
+              - link "秋之回忆" [ref=e605] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=%E7%A7%8B%E4%B9%8B%E5%9B%9E%E5%BF%86&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ1QJ6BAg5EAE
+                - generic [ref=e606]:
+                  - generic [ref=e611]: 秋之回忆
+                  - img [ref=e615]
+            - link "秋之回忆10" [ref=e621] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=%E7%A7%8B%E4%B9%8B%E5%9B%9E%E5%BF%8610&sa=X&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ1QJ6BAg4EAE
+              - generic [ref=e622]:
+                - generic [ref=e627]: 秋之回忆10
+                - img [ref=e631]
+        - navigation [ref=e633]:
+          - heading "网页导航" [level=1] [ref=e634]
+          - text: "1"
+          - link "Page 2" [ref=e637] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=10&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=e639] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=20&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=e641] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=30&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=e643] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=40&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=e645] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=50&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=e647] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=60&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAO
+            - text: "7"
+          - link "Page 8" [ref=e649] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=70&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAQ
+            - text: "8"
+          - link "Page 9" [ref=e651] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=80&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAS
+            - text: "9"
+          - link "Page 10" [ref=e653] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=90&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8tMDegQINRAU
+            - text: "10"
+          - heading "下一页" [level=2] [ref=e655]:
+            - link "下一页" [ref=e656] [cursor=pointer]:
+              - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=1HQFasyeL5zLvMcP5dSpyAM&start=10&sa=N&sstk=Af77f_f0jVpmaoZ2YFe4Yn3BE8Ke6VsoV9NEJ81jvMJvTuMK1vgiApWuu19x857B66mrN26MsKfYmp8dyV9Jknge9GG13RpipcUfPA&ved=2ahUKEwjM2M6PnLiUAxWcJe8CHWVqCjkQ8NMDegQINRAW
+              - generic [ref=e658]: 下一页
+      - navigation
+    - contentinfo [ref=e659]:
+      - heading "页脚链接" [level=1] [ref=e660]
+      - generic [ref=e664]:
+        - generic [ref=e668]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e670] [cursor=pointer]:
+            - generic [ref=e671]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e673]:
+              - text: "-"
+              - generic [ref=e674]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e676] [cursor=pointer]: 更新位置信息
+        - generic [ref=e679]:
+          - link "帮助" [ref=e680] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e681] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e682] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e683] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

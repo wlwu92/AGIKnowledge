@@ -1,0 +1,1712 @@
+- generic [active] [ref=e1]:
+  - link "跳转到内容" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "站点" [ref=e6]:
+        - generic "主菜单" [ref=e7]:
+          - button "主菜单" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: 主菜单
+      - link "维基百科 自由的百科全书" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Wikipedia:%E9%A6%96%E9%A1%B5
+        - img [ref=e13]
+        - generic [ref=e14]:
+          - img "维基百科" [ref=e15]
+          - img "自由的百科全书" [ref=e16]
+    - generic [ref=e17]:
+      - search [ref=e18]:
+        - generic [ref=e21]:
+          - searchbox "搜索维基百科" [ref=e24]
+          - button "搜索" [ref=e26]
+      - navigation "个人工具" [ref=e27]:
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - link "资助维基百科" [ref=e33] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh
+          - listitem [ref=e34]:
+            - link "创建账号" [ref=e35] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&returntoquery=variant%3Dzh-cn
+          - listitem [ref=e36]:
+            - link "登录" [ref=e37] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&returntoquery=variant%3Dzh-cn
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - generic [ref=e44]:
+        - text: 中文维基百科
+        - link "Facebook粉丝专页" [ref=e45] [cursor=pointer]:
+          - /url: https://www.facebook.com/zhwikipedia
+        - text: 正式上线，邀请大家一同关注。
+      - button "关闭" [ref=e46]
+    - navigation "目录" [ref=e49]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "目录" [level=2] [ref=e53]
+          - button "隐藏" [ref=e54] [cursor=pointer]
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - link "序言" [ref=e57] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e58]: 序言
+          - listitem [ref=e59]:
+            - link "游戏系统" [ref=e60] [cursor=pointer]:
+              - /url: "#遊戲系統"
+              - generic [ref=e61]: 游戏系统
+            - list
+          - listitem [ref=e62]:
+            - link "故事简介" [ref=e63] [cursor=pointer]:
+              - /url: "#故事簡介"
+              - generic [ref=e64]: 故事简介
+            - list
+          - listitem [ref=e65]:
+            - link "登场角色" [ref=e66] [cursor=pointer]:
+              - /url: "#登場角色"
+              - generic [ref=e67]: 登场角色
+            - list
+          - listitem [ref=e68]:
+            - link "开发" [ref=e69] [cursor=pointer]:
+              - /url: "#開發"
+              - generic [ref=e70]: 开发
+            - list
+          - listitem [ref=e71]:
+            - link "发行" [ref=e72] [cursor=pointer]:
+              - /url: "#發行"
+              - generic [ref=e73]: 发行
+            - list
+          - listitem [ref=e74]:
+            - link "评价" [ref=e75] [cursor=pointer]:
+              - /url: "#評價"
+              - generic [ref=e76]: 评价
+            - list
+          - listitem [ref=e77]:
+            - link "备注" [ref=e78] [cursor=pointer]:
+              - /url: "#備註"
+              - generic [ref=e79]: 备注
+            - list
+          - listitem [ref=e80]:
+            - link "参考资料" [ref=e81] [cursor=pointer]:
+              - /url: "#參考資料"
+              - generic [ref=e82]: 参考资料
+            - list
+          - listitem [ref=e83]:
+            - link "外部链接" [ref=e84] [cursor=pointer]:
+              - /url: "#外部連結"
+              - generic [ref=e85]: 外部链接
+            - list
+    - main [ref=e87]:
+      - generic [ref=e88]:
+        - heading "海沙风云[编辑]" [level=1] [ref=e89]:
+          - generic [ref=e90]: 海沙风云
+          - generic [ref=e91]:
+            - text: "["
+            - link "编辑" [ref=e92] [cursor=pointer]:
+              - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=0&summary=/*%20top%20*/%20
+            - text: "]"
+        - generic [ref=e93]:
+          - button "这篇条目只在此语言可用。请添加该条目的其他语言版本" [ref=e94] [cursor=pointer]
+          - generic [ref=e97]: 添加语言
+      - generic [ref=e99]:
+        - navigation "命名空间" [ref=e101]:
+          - generic [ref=e102]:
+            - generic:
+              - list:
+                - listitem [ref=e103]:
+                  - link "条目" [ref=e104] [cursor=pointer]:
+                    - /url: /wiki/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                    - generic [ref=e105]: 条目
+                - listitem [ref=e106]:
+                  - link "讨论" [ref=e107] [cursor=pointer]:
+                    - /url: /wiki/Talk:%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                    - generic [ref=e108]: 讨论
+                - listitem [ref=e109]:
+                  - link "汉漢" [ref=e110] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e111]: 汉漢
+          - generic [ref=e112]:
+            - button "更改语言变体" [ref=e113] [cursor=pointer]
+            - generic [ref=e115] [cursor=pointer]: 大陆简体
+        - generic [ref=e116]:
+          - navigation "查看" [ref=e117]:
+            - generic [ref=e118]:
+              - generic:
+                - list:
+                  - listitem [ref=e119]:
+                    - link "阅读" [ref=e120] [cursor=pointer]:
+                      - /url: /wiki/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                      - generic [ref=e121]: 阅读
+                  - listitem [ref=e122]:
+                    - link "编辑" [ref=e123] [cursor=pointer]:
+                      - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&variant=zh-cn
+                      - generic [ref=e124]: 编辑
+                  - listitem [ref=e125]:
+                    - link "查看历史" [ref=e126] [cursor=pointer]:
+                      - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=history
+                      - generic [ref=e127]: 查看历史
+          - navigation "页面工具" [ref=e128]:
+            - generic [ref=e129]:
+              - button "工具" [ref=e130] [cursor=pointer]
+              - generic [ref=e132] [cursor=pointer]: 工具
+      - navigation "外观" [ref=e135]:
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: 外观
+            - button "隐藏" [ref=e140] [cursor=pointer]
+          - generic [ref=e141]:
+            - generic [ref=e142]: 文本
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - generic [ref=e147]:
+                  - generic [ref=e148]:
+                    - radio "小" [ref=e149]
+                    - generic [ref=e152]: 小
+                  - generic [ref=e153]:
+                    - radio "标准" [checked] [ref=e154]
+                    - generic [ref=e157]: 标准
+                  - generic [ref=e158]:
+                    - radio "大" [ref=e159]
+                    - generic [ref=e162]: 大
+          - generic [ref=e163]:
+            - generic [ref=e164]: 宽度
+            - list [ref=e166]:
+              - listitem [ref=e167]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - radio "标准" [checked] [ref=e171]
+                    - generic [ref=e174]: 标准
+                  - generic [ref=e175]:
+                    - radio "宽" [ref=e176]
+                    - generic [ref=e179]: 宽
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - text: 颜色
+              - generic [ref=e182]: （测试版）
+            - list [ref=e184]:
+              - listitem [ref=e185]:
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - radio "自动" [ref=e189]
+                    - generic [ref=e192]: 自动
+                  - generic [ref=e193]:
+                    - radio "浅色" [checked] [ref=e194]
+                    - generic [ref=e197]: 浅色
+                  - generic [ref=e198]:
+                    - radio "深色" [ref=e199]
+                    - generic [ref=e202]: 深色
+      - generic "海沙风云[编辑]" [ref=e203]:
+        - generic [ref=e205]: 维基百科，自由的百科全书
+        - generic [ref=e207]:
+          - table [ref=e208]:
+            - rowgroup [ref=e209]:
+              - row "海沙风云" [ref=e210]:
+                - columnheader "海沙风云" [ref=e211]
+              - row "游戏封面" [ref=e212]:
+                - cell "游戏封面" [ref=e213]:
+                  - link [ref=e215] [cursor=pointer]:
+                    - /url: /wiki/File:Far_Away_game_cover.jpg
+                    - img [ref=e216]
+                  - generic [ref=e217]: 游戏封面
+              - row "类型 文字冒险" [ref=e218]:
+                - rowheader "类型" [ref=e219]:
+                  - link "类型" [ref=e220] [cursor=pointer]:
+                    - /url: /wiki/%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E7%B1%BB%E5%9E%8B
+                - cell "文字冒险" [ref=e221]:
+                  - link "文字冒险" [ref=e222] [cursor=pointer]:
+                    - /url: /wiki/%E6%96%87%E5%AD%97%E5%86%92%E9%9A%AA%E9%81%8A%E6%88%B2
+              - row "平台 Windows 10" [ref=e223]:
+                - rowheader "平台" [ref=e224]:
+                  - link "平台" [ref=e225] [cursor=pointer]:
+                    - /url: /wiki/%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0
+                - cell "Windows 10" [ref=e226]:
+                  - link "Windows 10" [ref=e228] [cursor=pointer]:
+                    - /url: /wiki/Windows_10
+              - row "开发商 异美工作室" [ref=e229]:
+                - rowheader "开发商" [ref=e230]:
+                  - link "开发商" [ref=e231] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E8%80%85
+                - cell "异美工作室" [ref=e232]
+              - row "发行商 热脉游戏、心动公司、异美工作室" [ref=e233]:
+                - rowheader "发行商" [ref=e234]:
+                  - link "发行商" [ref=e235] [cursor=pointer]:
+                    - /url: /wiki/%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2%E7%99%BC%E8%A1%8C%E5%95%86
+                - cell "热脉游戏、心动公司、异美工作室" [ref=e236]:
+                  - link "热脉游戏" [ref=e237] [cursor=pointer]:
+                    - /url: /wiki/%E7%83%AD%E8%84%89%E6%B8%B8%E6%88%8F
+                  - text: 、
+                  - link "心动公司" [ref=e238] [cursor=pointer]:
+                    - /url: /wiki/%E5%BF%83%E5%8A%A8%E5%85%AC%E5%8F%B8
+                  - text: 、异美工作室
+              - row "制作人 HJL_Misaki（二型米稻）" [ref=e239]:
+                - rowheader "制作人" [ref=e240]:
+                  - link "制作人" [ref=e241] [cursor=pointer]:
+                    - /url: /wiki/%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2%E8%A3%BD%E4%BD%9C%E4%BA%BA
+                - cell "HJL_Misaki（二型米稻）" [ref=e242]
+              - row "编剧 云卷语文书、圈十、珈珞、挂在墙上晃着" [ref=e243]:
+                - rowheader "编剧" [ref=e244]
+                - cell "云卷语文书、圈十、珈珞、挂在墙上晃着" [ref=e245]
+              - row "程序 Misata（米莎塔）" [ref=e246]:
+                - rowheader "程序" [ref=e247]:
+                  - link "程序" [ref=e248] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%88%8F%E7%A8%8B%E5%BA%8F%E5%B8%88
+                - cell "Misata（米莎塔）" [ref=e249]
+              - row "美术 核燃黑猫、Sam Ashton" [ref=e250]:
+                - rowheader "美术" [ref=e251]:
+                  - link "美术" [ref=e252] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%88%8F%E7%BE%8E%E5%B7%A5
+                - cell "核燃黑猫、Sam Ashton" [ref=e253]:
+                  - link "核燃黑猫" [ref=e254] [cursor=pointer]:
+                    - /url: /w/index.php?title=%E6%A0%B8%E7%87%83%E9%BB%91%E7%8C%AB&action=edit&redlink=1
+                  - text: 、Sam Ashton
+              - row "音乐 EMAGE" [ref=e255]:
+                - rowheader "音乐" [ref=e256]
+                - cell "EMAGE" [ref=e257]
+              - row "引擎 Unity" [ref=e258]:
+                - rowheader "引擎" [ref=e259]:
+                  - link "引擎" [ref=e260] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E
+                - cell "Unity" [ref=e261]:
+                  - link "Unity" [ref=e262] [cursor=pointer]:
+                    - /url: /wiki/Unity_(%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E)
+              - row "模式 单人" [ref=e263]:
+                - rowheader "模式" [ref=e264]
+                - cell "单人" [ref=e265]:
+                  - link "单人" [ref=e266] [cursor=pointer]:
+                    - /url: /wiki/%E5%8D%95%E4%BA%BA%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+              - row "发行日 2021年8月18日" [ref=e267]:
+                - rowheader "发行日" [ref=e268]
+                - cell "2021年8月18日" [ref=e269]
+          - paragraph [ref=e270]:
+            - text: 《海沙风云》是中国异美工作室（旧名红茶Games
+            - superscript [ref=e271]:
+              - link "[注 1]" [ref=e272] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - text: ）制作的一款
+            - link "文字冒险游戏" [ref=e273] [cursor=pointer]:
+              - /url: /wiki/%E6%96%87%E5%AD%97%E5%86%92%E9%9A%AA%E9%81%8A%E6%88%B2
+            - text: ，游戏于2021年8月18日在
+            - link "Steam" [ref=e274] [cursor=pointer]:
+              - /url: /wiki/Steam
+            - text: 发行
+            - superscript [ref=e275]:
+              - link "[2]" [ref=e276] [cursor=pointer]:
+                - /url: "#cite_note-Steam01-3"
+            - text: 。本作是异美工作室的第一款作品，未来预计会登陆
+            - link "iOS" [ref=e277] [cursor=pointer]:
+              - /url: /wiki/IOS
+            - text: 和
+            - link "安卓" [ref=e278] [cursor=pointer]:
+              - /url: /wiki/%E5%AE%89%E5%8D%93
+            - text: 平台。
+          - generic [ref=e279]:
+            - heading "游戏系统" [level=2] [ref=e280]: 游戏系统
+            - generic [ref=e281]:
+              - text: "["
+              - link "编辑" [ref=e282] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=1
+              - text: "]"
+          - figure "游戏的百科系统" [ref=e283]:
+            - link [ref=e284] [cursor=pointer]:
+              - /url: /wiki/File:Far_Away_encyclopedia_system.png
+              - img [ref=e285]
+            - generic [ref=e286]: 游戏的百科系统
+          - paragraph [ref=e287]:
+            - text: 《海沙风云》采取
+            - link "文字冒险" [ref=e288] [cursor=pointer]:
+              - /url: /wiki/%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9
+            - text: 的游玩方式，
+            - link "玩家" [ref=e289] [cursor=pointer]:
+              - /url: /wiki/%E7%8E%A9%E5%AE%B6
+            - text: 所扮演的是本作的女主角柯罗莎·诺奈特，大部分的剧情玩家会以柯罗莎·诺奈特的视角进行游戏，部分剧情会切换为其他角色的视角，玩家能看到所处视角下，角色的内心
+            - link "独白" [ref=e290] [cursor=pointer]:
+              - /url: /wiki/%E7%8B%AC%E7%99%BD
+            - text: 。玩家游玩时，需要阅览屏幕上所显示的文本以了解故事情节和人物之间的
+            - link "对话" [ref=e291] [cursor=pointer]:
+              - /url: /wiki/%E5%B0%8D%E8%A9%B1
+            - text: 。这些文字会与人物的立绘和背景一同出现，用于表示对话的对象。对话对象的立绘会随着对话进行而变化，根据对话的内容做出不同动作或表情，如脸红，惊愕，皱眉等。其中女主角在不同剧情支线中担任各类职业，其立绘的服饰也随之改变。在部分场景中会遇见代替背景和人物立绘的
+            - link "电脑图像" [ref=e292] [cursor=pointer]:
+              - /url: /wiki/%E9%9B%BB%E8%85%A6%E5%9C%96%E5%83%8F
+            - text: 。游戏中会在默认的段落中出现行为选项供玩家选择，对话框的下一段文本在做出选择前并不能够显示。游戏中除了序章玩家视角的某个角色外，其余角色对白皆有
+            - link "粤语" [ref=e293] [cursor=pointer]:
+              - /url: /wiki/%E7%B2%B5%E8%AA%9E
+            - text: 语音。粤语语音和游戏文本内容存在差异，不完全重合
+            - superscript [ref=e294]:
+              - link "[3]" [ref=e295] [cursor=pointer]:
+                - /url: "#cite_note-game-4"
+            - text: 。
+          - paragraph [ref=e296]:
+            - text: 游戏中有九个主线剧情，十六个分支剧情，每个结局都有所不同，女主角进入哪一个主线基于玩家在游玩过程中作出的选择
+            - superscript [ref=e297]:
+              - link "[3]" [ref=e298] [cursor=pointer]:
+                - /url: "#cite_note-game-4"
+            - text: 。游戏内置有流程图方便玩家攻略不同的支线。游戏的关键选择，可以根据之前对话轻松推测，而且制作组有将部分关键信息特别红色标注，方便玩家推理
+            - superscript [ref=e299]:
+              - link "[4]" [ref=e300] [cursor=pointer]:
+                - /url: "#cite_note-tgbus01-5"
+            - text: 。游戏中亦设有人物关系图和百科，玩家每次遇到新角色和新的概念与典故，人物关系图和百科都会更新资料，帮助玩家了解故事的世界观
+            - superscript [ref=e301]:
+              - link "[3]" [ref=e302] [cursor=pointer]:
+                - /url: "#cite_note-game-4"
+            - text: 。游戏中同时存在不少女主角死亡的坏结局，触发坏结局可以解锁在鉴赏模式的小剧场，小剧场是关于一些主要主角在主线外发生的故事
+            - superscript [ref=e303]:
+              - link "[5]" [ref=e304] [cursor=pointer]:
+                - /url: "#cite_note-udn01-6"
+            - text: 。
+          - generic [ref=e305]:
+            - heading "故事简介" [level=2] [ref=e306]: 故事简介
+            - generic [ref=e307]:
+              - text: "["
+              - link "编辑" [ref=e308] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=2
+              - text: "]"
+          - paragraph [ref=e309]:
+            - text: 位于科尔赛斯大陆西南角的贝让港，面朝大海，背靠坎特里卡大沙漠，是数条航线的重要节点。贝让被誉为“海与沙之都”，为
+            - link "永久中立国" [ref=e310] [cursor=pointer]:
+              - /url: /wiki/%E6%B0%B8%E4%B9%85%E4%B8%AD%E7%AB%8B%E5%9C%8B
+            - text: 不设有
+            - link "军队" [ref=e311] [cursor=pointer]:
+              - /url: /wiki/%E8%BB%8D%E9%9A%8A
+            - text: ，仅以
+            - link "警察" [ref=e312] [cursor=pointer]:
+              - /url: /wiki/%E8%AD%A6%E5%AF%9F
+            - text: 维持城市治安，在三十年前的经历过一场席卷整座城市的“海盗战争”。战后，战时市民组成的自卫团改组为帮派“卡勒瓦”，政府重建市政厅。战争大幅削弱了政府的管治能力，新成立的卡勒瓦更威胁到市政厅的威信，两者明争暗斗了二十多年。九年前警察对卡勒瓦发起大围剿，警队逮捕了卡勒瓦首领同时也遭到重创，卡勒瓦群龙无首下分裂成大量帮派，其中最大的两派为恩佐派和沃尔夫派，围剿行动之后贝让的治安反而越发糟糕
+            - superscript [ref=e313]:
+              - link "[3]" [ref=e314] [cursor=pointer]:
+                - /url: "#cite_note-game-4"
+            - text: 。
+          - paragraph [ref=e315]:
+            - text: 再渡过九年相对平静的时光，一个新的阴谋在贝让酝酿。柯罗莎·诺奈特是贝让港码头的一个搬运工，生活平淡又简单。某天遇上警察在码头的缉捕行动，让柯罗莎接触到不一样的世界并萌生出改变现有生活的念头。随着玩家的选择，柯罗莎开始离开码头，或选择去新城区做服务员，或选择成为警察，或选择加入黑帮等等
+            - superscript [ref=e316]:
+              - link "[6]" [ref=e317] [cursor=pointer]:
+                - /url: "#cite_note-gamer01-7"
+            - text: 。在商队路线中，柯罗莎会加入阿瓦的商队横跨沙漠。在警察、侦探、黑帮和间谍路线，柯罗莎会以不同身份慢慢了解到恩佐派颠覆贝让政府的阴谋，并得知有不明的境外势力渗透贝让，在这些路线中柯罗莎可以选择支持恩佐派的政变融入新秩序，反之会在事后以不同原因离开贝让。在真结局砂之女线中，加入沃尔夫派的柯罗莎在决战中逃到了沙漠，加入了阿瓦的商队离开贝让。四年后，柯罗莎回到了变成大国战争前线的贝让，在崔希丝的邀请下展开新的旅途
+            - superscript [ref=e318]:
+              - link "[3]" [ref=e319] [cursor=pointer]:
+                - /url: "#cite_note-game-4"
+            - text: 。
+          - generic [ref=e320]:
+            - heading "登场角色" [level=2] [ref=e321]: 登场角色
+            - generic [ref=e322]:
+              - text: "["
+              - link "编辑" [ref=e323] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=3
+              - text: "]"
+          - generic [ref=e324]:
+            - term [ref=e325]:
+              - text: 柯罗莎·诺奈特（英语：Krosa Noent
+              - superscript [ref=e326]:
+                - link "[2]" [ref=e327] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：尾狐殿）
+            - definition [ref=e328]:
+              - text: 故事
+              - link "主人公" [ref=e329] [cursor=pointer]:
+                - /url: /wiki/%E4%B8%BB%E4%BA%BA%E5%85%AC
+              - text: ，
+              - link "红发" [ref=e330] [cursor=pointer]:
+                - /url: /wiki/%E7%B4%85%E9%AB%AE
+              - text: 少女，是贝让的旧码头搬运工。自幼丧父，承继父业在旧码头工作。柯罗莎平日由父亲的好友布莱恩帮忙看照，为人富有正义感且乐于助人。在某次码头骚动后萌生改变现有生活的念头。
+            - term [ref=e331]:
+              - text: 阿瓦·纳尔巴（英语：Ava Narba
+              - superscript [ref=e332]:
+                - link "[2]" [ref=e333] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：傻莓酱）
+            - definition [ref=e334]: 大沙漠商人民族纳尔巴人的后裔，向往先祖的经历，想组建商队冒险的金发少女。通晓各类杂学，富有冒险精神，在不同城市中寻找机遇。在某些路线中途径贝让结识柯罗莎，并邀请其加入商队。
+            - term [ref=e335]:
+              - text: 恩佐·肯特（英语：Enzo Kent
+              - superscript [ref=e336]:
+                - link "[2]" [ref=e337] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：紫丞少）
+            - definition [ref=e338]: 贝让黑帮“卡勒瓦”的现任会长，和其他派系敌对。平日打扮温文尔雅，做事果断狠辣。故事中策划统一贝让地下世界。
+            - term [ref=e339]:
+              - text: 莉卡·沃尔夫（英语：Lica Wolf
+              - superscript [ref=e340]:
+                - link "[2]" [ref=e341] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：师欣）
+            - definition [ref=e342]: 贝让黑帮“沃尔夫”的小头目，出身自遥远的东方。战力超群，被其他帮派称为“妖女”。为人爽朗，喜欢路见不平，在某些路线中帮助了柯罗莎解决麻烦。
+            - term [ref=e343]:
+              - text: 德里克·盖恩（英语：Dirk Gein
+              - superscript [ref=e344]:
+                - link "[2]" [ref=e345] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：Kenz）
+            - definition [ref=e346]:
+              - text: 从属卡勒瓦的冷血
+              - link "杀手" [ref=e347] [cursor=pointer]:
+                - /url: /wiki/%E6%AE%BA%E6%89%8B
+              - text: ，沉迷杀戮的快感，热衷参与暗杀等工作。
+            - term [ref=e348]:
+              - text: 埃勒里·拉德（英语：Ellery Rath
+              - superscript [ref=e349]:
+                - link "[2]" [ref=e350] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：妖女）
+            - definition [ref=e351]:
+              - text: 贝让的私家侦探，出身于贝让邻国斯塔米诺。
+              - link "退伍军人" [ref=e352] [cursor=pointer]:
+                - /url: /wiki/%E9%80%80%E4%BC%8D%E8%BB%8D%E4%BA%BA
+              - text: ，在战争中失去右腿而使用
+              - link "义肢" [ref=e353] [cursor=pointer]:
+                - /url: /wiki/%E7%BE%A9%E8%82%A2
+              - text: 。和贝让警局的贝里克是故友，经常帮助警局查案。在某些路线中柯罗莎成为他的助手。
+            - term [ref=e354]:
+              - text: 米勒·杨（英语：Miller Yang
+              - superscript [ref=e355]:
+                - link "[2]" [ref=e356] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：阿戈依奥）
+            - definition [ref=e357]:
+              - text: 贝让警局的新晋警察，出身富商之家。充满正义感，不顾父亲反对入读警校，希望让贝让恢复正常。平日喜欢品尝各地美食。在某些路线中帮助柯罗莎成为
+              - link "协警" [ref=e358] [cursor=pointer]:
+                - /url: /wiki/%E5%8D%8F%E8%AD%A6
+              - text: 。
+            - term [ref=e359]:
+              - text: 泰特·伊文斯（英语：Tate Evans
+              - superscript [ref=e360]:
+                - link "[2]" [ref=e361] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：Geass）
+            - definition [ref=e362]: 贝让知名的新晋自由记者，拥有敏锐的新闻嗅觉。为了获得大新闻经常不择手段。在某些路线中柯罗莎成为其助手。
+            - term [ref=e363]:
+              - text: 崔希丝·哈丽（英语：Tracys
+              - superscript [ref=e364]:
+                - link "[2]" [ref=e365] [cursor=pointer]:
+                  - /url: "#cite_note-Steam01-3"
+              - text: ，声：岚风蜂蜜绿茶）
+            - definition [ref=e366]: 柯罗莎在码头骚动中遇到的女子，自称“淑女”。做事随性，实则心思细密。
+          - generic [ref=e367]:
+            - heading "开发" [level=2] [ref=e368]: 开发
+            - generic [ref=e369]:
+              - text: "["
+              - link "编辑" [ref=e370] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=4
+              - text: "]"
+          - figure "游戏的莉卡初稿，已经抛弃的龙司人设[7]" [ref=e371]:
+            - link [ref=e372] [cursor=pointer]:
+              - /url: /wiki/File:Far_Away_character_draft.jpg
+              - img [ref=e373]
+            - generic [ref=e374]:
+              - text: 游戏的莉卡初稿，已经抛弃的龙司人设
+              - superscript [ref=e375]:
+                - link "[7]" [ref=e376] [cursor=pointer]:
+                  - /url: "#cite_note-gamersky01-8"
+          - paragraph [ref=e377]:
+            - text: 制作人HJL_Misaki过去是同人社团“二维镜像”的成员，同时是制作游戏宣传视频的公司“二维镜像”的创始人之一
+            - superscript [ref=e378]:
+              - link "[8]" [ref=e379] [cursor=pointer]:
+                - /url: "#cite_note-vgtime01-9"
+            - text: 。在“二维镜像”制作视频期间，HJL_Misaki希望在作品中结合优秀的故事和丰富的演出，但是受限于视频的表达形式，内容传达只能比较隐晦和概念。为了更好表达想法和情感，HJL_Misaki决定制作一款
+            - link "冒险游戏" [ref=e380] [cursor=pointer]:
+              - /url: /wiki/%E5%86%92%E9%9A%AA%E9%81%8A%E6%88%B2
+            - superscript [ref=e381]:
+              - link "[9]" [ref=e382] [cursor=pointer]:
+                - /url: "#cite_note-yys01-10"
+            - text: 。此前HJL_Misaki没有创作游戏的经验，选择创作冒险游戏是因为这种类型技术要求较低，他本人又擅长剧情演绎和视听表现，所以自信能驾驭好这类游戏。2019年5月HJL_Misaki开始创作游戏，三个月后他感觉“一个人创作实在太孤独、太操蛋了”，决定创立红茶Games（现名异美工作室）。HJL_Misaki利用自己的人脉和过去同人社团的关系组建了红茶Games，团队有十二人，只有他一人全职，其他人均为业余兼任
+            - superscript [ref=e383]:
+              - link "[10]" [ref=e384] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: ，在业余时间在线和HJL_Misaki进行游戏的创作
+            - superscript [ref=e385]:
+              - link "[11]" [ref=e386] [cursor=pointer]:
+                - /url: "#cite_note-gameres01-12"
+            - text: 。团队中只有负责美术的Sam Ashton、负责程序的Misata和负责音乐的Zris三人过去有制作游戏的经验
+            - superscript [ref=e387]:
+              - link "[10]" [ref=e388] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。作品的主美由
+            - link "漫画家" [ref=e389] [cursor=pointer]:
+              - /url: /wiki/%E6%BC%AB%E7%95%AB%E5%AE%B6
+            - text: 核燃黑猫担当，核燃黑猫过去是HJL_Misaki在“二维镜像”的引路人，两人为好友，在HJL_Misaki邀请下加入了制作组，并引荐了Sam Ashton等人加入
+            - superscript [ref=e390]:
+              - link "[12]" [ref=e391] [cursor=pointer]:
+                - /url: "#cite_note-gameres02-13"
+            - text: 。最后游戏的核心创作团队在2019年9月建立了起来
+            - superscript [ref=e392]:
+              - link "[13]" [ref=e393] [cursor=pointer]:
+                - /url: "#cite_note-modian01-14"
+            - text: 。HJL_Misaki负责项目的制作方向，具体设计交由成员自由发挥，结果创作超出了HJL_Misaki认知的内容
+            - superscript [ref=e394]:
+              - link "[10]" [ref=e395] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。《海沙风云》定位是“硬派王道向”
+            - superscript [ref=e396]:
+              - link "[9]" [ref=e397] [cursor=pointer]:
+                - /url: "#cite_note-yys01-10"
+            - text: ，一反国内冒险游戏以恋爱为主的潮流，打算设计出堪比香港警匪片的奇妙冒险
+            - superscript [ref=e398]:
+              - link "[14]" [ref=e399] [cursor=pointer]:
+                - /url: "#cite_note-17173-01-15"
+            - text: 。原来HJL_Misaki构思中《海沙风云》的所有角色都是男性，以对应作品的定位，在团队的强烈要求下，大部分角色，包括主角都改为女性
+            - superscript [ref=e400]:
+              - link "[10]" [ref=e401] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。此外游戏中的角色蒂姆一开始并没有设计为主要角色，由于负责人物原画的Sam Ashton在设计角色时的良好发挥，剧本在看到原画后决定为蒂姆新增剧情。各类新的创意，让原来计划三十万字的文本，作品完成时文本量变成了五十多万字
+            - superscript [ref=e402]:
+              - link "[12]" [ref=e403] [cursor=pointer]:
+                - /url: "#cite_note-gameres02-13"
+            - text: 。游戏的UI设计负责人谣过去没有相关经验，根据HJL_Misaki提供的几个关键（体积感、新古典主义）进行创作，最后的成品别具特色，和其他冒险游戏有鲜明区别
+            - superscript [ref=e404]:
+              - link "[10]" [ref=e405] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。
+          - paragraph [ref=e406]:
+            - text: 游戏剧本由云卷语文书、圈十、珈珞和日光负责，其中云卷语文书为主笔，除了商人线和记者线，其他线路都有参与，还包括小剧场的剧情编写
+            - superscript [ref=e407]:
+              - link "[15]" [ref=e408] [cursor=pointer]:
+                - /url: "#cite_note-weibo04-16"
+            - text: 。他们是中国国内
+            - link "东方Project" [ref=e409] [cursor=pointer]:
+              - /url: /wiki/%E6%9D%B1%E6%96%B9Project
+            - text: 同人圈出名的同人作家
+            - superscript [ref=e410]:
+              - link "[7]" [ref=e411] [cursor=pointer]:
+                - /url: "#cite_note-gamersky01-8"
+            - text: 。故事的大纲由HJL_Misaki编写，他有参考电影编剧
+            - link "布莱克·斯奈德" [ref=e414] [cursor=pointer]:
+              - /url: /w/index.php?title=%E5%B8%83%E8%90%8A%E5%85%8B%C2%B7%E6%96%AF%E5%A5%88%E5%BE%B7&action=edit&redlink=1
+            - text: 的“剧情节拍表”，以这种电影制作的工业化标准来控制剧本节奏，设计九条主线，十六个结局和各类选项，并控制每条故事线长度为现在电影1小时30分到2小时30分的长度，最后将大纲转交云卷语文书负责创作文本
+            - superscript [ref=e415]:
+              - link "[7]" [ref=e416] [cursor=pointer]:
+                - /url: "#cite_note-gamersky01-8"
+            - text: 。游戏演出方面，为了增加玩家沉浸感，制作团队给角色站位设计了近、中、远三种景别，每个角色有多个表情变化（主角有三四十种表情），不同场景都有仔细考虑角色站位和镜头运动，为此他们的内部交流文本量超过三百万字
+            - superscript [ref=e417]:
+              - link "[10]" [ref=e418] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。早期制作团队因为成本问题
+            - superscript [ref=e419]:
+              - link "[11]" [ref=e420] [cursor=pointer]:
+                - /url: "#cite_note-gameres01-12"
+            - text: 和不固化角色的性格选择不使用
+            - link "配音" [ref=e421] [cursor=pointer]:
+              - /url: /wiki/%E9%85%8D%E9%9F%B3
+            - superscript [ref=e422]:
+              - link "[10]" [ref=e423] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: ，后期考虑到作品定位是硬派港式剧情和作品二次元的美术风格之间可能割裂感，使用粤语配音配，可以让玩家代入到硬派港式剧本中。同时市面上也几乎没有粤语为主的游戏佳作，配音组和HJL_Misaki也希望借《海沙风云》尝试改变这个局面
+            - superscript [ref=e424]:
+              - link "[7]" [ref=e425] [cursor=pointer]:
+                - /url: "#cite_note-gamersky01-8"
+            - text: 。RCVO粤语配音组和圆动力粤配联盟在三个月时间，组织三十一名
+            - link "配音员" [ref=e426] [cursor=pointer]:
+              - /url: /wiki/%E9%85%8D%E9%9F%B3%E5%93%A1
+            - text: 完成作品的配音工作，其中还分出一批人将剧本改成粤语剧本
+            - superscript [ref=e427]:
+              - link "[16]" [ref=e428] [cursor=pointer]:
+                - /url: "#cite_note-weibo03-17"
+            - text: 。配音组在工期紧张的情况下产出了两万六千多个音频，而且绝大部分的音频都无需修改，创作团队只需对文本进行微调即可
+            - superscript [ref=e429]:
+              - link "[7]" [ref=e430] [cursor=pointer]:
+                - /url: "#cite_note-gamersky01-8"
+            - text: 。
+          - paragraph [ref=e431]:
+            - text: 2020年10月中旬HJL_Misaki正式召集成员在
+            - link "成都" [ref=e432] [cursor=pointer]:
+              - /url: /wiki/%E6%88%90%E9%83%BD
+            - text: 集合，以加快游戏的开发
+            - superscript [ref=e433]:
+              - link "[12]" [ref=e434] [cursor=pointer]:
+                - /url: "#cite_note-gameres02-13"
+            - text: ，这个时期游戏的完成度已经接近90%
+            - superscript [ref=e435]:
+              - link "[10]" [ref=e436] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。制作团队也很重视游戏完整性，他们为了玩家有更好的游戏体验，不断优化和打磨游戏内容，如为了更好地管理音频资料，确保游戏的整体呈现，团队整理了一套基于整个游戏涉及向度、音量、压缩模式等等的音频管理标准
+            - superscript [ref=e437]:
+              - link "[7]" [ref=e438] [cursor=pointer]:
+                - /url: "#cite_note-gamersky01-8"
+            - text: 。制作团队原计划在游戏中内置三个小游戏，由于工期所限最后作废
+            - superscript [ref=e439]:
+              - link "[17]" [ref=e440] [cursor=pointer]:
+                - /url: "#cite_note-ali2130-1-18"
+            - text: 。
+          - generic [ref=e441]:
+            - heading "发行" [level=2] [ref=e442]: 发行
+            - generic [ref=e443]:
+              - text: "["
+              - link "编辑" [ref=e444] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=5
+              - text: "]"
+          - table [ref=e445]:
+            - rowgroup [ref=e446]:
+              - row "外部视频链接" [ref=e447]:
+                - columnheader "外部视频链接" [ref=e448]
+              - row "视频 《海沙风云》预告片" [ref=e449]:
+                - cell "视频 《海沙风云》预告片" [ref=e450]:
+                  - img "视频" [ref=e453]
+                  - link "《海沙风云》预告片" [ref=e454] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=6pcFPEbVfr0
+          - paragraph [ref=e455]:
+            - text: 2020年2月19日，异美工作室在
+            - link "众筹" [ref=e456] [cursor=pointer]:
+              - /url: /wiki/%E7%9C%BE%E7%B1%8C
+            - text: 网站
+            - link "摩点" [ref=e457] [cursor=pointer]:
+              - /url: /wiki/%E6%91%A9%E7%82%B9%E6%96%87%E5%A8%B1
+            - text: 发布《海沙风云》企画的相关细节，包括一些概念图和角色简介
+            - superscript [ref=e458]:
+              - link "[13]" [ref=e459] [cursor=pointer]:
+                - /url: "#cite_note-modian01-14"
+            - text: 。异美工作室原打算以众筹获得更多资金支持，不过在发布三个月后，
+            - link "心动" [ref=e460] [cursor=pointer]:
+              - /url: /wiki/%E5%BF%83%E5%8A%A8%E5%85%AC%E5%8F%B8
+            - text: 就主动向异美工作室提出合作。心动在发行和宣发方面给与制作团队很多帮助，让没有发行经验的他们少走了弯路。当时异美工作室还没制作出游戏
+            - link "Demo" [ref=e461] [cursor=pointer]:
+              - /url: /wiki/%E6%B8%B8%E6%88%8F%E6%BC%94%E7%A4%BA
+            - text: ，是制作团队的成员HJL_Misaki和核燃黑猫过去在二次元领域有过不错的作品，让心动对还未成型的《海沙风云》拥有信心，所以决定获取作品的发行权
+            - superscript [ref=e462]:
+              - link "[10]" [ref=e463] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - text: 。此外心动还给予了资金的支持，让本来就超过预期三倍开发成本的异美工作室缓解了开发压力，在摩点的众筹计划也随之取消
+            - superscript [ref=e464]:
+              - link "[10]" [ref=e465] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao01-11"
+            - superscript [ref=e466]:
+              - link "[13]" [ref=e467] [cursor=pointer]:
+                - /url: "#cite_note-modian01-14"
+            - text: 。10月14日，心动网络在
+            - link "Bilibili" [ref=e468] [cursor=pointer]:
+              - /url: /wiki/Bilibili
+            - text: 和
+            - link "YouTube" [ref=e469] [cursor=pointer]:
+              - /url: /wiki/YouTube
+            - text: 发布了《海沙风云》的宣传PV。同时制作组进驻
+            - link "TapTap" [ref=e470] [cursor=pointer]:
+              - /url: /wiki/TapTap
+            - text: ，游戏亦在TapTap展开预约
+            - superscript [ref=e471]:
+              - link "[8]" [ref=e472] [cursor=pointer]:
+                - /url: "#cite_note-vgtime01-9"
+            - text: 。此后制作组在TapTap不定期公布游戏的世界观等细节
+            - superscript [ref=e473]:
+              - link "[18]" [ref=e474] [cursor=pointer]:
+                - /url: "#cite_note-taptap01-19"
+            - text: 。2020年11月14到15日期间参加上海
+            - link "WePlay文化展" [ref=e475] [cursor=pointer]:
+              - /url: /w/index.php?title=WePlay%E6%96%87%E5%8C%96%E5%B1%95&action=edit&redlink=1
+            - text: ，在TapTap的展台上首次展出游戏的Demo
+            - superscript [ref=e476]:
+              - link "[19]" [ref=e477] [cursor=pointer]:
+                - /url: "#cite_note-weibo02-20"
+            - text: 。
+          - paragraph [ref=e478]:
+            - text: 2021年7月22日，心动申请《海沙风云》的移动、客户端获得
+            - link "国家新闻出版署" [ref=e479] [cursor=pointer]:
+              - /url: /wiki/%E5%9C%8B%E5%AE%B6%E6%96%B0%E8%81%9E%E5%87%BA%E7%89%88%E7%BD%B2
+            - text: 批出的游戏版号，游戏正式满足在中国大陆发行的要求
+            - superscript [ref=e480]:
+              - link "[20]" [ref=e481] [cursor=pointer]:
+                - /url: "#cite_note-sina01-21"
+            - text: 。同年8月18日，游戏在
+            - link "Steam" [ref=e482] [cursor=pointer]:
+              - /url: /wiki/Steam
+            - text: 正式发售
+            - superscript [ref=e483]:
+              - link "[21]" [ref=e484] [cursor=pointer]:
+                - /url: "#cite_note-gamersky02-22"
+            - text: ，发售首周有折扣优惠
+            - superscript [ref=e485]:
+              - link "[17]" [ref=e486] [cursor=pointer]:
+                - /url: "#cite_note-ali2130-1-18"
+            - text: 。9月，异美工作室与
+            - link "热脉游戏" [ref=e487] [cursor=pointer]:
+              - /url: /wiki/%E7%83%AD%E8%84%89%E6%B8%B8%E6%88%8F
+            - text: 就《海沙风云》后续发行工作达成合作，发行商更换为热脉游戏。双方约定2022年9月在Steam推出英语和日语版本，并在
+            - link "Kickstarter" [ref=e488] [cursor=pointer]:
+              - /url: /wiki/Kickstarter
+            - text: 和摩点开展众筹，但众筹过程中双方沟通并不顺利，外语版也未按时发售。此后双方在
+            - link "游戏机" [ref=e489] [cursor=pointer]:
+              - /url: /wiki/%E5%AE%B6%E7%94%A8%E9%81%8A%E6%88%B2%E6%A9%9F
+            - text: 版本的
+            - link "用户界面" [ref=e490] [cursor=pointer]:
+              - /url: /wiki/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2
+            - text: 优化和移植工作上发生分歧，2023年4月，异美工作室宣布与热脉游戏解约，并拒绝热脉游戏的解约赔偿要求，表示将向热脉游戏提起诉讼
+            - superscript [ref=e491]:
+              - link "[22]" [ref=e492] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao02-23"
+            - text: 。2024年5月，经过第三轮审理，法庭支持异美工作室的诉求，热脉游戏将游戏Steam商店权限给付给异美工作室
+            - superscript [ref=e493]:
+              - link "[23]" [ref=e494] [cursor=pointer]:
+                - /url: "#cite_note-chuapp02-24"
+            - text: 。
+          - generic [ref=e495]:
+            - heading "评价" [level=2] [ref=e496]: 评价
+            - generic [ref=e497]:
+              - text: "["
+              - link "编辑" [ref=e498] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=6
+              - text: "]"
+          - complementary [ref=e499]:
+            - generic [ref=e500]: 评价
+            - table "评论得分" [ref=e501]:
+              - caption [ref=e502]: 评论得分
+              - rowgroup [ref=e503]:
+                - row "媒体 得分" [ref=e504]:
+                  - columnheader "媒体" [ref=e505]
+                  - columnheader "得分" [ref=e506]
+                - row "3DM 8/10[24]" [ref=e507]:
+                  - cell "3DM" [ref=e508]:
+                    - link "3DM" [ref=e509] [cursor=pointer]:
+                      - /url: /wiki/3DM
+                  - cell "8/10[24]" [ref=e510]:
+                    - text: 8/10
+                    - superscript [ref=e511]:
+                      - link "[24]" [ref=e512] [cursor=pointer]:
+                        - /url: "#cite_note-3dmgame01-25"
+                - row "电玩巴士 7.5/10[4]" [ref=e513]:
+                  - cell "电玩巴士" [ref=e514]:
+                    - link "电玩巴士" [ref=e515] [cursor=pointer]:
+                      - /url: /wiki/%E7%94%B5%E7%8E%A9%E5%B7%B4%E5%A3%AB
+                  - cell "7.5/10[4]" [ref=e516]:
+                    - text: 7.5/10
+                    - superscript [ref=e517]:
+                      - link "[4]" [ref=e518] [cursor=pointer]:
+                        - /url: "#cite_note-tgbus01-5"
+          - figure "游戏的枪战场景CG，左侧为女主角柯罗莎·诺奈特" [ref=e519]:
+            - link [ref=e520] [cursor=pointer]:
+              - /url: /wiki/File:Far_Away_gunshot_scene.jpg
+              - img [ref=e521]
+            - generic [ref=e522]: 游戏的枪战场景CG，左侧为女主角柯罗莎·诺奈特
+          - paragraph [ref=e523]:
+            - text: 游戏发售首周销量达到一万七千份
+            - superscript [ref=e524]:
+              - link "[25]" [ref=e525] [cursor=pointer]:
+                - /url: "#cite_note-weibo01-26"
+            - text: ，游戏在Steam上的玩家总体评价为“特别好评”
+            - superscript [ref=e526]:
+              - link "[5]" [ref=e527] [cursor=pointer]:
+                - /url: "#cite_note-udn01-6"
+            - text: 。在2021中文恋爱游戏大赛中入围“最佳剧本”、“最佳美术”、“最佳演出”、“最佳恋爱游戏”和“最佳新组”
+            - superscript [ref=e528]:
+              - link "[26]" [ref=e529] [cursor=pointer]:
+                - /url: "#cite_note-3dmgame02-27"
+            - text: 。2022年获得该年的indiePlay中国独立游戏大赛的“最佳听觉效果”
+            - superscript [ref=e530]:
+              - link "[27]" [ref=e531] [cursor=pointer]:
+                - /url: "#cite_note-youxiputao03-28"
+            - text: 。
+          - paragraph [ref=e532]:
+            - text: 《海沙风云》是中国大陆少见的全程粤语配音的冒险游戏
+            - superscript [ref=e533]:
+              - link "[17]" [ref=e534] [cursor=pointer]:
+                - /url: "#cite_note-ali2130-1-18"
+            - text: ，中文媒体普遍认为粤语配音带来别样的新鲜感，同时也指出了一些问题
+            - superscript [ref=e535]:
+              - link "[5]" [ref=e536] [cursor=pointer]:
+                - /url: "#cite_note-udn01-6"
+            - superscript [ref=e537]:
+              - link "[7]" [ref=e538] [cursor=pointer]:
+                - /url: "#cite_note-gamersky01-8"
+            - superscript [ref=e539]:
+              - link "[24]" [ref=e540] [cursor=pointer]:
+                - /url: "#cite_note-3dmgame01-25"
+            - superscript [ref=e541]:
+              - link "[28]" [ref=e542] [cursor=pointer]:
+                - /url: "#cite_note-chuapp01-29"
+            - text: 。
+            - link "触乐" [ref=e543] [cursor=pointer]:
+              - /url: /wiki/%E8%A7%A6%E4%B9%90
+            - text: 编辑冯昕旸表示游戏使用粤配结合游戏的警匪探案剧情，让人找回过去看香港
+            - link "警匪片" [ref=e544] [cursor=pointer]:
+              - /url: /wiki/%E8%AD%A6%E5%8C%AA%E7%89%87
+            - text: 的感觉
+            - superscript [ref=e545]:
+              - link "[28]" [ref=e546] [cursor=pointer]:
+                - /url: "#cite_note-chuapp01-29"
+            - text: 。评论员RAY在udn游戏角落摘文评论游戏选择粤语配音是一个双刃剑，对听的懂得玩家会有加分效果，而对于其他玩家来说粤配是有趣，但有说不出的冲突感。此外他也建议游戏考虑为
+            - link "香港" [ref=e547] [cursor=pointer]:
+              - /url: /wiki/%E9%A6%99%E6%B8%AF
+            - text: 玩家推出
+            - link "繁体中文" [ref=e548] [cursor=pointer]:
+              - /url: /wiki/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87
+            - superscript [ref=e549]:
+              - link "[5]" [ref=e550] [cursor=pointer]:
+                - /url: "#cite_note-udn01-6"
+            - text: 。
+            - link "3DM" [ref=e551] [cursor=pointer]:
+              - /url: /wiki/3DM
+            - text: 的编辑Marvin也提到游戏的粤语配音“呈现出极高的配音水准和语言的使用能力”，只是由于文本和配音剧本存在差异，会对玩家的理解造成障碍
+            - superscript [ref=e552]:
+              - link "[24]" [ref=e553] [cursor=pointer]:
+                - /url: "#cite_note-3dmgame01-25"
+            - text: 。
+          - paragraph [ref=e554]:
+            - text: 游戏美术和角色设计获得正面的评价，RAY称赞该作美术出色
+            - superscript [ref=e555]:
+              - link "[5]" [ref=e556] [cursor=pointer]:
+                - /url: "#cite_note-udn01-6"
+            - text: 。冯昕旸也认为游戏的美术设计达到优秀的水准，“角色线条都很有张力，充分体现各个角色的个性”，特别是女主角的表情尤为生动；游戏的演出效果在文字游戏中也难得，在动作场景时，通DM过改变角色立绘大小和位置，巧妙表现出角色之间的相对位置关系和动作
+            - superscript [ref=e557]:
+              - link "[28]" [ref=e558] [cursor=pointer]:
+                - /url: "#cite_note-chuapp01-29"
+            - text: 。
+          - paragraph [ref=e559]:
+            - text: 游戏剧情设计方面评价各异，
+            - link "电玩巴士" [ref=e560] [cursor=pointer]:
+              - /url: /wiki/%E7%94%B5%E7%8E%A9%E5%B7%B4%E5%A3%AB
+            - text: 评论员WhiteFox的评价是中规中矩，没有特别吸引人的点，游戏用了很多黑色幽默，但是大部分笑点一般人都无法理解得到，对话内容有偏向
+            - link "动画" [ref=e561] [cursor=pointer]:
+              - /url: /wiki/%E5%8B%95%E7%95%AB
+            - text: 的
+            - link "既视感" [ref=e562] [cursor=pointer]:
+              - /url: /wiki/%E6%97%A2%E8%A6%96%E6%84%9F
+            - text: ，像在对台词，不容易让玩家代入。多结局设计时是其亮点，延长了玩家游戏时长，让玩家体验不同的人生感受，还有收集的乐趣，了解到不同游戏角色的关系和故事背景，坏处就是要不断重复一样的剧情
+            - superscript [ref=e563]:
+              - link "[4]" [ref=e564] [cursor=pointer]:
+                - /url: "#cite_note-tgbus01-5"
+            - text: 。Marvin则给与剧情很高的评价，制作团队“非常富有野心”地设计了很宏大复杂的世界观，剧情质量很出色
+            - superscript [ref=e565]:
+              - link "[24]" [ref=e566] [cursor=pointer]:
+                - /url: "#cite_note-3dmgame01-25"
+            - text: 。
+          - paragraph [ref=e567]:
+            - text: Marvin还指出游戏在
+            - link "交互设计" [ref=e568] [cursor=pointer]:
+              - /url: /wiki/%E4%BA%92%E5%8B%95%E8%A8%AD%E8%A8%88
+            - text: 方面的不足，游戏的工具栏默认隐藏在右侧，不方便玩家发现。游戏有多条剧情分支，并附有流程图，不过无法使用流程图跳转到对应分歧的节点，对于想体验全剧情和开启隐藏小剧场的玩家造成不便。角色线条都很有张力，充分体现各个角色的个性
+            - superscript [ref=e569]:
+              - link "[24]" [ref=e570] [cursor=pointer]:
+                - /url: "#cite_note-3dmgame01-25"
+            - text: 。
+          - generic [ref=e571]:
+            - heading "备注" [level=2] [ref=e572]: 备注
+            - generic [ref=e573]:
+              - text: "["
+              - link "编辑" [ref=e574] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=7
+              - text: "]"
+          - list [ref=e576]:
+            - listitem [ref=e577]:
+              - link "跳转" [ref=e580] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e581]:
+                - text: 由于公司注册问题而改名
+                - superscript [ref=e582]:
+                  - link "[1]" [ref=e583] [cursor=pointer]:
+                    - /url: "#cite_note-weibo05-1"
+                - text: 。
+          - generic [ref=e584]:
+            - heading "参考资料" [level=2] [ref=e585]: 参考资料
+            - generic [ref=e586]:
+              - text: "["
+              - link "编辑" [ref=e587] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=8
+              - text: "]"
+          - list [ref=e589]:
+            - listitem [ref=e590]:
+              - link "跳转" [ref=e593] [cursor=pointer]:
+                - /url: "#cite_ref-weibo05_1-0"
+                - text: ^
+              - generic [ref=e594]:
+                - generic [ref=e595]:
+                  - text: 红茶Games.
+                  - link "紅茶Games2022年3月18日微博博文" [ref=e596] [cursor=pointer]:
+                    - /url: https://m.weibo.cn/status/LkgOJy3aR
+                  - text: .
+                  - link "新浪微博" [ref=e597] [cursor=pointer]:
+                    - /url: /wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A
+                  - text: . 2022-03-18
+                  - generic [ref=e598]: "[2022-03-18]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e599] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20230829152255/https://m.weibo.cn/status/LkgOJy3aR
+                  - text: 于2023-08-29） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%B4%85%E8%8C%B6Games2022%E5%B9%B43%E6%9C%8818%E6%97%A5%E5%BE%AE%E5%8D%9A%E5%8D%9A%E6%96%87&rft.au=%E7%B4%85%E8%8C%B6Games&rft.date=2022-03-18&rft.genre=unknown&rft.jtitle=%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A&rft_id=https%3A%2F%2Fm.weibo.cn%2Fstatus%2FLkgOJy3aR&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e600]:
+              - generic [ref=e601]:
+                - text: ^
+                - link "跳转到： 2.00" [ref=e602] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-0"
+                  - generic [ref=e603]: 跳转到：
+                  - superscript [ref=e604]: "2.00"
+                - link "2.01" [ref=e605] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-1"
+                  - superscript [ref=e606]: "2.01"
+                - link "2.02" [ref=e607] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-2"
+                  - superscript [ref=e608]: "2.02"
+                - link "2.03" [ref=e609] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-3"
+                  - superscript [ref=e610]: "2.03"
+                - link "2.04" [ref=e611] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-4"
+                  - superscript [ref=e612]: "2.04"
+                - link "2.05" [ref=e613] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-5"
+                  - superscript [ref=e614]: "2.05"
+                - link "2.06" [ref=e615] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-6"
+                  - superscript [ref=e616]: "2.06"
+                - link "2.07" [ref=e617] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-7"
+                  - superscript [ref=e618]: "2.07"
+                - link "2.08" [ref=e619] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-8"
+                  - superscript [ref=e620]: "2.08"
+                - link "2.09" [ref=e621] [cursor=pointer]:
+                  - /url: "#cite_ref-Steam01_3-9"
+                  - superscript [ref=e622]: "2.09"
+              - generic [ref=e623]:
+                - generic [ref=e624]:
+                  - link "海沙风云 Far Away" [ref=e625] [cursor=pointer]:
+                    - /url: https://store.steampowered.com/app/1250760/_Far_Away/
+                  - text: .
+                  - link "Steam" [ref=e626] [cursor=pointer]:
+                    - /url: /wiki/Steam
+                  - text: .
+                  - generic [ref=e627]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e628] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823100226/https://store.steampowered.com/app/1250760/_Far_Away/
+                  - text: 于2021-08-23）.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+Far+Away&rft.genre=unknown&rft.jtitle=Steam&rft_id=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F1250760%2F_Far_Away%2F&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e629]:
+              - generic [ref=e630]:
+                - text: ^
+                - link "跳转到： 3.0" [ref=e631] [cursor=pointer]:
+                  - /url: "#cite_ref-game_4-0"
+                  - generic [ref=e632]: 跳转到：
+                  - superscript [ref=e633]: "3.0"
+                - link "3.1" [ref=e634] [cursor=pointer]:
+                  - /url: "#cite_ref-game_4-1"
+                  - superscript [ref=e635]: "3.1"
+                - link "3.2" [ref=e636] [cursor=pointer]:
+                  - /url: "#cite_ref-game_4-2"
+                  - superscript [ref=e637]: "3.2"
+                - link "3.3" [ref=e638] [cursor=pointer]:
+                  - /url: "#cite_ref-game_4-3"
+                  - superscript [ref=e639]: "3.3"
+                - link "3.4" [ref=e640] [cursor=pointer]:
+                  - /url: "#cite_ref-game_4-4"
+                  - superscript [ref=e641]: "3.4"
+              - generic [ref=e642]:
+                - generic [ref=e643]: 红茶Games. 海沙風雲. Windows. 红茶Games. 2021-08-18 （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.au=%E7%B4%85%E8%8C%B6Games&rft.btitle=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.date=2021-08-18&rft.genre=book&rft.pub=%E7%B4%85%E8%8C%B6Games&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"
+            - listitem [ref=e644]:
+              - generic [ref=e645]:
+                - text: ^
+                - link "跳转到： 4.0" [ref=e646] [cursor=pointer]:
+                  - /url: "#cite_ref-tgbus01_5-0"
+                  - generic [ref=e647]: 跳转到：
+                  - superscript [ref=e648]: "4.0"
+                - link "4.1" [ref=e649] [cursor=pointer]:
+                  - /url: "#cite_ref-tgbus01_5-1"
+                  - superscript [ref=e650]: "4.1"
+                - link "4.2" [ref=e651] [cursor=pointer]:
+                  - /url: "#cite_ref-tgbus01_5-2"
+                  - superscript [ref=e652]: "4.2"
+              - generic [ref=e653]:
+                - generic [ref=e654]:
+                  - text: WhiteFox.
+                  - link "Steam版《海沙风云》评测：打工少女的城市冒险故事" [ref=e655] [cursor=pointer]:
+                    - /url: https://www.tgbus.com/news/166921
+                  - text: .
+                  - link "电玩巴士" [ref=e656] [cursor=pointer]:
+                    - /url: /wiki/%E7%94%B5%E7%8E%A9%E5%B7%B4%E5%A3%AB
+                  - text: . 2021-08-30
+                  - generic [ref=e657]: "[2021-09-06]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e658] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210906101213/https://www.tgbus.com/news/166921
+                  - text: 于2021-09-06） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=Steam%E7%89%88%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%E8%AF%84%E6%B5%8B%EF%BC%9A%E6%89%93%E5%B7%A5%E5%B0%91%E5%A5%B3%E7%9A%84%E5%9F%8E%E5%B8%82%E5%86%92%E9%99%A9%E6%95%85%E4%BA%8B&rft.au=WhiteFox&rft.date=2021-08-30&rft.genre=article&rft.jtitle=%E7%94%B5%E7%8E%A9%E5%B7%B4%E5%A3%AB&rft_id=https%3A%2F%2Fwww.tgbus.com%2Fnews%2F166921&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e659]:
+              - generic [ref=e660]:
+                - text: ^
+                - link "跳转到： 5.0" [ref=e661] [cursor=pointer]:
+                  - /url: "#cite_ref-udn01_6-0"
+                  - generic [ref=e662]: 跳转到：
+                  - superscript [ref=e663]: "5.0"
+                - link "5.1" [ref=e664] [cursor=pointer]:
+                  - /url: "#cite_ref-udn01_6-1"
+                  - superscript [ref=e665]: "5.1"
+                - link "5.2" [ref=e666] [cursor=pointer]:
+                  - /url: "#cite_ref-udn01_6-2"
+                  - superscript [ref=e667]: "5.2"
+                - link "5.3" [ref=e668] [cursor=pointer]:
+                  - /url: "#cite_ref-udn01_6-3"
+                  - superscript [ref=e669]: "5.3"
+                - link "5.4" [ref=e670] [cursor=pointer]:
+                  - /url: "#cite_ref-udn01_6-4"
+                  - superscript [ref=e671]: "5.4"
+              - generic [ref=e672]:
+                - generic [ref=e673]:
+                  - text: RAY.
+                  - link "Steam極度好評《海沙風雲》全程粵語配音 改寫碼頭姑娘的人生" [ref=e674] [cursor=pointer]:
+                    - /url: https://game.udn.com/game/story/122088/5685218
+                  - text: .
+                  - link "udn游戏角落" [ref=e675] [cursor=pointer]:
+                    - /url: /wiki/%E8%81%AF%E5%90%88%E5%A0%B1
+                  - text: . 2021-08-19
+                  - generic [ref=e676]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e677] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823150038/https://game.udn.com/game/story/122088/5685218
+                  - text: 于2021-08-23） （中文（台湾））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=Steam%E6%A5%B5%E5%BA%A6%E5%A5%BD%E8%A9%95%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2%E3%80%8B%E5%85%A8%E7%A8%8B%E7%B2%B5%E8%AA%9E%E9%85%8D%E9%9F%B3+%E6%94%B9%E5%AF%AB%E7%A2%BC%E9%A0%AD%E5%A7%91%E5%A8%98%E7%9A%84%E4%BA%BA%E7%94%9F&rft.au=RAY&rft.date=2021-08-19&rft.genre=article&rft.jtitle=udn%E9%81%8A%E6%88%B2%E8%A7%92%E8%90%BD&rft_id=https%3A%2F%2Fgame.udn.com%2Fgame%2Fstory%2F122088%2F5685218&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e678]:
+              - link "跳转" [ref=e681] [cursor=pointer]:
+                - /url: "#cite_ref-gamer01_7-0"
+                - text: ^
+              - generic [ref=e682]:
+                - generic [ref=e683]:
+                  - text: Jessica.
+                  - link "擁有八條主線劇情的敘事冒險新作《海沙風雲》亮相 釋出首部宣傳影片" [ref=e684] [cursor=pointer]:
+                    - /url: https://gnn.gamer.com.tw/detail.php?sn=204743
+                  - text: . 巴哈姆特电玩资讯站. 2020-10-14
+                  - generic [ref=e685]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e686] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210116180526/https://gnn.gamer.com.tw/detail.php?sn=204743
+                  - text: 于2021-01-16） （中文（繁体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E6%93%81%E6%9C%89%E5%85%AB%E6%A2%9D%E4%B8%BB%E7%B7%9A%E5%8A%87%E6%83%85%E7%9A%84%E6%95%98%E4%BA%8B%E5%86%92%E9%9A%AA%E6%96%B0%E4%BD%9C%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2%E3%80%8B%E4%BA%AE%E7%9B%B8+%E9%87%8B%E5%87%BA%E9%A6%96%E9%83%A8%E5%AE%A3%E5%82%B3%E5%BD%B1%E7%89%87&rft.au=Jessica&rft.date=2020-10-14&rft.genre=article&rft.jtitle=%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E9%9B%BB%E7%8E%A9%E8%B3%87%E8%A8%8A%E7%AB%99&rft_id=https%3A%2F%2Fgnn.gamer.com.tw%2Fdetail.php%3Fsn%3D204743&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e687]:
+              - generic [ref=e688]:
+                - text: ^
+                - link "跳转到： 7.0" [ref=e689] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-0"
+                  - generic [ref=e690]: 跳转到：
+                  - superscript [ref=e691]: "7.0"
+                - link "7.1" [ref=e692] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-1"
+                  - superscript [ref=e693]: "7.1"
+                - link "7.2" [ref=e694] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-2"
+                  - superscript [ref=e695]: "7.2"
+                - link "7.3" [ref=e696] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-3"
+                  - superscript [ref=e697]: "7.3"
+                - link "7.4" [ref=e698] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-4"
+                  - superscript [ref=e699]: "7.4"
+                - link "7.5" [ref=e700] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-5"
+                  - superscript [ref=e701]: "7.5"
+                - link "7.6" [ref=e702] [cursor=pointer]:
+                  - /url: "#cite_ref-gamersky01_8-6"
+                  - superscript [ref=e703]: "7.6"
+              - generic [ref=e704]:
+                - generic [ref=e705]:
+                  - text: 春辞.
+                  - link "粤配+硬派港式电影级剧本+9线50万字AVG，竟是小团队制作" [ref=e706] [cursor=pointer]:
+                    - /url: https://club.gamersky.com/activity/473963
+                  - text: .
+                  - link "游民星空" [ref=e707] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%B0%91%E6%98%9F%E7%A9%BA
+                  - text: . 2021-08-19
+                  - generic [ref=e708]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e709] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20211023072600/https://club.gamersky.com/activity/473963
+                  - text: 于2021-10-23） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%B2%A4%E9%85%8D%2B%E7%A1%AC%E6%B4%BE%E6%B8%AF%E5%BC%8F%E7%94%B5%E5%BD%B1%E7%BA%A7%E5%89%A7%E6%9C%AC%2B9%E7%BA%BF50%E4%B8%87%E5%AD%97AVG%EF%BC%8C%E7%AB%9F%E6%98%AF%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%88%B6%E4%BD%9C&rft.au=%E6%98%A5%E8%BE%9E&rft.date=2021-08-19&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%B0%91%E6%98%9F%E7%A9%BA&rft_id=https%3A%2F%2Fclub.gamersky.com%2Factivity%2F473963&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e710]:
+              - generic [ref=e711]:
+                - text: ^
+                - link "跳转到： 8.0" [ref=e712] [cursor=pointer]:
+                  - /url: "#cite_ref-vgtime01_9-0"
+                  - generic [ref=e713]: 跳转到：
+                  - superscript [ref=e714]: "8.0"
+                - link "8.1" [ref=e715] [cursor=pointer]:
+                  - /url: "#cite_ref-vgtime01_9-1"
+                  - superscript [ref=e716]: "8.1"
+              - generic [ref=e717]:
+                - generic [ref=e718]:
+                  - text: MagicarpFJ.
+                  - link "心动网络宣布代理AVG新作《海沙风云》，宣传PV公开" [ref=e719] [cursor=pointer]:
+                    - /url: https://www.vgtime.com/topic/1101246.jhtml
+                  - text: .
+                  - link "游戏时光" [ref=e720] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%88%8F%E6%97%B6%E5%85%89
+                  - text: . 2020-10-14
+                  - generic [ref=e721]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e722] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823144615/https://www.vgtime.com/topic/1101246.jhtml
+                  - text: 于2021-08-23） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%BF%83%E5%8A%A8%E7%BD%91%E7%BB%9C%E5%AE%A3%E5%B8%83%E4%BB%A3%E7%90%86AVG%E6%96%B0%E4%BD%9C%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%EF%BC%8C%E5%AE%A3%E4%BC%A0PV%E5%85%AC%E5%BC%80&rft.au=MagicarpFJ&rft.date=2020-10-14&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%88%8F%E6%97%B6%E5%85%89&rft_id=https%3A%2F%2Fwww.vgtime.com%2Ftopic%2F1101246.jhtml&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e723]:
+              - generic [ref=e724]:
+                - text: ^
+                - link "跳转到： 9.0" [ref=e725] [cursor=pointer]:
+                  - /url: "#cite_ref-yys01_10-0"
+                  - generic [ref=e726]: 跳转到：
+                  - superscript [ref=e727]: "9.0"
+                - link "9.1" [ref=e728] [cursor=pointer]:
+                  - /url: "#cite_ref-yys01_10-1"
+                  - superscript [ref=e729]: "9.1"
+              - generic [ref=e730]:
+                - generic [ref=e731]:
+                  - text: 海都猫娘.
+                  - link "《海沙风云》：国产“硬派王道向”AVG的一次尝试" [ref=e732] [cursor=pointer]:
+                    - /url: https://mp.weixin.qq.com/s/_QujnUmkFwJlgamrhrdJAQ
+                  - text: .
+                  - link "游研社" [ref=e733] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E7%A0%94%E7%A4%BE
+                  - text: . 2020-10-15
+                  - generic [ref=e734]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e735] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20250410065635/https://mp.weixin.qq.com/s/_QujnUmkFwJlgamrhrdJAQ
+                  - text: 于2025-04-10） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%EF%BC%9A%E5%9B%BD%E4%BA%A7%E2%80%9C%E7%A1%AC%E6%B4%BE%E7%8E%8B%E9%81%93%E5%90%91%E2%80%9DAVG%E7%9A%84%E4%B8%80%E6%AC%A1%E5%B0%9D%E8%AF%95&rft.au=%E6%B5%B7%E9%83%BD%E7%8C%AB%E5%A8%98&rft.date=2020-10-15&rft.genre=article&rft.jtitle=%E6%B8%B8%E7%A0%94%E7%A4%BE&rft_id=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F_QujnUmkFwJlgamrhrdJAQ&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e736]:
+              - generic [ref=e737]:
+                - text: ^
+                - link "跳转到： 10.00" [ref=e738] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-0"
+                  - generic [ref=e739]: 跳转到：
+                  - superscript [ref=e740]: "10.00"
+                - link "10.01" [ref=e741] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-1"
+                  - superscript [ref=e742]: "10.01"
+                - link "10.02" [ref=e743] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-2"
+                  - superscript [ref=e744]: "10.02"
+                - link "10.03" [ref=e745] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-3"
+                  - superscript [ref=e746]: "10.03"
+                - link "10.04" [ref=e747] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-4"
+                  - superscript [ref=e748]: "10.04"
+                - link "10.05" [ref=e749] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-5"
+                  - superscript [ref=e750]: "10.05"
+                - link "10.06" [ref=e751] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-6"
+                  - superscript [ref=e752]: "10.06"
+                - link "10.07" [ref=e753] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-7"
+                  - superscript [ref=e754]: "10.07"
+                - link "10.08" [ref=e755] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-8"
+                  - superscript [ref=e756]: "10.08"
+                - link "10.09" [ref=e757] [cursor=pointer]:
+                  - /url: "#cite_ref-youxiputao01_11-9"
+                  - superscript [ref=e758]: "10.09"
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - text: 迪亚菠萝包.
+                  - link "这群老二次元做的第一款游戏，立项三个月就被心动盲签了_Misaki" [ref=e761] [cursor=pointer]:
+                    - /url: http://youxiputao.com/articles/20767
+                  - text: . 游戏葡萄. 2020-10-15
+                  - generic [ref=e762]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e763] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823150634/http://youxiputao.com/articles/20767
+                  - text: 于2021-08-23） （中文（中国大陆））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E8%BF%99%E7%BE%A4%E8%80%81%E4%BA%8C%E6%AC%A1%E5%85%83%E5%81%9A%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%BE%E6%B8%B8%E6%88%8F%EF%BC%8C%E7%AB%8B%E9%A1%B9%E4%B8%89%E4%B8%AA%E6%9C%88%E5%B0%B1%E8%A2%AB%E5%BF%83%E5%8A%A8%E7%9B%B2%E7%AD%BE%E4%BA%86_Misaki&rft.au=%E8%BF%AA%E4%BA%9A%E8%8F%A0%E8%90%9D%E5%8C%85&rft.date=2020-10-15&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%88%8F%E8%91%A1%E8%90%84&rft_id=http%3A%2F%2Fyouxiputao.com%2Farticles%2F20767&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e764]:
+              - generic [ref=e765]:
+                - text: ^
+                - link "跳转到： 11.0" [ref=e766] [cursor=pointer]:
+                  - /url: "#cite_ref-gameres01_12-0"
+                  - generic [ref=e767]: 跳转到：
+                  - superscript [ref=e768]: "11.0"
+                - link "11.1" [ref=e769] [cursor=pointer]:
+                  - /url: "#cite_ref-gameres01_12-1"
+                  - superscript [ref=e770]: "11.1"
+              - generic [ref=e771]:
+                - generic [ref=e772]:
+                  - link "硬核向AVG《海沙风云》首曝 主创曾参与多款二次元大作" [ref=e773] [cursor=pointer]:
+                    - /url: https://www.gameres.com/875286.html
+                  - text: . GameRes游资网. 2020-10-15
+                  - generic [ref=e774]: "[2021-08-26]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e775] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210826125009/https://www.gameres.com/875286.html
+                  - text: 于2021-08-26） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%A1%AC%E6%A0%B8%E5%90%91AVG%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%E9%A6%96%E6%9B%9D+%E4%B8%BB%E5%88%9B%E6%9B%BE%E5%8F%82%E4%B8%8E%E5%A4%9A%E6%AC%BE%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A4%A7%E4%BD%9C&rft.date=2020-10-15&rft.genre=article&rft.jtitle=GameRes%E6%B8%B8%E8%B5%84%E7%BD%91&rft_id=https%3A%2F%2Fwww.gameres.com%2F875286.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e776]:
+              - generic [ref=e777]:
+                - text: ^
+                - link "跳转到： 12.0" [ref=e778] [cursor=pointer]:
+                  - /url: "#cite_ref-gameres02_13-0"
+                  - generic [ref=e779]: 跳转到：
+                  - superscript [ref=e780]: "12.0"
+                - link "12.1" [ref=e781] [cursor=pointer]:
+                  - /url: "#cite_ref-gameres02_13-1"
+                  - superscript [ref=e782]: "12.1"
+                - link "12.2" [ref=e783] [cursor=pointer]:
+                  - /url: "#cite_ref-gameres02_13-2"
+                  - superscript [ref=e784]: "12.2"
+              - generic [ref=e785]:
+                - generic [ref=e786]:
+                  - text: 月下.
+                  - link "这个成都的宝藏团队，做了一款几乎无差评的全粤配港式硬派游戏" [ref=e787] [cursor=pointer]:
+                    - /url: https://www.gameres.com/888462.html
+                  - text: . 游戏茶馆. 2021-08-24
+                  - generic [ref=e788]: "[2021-08-24]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e789] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210828015448/https://www.gameres.com/888462.html
+                  - text: 于2021-08-28） –通过GameRes游资网 （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E8%BF%99%E4%B8%AA%E6%88%90%E9%83%BD%E7%9A%84%E5%AE%9D%E8%97%8F%E5%9B%A2%E9%98%9F%EF%BC%8C%E5%81%9A%E4%BA%86%E4%B8%80%E6%AC%BE%E5%87%A0%E4%B9%8E%E6%97%A0%E5%B7%AE%E8%AF%84%E7%9A%84%E5%85%A8%E7%B2%A4%E9%85%8D%E6%B8%AF%E5%BC%8F%E7%A1%AC%E6%B4%BE%E6%B8%B8%E6%88%8F&rft.au=%E6%9C%88%E4%B8%8B&rft.date=2021-08-24&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%88%8F%E8%8C%B6%E9%A6%86&rft_id=https%3A%2F%2Fwww.gameres.com%2F888462.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e790]:
+              - generic [ref=e791]:
+                - text: ^
+                - link "跳转到： 13.0" [ref=e792] [cursor=pointer]:
+                  - /url: "#cite_ref-modian01_14-0"
+                  - generic [ref=e793]: 跳转到：
+                  - superscript [ref=e794]: "13.0"
+                - link "13.1" [ref=e795] [cursor=pointer]:
+                  - /url: "#cite_ref-modian01_14-1"
+                  - superscript [ref=e796]: "13.1"
+                - link "13.2" [ref=e797] [cursor=pointer]:
+                  - /url: "#cite_ref-modian01_14-2"
+                  - superscript [ref=e798]: "13.2"
+              - generic [ref=e799]:
+                - generic [ref=e800]:
+                  - link "硬派王道向AVG《海沙风云》—在海与沙的都市翻腾意气" [ref=e801] [cursor=pointer]:
+                    - /url: https://zhongchou.modian.com/item/91047.html
+                  - text: .
+                  - link "摩点" [ref=e802] [cursor=pointer]:
+                    - /url: /wiki/%E6%91%A9%E7%82%B9
+                  - text: .
+                  - generic [ref=e803]: "[2021-08-24]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e804] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20200813032630/https://zhongchou.modian.com/item/91047.html
+                  - text: 于2020-08-13） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%A1%AC%E6%B4%BE%E7%8E%8B%E9%81%93%E5%90%91AVG%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%E2%80%94%E5%9C%A8%E6%B5%B7%E4%B8%8E%E6%B2%99%E7%9A%84%E9%83%BD%E5%B8%82%E7%BF%BB%E8%85%BE%E6%84%8F%E6%B0%94&rft.genre=unknown&rft.jtitle=%E6%91%A9%E9%BB%9E&rft_id=https%3A%2F%2Fzhongchou.modian.com%2Fitem%2F91047.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e805]:
+              - link "跳转" [ref=e808] [cursor=pointer]:
+                - /url: "#cite_ref-17173-01_15-0"
+                - text: ^
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - link "心动宣布代理老二次元团队研发AVG游戏《海沙风云》" [ref=e811] [cursor=pointer]:
+                    - /url: http://news.17173.com/content/10142020/110755483.shtml
+                  - text: .
+                  - link "17173网" [ref=e812] [cursor=pointer]:
+                    - /url: /wiki/17173%E7%BD%91
+                  - text: . 2020-10-14
+                  - generic [ref=e813]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e814] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823150034/http://news.17173.com/content/10142020/110755483.shtml
+                  - text: 于2021-08-23） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%BF%83%E5%8A%A8%E5%AE%A3%E5%B8%83%E4%BB%A3%E7%90%86%E8%80%81%E4%BA%8C%E6%AC%A1%E5%85%83%E5%9B%A2%E9%98%9F%E7%A0%94%E5%8F%91AVG%E6%B8%B8%E6%88%8F%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B&rft.date=2020-10-14&rft.genre=article&rft.jtitle=17173%E7%B6%B2&rft_id=http%3A%2F%2Fnews.17173.com%2Fcontent%2F10142020%2F110755483.shtml&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e815]:
+              - link "跳转" [ref=e818] [cursor=pointer]:
+                - /url: "#cite_ref-weibo04_16-0"
+                - text: ^
+              - generic [ref=e819]:
+                - generic [ref=e820]:
+                  - text: 红茶Games.
+                  - link "紅茶Games2021年9月17日微博博文" [ref=e821] [cursor=pointer]:
+                    - /url: https://m.weibo.cn/status/4682355514017333
+                  - text: .
+                  - link "新浪微博" [ref=e822] [cursor=pointer]:
+                    - /url: /wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A
+                  - text: . 2021-09-17
+                  - generic [ref=e823]: "[2021-10-20]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e824] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20211218052401/https://m.weibo.cn/status/4682355514017333
+                  - text: 于2021-12-18） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%B4%85%E8%8C%B6Games2021%E5%B9%B49%E6%9C%8817%E6%97%A5%E5%BE%AE%E5%8D%9A%E5%8D%9A%E6%96%87&rft.au=%E7%B4%85%E8%8C%B6Games&rft.date=2021-09-17&rft.genre=unknown&rft.jtitle=%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A&rft_id=https%3A%2F%2Fm.weibo.cn%2Fstatus%2F4682355514017333&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e825]:
+              - link "跳转" [ref=e828] [cursor=pointer]:
+                - /url: "#cite_ref-weibo03_17-0"
+                - text: ^
+              - generic [ref=e829]:
+                - generic [ref=e830]:
+                  - link "南都周刊" [ref=e831] [cursor=pointer]:
+                    - /url: /wiki/%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A
+                  - text: .
+                  - link "南都周刊8月31日的微博博文" [ref=e832] [cursor=pointer]:
+                    - /url: https://m.weibo.cn/status/4676277933968946
+                  - text: .
+                  - link "新浪微博" [ref=e833] [cursor=pointer]:
+                    - /url: /wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A
+                  - text: . 2021-08-31
+                  - generic [ref=e834]: "[2021-09-06]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e835] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20211218052528/https://m.weibo.cn/status/4676277933968946
+                  - text: 于2021-12-18） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A8%E6%9C%8831%E6%97%A5%E7%9A%84%E5%BE%AE%E5%8D%9A%E5%8D%9A%E6%96%87&rft.au=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A&rft.date=2021-08-31&rft.genre=unknown&rft.jtitle=%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A&rft_id=https%3A%2F%2Fm.weibo.cn%2Fstatus%2F4676277933968946&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e836]:
+              - generic [ref=e837]:
+                - text: ^
+                - link "跳转到： 17.0" [ref=e838] [cursor=pointer]:
+                  - /url: "#cite_ref-ali2130-1_18-0"
+                  - generic [ref=e839]: 跳转到：
+                  - superscript [ref=e840]: "17.0"
+                - link "17.1" [ref=e841] [cursor=pointer]:
+                  - /url: "#cite_ref-ali2130-1_18-1"
+                  - superscript [ref=e842]: "17.1"
+                - link "17.2" [ref=e843] [cursor=pointer]:
+                  - /url: "#cite_ref-ali2130-1_18-2"
+                  - superscript [ref=e844]: "17.2"
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - text: 每天都好困.
+                  - link "全程粤语配音 国产文字AVG《海沙风云》8月18号发售" [ref=e847] [cursor=pointer]:
+                    - /url: https://www.ali213.net/news/html/2021-8/616551.html
+                  - text: .
+                  - link "游侠网" [ref=e848] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E4%BE%A0%E7%BD%91
+                  - text: . 2021-08-18
+                  - generic [ref=e849]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e850] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823150514/https://www.ali213.net/news/html/2021-8/616551.html
+                  - text: 于2021-08-23） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%85%A8%E7%A8%8B%E7%B2%A4%E8%AF%AD%E9%85%8D%E9%9F%B3+%E5%9B%BD%E4%BA%A7%E6%96%87%E5%AD%97AVG%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B8%E6%9C%8818%E5%8F%B7%E5%8F%91%E5%94%AE&rft.au=%E6%AF%8F%E5%A4%A9%E9%83%BD%E5%A5%BD%E5%9B%B0&rft.date=2021-08-18&rft.genre=article&rft.jtitle=%E6%B8%B8%E4%BE%A0%E7%BD%91&rft_id=https%3A%2F%2Fwww.ali213.net%2Fnews%2Fhtml%2F2021-8%2F616551.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e851]:
+              - link "跳转" [ref=e854] [cursor=pointer]:
+                - /url: "#cite_ref-taptap01_19-0"
+                - text: ^
+              - generic [ref=e855]:
+                - generic [ref=e856]:
+                  - link "海沙風雲 - 遊戲預約" [ref=e857] [cursor=pointer]:
+                    - /url: https://www.taptap.com/app/200978
+                  - text: .
+                  - link "TapTap" [ref=e858] [cursor=pointer]:
+                    - /url: /wiki/TapTap
+                  - text: .
+                  - generic [ref=e859]: "[2021-08-25]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e860] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823150659/https://www.taptap.com/app/200978
+                  - text: 于2021-08-23）.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2+-+%E9%81%8A%E6%88%B2%E9%A0%90%E7%B4%84&rft.genre=unknown&rft.jtitle=TapTap&rft_id=https%3A%2F%2Fwww.taptap.com%2Fapp%2F200978&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e861]:
+              - link "跳转" [ref=e864] [cursor=pointer]:
+                - /url: "#cite_ref-weibo02_20-0"
+                - text: ^
+              - generic [ref=e865]:
+                - generic [ref=e866]:
+                  - text: 红茶Games.
+                  - link "紅茶Games2020年11月12日微博博文" [ref=e867] [cursor=pointer]:
+                    - /url: https://m.weibo.cn/status/4570400283689887
+                  - text: .
+                  - link "新浪微博" [ref=e868] [cursor=pointer]:
+                    - /url: /wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A
+                  - text: . 2020-11-12
+                  - generic [ref=e869]: "[2021-08-24]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e870] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20211218052255/https://m.weibo.cn/status/4570400283689887
+                  - text: 于2021-12-18） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%B4%85%E8%8C%B6Games2020%E5%B9%B411%E6%9C%8812%E6%97%A5%E5%BE%AE%E5%8D%9A%E5%8D%9A%E6%96%87&rft.au=%E7%B4%85%E8%8C%B6Games&rft.date=2020-11-12&rft.genre=unknown&rft.jtitle=%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A&rft_id=https%3A%2F%2Fm.weibo.cn%2Fstatus%2F4570400283689887&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e871]:
+              - link "跳转" [ref=e874] [cursor=pointer]:
+                - /url: "#cite_ref-sina01_21-0"
+                - text: ^
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - link "新一批版号：共89个，网易派对游戏过审，心动、蓝飞、四三九九在列" [ref=e877] [cursor=pointer]:
+                    - /url: https://t.cj.sina.com.cn/articles/view/2611781342/9bac9ede019014l1t
+                  - text: . 新浪. 2021-07-22
+                  - generic [ref=e878]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e879] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823144613/https://t.cj.sina.com.cn/articles/view/2611781342/9bac9ede019014l1t
+                  - text: 于2021-08-23） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E6%96%B0%E4%B8%80%E6%89%B9%E7%89%88%E5%8F%B7%EF%BC%9A%E5%85%B189%E4%B8%AA%EF%BC%8C%E7%BD%91%E6%98%93%E6%B4%BE%E5%AF%B9%E6%B8%B8%E6%88%8F%E8%BF%87%E5%AE%A1%EF%BC%8C%E5%BF%83%E5%8A%A8%E3%80%81%E8%93%9D%E9%A3%9E%E3%80%81%E5%9B%9B%E4%B8%89%E4%B9%9D%E4%B9%9D%E5%9C%A8%E5%88%97&rft.date=2021-07-22&rft.genre=article&rft.jtitle=%E6%96%B0%E6%B5%AA&rft_id=https%3A%2F%2Ft.cj.sina.com.cn%2Farticles%2Fview%2F2611781342%2F9bac9ede019014l1t&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e880]:
+              - link "跳转" [ref=e883] [cursor=pointer]:
+                - /url: "#cite_ref-gamersky02_22-0"
+                - text: ^
+              - generic [ref=e884]:
+                - generic [ref=e885]:
+                  - text: 小熊桑.
+                  - link "国产文字冒险游戏《海沙风云》明日发售 粤语配音“经典港式警匪片”味" [ref=e886] [cursor=pointer]:
+                    - /url: https://www.gamersky.com/news/202108/1416152.shtml
+                  - text: .
+                  - link "游民星空" [ref=e887] [cursor=pointer]:
+                    - /url: /wiki/%E6%B8%B8%E6%B0%91%E6%98%9F%E7%A9%BA
+                  - text: . 2021-08-17
+                  - generic [ref=e888]: "[2021-08-23]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e889] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210823150033/https://www.gamersky.com/news/202108/1416152.shtml
+                  - text: 于2021-08-23） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%9B%BD%E4%BA%A7%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9%E6%B8%B8%E6%88%8F%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%E6%98%8E%E6%97%A5%E5%8F%91%E5%94%AE+%E7%B2%A4%E8%AF%AD%E9%85%8D%E9%9F%B3%E2%80%9C%E7%BB%8F%E5%85%B8%E6%B8%AF%E5%BC%8F%E8%AD%A6%E5%8C%AA%E7%89%87%E2%80%9D%E5%91%B3&rft.au=%E5%B0%8F%E7%86%8A%E6%A1%91&rft.date=2021-08-17&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%B0%91%E6%98%9F%E7%A9%BA&rft_id=https%3A%2F%2Fwww.gamersky.com%2Fnews%2F202108%2F1416152.shtml&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e890]:
+              - link "跳转" [ref=e893] [cursor=pointer]:
+                - /url: "#cite_ref-youxiputao02_23-0"
+                - text: ^
+              - generic [ref=e894]:
+                - generic [ref=e895]:
+                  - text: 蛋蛋Danielle.
+                  - link "互写长文对喷，这款国产独游的研发、发行或将撕进法庭" [ref=e896] [cursor=pointer]:
+                    - /url: https://youxiputao.com/article/24881
+                  - text: . 游戏葡萄. 2023-04-19
+                  - generic [ref=e897]: "[2023-04-21]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e898] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20230421101347/https://youxiputao.com/article/24881
+                  - text: 于2023-04-21） （中文（中国大陆））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E4%BA%92%E5%86%99%E9%95%BF%E6%96%87%E5%AF%B9%E5%96%B7%EF%BC%8C%E8%BF%99%E6%AC%BE%E5%9B%BD%E4%BA%A7%E7%8B%AC%E6%B8%B8%E7%9A%84%E7%A0%94%E5%8F%91%E3%80%81%E5%8F%91%E8%A1%8C%E6%88%96%E5%B0%86%E6%92%95%E8%BF%9B%E6%B3%95%E5%BA%AD&rft.au=%E8%9B%8B%E8%9B%8BDanielle&rft.date=2023-04-19&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%88%8F%E8%91%A1%E8%90%84&rft_id=https%3A%2F%2Fyouxiputao.com%2Farticle%2F24881&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e899]:
+              - link "跳转" [ref=e902] [cursor=pointer]:
+                - /url: "#cite_ref-chuapp02_24-0"
+                - text: ^
+              - generic [ref=e903]:
+                - generic [ref=e904]:
+                  - text: 酱油妹.
+                  - link "异美、热脉达成调解，《海沙风云》官司落定" [ref=e905] [cursor=pointer]:
+                    - /url: https://www.chuapp.com/article/290029.html
+                  - text: .
+                  - link "触乐" [ref=e906] [cursor=pointer]:
+                    - /url: /wiki/%E8%A7%A6%E4%B9%90
+                  - text: . 2024-06-14
+                  - generic [ref=e907]: "[2024-06-17]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e908] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20240617063108/https://www.chuapp.com/article/290029.html
+                  - text: 于2024-06-17） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%BC%82%E7%BE%8E%E3%80%81%E7%83%AD%E8%84%89%E8%BE%BE%E6%88%90%E8%B0%83%E8%A7%A3%EF%BC%8C%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%E5%AE%98%E5%8F%B8%E8%90%BD%E5%AE%9A&rft.au=%E9%85%B1%E6%B2%B9%E5%A6%B9&rft.date=2024-06-14&rft.genre=unknown&rft.jtitle=%E8%A7%A6%E4%B9%90&rft_id=https%3A%2F%2Fwww.chuapp.com%2Farticle%2F290029.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e909]:
+              - generic [ref=e910]:
+                - text: ^
+                - link "跳转到： 24.0" [ref=e911] [cursor=pointer]:
+                  - /url: "#cite_ref-3dmgame01_25-0"
+                  - generic [ref=e912]: 跳转到：
+                  - superscript [ref=e913]: "24.0"
+                - link "24.1" [ref=e914] [cursor=pointer]:
+                  - /url: "#cite_ref-3dmgame01_25-1"
+                  - superscript [ref=e915]: "24.1"
+                - link "24.2" [ref=e916] [cursor=pointer]:
+                  - /url: "#cite_ref-3dmgame01_25-2"
+                  - superscript [ref=e917]: "24.2"
+                - link "24.3" [ref=e918] [cursor=pointer]:
+                  - /url: "#cite_ref-3dmgame01_25-3"
+                  - superscript [ref=e919]: "24.3"
+                - link "24.4" [ref=e920] [cursor=pointer]:
+                  - /url: "#cite_ref-3dmgame01_25-4"
+                  - superscript [ref=e921]: "24.4"
+              - generic [ref=e922]:
+                - generic [ref=e923]:
+                  - text: Marvin.
+                  - link "《海沙风云》评测：掌握哩度嘅人先至可以企系时代嘅丁丁噶！" [ref=e924] [cursor=pointer]:
+                    - /url: https://www.3dmgame.com/score/3742568.html
+                  - text: .
+                  - link "3DMGAME" [ref=e925] [cursor=pointer]:
+                    - /url: /wiki/3DMGAME
+                  - text: (2021-09-19).
+                  - generic [ref=e926]: "[2021-09-25]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e927] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210925083313/https://www.3dmgame.com/score/3742568.html
+                  - text: 于2021-09-25） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E3%80%8A%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91%E3%80%8B%E8%AF%84%E6%B5%8B%EF%BC%9A%E6%8E%8C%E6%8F%A1%E5%93%A9%E5%BA%A6%E5%98%85%E4%BA%BA%E5%85%88%E8%87%B3%E5%8F%AF%E4%BB%A5%E4%BC%81%E7%B3%BB%E6%97%B6%E4%BB%A3%E5%98%85%E4%B8%81%E4%B8%81%E5%99%B6%EF%BC%81&rft.au=Marvin&rft.genre=article&rft.issue=2021-09-19&rft.jtitle=3DMGAME&rft_id=https%3A%2F%2Fwww.3dmgame.com%2Fscore%2F3742568.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e928]:
+              - link "跳转" [ref=e931] [cursor=pointer]:
+                - /url: "#cite_ref-weibo01_26-0"
+                - text: ^
+              - generic [ref=e932]:
+                - generic [ref=e933]:
+                  - text: 红茶Games.
+                  - link "紅茶Games2021年8月24日微博博文" [ref=e934] [cursor=pointer]:
+                    - /url: https://m.weibo.cn/status/4673771413440312
+                  - text: .
+                  - link "新浪微博" [ref=e935] [cursor=pointer]:
+                    - /url: /wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A
+                  - text: . 2021-08-24
+                  - generic [ref=e936]: "[2021-08-26]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e937] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20211218052153/https://m.weibo.cn/status/4673771413440312
+                  - text: 于2021-12-18） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E7%B4%85%E8%8C%B6Games2021%E5%B9%B48%E6%9C%8824%E6%97%A5%E5%BE%AE%E5%8D%9A%E5%8D%9A%E6%96%87&rft.au=%E7%B4%85%E8%8C%B6Games&rft.date=2021-08-24&rft.genre=unknown&rft.jtitle=%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A&rft_id=https%3A%2F%2Fm.weibo.cn%2Fstatus%2F4673771413440312&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e938]:
+              - link "跳转" [ref=e941] [cursor=pointer]:
+                - /url: "#cite_ref-3dmgame02_27-0"
+                - text: ^
+              - generic [ref=e942]:
+                - generic [ref=e943]:
+                  - text: 爆裂真菌.
+                  - link "2021中文恋爱游戏大赛入围名单公布" [ref=e944] [cursor=pointer]:
+                    - /url: https://www.3dmgame.com/news/202109/3824771.html
+                  - text: .
+                  - link "3DMGAME" [ref=e945] [cursor=pointer]:
+                    - /url: /wiki/3DMGAME
+                  - text: . 2021-09-29
+                  - generic [ref=e946]: "[2021-10-04]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e947] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20211004143257/https://www.3dmgame.com/news/202109/3824771.html
+                  - text: 于2021-10-04） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=2021%E4%B8%AD%E6%96%87%E6%81%8B%E7%88%B1%E6%B8%B8%E6%88%8F%E5%A4%A7%E8%B5%9B%E5%85%A5%E5%9B%B4%E5%90%8D%E5%8D%95%E5%85%AC%E5%B8%83&rft.au=%E7%88%86%E8%A3%82%E7%9C%9F%E8%8F%8C&rft.date=2021-09-29&rft.genre=article&rft.jtitle=3DMGAME&rft_id=https%3A%2F%2Fwww.3dmgame.com%2Fnews%2F202109%2F3824771.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e948]:
+              - link "跳转" [ref=e951] [cursor=pointer]:
+                - /url: "#cite_ref-youxiputao03_28-0"
+                - text: ^
+              - generic [ref=e952]:
+                - generic [ref=e953]:
+                  - text: 肉串.
+                  - link "2022 indiePlay中国独立游戏大赛各大奖项结果公布" [ref=e954] [cursor=pointer]:
+                    - /url: https://youxiputao.com/article/24274
+                  - text: . 游戏葡萄. 2022-11-14
+                  - generic [ref=e955]: "[2023-04-21]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e956] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20230421132344/https://youxiputao.com/article/24274
+                  - text: 于2023-04-21） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=2022+indiePlay%E4%B8%AD%E5%9B%BD%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E5%A4%A7%E8%B5%9B%E5%90%84%E5%A4%A7%E5%A5%96%E9%A1%B9%E7%BB%93%E6%9E%9C%E5%85%AC%E5%B8%83&rft.au=%E8%82%89%E4%B8%B2&rft.date=2022-11-14&rft.genre=article&rft.jtitle=%E6%B8%B8%E6%88%8F%E8%91%A1%E8%90%84&rft_id=https%3A%2F%2Fyouxiputao.com%2Farticle%2F24274&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+            - listitem [ref=e957]:
+              - generic [ref=e958]:
+                - text: ^
+                - link "跳转到： 28.0" [ref=e959] [cursor=pointer]:
+                  - /url: "#cite_ref-chuapp01_29-0"
+                  - generic [ref=e960]: 跳转到：
+                  - superscript [ref=e961]: "28.0"
+                - link "28.1" [ref=e962] [cursor=pointer]:
+                  - /url: "#cite_ref-chuapp01_29-1"
+                  - superscript [ref=e963]: "28.1"
+                - link "28.2" [ref=e964] [cursor=pointer]:
+                  - /url: "#cite_ref-chuapp01_29-2"
+                  - superscript [ref=e965]: "28.2"
+              - generic [ref=e966]:
+                - generic [ref=e967]:
+                  - text: 甄能达; 冯昕旸; 祝思齐; 杨宗硕; 陈静; 袁伟腾.
+                  - link "周末玩什么：粤语配音文字冒险，“瓦力欧制造”新作试玩" [ref=e968] [cursor=pointer]:
+                    - /url: http://www.chuapp.com/article/288200.html
+                  - text: . 触乐. 2021-08-21
+                  - generic [ref=e969]: "[2021-08-30]"
+                  - text: . （原始内容
+                  - link "存档" [ref=e970] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20210830150705/http://www.chuapp.com/article/288200.html
+                  - text: 于2021-08-30） （中文（简体））.
+                - generic "ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&rft.atitle=%E5%91%A8%E6%9C%AB%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9A%E7%B2%A4%E8%AF%AD%E9%85%8D%E9%9F%B3%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9%EF%BC%8C%E2%80%9C%E7%93%A6%E5%8A%9B%E6%AC%A7%E5%88%B6%E9%80%A0%E2%80%9D%E6%96%B0%E4%BD%9C%E8%AF%95%E7%8E%A9&rft.au=%E5%86%AF%E6%98%95%E6%97%B8&rft.au=%E6%9D%A8%E5%AE%97%E7%A1%95&rft.au=%E7%94%84%E8%83%BD%E8%BE%BE&rft.au=%E7%A5%9D%E6%80%9D%E9%BD%90&rft.au=%E8%A2%81%E4%BC%9F%E8%85%BE&rft.au=%E9%99%88%E9%9D%99&rft.date=2021-08-21&rft.genre=unknown&rft.jtitle=%E8%A7%A6%E4%B9%90&rft_id=http%3A%2F%2Fwww.chuapp.com%2Farticle%2F288200.html&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"
+          - generic [ref=e971]:
+            - heading "外部链接" [level=2] [ref=e972]: 外部链接
+            - generic [ref=e973]:
+              - text: "["
+              - link "编辑" [ref=e974] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&action=edit&section=9
+              - text: "]"
+          - list [ref=e975]:
+            - listitem [ref=e976]:
+              - link "异美工作室的新浪微博" [ref=e977] [cursor=pointer]:
+                - /url: https://weibo.com/u/7333504548
+            - listitem [ref=e978]:
+              - text: 《
+              - link "海沙风云" [ref=e979] [cursor=pointer]:
+                - /url: https://vndb.org/v29371
+              - text: 》在
+              - link "视觉小说数据库" [ref=e980] [cursor=pointer]:
+                - /url: /wiki/%E8%A6%96%E8%A6%BA%E5%B0%8F%E8%AA%AA%E6%95%B8%E6%93%9A%E5%BA%AB
+              - text: 的页面
+              - link "编辑维基数据链接" [ref=e982] [cursor=pointer]:
+                - /url: https://www.wikidata.org/wiki/Q108178792#P3180
+                - img "编辑维基数据链接" [ref=e983]
+              - text: （英文）
+          - navigation "Portals" [ref=e984]:
+            - list [ref=e985]:
+              - listitem [ref=e986]:
+                - link [ref=e989] [cursor=pointer]:
+                  - /url: /wiki/File:Crystal_Clear_app_package_games.svg
+                  - img [ref=e990]
+                - link "电子游戏主题" [ref=e991] [cursor=pointer]:
+                  - /url: /wiki/Portal:%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+        - generic [ref=e993]:
+          - link "分类" [ref=e994] [cursor=pointer]:
+            - /url: /wiki/Special:Categories
+          - text: ：
+          - list [ref=e995]:
+            - listitem [ref=e996]:
+              - link "2021年电子游戏" [ref=e997] [cursor=pointer]:
+                - /url: /wiki/Category:2021%E5%B9%B4%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+            - listitem [ref=e998]:
+              - link "中国大陆开发电子游戏" [ref=e999] [cursor=pointer]:
+                - /url: /wiki/Category:%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%BC%80%E5%8F%91%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+            - listitem [ref=e1000]:
+              - link "Windows独占游戏" [ref=e1001] [cursor=pointer]:
+                - /url: /wiki/Category:Windows%E7%8B%AC%E5%8D%A0%E6%B8%B8%E6%88%8F
+            - listitem [ref=e1002]:
+              - link "原生中文视觉小说" [ref=e1003] [cursor=pointer]:
+                - /url: /wiki/Category:%E5%8E%9F%E7%94%9F%E4%B8%AD%E6%96%87%E8%A7%86%E8%A7%89%E5%B0%8F%E8%AF%B4
+            - listitem [ref=e1004]:
+              - link "官方粤语配音游戏" [ref=e1005] [cursor=pointer]:
+                - /url: /wiki/Category:%E5%AE%98%E6%96%B9%E7%B2%B5%E8%AA%9E%E9%85%8D%E9%9F%B3%E9%81%8A%E6%88%B2
+            - listitem [ref=e1006]:
+              - link "警察主角题材电子游戏" [ref=e1007] [cursor=pointer]:
+                - /url: /wiki/Category:%E8%AD%A6%E5%AF%9F%E4%B8%BB%E8%A7%92%E9%A1%8C%E6%9D%90%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2
+            - listitem [ref=e1008]:
+              - link "有组织犯罪游戏" [ref=e1009] [cursor=pointer]:
+                - /url: /wiki/Category:%E6%9C%89%E7%B5%84%E7%B9%94%E7%8A%AF%E7%BD%AA%E9%81%8A%E6%88%B2
+            - listitem [ref=e1010]:
+              - link "越狱题材电子游戏" [ref=e1011] [cursor=pointer]:
+                - /url: /wiki/Category:%E8%B6%8A%E7%8D%84%E9%A1%8C%E6%9D%90%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2
+            - listitem [ref=e1012]:
+              - link "虚构背景电子游戏" [ref=e1013] [cursor=pointer]:
+                - /url: /wiki/Category:%E8%99%9A%E6%9E%84%E8%83%8C%E6%99%AF%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+            - listitem [ref=e1014]:
+              - link "Unity引擎游戏" [ref=e1015] [cursor=pointer]:
+                - /url: /wiki/Category:Unity%E5%BC%95%E6%93%8E%E6%B8%B8%E6%88%8F
+            - listitem [ref=e1016]:
+              - link "女主人公电子游戏" [ref=e1017] [cursor=pointer]:
+                - /url: /wiki/Category:%E5%A5%B3%E4%B8%BB%E4%BA%BA%E5%85%AC%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2
+            - listitem [ref=e1018]:
+              - link "多重结局电子游戏" [ref=e1019] [cursor=pointer]:
+                - /url: /wiki/Category:%E5%A4%9A%E9%87%8D%E7%BB%93%E5%B1%80%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+            - listitem [ref=e1020]:
+              - link "单人电子游戏" [ref=e1021] [cursor=pointer]:
+                - /url: /wiki/Category:%E5%8D%95%E4%BA%BA%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+            - listitem [ref=e1022]:
+              - link "摩点众筹电子游戏" [ref=e1023] [cursor=pointer]:
+                - /url: /wiki/Category:%E6%91%A9%E7%82%B9%E4%BC%97%E7%AD%B9%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F
+    - contentinfo [ref=e1025]:
+      - list [ref=e1026]:
+        - listitem [ref=e1027]: 本页面最后修订于2026年3月26日 (星期四) 13:28。
+        - listitem [ref=e1028]:
+          - text: 本站的全部文字在
+          - link "知识共享 署名-相同方式共享 4.0协议" [ref=e1029] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC
+          - text: 之条款下提供，附加条款亦可能应用。（请参阅
+          - link "使用条款" [ref=e1030] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: ）
+          - text: Wikipedia®和维基百科标志是
+          - link "维基媒体基金会" [ref=e1031] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org
+          - text: 的注册商标；维基™是维基媒体基金会的商标。
+          - text: 维基媒体基金会是按美国国内税收法501(c)(3)登记的
+          - link "非营利慈善机构" [ref=e1032] [cursor=pointer]:
+            - /url: https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility
+          - text: 。
+      - list:
+        - listitem [ref=e1033]:
+          - link "隐私政策" [ref=e1034] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e1035]:
+          - link "关于维基百科" [ref=e1036] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:%E5%85%B3%E4%BA%8E
+        - listitem [ref=e1037]:
+          - link "免责声明" [ref=e1038] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E
+        - listitem [ref=e1039]:
+          - link "法律与安全事项联系方式" [ref=e1040] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e1041]:
+          - link "行为准则" [ref=e1042] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e1043]:
+          - link "开发者" [ref=e1044] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e1045]:
+          - link "统计" [ref=e1046] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/zh.wikipedia.org
+        - listitem [ref=e1047]:
+          - link "Cookie声明" [ref=e1048] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e1049]:
+          - link "移动版视图" [ref=e1050] [cursor=pointer]:
+            - /url: //zh.wikipedia.org/w/index.php?title=%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2&variant=zh-cn&mobileaction=toggle_view_mobile
+      - list [ref=e1051]:
+        - listitem [ref=e1052]:
+          - link "Wikimedia Foundation" [ref=e1053] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e1055]
+        - listitem [ref=e1056]:
+          - link "Powered by MediaWiki" [ref=e1057] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e1059]
+  - generic [ref=e1060]:
+    - list

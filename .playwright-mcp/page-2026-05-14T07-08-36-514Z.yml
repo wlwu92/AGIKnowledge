@@ -1,0 +1,342 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: EMAGE 异美工作室 续作 EMAGE 异美工作室 续作
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEMAGE%2B%25E5%25BC%2582%25E7%25BE%258E%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%2B%25E7%25BB%25AD%25E4%25BD%259C&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&aep=1&ntc=1&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ2J8OegQIFBAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "图片" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQtKgLegQIGhAB
+              - generic [ref=e91]: 图片
+          - listitem [ref=e92]:
+            - link "视频" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQtKgLegQIFhAB
+              - generic [ref=e95]: 视频
+          - listitem [ref=e96]:
+            - link "短视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQs6gLegQIFxAB
+              - generic [ref=e99]: 短视频
+          - listitem [ref=e100]:
+            - link "购物" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&ved=1t:220175&ictx=111
+              - generic [ref=e103]: 购物
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ0pQJegQIGRAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - main [ref=e126]:
+      - heading "您是不是要找： EMA 各异美工作室续作 厄玛格异美工作室续作" [level=2] [ref=e131]:
+        - generic [ref=e132]: 您是不是要找：
+        - paragraph [ref=e134]:
+          - link "EMA 各异美工作室续作" [ref=e135] [cursor=pointer]:
+            - /url: /search?sca_esv=4c0e757566be5d36&q=EMA+%E5%90%84%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%BB%AD%E4%BD%9C&spell=1&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQBSgAegQIERAB
+            - emphasis [ref=e136]: EMA 各异美工作室续
+            - text: 作
+        - paragraph [ref=e138]:
+          - link "厄玛格异美工作室续作" [ref=e139] [cursor=pointer]:
+            - /url: /search?sca_esv=4c0e757566be5d36&q=%E5%8E%84%E7%8E%9B%E6%A0%BC%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%BB%AD%E4%BD%9C&spell=1&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQBSgBegQIERAC
+            - emphasis [ref=e140]: 厄玛格异美工作室续
+            - text: 作
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "网页搜索结果" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "海沙风云- 维基百科，自由的百科全书 维基百科 https://zh.wikipedia.org › zh-cn › 海沙風雲" [ref=e154] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙风云- 维基百科，自由的百科全书" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: 维基百科
+                  - generic [ref=e164]: https://zh.wikipedia.org › zh-cn › 海沙風雲
+              - button "关于这条结果的详细信息" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e172]:
+              - emphasis [ref=e173]: 《海沙风云》
+              - text: 是中国异美工作室（旧名红茶Games）制作的一款文字冒险游戏，游戏于2021年8月18日在Steam发行。本作是异美工作室的第一款作品，未来预计会登陆iOS和安卓平台。
+        - generic [ref=e184]:
+          - heading "正在思考" [level=2] [ref=e188]:
+            - generic [ref=e189]: 正在思考
+          - progressbar [ref=e190]
+        - generic [ref=e194]:
+          - heading "Web results" [level=2] [ref=e195]
+          - generic [ref=e196]:
+            - generic [ref=e199]:
+              - link "异美工作室GratescaStudio X · Gratesca_Studio 超过 470位关注者" [ref=e201] [cursor=pointer]:
+                - /url: https://x.com/Gratesca_Studio
+                - heading "异美工作室GratescaStudio" [level=3] [ref=e202]
+                - generic [ref=e207]:
+                  - generic [ref=e209]: X · Gratesca_Studio
+                  - generic [ref=e211]: 超过 470位关注者
+              - button "关于这条结果的详细信息" [ref=e212] [cursor=pointer]:
+                - img [ref=e215]
+            - generic [ref=e219]:
+              - text: "Developer of Far Away and Noctuary, devoted to the making of high-quality games. Steam: Gratesca YouTube:"
+              - emphasis [ref=e220]: 异美工作室
+              - text: "GratescaStudio. Website: gratesca.com. Posts."
+            - link "来自x.com的“EMAGE 异美工作室 续作”" [ref=e223] [cursor=pointer]:
+              - /url: https://x.com/Gratesca_Studio
+              - img "来自x.com的“EMAGE 异美工作室 续作”" [ref=e225]
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - link "大家好，這裡是Hotta Studio！ 自從《異環》首曝以來，我們 ... Facebook · 異環 180+ 个回应 · 1年前" [ref=e234] [cursor=pointer]:
+              - /url: https://www.facebook.com/nte.iwplay/posts/%E5%A4%A7%E5%AE%B6%E5%A5%BD%E9%80%99%E8%A3%A1%E6%98%AFhotta-studio%E8%87%AA%E5%BE%9E%E7%95%B0%E7%92%B0%E9%A6%96%E6%9B%9D%E4%BB%A5%E4%BE%86%E6%88%91%E5%80%91%E5%8F%97%E5%88%B0%E5%A4%A7%E5%AE%B6%E9%9D%9E%E5%B8%B8%E5%A4%9A%E7%9A%84%E9%97%9C%E6%B3%A8%E8%88%87%E8%A8%8E%E8%AB%96%E6%84%9F%E8%AC%9D%E5%A4%A7%E5%AE%B6%E7%9A%84%E6%94%AF%E6%8C%81%E6%88%91%E5%80%91%E6%84%9F%E5%88%B0%E9%9D%9E%E5%B8%B8%E6%A6%AE%E5%B9%B8%E4%BB%8A%E5%A4%A9%E5%B0%B1%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E8%B5%B7%E4%BE%86%E7%9C%8B%E7%9C%8B%E7%95%B0%E7%92%B0%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A%E8%83%8C%E5%BE%8C%E7%9A%84%E6%95%85%E4%BA%8B%E6%8E%A2%E7%B4%A2/122124395300322911/
+              - heading "大家好，這裡是Hotta Studio！ 自從《異環》首曝以來，我們 ..." [level=3] [ref=e235]
+              - generic [ref=e240]:
+                - generic [ref=e242]: Facebook · 異環
+                - generic [ref=e244]: 180+ 个回应 · 1年前
+            - button "关于这条结果的详细信息" [ref=e245] [cursor=pointer]:
+              - img [ref=e248]
+          - generic [ref=e251]: "▽全新超自然都市開放世界RPG《異環》 預約進行中＞＞ https://lnk.to/PRENTE #異環 #HottaStudio #NTE #NevernesstoEverness. 《異環》首曝實機PV解讀：這真 ..."
+          - link "来自www.facebook.com的“EMAGE 异美工作室 续作”" [ref=e254] [cursor=pointer]:
+            - /url: https://www.facebook.com/nte.iwplay/posts/%E5%A4%A7%E5%AE%B6%E5%A5%BD%E9%80%99%E8%A3%A1%E6%98%AFhotta-studio%E8%87%AA%E5%BE%9E%E7%95%B0%E7%92%B0%E9%A6%96%E6%9B%9D%E4%BB%A5%E4%BE%86%E6%88%91%E5%80%91%E5%8F%97%E5%88%B0%E5%A4%A7%E5%AE%B6%E9%9D%9E%E5%B8%B8%E5%A4%9A%E7%9A%84%E9%97%9C%E6%B3%A8%E8%88%87%E8%A8%8E%E8%AB%96%E6%84%9F%E8%AC%9D%E5%A4%A7%E5%AE%B6%E7%9A%84%E6%94%AF%E6%8C%81%E6%88%91%E5%80%91%E6%84%9F%E5%88%B0%E9%9D%9E%E5%B8%B8%E6%A6%AE%E5%B9%B8%E4%BB%8A%E5%A4%A9%E5%B0%B1%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E8%B5%B7%E4%BE%86%E7%9C%8B%E7%9C%8B%E7%95%B0%E7%92%B0%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A%E8%83%8C%E5%BE%8C%E7%9A%84%E6%95%85%E4%BA%8B%E6%8E%A2%E7%B4%A2/122124395300322911/
+            - img "来自www.facebook.com的“EMAGE 异美工作室 续作”" [ref=e256]
+        - generic [ref=e260]:
+          - heading "图片" [level=2] [ref=e264]
+          - generic [ref=e268]:
+            - generic [ref=e272] [cursor=pointer]:
+              - link "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X Twitter":
+                - /url: https://x.com/Gratesca_Studio
+              - button "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e274]:
+                - img "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e276]
+              - generic [ref=e278]:
+                - generic [ref=e280]: 异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X
+                - generic [ref=e281]:
+                  - generic [ref=e288]: Twitter
+                  - button "关于这条结果的详细信息" [ref=e291]:
+                    - img [ref=e294]
+            - generic [ref=e299] [cursor=pointer]:
+              - link "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X Twitter":
+                - /url: https://x.com/Gratesca_Studio
+              - button "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e301]:
+                - img "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e303]
+              - generic [ref=e305]:
+                - generic [ref=e307]: 异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X
+                - generic [ref=e308]:
+                  - generic [ref=e315]: Twitter
+                  - button "关于这条结果的详细信息" [ref=e318]:
+                    - img [ref=e321]
+            - generic [ref=e326] [cursor=pointer]:
+              - link "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X Twitter":
+                - /url: https://x.com/Gratesca_Studio
+              - button "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e328]:
+                - img "异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X" [ref=e330]
+              - generic [ref=e332]:
+                - generic [ref=e334]: 异美工作室GratescaStudio (@Gratesca_Studio) / Posts / X
+                - generic [ref=e335]:
+                  - generic [ref=e342]: Twitter
+                  - button "关于这条结果的详细信息" [ref=e345]:
+                    - img [ref=e348]
+          - button "显示更多图片" [ref=e351] [cursor=pointer]:
+            - separator [ref=e352]
+            - generic [ref=e353]:
+              - generic [ref=e354]: 显示更多图片
+              - img [ref=e356]
+        - generic [ref=e360]:
+          - heading "网页搜索结果" [level=2] [ref=e361]
+          - generic [ref=e362]:
+            - generic [ref=e365]:
+              - link "Domerica - 萌娘百科万物皆可萌的百科全书 萌娘百科 https://zh.moegirl.org.cn › Domerica" [ref=e367] [cursor=pointer]:
+                - /url: https://zh.moegirl.org.cn/Domerica
+                - heading "Domerica - 萌娘百科万物皆可萌的百科全书" [level=3] [ref=e368]
+                - generic [ref=e370]:
+                  - img [ref=e374]
+                  - generic [ref=e376]:
+                    - generic [ref=e378]: 萌娘百科
+                    - generic [ref=e380]: https://zh.moegirl.org.cn › Domerica
+              - button "关于这条结果的详细信息" [ref=e381] [cursor=pointer]:
+                - img [ref=e384]
+            - generic [ref=e387]:
+              - generic [ref=e388]: 2025年8月11日 —
+              - text: 名称, domerica 多美 ; 类型, 动画公司 ; 成立时间, 2010年12月 ; 总部地址, 东京都目黑区大桥1丁目7番4号久保ビル3F ; 主要作品, 美妙世界The Animation
+        - generic [ref=e392]:
+          - generic [ref=e395]:
+            - link "彩妆新趋势——「自洽主义美学」 RMK与W中文版携手 Instagram · rmkofficial 150+ 个赞 · 1个月前" [ref=e397] [cursor=pointer]:
+              - /url: https://www.instagram.com/p/DWqc-lWkzxc/
+              - heading "彩妆新趋势——「自洽主义美学」 RMK与W中文版携手" [level=3] [ref=e398]
+              - generic [ref=e403]:
+                - generic [ref=e405]: Instagram · rmkofficial
+                - generic [ref=e407]: 150+ 个赞 · 1个月前
+            - button "关于这条结果的详细信息" [ref=e408] [cursor=pointer]:
+              - img [ref=e411]
+          - generic [ref=e414]: "RMK × W China — three looks shaped by Self-Coherence. LOOK 2 — Detached #疏离感美学. W幕后揭秘｜彩妆新趋势——「自洽主义美学」 RMK与W中文版 ..."
+        - generic [ref=e418]:
+          - generic [ref=e421]:
+            - link "Home | Defense Security Cooperation Agency Defense Security Cooperation Agency (DSCA) (.mil) https://www.dsca.mil" [ref=e423] [cursor=pointer]:
+              - /url: https://www.dsca.mil/
+              - heading "Home | Defense Security Cooperation Agency" [level=3] [ref=e424]
+              - generic [ref=e429]:
+                - generic [ref=e431]: Defense Security Cooperation Agency (DSCA) (.mil)
+                - generic [ref=e433]: https://www.dsca.mil
+            - generic [ref=e434]:
+              - generic [ref=e435]: ·
+              - link "翻译此页" [ref=e436] [cursor=pointer]:
+                - /url: https://www.dsca.mil/
+            - button "关于这条结果的详细信息" [ref=e437] [cursor=pointer]:
+              - img [ref=e440]
+          - generic [ref=e443]: DSCA's mission is to advance U.S. national security and foreign policy interests by building the capacity of foreign security forces to respond to shared ...
+          - generic [ref=e445]: 缺少字词： EMAGE ‎异 ‎续
+        - generic [ref=e449]:
+          - generic [ref=e452]:
+            - link "美景与消费双向奔赴，前滩“五一”人流量同比增长46% - 上观 shobserver.com https://www.shobserver.com › html › web › newsDetail" [ref=e454] [cursor=pointer]:
+              - /url: https://www.shobserver.com/staticsg/res/html/web/newsDetail.html?id=1106698&sid=11
+              - heading "美景与消费双向奔赴，前滩“五一”人流量同比增长46% - 上观" [level=3] [ref=e455]
+              - generic [ref=e460]:
+                - generic [ref=e462]: shobserver.com
+                - generic [ref=e464]: https://www.shobserver.com › html › web › newsDetail
+            - button "关于这条结果的详细信息" [ref=e465] [cursor=pointer]:
+              - img [ref=e468]
+          - generic [ref=e471]:
+            - generic [ref=e472]: 2026年5月2日 —
+            - text: 记者了解到，4月18日起，“繁花绽浦东”2026上海国际花卉节浦东分会场开幕，打造沉浸式超长花期，让春日繁花惠及全城、人人皆可尽享春光。截至5月1日，世博前滩 ...
+        - generic [ref=e476]:
+          - generic [ref=e479]:
+            - link "完美365 （Perfect365） - App Store Apple https://apps.apple.com › app › 完美365-perfect365" [ref=e481] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/%E5%AE%8C%E7%BE%8E365-perfect365/id475976577?l=zh-Hans-CN&platform=ipad
+              - heading "完美365 （Perfect365） - App Store" [level=3] [ref=e482]
+              - generic [ref=e487]:
+                - generic [ref=e489]: Apple
+                - generic [ref=e491]: https://apps.apple.com › app › 完美365-perfect365
+            - button "关于这条结果的详细信息" [ref=e492] [cursor=pointer]:
+              - img [ref=e495]
+          - generic [ref=e499]:
+            - text: 全球超受欢迎的美颜软件，简单易用，效果逼真。时尚美妆达人和美妆
+            - emphasis [ref=e500]: 工作室
+            - text: 每周都有精心打造出新款妆容，为全球爱美，爱自拍，爱美妆，爱时尚的用户提供灵感来源。想要 ...
+          - generic [ref=e503]:
+            - generic [ref=e504]:
+              - img "评分为 4.8 星（最高 5 星）， (181,366) 条用户评价" [ref=e505]:
+                - text: "4.8"
+                - img [ref=e506]
+                - text: (181,366)
+              - text: ·
+            - text: 免费 · ‎iOS
+        - generic [ref=e512]:
+          - generic [ref=e515]:
+            - link "无主题 Arizona Public Service https://www.aps.com › ..." [ref=e517] [cursor=pointer]:
+              - /url: https://www.aps.com/trees%20for%208:30
+              - heading "无主题" [level=3] [ref=e518]
+              - generic [ref=e523]:
+                - generic [ref=e525]: Arizona Public Service
+                - generic [ref=e527]: https://www.aps.com › ...
+            - button "关于这条结果的详细信息" [ref=e528] [cursor=pointer]:
+              - img [ref=e531]
+          - generic [ref=e534]: DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="en"> <head> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta ...
+      - generic [ref=e536]:
+        - generic [ref=e541]:
+          - heading "用户还搜索了" [level=2] [ref=e543]
+          - generic [ref=e545]:
+            - generic [ref=e546]:
+              - link "Gratesca" [ref=e550] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=Gratesca&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ1QJ6BAgwEAE
+                - generic [ref=e551]:
+                  - generic [ref=e556]: Gratesca
+                  - img [ref=e560]
+              - link "海沙风云" [ref=e565] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ1QJ6BAgyEAE
+                - generic [ref=e566]:
+                  - generic [ref=e571]: 海沙风云
+                  - img [ref=e575]
+            - link "成都异美" [ref=e581] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=%E6%88%90%E9%83%BD%E5%BC%82%E7%BE%8E&sa=X&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ1QJ6BAgxEAE
+              - generic [ref=e582]:
+                - generic [ref=e587]: 成都异美
+                - img [ref=e591]
+        - navigation [ref=e593]:
+          - heading "网页导航" [level=1] [ref=e594]
+          - text: "1"
+          - link "Page 2" [ref=e597] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=10&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAE
+            - text: "2"
+          - link "Page 3" [ref=e599] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=20&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAG
+            - text: "3"
+          - link "Page 4" [ref=e601] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=30&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAI
+            - text: "4"
+          - link "Page 5" [ref=e603] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=40&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAK
+            - text: "5"
+          - link "Page 6" [ref=e605] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=50&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAM
+            - text: "6"
+          - link "Page 7" [ref=e607] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=60&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAO
+            - text: "7"
+          - link "Page 8" [ref=e609] [cursor=pointer]:
+            - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=70&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8tMDegQIKhAQ
+            - text: "8"
+          - heading "下一页" [level=2] [ref=e611]:
+            - link "下一页" [ref=e612] [cursor=pointer]:
+              - /url: /search?q=EMAGE+%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E7%BB%AD%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=83QFaueeC4e-kPIPv-qigA8&start=10&sa=N&sstk=Af77f_e7T-1p7C7aX8ugu1M9Ln2PGOI8yfwOnVsWpHtbcpkGAolRCx4UFtE5ql-aN_9L4x4i973uRvuFK2IPgfylKH2aAA3kfghfgg&ved=2ahUKEwin5I6enLiUAxUHH0QIHT-1CPAQ8NMDegQIKhAS
+              - generic [ref=e614]: 下一页
+      - navigation
+    - contentinfo [ref=e615]:
+      - heading "页脚链接" [level=1] [ref=e616]
+      - generic [ref=e620]:
+        - generic [ref=e624]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e626] [cursor=pointer]:
+            - generic [ref=e627]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e629]:
+              - text: "-"
+              - generic [ref=e630]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e632] [cursor=pointer]: 更新位置信息
+        - generic [ref=e635]:
+          - link "帮助" [ref=e636] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e637] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e638] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e639] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

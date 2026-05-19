@@ -4,20 +4,20 @@
   "title": "Review note for vault compliance",
   "titleGenerationStatus": "success",
   "createdAt": 1778656395522,
-  "updatedAt": 1778656428514,
-  "lastResponseAt": 1778656428514,
+  "updatedAt": 1778656557051,
+  "lastResponseAt": 1778656448107,
   "sessionId": "6e04994b-f174-452f-8091-b5511e9feab1",
   "providerState": {
     "providerSessionId": "6e04994b-f174-452f-8091-b5511e9feab1"
   },
   "usage": {
     "model": "deepseek-chat",
-    "inputTokens": 7668,
+    "inputTokens": 178,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30592,
+    "cacheReadInputTokens": 41344,
     "contextWindow": 200000,
-    "contextTokens": 38260,
-    "percentage": 19,
+    "contextTokens": 41522,
+    "percentage": 21,
     "contextWindowIsAuthoritative": true
   }
 }

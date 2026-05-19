@@ -1,0 +1,312 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: 异美工作室 海沙风云 续作 2025 2026 异美工作室 海沙风云 续作 2025 2026
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%25E5%25BC%2582%25E7%25BE%258E%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%2B%25E6%25B5%25B7%25E6%25B2%2599%25E9%25A3%258E%25E4%25BA%2591%2B%25E7%25BB%25AD%25E4%25BD%259C%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQ2J8OegQIERAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "图片" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sa=X&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQtKgLegQIFxAB
+              - generic [ref=e91]: 图片
+          - listitem [ref=e92]:
+            - link "视频" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sa=X&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQtKgLegQIFhAB
+              - generic [ref=e95]: 视频
+          - listitem [ref=e96]:
+            - link "短视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sa=X&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQs6gLegQIFRAB
+              - generic [ref=e99]: 短视频
+          - listitem [ref=e100]:
+            - link "购物" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&ved=1t:220175&ictx=111
+              - generic [ref=e103]: 购物
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJzaswP0mpbgzvJ8vQCiCDcmA0ktLCms7w08eUbW1KgoeG-hnBgcxoY0dvTNoRLw4_GsvjTjgEm7DNy3-sQ-4Y3ACiFQlHwX9d2Ty2WXnR3EJIStDH2t7jmEN5nEWgtsnUP6v8uj2-vqQZxUZb0Pa9dJT-ttQ&sa=X&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQ0pQJegQIExAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e144]:
+        - heading "正在搜索 再多想一会儿" [level=2] [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e151]: 正在搜索
+            - generic [ref=e161]: 再多想一会儿
+        - progressbar [ref=e163]
+      - main [ref=e205]:
+        - generic [ref=e209]:
+          - generic [ref=e212]:
+            - heading "网页搜索结果" [level=2] [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e217]:
+                - link "海沙风云Far Away Steam Community https://steamcommunity.com › app › allnews" [ref=e219] [cursor=pointer]:
+                  - /url: https://steamcommunity.com/app/1250760/allnews/?l=schinese
+                  - heading "海沙风云Far Away" [level=3] [ref=e220]
+                  - generic [ref=e225]:
+                    - generic [ref=e227]: Steam Community
+                    - generic [ref=e229]: https://steamcommunity.com › app › allnews
+                - button "关于这条结果的详细信息" [ref=e230] [cursor=pointer]:
+                  - img [ref=e233]
+              - generic [ref=e237]:
+                - emphasis [ref=e238]: 2025年12月9日-2026年1月6日
+                - text: ，《海沙风云》4.5折，《THE ART OF FAR AWAY》6折！ 此外，异美官方周边持续热卖中，欢迎选购！直达→ https://m.tb.cn/h.S4XmKRa9iNWCNeE.
+          - generic [ref=e242]:
+            - generic [ref=e245]:
+              - link "海沙风云Far Away - 冒险‎游戏 Steam https://store.steampowered.com › app › Far_Away" [ref=e247] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/1250760/Far_Away/?l=schinese&curator_clanid=26214428
+                - heading "海沙风云Far Away - 冒险‎游戏" [level=3] [ref=e248]
+                - generic [ref=e253]:
+                  - generic [ref=e255]: Steam
+                  - generic [ref=e257]: https://store.steampowered.com › app › Far_Away
+              - button "关于这条结果的详细信息" [ref=e258] [cursor=pointer]:
+                - img [ref=e261]
+            - generic [ref=e265]:
+              - text: 《
+              - emphasis [ref=e266]: 海沙风云
+              - text: 》是一款“硬派+黑色幽默”风格的文字冒险游戏，玩家扮演打工人少女柯罗莎，在名为贝让的港口城市被卷入了一次涉及帮派斗争、犯罪阴谋、家族恩怨等的惊魂历险。
+            - generic [ref=e268]:
+              - generic [ref=e269]: US$12.99
+              - text: ·
+              - generic [ref=e270]: 现货
+              - text: ·
+              - img "评分为 4.6 星（最高 5 星）， (7,511) 条用户评价" [ref=e276]:
+                - text: "4.6"
+                - img [ref=e277]
+                - text: (7,511)
+              - text: ·
+              - generic [ref=e280]: 14 天内可退货
+          - generic [ref=e284]:
+            - generic [ref=e287]:
+              - link "海沙風雲- 維基百科，自由的百科全書 维基百科 https://zh.wikipedia.org › zh-tw › 海沙..." [ref=e289] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙風雲- 維基百科，自由的百科全書" [level=3] [ref=e290]
+                - generic [ref=e295]:
+                  - generic [ref=e297]: 维基百科
+                  - generic [ref=e299]: https://zh.wikipedia.org › zh-tw › 海沙...
+              - generic [ref=e300]:
+                - generic [ref=e301]: ·
+                - link "转为简体网页" [ref=e302] [cursor=pointer]:
+                  - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+              - button "关于这条结果的详细信息" [ref=e303] [cursor=pointer]:
+                - img [ref=e306]
+            - generic [ref=e310]:
+              - text: 《
+              - emphasis [ref=e311]: 海沙風雲
+              - text: 》是中國
+              - emphasis [ref=e312]: 異美工作室
+              - text: （舊名紅茶Games）製作的一款文字冒險遊戲，遊戲於2021年8月18日在Steam發行。本作是
+              - emphasis [ref=e313]: 異美工作室
+              - text: 的第一款作品，未來預計會登陸iOS和安卓平台。
+          - generic [ref=e317]:
+            - generic [ref=e320]:
+              - link "惹怒核心玩家！国游团队突发舆论风波删帖致歉仍难平息 游民星空 https://www.gamersky.com › news › 202604" [ref=e322] [cursor=pointer]:
+                - /url: https://www.gamersky.com/news/202604/2121399.shtml
+                - heading "惹怒核心玩家！国游团队突发舆论风波删帖致歉仍难平息" [level=3] [ref=e323]
+                - generic [ref=e328]:
+                  - generic [ref=e330]: 游民星空
+                  - generic [ref=e332]: https://www.gamersky.com › news › 202604
+              - button "关于这条结果的详细信息" [ref=e333] [cursor=pointer]:
+                - img [ref=e336]
+            - generic [ref=e339]:
+              - generic [ref=e340]: 2026年4月9日 —
+              - generic [ref=e341]:
+                - emphasis [ref=e342]: "2026"
+                - text: 年4月9日消息，国产Galgame独立游戏
+                - emphasis [ref=e343]: 工作室异美
+                - text: （前红茶Games，代表作《
+                - emphasis [ref=e344]: 海沙风云
+                - text: 》《梦灯花》）突发舆论危机。 4月8日晚，其B站官方账号转发争议性内容 ...
+            - generic [ref=e346]: 缺少字词： 续 ‎2025
+          - generic [ref=e350]:
+            - generic [ref=e353]:
+              - link "异美拿回《海沙风云》发行权续作有望|《王国之心》上架Steam Bilibili https://www.bilibili.com › video" [ref=e355] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV16n4y1X7pa/
+                - heading "异美拿回《海沙风云》发行权续作有望|《王国之心》上架Steam" [level=3] [ref=e356]
+                - generic [ref=e361]:
+                  - generic [ref=e363]: Bilibili
+                  - generic [ref=e365]: https://www.bilibili.com › video
+              - button "关于这条结果的详细信息" [ref=e366] [cursor=pointer]:
+                - img [ref=e369]
+            - generic [ref=e373]:
+              - emphasis [ref=e374]: 异美
+              - text: 拿回《
+              - emphasis [ref=e375]: 海沙风云
+              - text: 》发行权
+              - emphasis [ref=e376]: 续作
+              - text: 有望|《王国之心》上架Steam|幸存者like 《苦痛殿堂》添加中文支持. 嗨游君. 相关推荐. 查看更多. 【IGN】Steam版《王国之心》公布预告.
+            - generic [ref=e378]: 缺少字词： 工作 ‎室 ‎2025 ‎2026
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - link "海沙风云- 维基百科，自由的百科全书 维基百科 https://zh.wikipedia.org › zh-cn › 海沙風雲" [ref=e387] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙风云- 维基百科，自由的百科全书" [level=3] [ref=e388]
+                - generic [ref=e393]:
+                  - generic [ref=e395]: 维基百科
+                  - generic [ref=e397]: https://zh.wikipedia.org › zh-cn › 海沙風雲
+              - button "关于这条结果的详细信息" [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+            - generic [ref=e405]:
+              - text: 《
+              - emphasis [ref=e406]: 海沙风云
+              - text: 》是中国
+              - emphasis [ref=e407]: 异美工作室
+              - text: （旧名红茶Games）制作的一款文字冒险游戏，游戏于2021年8月18日在Steam发行。本作是
+              - emphasis [ref=e408]: 异美工作室
+              - text: 的第一款作品，未来预计会登陆iOS和安卓平台。
+          - generic [ref=e412]:
+            - generic [ref=e415]:
+              - link "惹怒核心玩家！国游团队突发舆论风波删帖致歉仍难平息 - 新闻 17173 http://news.17173.com › 游戏资讯 › 综合资讯" [ref=e417] [cursor=pointer]:
+                - /url: http://news.17173.com/content/04092026/160341155.shtml
+                - heading "惹怒核心玩家！国游团队突发舆论风波删帖致歉仍难平息 - 新闻" [level=3] [ref=e418]
+                - generic [ref=e423]:
+                  - generic [ref=e425]: "17173"
+                  - generic [ref=e427]: http://news.17173.com › 游戏资讯 › 综合资讯
+              - button "关于这条结果的详细信息" [ref=e428] [cursor=pointer]:
+                - img [ref=e431]
+            - generic [ref=e434]:
+              - generic [ref=e435]: 2026年4月9日 —
+              - generic [ref=e436]:
+                - emphasis [ref=e437]: "2026"
+                - text: 年4月9日消息，国产Galgame独立游戏
+                - emphasis [ref=e438]: 工作室异美
+                - text: （前红茶Games，代表作《
+                - emphasis [ref=e439]: 海沙风云
+                - text: 》《梦灯花》）突发舆论危机。 4月8日晚，其B站官方账号转发争议性内容 ...
+            - generic [ref=e441]:
+              - text: 缺少字词： 2025 ‎| 必须包含：
+              - link "2025" [ref=e442] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+%222025%22+2026&sa=X&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQ5t4CegQITBAB
+          - generic [ref=e446]:
+            - generic [ref=e449]:
+              - link "海沙风云游戏 Bangumi 番组计划 https://bangumi.tv › subject" [ref=e451] [cursor=pointer]:
+                - /url: https://bangumi.tv/subject/295004
+                - heading "海沙风云游戏" [level=3] [ref=e452]
+                - generic [ref=e454]:
+                  - img [ref=e458]
+                  - generic [ref=e460]:
+                    - generic [ref=e462]: Bangumi 番组计划
+                    - generic [ref=e464]: https://bangumi.tv › subject
+              - button "关于这条结果的详细信息" [ref=e465] [cursor=pointer]:
+                - img [ref=e468]
+            - generic [ref=e472]:
+              - text: 《
+              - emphasis [ref=e473]: 海沙风云
+              - text: 》是一款集悬疑、解密、黑色幽默等元素的硬派文字冒险游戏。故事发生在遥远的大陆科尔赛斯，面朝海洋、背靠沙漠的“海与沙之都”贝让坐落于一隅，因其极佳的地理 ...
+            - generic [ref=e476]: ¥42.00
+          - generic [ref=e480]:
+            - generic [ref=e483]:
+              - link "《海沙风云》周边众筹正式开启将登陆PS5/PS4/Switch平台 旅法师营地 https://www.iyingdi.com › post" [ref=e485] [cursor=pointer]:
+                - /url: https://www.iyingdi.com/tz/post/5222489
+                - heading "《海沙风云》周边众筹正式开启将登陆PS5/PS4/Switch平台" [level=3] [ref=e486]
+                - generic [ref=e491]:
+                  - generic [ref=e493]: 旅法师营地
+                  - generic [ref=e495]: https://www.iyingdi.com › post
+              - button "关于这条结果的详细信息" [ref=e496] [cursor=pointer]:
+                - img [ref=e499]
+            - generic [ref=e502]:
+              - generic [ref=e503]: 2022年10月13日 —
+              - generic [ref=e504]:
+                - text: 【2022年10月13日，北京】今日，由
+                - emphasis [ref=e505]: 异美工作室
+                - text: 开发、热脉游戏发行的文字冒险游戏《
+                - emphasis [ref=e506]: 海沙风云
+                - text: 》的周边众筹项目已在【摩点】、【Kickstarter】平台正式开启。
+            - generic [ref=e508]: 缺少字词： 2025 ‎2026
+          - generic [ref=e512]:
+            - generic [ref=e515]:
+              - 'link "Steam 社区:: 海沙风云Far Away Steam Community https://steamcommunity.com › app" [ref=e517] [cursor=pointer]':
+                - /url: https://steamcommunity.com/app/1250760?l=schinese
+                - 'heading "Steam 社区:: 海沙风云Far Away" [level=3] [ref=e518]'
+                - generic [ref=e523]:
+                  - generic [ref=e525]: Steam Community
+                  - generic [ref=e527]: https://steamcommunity.com › app
+              - button "关于这条结果的详细信息" [ref=e528] [cursor=pointer]:
+                - img [ref=e531]
+            - generic [ref=e535]:
+              - text: 《
+              - emphasis [ref=e536]: 海沙风云
+              - text: 》是一款“硬派+黑色幽默”风格的文字冒险游戏，玩家扮演打工人少女柯罗莎，在名为贝让的港口城市被卷入了一次涉及帮派斗争、犯罪阴谋、家族恩怨等的惊魂历险。
+            - generic [ref=e539]: US$12.99
+            - generic [ref=e541]: 缺少字词： 异 ‎美 ‎工作 ‎室 ‎2026
+        - navigation [ref=e544]:
+          - heading "网页导航" [level=1] [ref=e545]
+          - text: "1"
+          - link "Page 2" [ref=e548] [cursor=pointer]:
+            - /url: /search?q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sca_esv=4c0e757566be5d36&ei=XHUFau6tKI6hur8P1drZqQM&start=10&sa=N&sstk=Af77f_d7MrGyTb3KiAbAM0j17Sa5bRqPtfl2sMn5gn83s574lWUdLWqMX4QEQNyGRHmFoMZ_urEyEQ67TqOLEUokfR_lcJup9bNwPQ&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQ8tMDegQINBAE
+            - text: "2"
+          - link "Page 3" [ref=e550] [cursor=pointer]:
+            - /url: /search?q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sca_esv=4c0e757566be5d36&ei=XHUFau6tKI6hur8P1drZqQM&start=20&sa=N&sstk=Af77f_d7MrGyTb3KiAbAM0j17Sa5bRqPtfl2sMn5gn83s574lWUdLWqMX4QEQNyGRHmFoMZ_urEyEQ67TqOLEUokfR_lcJup9bNwPQ&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQ8tMDegQINBAG
+            - text: "3"
+          - heading "下一页" [level=2] [ref=e552]:
+            - link "下一页" [ref=e553] [cursor=pointer]:
+              - /url: /search?q=%E5%BC%82%E7%BE%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4+%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91+%E7%BB%AD%E4%BD%9C+2025+2026&sca_esv=4c0e757566be5d36&ei=XHUFau6tKI6hur8P1drZqQM&start=10&sa=N&sstk=Af77f_d7MrGyTb3KiAbAM0j17Sa5bRqPtfl2sMn5gn83s574lWUdLWqMX4QEQNyGRHmFoMZ_urEyEQ67TqOLEUokfR_lcJup9bNwPQ&ved=2ahUKEwjuy7TQnLiUAxWOkO4BHVVtNjUQ8NMDegQINBAI
+              - generic [ref=e555]: 下一页
+        - navigation
+    - contentinfo [ref=e556]:
+      - heading "页脚链接" [level=1] [ref=e557]
+      - generic [ref=e561]:
+        - generic [ref=e565]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e567] [cursor=pointer]:
+            - generic [ref=e568]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e570]:
+              - text: "-"
+              - generic [ref=e571]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e573] [cursor=pointer]: 更新位置信息
+        - generic [ref=e576]:
+          - link "帮助" [ref=e577] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e578] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e579] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e580] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

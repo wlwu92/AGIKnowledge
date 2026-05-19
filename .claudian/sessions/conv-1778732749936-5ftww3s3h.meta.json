@@ -1,0 +1,388 @@
+{
+  "id": "conv-1778732749936-5ftww3s3h",
+  "providerId": "claude",
+  "title": "Brainstorm audio-driven robot motion",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778732749937,
+  "updatedAt": 1778742437432,
+  "lastResponseAt": 1778735577003,
+  "sessionId": "63bde4bc-c027-40ef-9c3a-f9336fdeef7c",
+  "providerState": {
+    "providerSessionId": "63bde4bc-c027-40ef-9c3a-f9336fdeef7c",
+    "subagentData": {
+      "call_00_F26IXXKxVSeSUELFkFVg9866": {
+        "id": "call_00_F26IXXKxVSeSUELFkFVg9866",
+        "description": "搜索 vault 中相关笔记上下文",
+        "prompt": "在 /Users/wuwanglong/work2/obsidian/AGIKnowledge 这个 Obsidian vault 中，搜索以下关键词相关的笔记，了解用户已有的知识资产：\n\n1. \"robot\" / \"robotics\" / \"机器人\" - 机器人相关笔记\n2. \"mujoco\" / \"MuJoCo\" - MuJoCo 仿真相关\n3. \"audio\" / \"gesture\" / \"motion\" / \"animation\" - 音频驱动运动/手势相关\n4. \"retarget\" / \"retargeting\" - 重定向技术\n5. \"PantoMatrix\" - 用户提到的项目\n6. \"embodied\" / \"具身\" - 具身智能相关\n\n对于每个搜索命中的笔记，简要说明其所在的路径、标题和核心内容（前几行）。我要了解用户在这个领域已经积累了哪些知识。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_9hHK0TuNAXLedUdqCS8p4347",
+            "name": "Grep",
+            "input": {
+              "pattern": "robot|robotics|机器人",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "-i": true,
+              "output_mode": "files_with_matches",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 8 files\n99_索引与地图 (Index & Maps)/标签体系.md\n.claude/skills/summary-inbox/SKILL.md\nCLAUDE.md\n04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HORT-单目手持物体重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-CEDex-跨形态灵巧抓取.md"
+          },
+          {
+            "id": "call_01_BdeZ6JO6YzM46H7cN98h9454",
+            "name": "Grep",
+            "input": {
+              "pattern": "[Mm]u[jJ]oco",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "output_mode": "files_with_matches",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_02_Ve8CVvyNE5vSy22aeRQB2054",
+            "name": "Grep",
+            "input": {
+              "pattern": "audio|gesture|animation|motion",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "-i": true,
+              "output_mode": "files_with_matches",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 11 files\n03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHOLE-世界坐标系手物联合重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DiffSynth-Studio-扩散模型引擎.md\n00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md"
+          },
+          {
+            "id": "call_03_oFiT99hiLzQybTH6e8a09321",
+            "name": "Grep",
+            "input": {
+              "pattern": "retarget(ing)?",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "-i": true,
+              "output_mode": "files_with_matches",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_04_qtarBZ76tZ34wrwmpJDW0516",
+            "name": "Grep",
+            "input": {
+              "pattern": "PantoMatrix",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "output_mode": "files_with_matches",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_05_cqvK4SUVo2p6fJg78rrk7693",
+            "name": "Grep",
+            "input": {
+              "pattern": "embodied|具身",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "-i": true,
+              "output_mode": "files_with_matches",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 8 files\n99_索引与地图 (Index & Maps)/标签体系.md\n.claude/skills/summary-inbox/SKILL.md\nCLAUDE.md\n04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHOLE-世界坐标系手物联合重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HORT-单目手持物体重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md"
+          },
+          {
+            "id": "call_00_EAakKPbKPbejUVJ7yGe42634",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2602.00915\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - UniMorphGrasp\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/robotics\n10\t  - topic/dexterous-grasping\n11\t  - method/diffusion-model\n12\t  - venue/icra-2026\n13\t---\n14\t\n15\t# UniMorphGrasp: 跨形态灵巧抓取的扩散模型\n16\t\n17\t> **UniMorphGrasp: Diffusion Model with Morphology-Awareness for Cross-Embodiment Dexterous Grasp Generation**\n18\t>\n19\t> **作者**: Zhiyuan Wu, Xiangyu Zhang, Zhuo Chen, Jiankang Deng, Rolandos Alexandros Potamias, Shan Luo\n20\t> **会议**: ICRA 2026\n21\t> **论文**: [arXiv 2602.00915](https://arxiv.org/abs/2602.00915)\n22\t\n23\t## 核心贡献\n24\t\n25\t[[2026-05-11-CEDex-跨形态灵巧抓取|CEDex]] 的姊妹篇，用**扩散模型 + 形态感知**生成跨机器人形态的灵巧抓取姿态，而非 CEDex 的 CVAE 路线。\n26\t\n27\t## 关联笔记\n28\t\n29\t- [[2026-05-11-CEDex-跨形态灵巧抓取|CEDex]] — 同团队的 CVAE 跨形态抓取方法\n30\t- [[2026-05-11-HaWoR-世界坐标系手部运动重建|HaWoR]] — 手部重建作为抓取感知基础"
+          },
+          {
+            "id": "call_01_CcXZ4jO44DEDjhCkRHD85179",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/ThunderVVV/HaWoR\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - HaWoR\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/3d-reconstruction\n11\t  - topic/hand-reconstruction\n12\t  - topic/world-space-reconstruction\n13\t  - topic/egocentric-vision\n14\t  - venue/cvpr-2025\n15\t---\n16\t\n17\t# HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos\n18\t\n19\t> **作者**: Jinglei Zhang (SJTU), Jiankang Deng (Imperial), Chao Ma (SJTU), Rolandos Alexandros Potamias (Imperial)\n20\t> **会议**: CVPR 2025 Highlight\n21\t> **论文**: arxiv 2501.02973\n22\t> **代码**: github.com/ThunderVVV/HaWoR\n23\t\n24\t## 核心贡献\n25\t\n26\t从第一人称（egocentric）视频中重建**世界坐标系**下的双手运动。区别于传统方法只输出相机坐标系下的结果。\n27\t\n28\t## 方法要点\n29\t\n30\t- 结合 **DROID-SLAM** 估计相机姿态 + **Metric3D** 估计深度 → 将手部从相机坐标系转换到世界坐标系"
+          },
+          {
+            "id": "call_02_Xt0NMZ8bDuvWiFRvOJxg5260",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HORT-单目手持物体重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2503.21313\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - HORT\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/3d-reconstruction\n11\t  - topic/hand-reconstruction\n12\t  - topic/hand-object-interaction\n13\t  - method/transformer\n14\t  - venue/iccv-2025\n15\t---\n16\t\n17\t# HORT: 单目手持物体重建（Transformer）\n18\t\n19\t> **HORT: Monocular Hand-held Objects Reconstruction with Transformers**\n20\t>\n21\t> **作者**: Zerui Chen (INRIA), Rolandos Alexandros Potamias (Imperial), Shizhe Chen (INRIA), Cordelia Schmid (INRIA)\n22\t> **会议**: ICCV 2025\n23\t> **论文**: [arXiv 2503.21313](https://arxiv.org/abs/2503.21313)\n24\t> **代码**: [github.com/zerchen/hort](https://github.com/zerchen/hort)\n25\t> **项目页**: [zerchen.github.io/projects/hort.html](https://zerchen.github.io/projects/hort.html)\n26\t\n27\t## 核心贡献\n28\t\n29\t从单目图像中重建手持物体的 3D 形状和姿态，将 [[2026-05-11-HaWoR-世界坐标系手部运动重建|HaWoR]]/[[2026-05-11-WiLoR-端到端3D手部定位与重建|WiLoR]] 的**手部重建能力延伸到\"手‑物交互\"**维度。\n30\t"
+          },
+          {
+            "id": "call_03_ceXopyHEA46hoSLy9PTG9530",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-CEDex-跨形态灵巧抓取.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2509.24661\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - CEDex\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/robotics\n10\t  - topic/dexterous-grasping\n11\t  - topic/hand-reconstruction\n12\t  - venue/icra-2026\n13\t---\n14\t\n15\t# CEDex: 跨形态灵巧抓取\n16\t\n17\t> **CEDex: Cross-Embodiment Dexterous Grasp Generation at Scale from Human-like Contact Representations**\n18\t>\n19\t> **作者**: Zhiyuan Wu (King's College London), Rolandos Alexandros Potamias (Imperial), Xuyang Zhang, Zhongqun Zhang, Jiankang Deng, Shan Luo\n20\t> **会议**: ICRA 2026\n21\t> **论文**: [arXiv 2509.24661](https://arxiv.org/abs/2509.24661)\n22\t\n23\t## 核心贡献\n24\t\n25\t将人类抓取运动学跨形态迁移到机器人灵巧手上。\n26\t\n27\t## 方法要点\n28\t\n29\t1. **CVAE 接触生成**：以物体点云为条件，生成类人接触表示\n30\t2. **运动学对齐**：拓扑合并将多人手部部位映射到统一机器人组件 + SDF 抓取优化"
+          },
+          {
+            "id": "call_04_fECfesMaloB7u9yl8G7b4567",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://pdf.dfcfw.com/pdf/H3_AP202310251603474214_1.pdf?1698250097000.pdf\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - layer/l4\n6\t  - type/report\n7\t  - domain/robotics\n8\t  - domain/embodied-ai\n9\t  - topic/humanoid-robot\n10\t  - topic/dexterous-grasping\n11\t---\n12\t\n13\t# 灵巧手带来空心杯电机增量市场 — 华安证券\n14\t\n15\t## 核心观点\n16\t\n17\t2023年10月华安证券发布的人形机器人行业深度报告（二），围绕灵巧手（dexterous hand）及其核心零部件空心杯电机展开分析。\n18\t\n19\t### 市场规模预测\n20\t\n21\t- **2028 年人形机器人市场**：由 2023 年 18 亿美元增长至 138 亿美元（Markets and Markets）\n22\t- **灵巧手市场**：预计 2028 年达 276 亿元（138 万只 × 2 万元/只）\n23\t- **空心杯电机增量**：预计 2028 年应用于人形机器人的销售额达 41.2 亿元，为国内生产商带来 16.5 亿元营收\n24\t\n25\t### 关键技术路线\n26\t\n27\t- 特斯拉 Optimus 灵巧手采用 **电机驱动 + 腱绳传动** 的内置式方案，使用 **无刷空心杯电机**（直径约 13mm）\n28\t- 国内因时机器人灵巧手（5 万元/只）相比德国 Bebionic（32 万元/只）和 Shadow Robot（220 万元/只）有显著价格优势\n29\t- 空心杯电机技术壁垒：线圈绕组设计与加工、绕线设备\n30\t"
+          },
+          {
+            "id": "call_05_lY6EDhJXLgVKnA8JzTzK2758",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHOLE-世界坐标系手物联合重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2602.22209\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - WHOLE\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/3d-reconstruction\n11\t  - topic/hand-reconstruction\n12\t  - topic/hand-object-interaction\n13\t  - topic/world-space-reconstruction\n14\t  - topic/egocentric-vision\n15\t  - method/diffusion-model\n16\t  - venue/cvpr-2026\n17\t---\n18\t\n19\t# WHOLE: 世界坐标系下手‑物联合重建\n20\t\n21\t> **WHOLE: World-Grounded Hand-Object Lifted from Egocentric Videos**\n22\t>\n23\t> **作者**: Yufei Ye (Stanford), Jiaman Li (Amazon FAR), Ryan Rong (Stanford), C. Karen Liu (Stanford)\n24\t> **会议**: CVPR Findings 2026\n25\t> **论文**: [arXiv 2602.22209](https://arxiv.org/abs/2602.22209)\n26\t> **项目页**: [judyye.github.io/whole-www](https://judyye.github.io/whole-www)\n27\t> **代码**: 即将开源\n28\t\n29\t## 核心贡献\n30\t"
+          },
+          {
+            "id": "call_06_I1NwndJbQMGD6eR9cQvE4476",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/yohanshin/WHAM\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - layer/l2\n6\t  - type/paper\n7\t  - domain/cv\n8\t  - topic/3d-reconstruction\n9\t  - topic/human-mesh-recovery\n10\t  - topic/world-space-reconstruction\n11\t  - method/slam\n12\t  - venue/cvpr-2024\n13\t---\n14\t\n15\t# WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion\n16\t\n17\t> **作者**: Soyong Shin, Juyong Kim, Eni Halilaj, Michael J. Black (MPI / CMU)\n18\t> **会议**: CVPR 2024\n19\t> **代码**: github.com/yohanshin/WHAM（MIT 协议）\n20\t> **论文**: arXiv:2312.07531\n21\t> **项目页**: wham.is.tue.mpg.de\n22\t\n23\t## 核心贡献\n24\t\n25\t从单目视频中恢复 **世界坐标系下的人体运动**，重建结果与世界坐标系对齐，具有精确的 3D 运动轨迹。\n26\t\n27\t## 技术要点\n28\t\n29\t两阶段训练：\n30\t1. **Stage 1** — 通过 AMASS 数据集学习 2D→SMPL 映射"
+          },
+          {
+            "id": "call_07_Nkd53fuMzVzingrKSX3S8725",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://h-liu1997.github.io/Video-Motion-Graphs/\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - layer/l2\n6\t  - type/paper\n7\t  - domain/cv\n8\t  - topic/video-generation\n9\t  - method/frame-interpolation\n10\t  - method/diffusion-model\n11\t---\n12\t\n13\t# Video Motion Graphs — 视频运动图插帧\n14\t\n15\t> 东京大学 & Adobe Research 合作项目。提出基于运动感知的视频插帧框架 HMInterp，生成平滑真实的中间帧。\n16\t\n17\t## 核心方法\n18\t\n19\t- **Motion Guidance Interpolation**: 相较 Linear Blending 更接近真实运动轨迹\n20\t- **Improved Reference Decoder**: 对比 Vanilla (SD)、Consistency (DALLE)、DualRef (ToonCrafter)、Temporal (SVD)、DupRef ToonCrafter 等基线\n21\t- 与 FILM、VFIFormer、DCInterp、ACInterp 等商业/开源模型对比\n22\t\n23\t## 应用\n24\t\n25\t- Music-to-Dance 视频检索与生成\n26\t\n27\t## 状态\n28\t\n29\t- 模型权重和代码待法律审查后发布\n30\t"
+          },
+          {
+            "id": "call_08_VDb9oiK2CwpPMn3kw22g6793",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/yufu-wang/tram\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - layer/l2\n6\t  - type/paper\n7\t  - domain/cv\n8\t  - topic/3d-reconstruction\n9\t  - topic/human-mesh-recovery\n10\t  - topic/world-space-reconstruction\n11\t  - method/slam\n12\t---\n13\t\n14\t# TRAM: Global Trajectory and Motion of 3D Humans\n15\t\n16\t> **作者**: Yufu Wang, Ziyun Wang, Lingjie Liu, Kostas Daniilidis (UPenn)\n17\t> **论文**: arXiv:2403.17346 (2024)\n18\t> **项目页**: yufu-wang.github.io/tram4d/\n19\t> **代码**: github.com/yufu-wang/tram（MIT 协议）\n20\t\n21\t## 核心贡献\n22\t\n23\t从 in-the-wild 视频中恢复 **全局 3D 人体轨迹和运动**（4D 人体捕捉），结合 SLAM 实现世界坐标系下的人体运动重建。\n24\t\n25\t## 技术要点\n26\t\n27\t三级流水线：\n28\t1. **Masked DROID-SLAM + 人体检测/跟踪** — 估计相机运动，支持静态相机模式\n29\t2. **4D 人体捕捉 (VIMO)** — 估计人体姿态、形状和全局轨迹\n30\t3. **可视化** — 合成渲染输出视频"
+          },
+          {
+            "id": "call_09_0cPUZmGGE4dxPjuSpvaC9167",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/zju3dv/GVHMR\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - layer/l2\n6\t  - type/paper\n7\t  - domain/cv\n8\t  - topic/3d-reconstruction\n9\t  - topic/human-mesh-recovery\n10\t  - topic/world-space-reconstruction\n11\t  - method/slam\n12\t  - venue/siggraph-asia-2024\n13\t---\n14\t\n15\t# GVHMR: World-Grounded Human Motion Recovery via Gravity-View Coordinates\n16\t\n17\t> **作者**: Zehong Shen, Huaijin Pi, Yan Xia 等（浙江大学 zju3dv 组）\n18\t> **会议**: SIGGRAPH Asia 2024\n19\t> **代码**: github.com/zju3dv/GVHMR\n20\t> **论文**: arXiv:2409.06662\n21\t\n22\t## 核心贡献\n23\t\n24\t通过 **Gravity-View Coordinates**（重力-视角坐标系），从单目视频中恢复与物理世界一致（重力对齐、全局轨迹）的 3D 人体运动。\n25\t\n26\t## 技术要点\n27\t\n28\t- **Gravity-View Coordinate**：同时对齐重力方向和相机视角的坐标系，使输出物理可落地\n29\t- 支持静态和运动相机（DPVO/SimpleVO 做视觉里程计）\n30\t- 基于 WHAM、4D-Humans、ViTPose-Pytorch"
+          },
+          {
+            "id": "call_10_NItTznHY0uzcY6zTUd5U9075",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2603.12533\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - EgoPointVQA\n6\t  - HINT\n7\ttags:\n8\t  - layer/l2\n9\t  - type/paper\n10\t  - domain/cv\n11\t  - domain/multimodal\n12\t  - domain/llm\n13\t  - topic/egocentric-vision\n14\t  - topic/hand-reconstruction\n15\t  - method/vision-language-model\n16\t  - venue/cvpr-2026\n17\t---\n18\t\n19\t# EgoPointVQA / HINT: 手势引导的第一人称视频问答\n20\t\n21\t> **Do You See What I Am Pointing At? Gesture-Based Egocentric Video Question Answering**\n22\t>\n23\t> **作者**: Yura Choi, Roy Miles, Rolandos Alexandros Potamias, Ismail Elezi, Jiankang Deng, Stefanos Zafeiriou (Imperial College London)\n24\t> **会议**: CVPR 2026\n25\t> **论文**: [arXiv 2603.12533](https://arxiv.org/abs/2603.12533)\n26\t> **项目页**: [https://yuuraa.github.io/papers/choi2026egovqa](https://yuuraa.github.io/papers/choi2026egovqa)\n27\t\n28\t## 核心贡献\n29\t\n30\t将 [[2026-05-11-HaWoR-世界坐标系手部运动重建|HaWoR]]/[[2026-05-11-WiLoR-端到端3D手部定位与重建|WiLoR]] 的 3D 手部重建能力用于**第一人称视频中的手势意图理解**——当用户戴着智能眼镜指着一个物体问\"What is that?\"，模型需要理解\"指\"这个手势指向的目标。"
+          },
+          {
+            "id": "call_11_rGIP3EqAQQppaBoLkzQJ7518",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2412.12861\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - Dyn-HaMR\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/3d-reconstruction\n11\t  - topic/hand-reconstruction\n12\t  - topic/world-space-reconstruction\n13\t  - method/optimization\n14\t  - venue/cvpr-2025\n15\t---\n16\t\n17\t# Dyn-HaMR: 动态相机下双手4D运动重建\n18\t\n19\t> **Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera**\n20\t>\n21\t> **作者**: Zhengdi Yu, Stefanos Zafeiriou, Tolga Birdal (Imperial College London)\n22\t> **会议**: CVPR 2025 Highlight\n23\t> **论文**: [arXiv 2412.12861](https://arxiv.org/abs/2412.12861)\n24\t> **项目页**: [https://dyn-hamr.github.io/](https://dyn-hamr.github.io/)\n25\t\n26\t## 核心贡献\n27\t\n28\t首个从**动态/移动相机**拍摄的单目视频中恢复**4D 全局双手运动**的方法。与 [[2026-05-11-HaWoR-世界坐标系手部运动重建|HaWoR]] 同一问题域但技术路线不同——Dyn-HaMR 使用**多阶段优化**而非端到端学习。\n29\t\n30\t## 方法与 [[2026-05-11-HaWoR-世界坐标系手部运动重建|HaWoR]] 对比"
+          },
+          {
+            "id": "call_12_7aaugzoxRXbspNr4OeoH0289",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DiffSynth-Studio-扩散模型引擎.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/modelscope/DiffSynth-Studio/tree/main\"\n3\tcreated: 2026-05-11\n4\ttags:\n5\t  - layer/l2\n6\t  - type/tool\n7\t  - domain/cv\n8\t  - domain/ai-infra\n9\t  - method/diffusion-model\n10\t  - method/training-framework\n11\t  - method/inference-optimization\n12\t  - entity/modelscope\n13\t---\n14\t\n15\t# DiffSynth-Studio: 统一扩散模型引擎\n16\t\n17\t> **维护者**: ModelScope 社区\n18\t> **协议**: Apache-2.0\n19\t> **论文**: DiffSynth (ECML PKDD 2024), Diffutoon (IJCAI 2024)\n20\t\n21\t## 核心定位\n22\t\n23\tModelScope 社区开发的统一扩散模型引擎，覆盖图像/视频/音频生成的训练、推理和部署。采用双项目结构：**DiffSynth-Studio**（学术前沿）+ **DiffSynth-Engine**（工业稳定部署）。\n24\t\n25\t## 关键特性\n26\t\n27\t| 特性 | 说明 |\n28\t|------|------|\n29\t| **VRAM 管理** | 层级磁盘卸载，根据可用显存自动控制参数加载，支持 2–10GB 显卡运行大模型 |\n30\t| **训练框架** | Split Training（两阶段）、Differential LoRA、FP8 训练 |"
+          },
+          {
+            "id": "call_13_sTllI2VFI90MrpORTk8D0596",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/99_索引与地图 (Index & Maps)/标签体系.md",
+              "limit": 80
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tcreated: 2026-05-12\n3\tnote_type: tag-registry\n4\ttags:\n5\t  - type/moc\n6\t  - system/tag-registry\n7\t---\n8\t\n9\t# 标签体系\n10\t\n11\t本文件是 AGIKnowledge 的 canonical tag registry。整理新笔记或批量规范标签时，先查本文件；只有现有标签无法表达关键知识轴时，才新增标签。\n12\t\n13\t## 命名规则\n14\t\n15\t- 使用小写英文、数字、短横线和 `/`，例如 `topic/3d-reconstruction`。\n16\t- 不使用中文、emoji、大小写变体、空格、下划线或单复数混用。\n17\t- 标签表达“检索维度”，不是摘要关键词；单篇笔记通常 5-8 个标签。\n18\t- 每篇正式笔记必须包含 1 个 `layer/*` 和至少 1 个 `type/*`；主类型放在最前，`type/moc` 可作为综述/索引的第二类型。\n19\t- 会议/年份统一写成 `venue/cvpr-2025`，不要写 `CVPR2025`、`cvpr25`。\n20\t- 工具、机构、模型名只有在它们是稳定检索维度时才作为 `entity/*` 使用。\n21\t\n22\t## 必选维度\n23\t\n24\t| 标签 | 用途 |\n25\t| --- | --- |\n26\t| `layer/l1` | 哲学、数学、信息论、统计学、优化等基础理论 |\n27\t| `layer/l2` | 模型架构、训练方法、CV/NLP/Robotics 核心算法 |\n28\t| `layer/l3` | 训练框架、推理优化、AI Infra、MLOps、编译优化 |\n29\t| `layer/l4` | 应用、Agent、具身智能、安全、行业落地 |\n30\t| `type/paper` | 论文、研究项目、算法工作 |\n31\t| `type/tool` | 代码库、框架、可安装工具 |\n32\t| `type/survey` | 综述、路线图、系统性整理 |\n33\t| `type/moc` | Map of Content、索引、知识地图 |\n34\t| `type/report` | 行业报告、市场分析、证券研报 |\n35\t| `type/article` | 博客、教程、非论文长文 |\n36\t| `type/clipping` | 原始剪藏或未整理素材 |\n37\t\n38\t## 领域标签\n39\t\n40\t| 标签 | 覆盖范围 |\n41\t| --- | --- |\n42\t| `domain/cv` | 计算机视觉、3D 视觉、视频理解 |\n43\t| `domain/robotics` | 机器人、抓取、操作、运动规划 |\n44\t| `domain/llm` | LLM、Prompt、Agent、语言模型应用 |\n45\t| `domain/graphics` | 计算机图形学、网格、渲染、服装仿真 |\n46\t| `domain/multimodal` | 多模态理解、VQA、视觉语言交互 |\n47\t| `domain/embodied-ai` | 具身智能、AR/VR、人机交互平台 |\n48\t| `domain/ai-infra` | 训练框架、推理、系统与工程基础设施 |\n49\t\n50\t## 主题标签\n51\t\n52\t| 标签 | 推荐使用场景 |\n53\t| --- | --- |\n54\t| `topic/3d-reconstruction` | 3D 重建、网格恢复、形状/姿态估计 |\n55\t| `topic/hand-reconstruction` | 手部 3D 重建、MANO 手模型、手部运动恢复 |\n56\t| `topic/human-mesh-recovery` | 人体网格恢复、HMR/HPS、人体运动恢复 |\n57\t| `topic/parametric-body-model` | SMPL、MANO、SMPL-X、MHR、Anny、SOMA-X 等参数化身体模型 |\n58\t| `topic/world-space-reconstruction` | 世界坐标系/全局坐标系下的重建与轨迹恢复 |\n59\t| `topic/egocentric-vision` | 第一人称视角、AR 眼镜、穿戴式视频 |\n60\t| `topic/hand-object-interaction` | 手物交互、手持物体、抓取中的手-物关系 |\n61\t| `topic/dexterous-grasping` | 灵巧手、跨形态抓取、机器人抓取生成 |\n62\t| `topic/video-generation` | 视频生成、插帧、运动生成 |\n63\t| `topic/sign-language-generation` | 手语生成、手语识别/理解 |\n64\t| `topic/pose-estimation` | 人体/手部姿态估计 |\n65\t| `topic/depth-estimation` | 单目/多目深度估计 |\n66\t| `topic/garment-measurement` | 服装测量、服装建模、人体测量 |\n67\t| `topic/prompting` | Prompt 设计、提示工程、可提示模型 |\n68\t| `topic/role-playing` | 角色扮演、交互式叙事 |\n69\t| `topic/humanoid-robot` | 人形机器人产业链、硬件、执行器 |\n70\t| `topic/distributed-storage` | 分布式存储、文件系统、存储架构 |\n71\t\n72\t## 方法与技术标签\n73\t\n74\t| 标签 | 推荐使用场景 |\n75\t| --- | --- |\n76\t| `method/transformer` | Transformer、ViT、注意力骨干 |\n77\t| `method/diffusion-model` | 扩散模型、score-based 生成、扩散先验 |\n78\t| `method/slam` | SLAM、相机位姿估计、全局轨迹估计 |\n79\t| `method/optimization` | 优化驱动方法、测试时优化、多阶段优化 |\n80\t| `method/frame-interpolation` | 视频插帧、运动图、帧间合成 |"
+          },
+          {
+            "id": "call_14_KuztPa3JfuARp4XVF3U02515",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttitle: \"ThunderVVV/HaWoR: HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos\"\n3\tsource: \"https://github.com/ThunderVVV/HaWoR\"\n4\tauthor:\n5\tpublished:\n6\tcreated: 2026-05-11\n7\tdescription: \"HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos - ThunderVVV/HaWoR\"\n8\ttags:\n9\t  - type/clipping\n10\tstatus: processed\n11\tprocessed_at: 2026-05-11\n12\tprocessed_to: \"02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\"\n13\t---\n14\t## HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos\n15\t\n16\t[Jinglei Zhang](https://github.com/ThunderVVV/HaWoR/blob/main) <sup>1</sup>   [Jiankang Deng](https://jiankangdeng.github.io/) <sup>2</sup>   [Chao Ma](https://scholar.google.com/citations?user=syoPhv8AAAAJ&hl=en) <sup>1</sup>   [Rolandos Alexandros Potamias](https://rolpotamias.github.io/) <sup>2</sup>  \n17\t\n18\t<sup>1</sup> Shanghai Jiao Tong University, China <sup>2</sup> Imperial College London, UK\n19\t\n20\t**CVPR 2025 Highlight✨**\n21\t\n22\tThis is the official implementation of **[HaWoR](https://hawor-project.github.io/)**, a hand reconstruction model in the world coordinates:\n23\t\n24\t[![teaser](https://github.com/ThunderVVV/HaWoR/raw/main/assets/teaser.png)](https://github.com/ThunderVVV/HaWoR/blob/main/assets/teaser.png)\n25\t\n26\t## Installation\n27\t\n28\t### Installation\n29\t\n30\t```"
+          },
+          {
+            "id": "call_15_GZXzowUBxyaox5f3HVje5655",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tcreated: 2026-05-13\n3\tnote_type: survey\n4\ttags:\n5\t  - layer/l3\n6\t  - type/survey\n7\t  - domain/ai-infra\n8\taliases:\n9\t  - Containerized Experiment Environments\n10\t  - Docker for ML Research\n11\t---\n12\t\n13\t# 容器化管理实验环境最佳实践\n14\t\n15\t> 从 Dockerfile 出发，系统调研如何用容器技术管理 ML/AI 实验环境，兼顾**可复现性**、**开发体验**和**团队协作**。\n16\t\n17\t---\n18\t\n19\t## 1. 为什么需要容器化实验环境\n20\t\n21\t### 1.1 核心痛点\n22\t\n23\t| 问题 | 表现 |\n24\t|------|------|\n25\t| \"It works on my machine\" | 环境差异导致结果不可复现 |\n26\t| CUDA 版本冲突 | 不同项目依赖 CUDA 11.x / 12.x，难以共存 |\n27\t| Python 依赖地狱 | pip 依赖树冲突，conda 环境膨胀 |\n28\t| 团队 onboarding 慢 | 新成员花半天配置环境 |\n29\t| 论文复现困难 | 缺少精确的环境记录 |\n30\t"
+          },
+          {
+            "id": "call_00_akVQeaOPEZ2WzmYlCF4W5408",
+            "name": "Grep",
+            "input": {
+              "pattern": "audio|gesture",
+              "glob": "*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "output_mode": "files_with_matches",
+              "-i": true,
+              "head_limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 3 files\n03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DiffSynth-Studio-扩散模型引擎.md"
+          },
+          {
+            "id": "call_01_gLymdE2FPoNYEIwEmJtT8875",
+            "name": "Glob",
+            "input": {
+              "pattern": "02_L2_核心技术与算法 (Core Tech & Algorithms)/*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-CEDex-跨形态灵巧抓取.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DROID-SLAM-深度视觉SLAM.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-DiffSynth-Studio-扩散模型引擎.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HORT-单目手持物体重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HandTexturePriors-单目手部重建纹理先验.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MaDiS-掩码扩散手语生成.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-PromptHMR-Promptable人类网格恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Sapiens2-高分辨率人体视觉Transformer.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Transformer-Family-架构演进综述.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHOLE-世界坐标系手物联合重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-mini-WiLoR简化Python包.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-端到端3D手部定位与重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-GarmentMeasurements-服装测量生成.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SMPL-蒙皮多人线性模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SOMA-X-统一参数化人体模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-参数化人体模型综述.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md"
+          },
+          {
+            "id": "call_02_ApEVw7nKpH13sVPX1j4S8465",
+            "name": "Glob",
+            "input": {
+              "pattern": "04_L4_应用、伦理与前沿 (Applications & Frontiers)/*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-claude-code-router.md\n04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md\n04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-经典Prompt设计-金庸群侠传RPG.md"
+          },
+          {
+            "id": "call_03_TEG90sGHyoaRW7zZnim25186",
+            "name": "Grep",
+            "input": {
+              "pattern": "具身|embodied|dexterous|灵巧|人形机器人",
+              "glob": "*.md",
+              "path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge",
+              "output_mode": "files_with_matches",
+              "-i": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 10 files\n99_索引与地图 (Index & Maps)/标签体系.md\n.claude/skills/summary-inbox/SKILL.md\nCLAUDE.md\n04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHOLE-世界坐标系手物联合重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaWoR-世界坐标系手部运动重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HORT-单目手持物体重建.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md\n02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-CEDex-跨形态灵巧抓取.md"
+          },
+          {
+            "id": "call_00_EYYEe8mz8MNDLA5xvKbi3240",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MaDiS-掩码扩散手语生成.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://arxiv.org/abs/2601.19577\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - MaDiS\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/hand-reconstruction\n11\t  - topic/sign-language-generation\n12\t  - method/diffusion-model\n13\t---\n14\t\n15\t# MaDiS: 掩码扩散手语生成\n16\t\n17\t> **MaDiS: Taming Masked Diffusion Language Models for Sign Language Generation**\n18\t>\n19\t> **作者**: Ronglai Zuo, Rolandos Alexandros Potamias, Qi Sun, Evangelos Ververas, Jiankang Deng, Stefanos Zafeiriou\n20\t> **时间**: 2026 (arXiv 2601.19577)\n21\t\n22\t## 核心贡献\n23\t\n24\t将 [[2026-05-11-HaWoR-世界坐标系手部运动重建|HaWoR]] 的手部运动重建能力用于**手语生成**（Sign Language Generation），提出掩码扩散语言模型，支持双向上下文建模和并行多 token 生成。\n25\t\n26\t## 方法要点\n27\t\n28\t- **掩码扩散语言模型**替代传统自回归方法\n29\t- **三层次跨模态预训练**：token 级＋隐空间级＋3D 物理空间级\n30\t- **Mixture-of-Parts 嵌入层**：通过可学习门控和优化码本融合不同手部部位的 token 信息"
+          },
+          {
+            "id": "call_01_zXfN8Znvfv8jcj3LQWsx3400",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-Anny-全年龄段可微分人体模型.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: https://github.com/naver/anny\n3\tcreated: 2026-05-12\n4\ttags:\n5\t  - layer/l2\n6\t  - type/paper\n7\t  - domain/cv\n8\t  - domain/graphics\n9\t  - topic/3d-reconstruction\n10\t  - topic/parametric-body-model\n11\t  - entity/anny\n12\t  - entity/naver\n13\t---\n14\t\n15\t# Anny — 全年龄段可微分人体模型\n16\t\n17\t## 概述\n18\t\n19\tNAVER 开发的 PyTorch 可微分人体网格模型，覆盖从婴儿到老年人的全年龄段人体形状表示。\n20\t\n21\t**论文**: arXiv 2511.03589 (Brégier et al., 2025)\n22\t**License**: Apache-2.0\n23\t\n24\t## 核心特点\n25\t\n26\t- **全年龄段覆盖**: 区别于 SMPL 等仅关注成人的模型\n27\t- **完全可微**: 纯 PyTorch 实现，适合深度学习管线\n28\t- **统一拓扑和参数空间**: 共享底层结构简化跨年龄比较和动画\n29\t- **模块化**: 单独的手部和面部子模型\n30\t- **多拓扑支持**: v0.2 引入多拓扑，v0.3 引入 SMPL-X 拓扑（非商业）"
+          },
+          {
+            "id": "call_02_fEMyEKegWfZuthT6rV519160",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WiLoR-端到端3D手部定位与重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/rolpotamias/WiLoR\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - WiLoR\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/3d-reconstruction\n11\t  - topic/hand-reconstruction\n12\t  - method/transformer\n13\t  - venue/cvpr-2025\n14\t---\n15\t\n16\t# WiLoR: End-to-end 3D Hand Localization and Reconstruction\n17\t\n18\t> **作者**: Rolandos Alexandros Potamias (Imperial College London) 等\n19\t> **会议**: CVPR 2025\n20\t> **代码**: github.com/rolpotamias/WiLoR（CC-BY-NC-ND 协议）\n21\t> **论文**: arXiv:2409.12259\n22\t\n23\t## 核心贡献\n24\t\n25\t端到端的 **3D 手部定位与重建**系统，在单张图像中同时完成手部检测和 3D 网格重建，支持 in-the-wild 场景。\n26\t\n27\t## 技术要点\n28\t\n29\t- Detect-then-reconstruct 范式：Ultralytics (YOLO) 做检测 + MANO 参数化模型做重建\n30\t- 支持 FP16 推理和 depth pruning，最高 1.6x 加速，仅损失 ~0.05mm MPJPE"
+          },
+          {
+            "id": "call_03_yOfQUGdqRlXlTGiZJTUZ7484",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/wuwanglong/work2/obsidian/AGIKnowledge/02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-HaMeR-3D手部重建.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tsource: \"https://github.com/geopavlakos/hamer\"\n3\tcreated: 2026-05-11\n4\taliases:\n5\t  - HaMeR\n6\ttags:\n7\t  - layer/l2\n8\t  - type/paper\n9\t  - domain/cv\n10\t  - topic/3d-reconstruction\n11\t  - topic/hand-reconstruction\n12\t  - method/transformer\n13\t  - venue/cvpr-2024\n14\t---\n15\t\n16\t# HaMeR: Hand Mesh Recovery\n17\t\n18\t> **作者**: Georgios Pavlakos 等\n19\t> **会议**: CVPR 2024\n20\t> **代码**: github.com/geopavlakos/hamer（MIT 协议）\n21\t> **数据集**: HInt\n22\t\n23\t## 核心贡献\n24\t\n25\t从单张/多张图像中重建 **3D 手部网格**（pose + shape）。使用 Transformer 架构进行手部重建。\n26\t\n27\t## 技术要点\n28\t\n29\t- 基于 Transformer 的 3D 手部网格回归\n30\t- 使用 ViTPose 做 2D 关键点检测"
+          }
+        ],
+        "isExpanded": false,
+        "result": "以下是针对该 Obsidian vault 的搜索汇报。vault 根目录为 `/Users/wuwanglong/work2/obsidian/AGIKnowledge`。搜索结果显示，用户在该领域已积累了大量高质量的笔记，尤其是围绕 **手部/人体重建** 和 **灵巧抓取** 两个方向，形成了相当系统的知识图谱。\n\n---\n\n## 1. \"robot\" / \"robotics\" / \"机器人\"\n\n命中 8 个文件，去除 `CLAUDE.md` 和 `.claude/` 下的技能文件后，实质笔记如下：\n\n- **`02_L2_核心技术与算法/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md`**\n  ICRA 2026 论文。用扩散模型 + 形态感知生成跨机器人形态的灵巧抓取姿态。标注 `domain/robotics` + `topic/dexterous-grasping`。\n\n- **`02_L2_核心技术与算法/2026-05-11-CEDex-跨形态灵巧抓取.md`**\n  ICRA 2026 论文。将人类抓取运动学跨形态迁移到机器人灵巧手上，使用 CVAE + 接触表示生成。标注 `domain/robotics` + `topic/dexterous-grasping`。\n\n- **`02_L2_核心技术与算法/2026-05-11-HaWoR-世界坐标系手部运动重建.md`**\n  CVPR 2025 Highlight。从第一人称视频重建世界坐标系下的双手运动。标注 `domain/cv`，但与机器人抓取（通过 CEDex/UniMorphGrasp 中的手部重建基础）有紧密关联。\n\n- **`02_L2_核心技术与算法/2026-05-11-HORT-单目手持物体重建.md`**\n  ICCV 2025。从单目图像重建手持物体 3D 形状和姿态，将手部重建延伸到\"手-物交互\"维度。\n\n- **`04_L4_应用、伦理与前沿/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md`**\n  华安证券 2023 年 10 月行业深度报告。围绕灵巧手（dexterous hand）及空心杯电机展开市场分析，覆盖特斯拉 Optimus、因时机器人等。标注 `domain/robotics` + `domain/embodied-ai` + `topic/humanoid-robot`。\n\n**小结**：用户对机器人领域的积累集中在 **灵巧手抓取**（dexterous grasping）方向上，覆盖了 CEDex（CVAE 路线）和 UniMorphGrasp（扩散模型路线）两类代表性方法，并有一篇产业报告作为市场背景知识。\n\n---\n\n## 2. \"mujoco\" / \"MuJoCo\"\n\n**未命中任何笔记。** 用户 vault 中目前没有与 MuJoCo 仿真相关的资料。\n\n---\n\n## 3. \"audio\" / \"gesture\" / \"motion\" / \"animation\"\n\n命中 11 个文件，核心笔记如下：\n\n- **`02_L2_核心技术与算法/2026-05-11-WHAM-世界坐标系人体运动重建.md`**\n  CVPR 2024。从单目视频中恢复世界坐标系下的人体运动，基于 AMASS 数据集学习 2D-SMPL 映射。标注 `topic/human-mesh-recovery` + `topic/world-space-reconstruction`。\n\n- **`02_L2_核心技术与算法/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md`**\n  UPenn 2024。从 in-the-wild 视频恢复全局 3D 人体轨迹和运动（4D 人体捕捉），结合 SLAM 实现世界坐标系下的运动重建。\n\n- **`02_L2_核心技术与算法/2026-05-11-GVHMR-重力视角人体运动恢复.md`**\n  SIGGRAPH Asia 2024。通过 Gravity-View Coordinates 从单目视频恢复与物理世界一致（重力对齐、全局轨迹）的 3D 人体运动。\n\n- **`02_L2_核心技术与算法/2026-05-11-Video-Motion-Graphs-视频运动图插帧.md`**\n  东京大学 & Adobe Research。基于运动感知的视频插帧框架 HMInterp，备注了 Music-to-Dance 视频检索与生成应用场景。\n\n- **`02_L2_核心技术与算法/2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md`**\n  CVPR 2025 Highlight。首个从动态/移动相机拍摄的单目视频中恢复 4D 全局双手运动的方法。\n\n- **`02_L2_核心技术与算法/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md`**\n  CVPR 2026。将 HaWoR/WiLoR 的 3D 手部重建能力用于第一人称视频中的手势意图理解。这是最直接涉及 \"gesture\" 主题的笔记。\n\n- **`02_L2_核心技术与算法/2026-05-11-WHOLE-世界坐标系手物联合重建.md`**\n  CVPR Findings 2026。世界坐标系下手-物联合重建，标注 `topic/hand-object-interaction`。\n\n- **`02_L2_核心技术与算法/2026-05-11-DiffSynth-Studio-扩散模型引擎.md`**\n  ModelScope 的统一扩散模型引擎，覆盖图像/视频/音频生成的训练、推理和部署。这是唯一提及 \"audio\" 的笔记。\n\n- **`00_资料与素材 (Attachments & Resources)/Clippings/ThunderVVVHaWoR HaWoR World-Space Hand Motion Reconstruction from Egocentric Videos.md`**\n  HaWoR 的 GitHub 仓库原始剪藏，已处理并生成正式笔记。\n\n**小结**：用户在 **motion（运动）** 方向积累最为丰富，形成一个完整的子专题链：WHAM -> TRAM -> GVHMR（人体运动重建） -> HaWoR -> Dyn-HaMR（手部运动重建） -> WHOLE -> HORT（手-物交互）。\"gesture\" 有 EgoPointVQA 一篇涉及手势意图理解，但关于纯手势识别/生成的笔记较少。\"audio\" 仅 DiffSynth-Studio 一篇略有提及，用户在该方向尚无专项笔记。\"animation\" 无直接专项笔记。\n\n---\n\n## 4. \"retarget\" / \"retargeting\"\n\n**未命中任何笔记。** 用户 vault 中目前没有直接涉及重定向（retargeting）技术的笔记。不过注意到 CEDex 笔记的核心方法描述中包含 \"将人类抓取运动学跨形态迁移到机器人灵巧手上\"，这本质上涉及跨形态映射（cross-embodiment mapping），与 retargeting 概念相关，但尚未以 retarget 术语命名或索引。\n\n---\n\n## 5. \"PantoMatrix\"\n\n**未命中任何笔记。** 用户 vault 中没有与 PantoMatrix 项目相关的资料。\n\n---\n\n## 6. \"embodied\" / \"具身\"\n\n命中 8 个文件（去重后与 \"robot/机器人\" 集合重叠较大）。实质笔记包括：\n\n- **`04_L4_应用、伦理与前沿/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md`**\n  标注 `domain/embodied-ai`，聚焦灵巧手硬件和产业链。\n\n- **`02_L2_核心技术与算法/2026-05-11-CEDex-跨形态灵巧抓取.md`** -- 标注 `domain/robotics`\n- **`02_L2_核心技术与算法/2026-05-11-UniMorphGrasp-跨形态灵巧抓取扩散模型.md`** -- 标注 `domain/robotics`\n\n- **`02_L2_核心技术与算法/2026-05-11-WHOLE-世界坐标系手物联合重建.md`**\n  标注 `domain/embodied-ai` 作为主 domain 之一（文件 tags 中包含 `domain/embodied-ai`）。\n\n从 `99_索引与地图/标签体系.md` 中可以确认，用户为 `domain/embodied-ai` 定义的范围是 \"具身智能、AR/VR、人机交互平台\"，但目前仅有少量笔记打上了此标签。\n\n---\n\n## 整体评估\n\n| 搜索主题 | 命中数量 | 覆盖程度 |\n|---------|---------|---------|\n| robot/机器人 | 5 篇实质笔记 | 中等，聚焦灵巧抓取子方向 |\n| MuJoCo | 0 篇 | 空白 |\n| audio/gesture/motion/animation | 约 10 篇实质笔记 | motion 方向很强（人体/手部运动重建），gesture 一般，audio 和 animation 薄弱 |\n| retargeting | 0 篇 | 空白（CEDex 有跨形态映射但未以此命名） |\n| PantoMatrix | 0 篇 | 空白 |\n| embodied/具身 | 贯穿若干笔记 | 标签已建立但内容尚少 |\n\n**用户强项**：3D 手部/人体重建（HaWoR, WiLoR, HaMeR, WHAM, TRAM, GVHMR, Dyn-HaMR），世界坐标系运动恢复，灵巧抓取（CEDex, UniMorphGrasp）。这些笔记质量很高，均标注了论文来源、作者、会议和双向链接。\n\n**明显空白**：MuJoCo 仿真、retargeting 技术、PantoMatrix 项目、audio-driven 方法（音频驱动运动/手势生成）、animation 管线。如果用户计划在这些方向扩展，这些笔记可以作为新内容的起点。\n\n此外，用户还维护了一套规范的标签体系（`99_索引与地图/标签体系.md`），使用 `layer/l1-l4` 分层 + `domain/*` + `topic/*` + `method/*` + `venue/*` 等多维标签，笔记间通过 `[[双向链接]]` 构成了初步的知识图谱，展现了较为成熟的 Obsidian 知识管理实践。"
+      }
+    }
+  },
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 164,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 102912,
+    "contextWindow": 200000,
+    "contextTokens": 103076,
+    "percentage": 52,
+    "contextWindowIsAuthoritative": true
+  }
+}

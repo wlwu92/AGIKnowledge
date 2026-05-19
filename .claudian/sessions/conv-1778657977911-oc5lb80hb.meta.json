@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778657977911-oc5lb80hb",
+  "providerId": "claude",
+  "title": "Research CephFS distributed filesystem",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778657977912,
+  "updatedAt": 1778732445068,
+  "lastResponseAt": 1778661565357,
+  "sessionId": "55a726bc-5e7b-4e76-978a-dc4462cc670e",
+  "providerState": {
+    "providerSessionId": "55a726bc-5e7b-4e76-978a-dc4462cc670e"
+  },
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 333,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 150272,
+    "contextWindow": 200000,
+    "contextTokens": 150605,
+    "percentage": 75,
+    "contextWindowIsAuthoritative": true
+  }
+}

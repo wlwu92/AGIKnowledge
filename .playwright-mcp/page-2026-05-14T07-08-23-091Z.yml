@@ -1,0 +1,444 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "跳转到正文 / Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#mw-content-text"
+    - generic [ref=e5]:
+      - main [ref=e7]:
+        - generic [ref=e8]:
+          - article [ref=e10]:
+            - generic [ref=e11]:
+              - generic [ref=e13]:
+                - navigation [ref=e15]:
+                  - list [ref=e16]:
+                    - listitem [ref=e17]:
+                      - link "页面" [ref=e18] [cursor=pointer]:
+                        - /url: /%E6%97%A7%E6%89%8B%E8%A1%A8
+                    - listitem [ref=e19]:
+                      - link "讨论" [ref=e20] [cursor=pointer]:
+                        - /url: /index.php?title=Talk:%E6%97%A7%E6%89%8B%E8%A1%A8&action=edit&redlink=1
+                    - listitem [ref=e21]:
+                      - generic [ref=e22]:
+                        - link "聊一聊" [ref=e23] [cursor=pointer]:
+                          - /url: https://app.moegirl.org.cn/?openInApp=chat&openInAppProps=%7B%22id%22%3A284450%2C%22title%22%3A%22%E6%97%A7%E6%89%8B%E8%A1%A8%22%7D
+                        - superscript [ref=e24]:
+                          - generic [ref=e25]: 新
+                - generic [ref=e27]:
+                  - generic [ref=e30] [cursor=pointer]: 清除页面缓存
+                  - navigation [ref=e32]:
+                    - button "简体（中国）" [ref=e33] [cursor=pointer]:
+                      - generic [ref=e34]: 简体（中国）
+              - generic [ref=e35]:
+                - generic [ref=e36]:
+                  - heading "旧手表" [level=1] [ref=e37]
+                  - group [ref=e41]:
+                    - link "查看源代码" [ref=e42] [cursor=pointer]:
+                      - /url: /index.php?title=%E6%97%A7%E6%89%8B%E8%A1%A8&action=edit
+                      - img [ref=e44]
+                      - generic [ref=e48]: 查看源代码
+                    - button [ref=e49] [cursor=pointer]:
+                      - img [ref=e52]
+                - generic [ref=e54]:
+                  - generic [ref=e55]: 萌娘百科，万物皆可萌的百科全书！转载请标注来源页面的网页链接，并声明引自萌娘百科。内容不可商用。
+                  - generic [ref=e56]:
+                    - generic: 贡献者：
+                    - generic [ref=e57]:
+                      - link [ref=e58] [cursor=pointer]:
+                        - /url: https://zh.moegirl.org.cn/User:%E6%9C%BA%E5%A8%98%E6%98%9F%E6%B5%B7%E9%85%B1
+                        - generic "Hoshi4mi-bot#2626" [ref=e59]:
+                          - img [ref=e60]
+                      - link [ref=e61] [cursor=pointer]:
+                        - /url: https://zh.moegirl.org.cn/User:Bhsd-bot
+                        - generic "Bhsd-bot" [ref=e62]:
+                          - img [ref=e63]
+                      - link [ref=e64] [cursor=pointer]:
+                        - /url: https://zh.moegirl.org.cn/User:%E8%83%A1%E7%A5%A5%E5%8F%88
+                        - generic "葫芦又#1718" [ref=e65]:
+                          - img [ref=e66]
+                      - link [ref=e67] [cursor=pointer]:
+                        - /url: https://zh.moegirl.org.cn/User:Nostalgia
+                        - generic "Nostalgia" [ref=e68]:
+                          - img [ref=e69]
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]: 旧手表
+                - link [ref=e78] [cursor=pointer]:
+                  - /url: /File:63012823_p0.jpg
+                  - img [ref=e79]
+                - generic [ref=e80]:
+                  - generic [ref=e82]: 类型
+                  - link "视觉小说" [ref=e84] [cursor=pointer]:
+                    - /url: /%E8%A7%86%E8%A7%89%E5%B0%8F%E8%AF%B4
+                - generic [ref=e85]:
+                  - generic [ref=e87]: 平台
+                  - generic [ref=e88]:
+                    - text: PC（Windows、macOS）
+                    - text: 网页
+                - generic [ref=e89]:
+                  - generic [ref=e91]: 开发
+                  - generic [ref=e92]: 灰烬天国
+                - generic [ref=e93]:
+                  - generic [ref=e95]: 发行
+                  - generic [ref=e96]: 灰烬天国
+                - generic [ref=e97]:
+                  - generic [ref=e99]: 制作人
+                  - generic [ref=e100]: terric_抽菌
+                - generic [ref=e101]:
+                  - generic [ref=e103]: 程序
+                  - generic [ref=e104]: Antinomies、飞彬欣月、青鸟千秋、Nnnoky
+                - generic [ref=e105]:
+                  - generic [ref=e107]: 美工
+                  - generic [ref=e108]:
+                    - link "油漆娘" [ref=e109] [cursor=pointer]:
+                      - /url: /%E6%B2%B9%E6%BC%86%E5%A8%98
+                    - text: 、
+                    - link "和茶" [ref=e110] [cursor=pointer]:
+                      - /url: /%E5%92%8C%E8%8C%B6
+                    - text: 、小丘、漫道
+                - generic [ref=e111]:
+                  - generic [ref=e113]: 音乐
+                  - generic [ref=e114]: 跟弃、溺子、Emage∴Utae、Emage∴kian
+                - generic [ref=e115]:
+                  - generic [ref=e117]: 模式
+                  - link "单人游戏" [ref=e119] [cursor=pointer]:
+                    - /url: /%E5%8D%95%E4%BA%BA%E6%B8%B8%E6%88%8F
+                - generic [ref=e120]:
+                  - generic [ref=e122]: 发行时间
+                  - generic [ref=e123]: 2017年12月21日
+              - paragraph [ref=e124]:
+                - text: 《旧手表》（英文：Old Watch）是
+                - link "灰烬天国" [ref=e125] [cursor=pointer]:
+                  - /url: /index.php?title=%E7%81%B0%E7%83%AC%E5%A4%A9%E5%9B%BD&action=edit&redlink=1
+                - text: 于2017年发布的
+                - link "视觉小说" [ref=e126] [cursor=pointer]:
+                  - /url: /%E8%A7%86%E8%A7%89%E5%B0%8F%E8%AF%B4
+                - text: 。该作品在2017年初在摩点进行众筹，2017年12月21日在
+                - link "Steam" [ref=e127] [cursor=pointer]:
+                  - /url: /Steam
+                - text: 上发布，是灰烬天国第二个游戏作品。作品有发行少量实体版，大多为众筹相关的
+                - link "特典" [ref=e128] [cursor=pointer]:
+                  - /url: /%E7%89%B9%E5%85%B8
+                - text: 。2018年2月在
+                - link "易次元" [ref=e129] [cursor=pointer]:
+                  - /url: /index.php?title=%E6%98%93%E6%AC%A1%E5%85%83&action=edit&redlink=1
+                - text: 上发布，名字为《指针回溯》，该版本开头免费，后续章节需要付费。
+              - paragraph [ref=e130]: 游戏结尾显示「Project I 前传-旧手表」，表示作品会有后续创作。
+              - heading "简介" [level=2] [ref=e132]: 简介
+              - paragraph [ref=e133]: 某天在家整理衣物的邰林突然接到了一个陌生女性电话，告诉他在上周捡到的手表是一个能穿越回过去的工具。兴奋的他于是毅然放弃了自己正在打包的旅行箱，背好了彩票特等奖号码，回到了过去。但是他没想到等着他的并不是巨额奖金，而是一场终身难忘奇妙的冒险…
+              - heading "主要角色" [level=2] [ref=e135]: 主要角色
+              - generic [ref=e136]:
+                - link "邰林" [ref=e139] [cursor=pointer]:
+                  - /url: /index.php?title=%E9%82%B0%E6%9E%97&action=edit&redlink=1
+                - generic [ref=e140]:
+                  - link [ref=e145] [cursor=pointer]:
+                    - /url: /File:Taolin_Old_Watch.jpg
+                    - img [ref=e146]
+                  - generic [ref=e148]: 国立大学理学院物理系本科毕业生，以全系第一名身份毕业。即将前往北美攻读空间物理学硕士。父母常年国外出差，很少干预他的生活。家境宽裕。不过花钱方面一直存在着一些问题。曾经为了解决Matlab运算的速度问题特地花了两年特等奖学金的钱配置了一台性能超强的电脑，然后将其大多数使用时间用在了玩枪车球的游戏上面。
+                - generic [ref=e149]: CV：无
+              - generic [ref=e150]:
+                - link "何玲" [ref=e153] [cursor=pointer]:
+                  - /url: /index.php?title=%E4%BD%95%E7%8E%B2&action=edit&redlink=1
+                - generic [ref=e154]:
+                  - link [ref=e159] [cursor=pointer]:
+                    - /url: /File:62242663_p1.jpg
+                    - img [ref=e160]
+                  - generic [ref=e162]: 国立大学生命科学学院生物系毕业生，也是生物系出名的冰霜女神，被学院推荐至欧洲著名学府攻读神经生物学硕士。平日里是图书馆的常客，亦是老师眼中的优秀学生，乖乖女的典范。唯独有瑕疵的是，乖乖女形象由于两年前不知为何突然申请搬出宿舍独自居住这件事，在之后被小道八卦冲淡了不少。日常生活中比较节俭，主要收入是奖学金。
+                - generic [ref=e163]:
+                  - text: CV：
+                  - link "新月冰冰" [ref=e164] [cursor=pointer]:
+                    - /url: /%E6%96%B0%E6%9C%88%E5%86%B0%E5%86%B0
+              - generic [ref=e165]:
+                - link "夏露" [ref=e168] [cursor=pointer]:
+                  - /url: /index.php?title=%E5%A4%8F%E9%9C%B2&action=edit&redlink=1
+                - generic [ref=e169]:
+                  - link [ref=e174] [cursor=pointer]:
+                    - /url: /File:Xialu_Old_Watch.jpg
+                    - img [ref=e175]
+                  - generic [ref=e177]: 何玲的好友，国立大学生命科学学院生物系的普通毕业生。大二的时候通过跨校转院系考试顺利的转入了国立大学。虽然读书用功，学习成绩也在全系排名中游，但是由于经济不景气，暂未能找到工作，现在在便利店打工。
+                - generic [ref=e178]:
+                  - text: CV：
+                  - link "灵缡心" [ref=e179] [cursor=pointer]:
+                    - /url: /%E7%81%B5%E7%BC%A1%E5%BF%83
+              - generic [ref=e180]:
+                - link "土豆（人工智能）" [ref=e183] [cursor=pointer]:
+                  - /url: /index.php?title=%E5%9C%9F%E8%B1%86%EF%BC%88%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%89&action=edit&redlink=1
+                - generic [ref=e184]:
+                  - link [ref=e189] [cursor=pointer]:
+                    - /url: /File:62242663_p2.jpg
+                    - img [ref=e190]
+                  - generic [ref=e192]: 十年前杨教授开发的人工智能由于出现问题发生了人格自我崩坏，而当人们发现她的时候，她只剩下了一小部分残存的程序片段。好在，经过大家十年的努力，她终于恢复了部分功能。但外形不知怎么的就变成了这个样子。她是邰林天生的克星。
+                - generic [ref=e193]:
+                  - text: CV：
+                  - link "闲踏梧桐" [ref=e194] [cursor=pointer]:
+                    - /url: /%E9%97%B2%E8%B8%8F%E6%A2%A7%E6%A1%90
+              - generic [ref=e195]:
+                - link "蒋昭" [ref=e198] [cursor=pointer]:
+                  - /url: /index.php?title=%E8%94%A3%E6%98%AD&action=edit&redlink=1
+                - generic [ref=e199]:
+                  - link [ref=e204] [cursor=pointer]:
+                    - /url: /File:62242663_p0.jpg
+                    - img [ref=e205]
+                  - generic [ref=e207]: 生科院副教授，在何玲大三时候主动“申请”成为她的导师。平时为人低调，且有些神经质。经常会缩在废弃的旧教学楼里从事一些奇怪的研究。据说以前曾经沉迷于宗教，甚至因此引祸上身。
+                - generic [ref=e208]:
+                  - text: CV：
+                  - link "封肆" [ref=e209] [cursor=pointer]:
+                    - /url: /index.php?title=%E5%B0%81%E8%82%86&action=edit&redlink=1
+              - heading "外部链接" [level=2] [ref=e211]: 外部链接
+              - list [ref=e212]:
+                - listitem [ref=e213]:
+                  - text: （简体中文）
+                  - link "Steam" [ref=e214] [cursor=pointer]:
+                    - /url: https://store.steampowered.com/app/654260/?l=
+                - listitem [ref=e215]:
+                  - link "易次元网页版" [ref=e216] [cursor=pointer]:
+                    - /url: https://avg.163.com/game/detail/72
+            - generic [ref=e217]:
+              - generic [ref=e219] [cursor=pointer]: 违规举报 & 页面反馈
+              - separator [ref=e220]
+              - generic [ref=e222]: 此页面最后编辑于2022年2月19日 (星期六) 02:37。
+              - generic [ref=e223]:
+                - link "8 个分类" [ref=e225] [cursor=pointer]:
+                  - /url: https://zh.moegirl.org.cn/Special:Categories
+                  - img [ref=e226]:
+                    - img [ref=e227]
+                  - text: 8 个分类
+                - list [ref=e233]:
+                  - listitem [ref=e234]:
+                    - link "中国游戏作品" [ref=e235] [cursor=pointer]:
+                      - /url: /Category:%E4%B8%AD%E5%9B%BD%E6%B8%B8%E6%88%8F%E4%BD%9C%E5%93%81
+                      - generic [ref=e237]: 中国游戏作品
+                  - listitem [ref=e238]:
+                    - link "灰烬天国作品" [ref=e239] [cursor=pointer]:
+                      - /url: /Category:%E7%81%B0%E7%83%AC%E5%A4%A9%E5%9B%BD%E4%BD%9C%E5%93%81
+                      - generic [ref=e241]: 灰烬天国作品
+                  - listitem [ref=e242]:
+                    - link "旧手表" [ref=e243] [cursor=pointer]:
+                      - /url: /Category:%E6%97%A7%E6%89%8B%E8%A1%A8
+                      - generic [ref=e245]: 旧手表
+                  - listitem [ref=e246]:
+                    - link "时间循环题材" [ref=e247] [cursor=pointer]:
+                      - /url: /Category:%E6%97%B6%E9%97%B4%E5%BE%AA%E7%8E%AF%E9%A2%98%E6%9D%90
+                      - generic [ref=e249]: 时间循环题材
+                  - listitem [ref=e250]:
+                    - link "视觉小说" [ref=e251] [cursor=pointer]:
+                      - /url: /Category:%E8%A7%86%E8%A7%89%E5%B0%8F%E8%AF%B4
+                      - generic [ref=e253]: 视觉小说
+                  - listitem [ref=e254]:
+                    - link "解谜游戏" [ref=e255] [cursor=pointer]:
+                      - /url: /Category:%E8%A7%A3%E8%B0%9C%E6%B8%B8%E6%88%8F
+                      - generic [ref=e257]: 解谜游戏
+                  - listitem [ref=e258]:
+                    - link "Windows游戏" [ref=e259] [cursor=pointer]:
+                      - /url: /Category:Windows%E6%B8%B8%E6%88%8F
+                      - generic [ref=e261]: Windows游戏
+                  - listitem [ref=e262]:
+                    - link "MacOS游戏" [ref=e263] [cursor=pointer]:
+                      - /url: /Category:MacOS%E6%B8%B8%E6%88%8F
+                      - generic [ref=e265]: MacOS游戏
+            - generic [ref=e267]:
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - generic [ref=e278]: 0人评价
+                  - generic [ref=e279]: 0人推荐
+                - img [ref=e281]:
+                  - img [ref=e282]
+              - generic [ref=e286]:
+                - generic [ref=e288]: 评论0
+                - button "查看全部" [ref=e334] [cursor=pointer]:
+                  - generic [ref=e335]: 查看全部
+          - navigation:
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - link "阅读" [ref=e338] [cursor=pointer]:
+                  - /url: /%E6%97%A7%E6%89%8B%E8%A1%A8
+                  - img [ref=e340]
+                  - generic: 阅读
+                - link "查看源代码" [ref=e343] [cursor=pointer]:
+                  - /url: /index.php?title=%E6%97%A7%E6%89%8B%E8%A1%A8&action=edit
+                  - img [ref=e345]
+                  - generic: 查看源代码
+                - link "查看历史" [ref=e349] [cursor=pointer]:
+                  - /url: /index.php?title=%E6%97%A7%E6%89%8B%E8%A1%A8&action=history
+                  - img [ref=e351]
+                  - generic: 查看历史
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - img [ref=e358]
+                  - generic: 页面举报&反馈
+                - link "折叠侧栏" [ref=e363] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e365]
+                  - generic: 折叠侧栏
+                - link "回到顶部" [ref=e368] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e370]
+                  - generic: 回到顶部
+        - complementary [ref=e373]:
+          - generic [ref=e374]:
+            - generic [ref=e376]:
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]: 0人评价
+                  - generic [ref=e388]: 0人推荐
+                - img [ref=e390]:
+                  - img [ref=e391]
+              - generic [ref=e395]:
+                - generic [ref=e397]: 评论0
+                - button "查看全部" [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]: 查看全部
+            - generic [ref=e445]:
+              - heading "目录" [level=3] [ref=e448]
+              - navigation [ref=e449]:
+                - list [ref=e451]:
+                  - listitem [ref=e452]:
+                    - link "1 简介" [ref=e453] [cursor=pointer]:
+                      - /url: "#.E7.B0.A1.E4.BB.8B"
+                      - generic [ref=e454]: "1"
+                      - text: 简介
+                  - listitem [ref=e455]:
+                    - link "2 主要角色" [ref=e456] [cursor=pointer]:
+                      - /url: "#.E4.B8.BB.E8.A6.81.E8.A7.92.E8.89.B2"
+                      - generic [ref=e457]: "2"
+                      - text: 主要角色
+                  - listitem [ref=e458]:
+                    - link "3 外部链接" [ref=e459] [cursor=pointer]:
+                      - /url: "#.E5.A4.96.E9.83.A8.E9.8F.88.E6.8E.A5"
+                      - generic [ref=e460]: "3"
+                      - text: 外部链接
+      - banner [ref=e461]:
+        - generic [ref=e463]:
+          - generic [ref=e464]:
+            - link "Wiki logo" [ref=e466] [cursor=pointer]:
+              - /url: https://zh.moegirl.org.cn/
+              - img "Wiki logo" [ref=e467]
+            - generic [ref=e468]:
+              - link "导航" [ref=e470] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e471]:
+                  - generic [ref=e472]: 导航
+                  - img [ref=e474]
+              - link "帮助" [ref=e477] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e478]:
+                  - generic [ref=e479]: 帮助
+                  - img [ref=e481]
+              - link "关注我们" [ref=e484] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e485]:
+                  - generic [ref=e486]: 关注我们
+                  - img [ref=e488]
+            - generic [ref=e490]:
+              - button "新 商务合作" [ref=e491] [cursor=pointer]:
+                - superscript [ref=e494]:
+                  - generic [ref=e495]: 新
+                - generic [ref=e496]:
+                  - text: 商务合作
+                  - img [ref=e498]
+              - link "新 下载最新版APP，体验条目角色扮演！下载最新版APP，体验条目角色扮演！" [ref=e500] [cursor=pointer]:
+                - /url: https://app.moegirl.org.cn/?utm_source=moeskin_header&utm_medium=primary_button_click
+                - superscript [ref=e503]:
+                  - generic [ref=e504]: 新
+                - generic [ref=e507]: 下载最新版APP，体验条目角色扮演！下载最新版APP，体验条目角色扮演！
+          - button "搜索萌娘百科 (Ctrl+K) 搜索萌娘百科 (Ctrl+K)" [ref=e509]:
+            - generic [ref=e511]:
+              - img [ref=e514]
+              - generic [ref=e517]:
+                - searchbox "搜索萌娘百科 (Ctrl+K)" [ref=e518]
+                - generic:
+                  - generic: 搜索萌娘百科 (Ctrl+K)
+          - generic [ref=e521]:
+            - button [ref=e523] [cursor=pointer]:
+              - img [ref=e525]
+            - generic [ref=e527]:
+              - generic [ref=e528]:
+                - img [ref=e531] [cursor=pointer]
+                - superscript [ref=e532]
+              - generic [ref=e534]: 会员
+            - button "创建" [ref=e535] [cursor=pointer]:
+              - img [ref=e537]
+              - generic [ref=e539]: 创建
+      - contentinfo [ref=e540]:
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - link "萌娘百科:关于" [ref=e548] [cursor=pointer]:
+              - /url: /%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91:%E5%85%B3%E4%BA%8E
+              - img [ref=e549]
+            - generic [ref=e550]:
+              - link "帮助" [ref=e551] [cursor=pointer]:
+                - /url: https://zh.moegirl.org.cn/Category:%E5%B8%AE%E5%8A%A9
+              - link "商务合作" [ref=e552] [cursor=pointer]:
+                - /url: https://app.moegirl.org.cn/contact/?from=moeskin_footer
+              - link "下载App" [ref=e553] [cursor=pointer]:
+                - /url: https://app.moegirl.org.cn/?from=moeskin_footer
+          - paragraph [ref=e554]:
+            - text: 本站全部内容禁止商业使用。文本内容除另有声明外，均在
+            - link "知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆（CC BY-NC-SA 3.0 CN）许可协议" [ref=e555] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-nc-sa/3.0/cn/
+            - text: 下提供，附加条款亦可能应用，详细信息参见
+            - link "萌娘百科:著作权信息" [ref=e556] [cursor=pointer]:
+              - /url: /%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91:%E8%91%97%E4%BD%9C%E6%9D%83%E4%BF%A1%E6%81%AF
+            - text: 。其他类型作品著作权归属原作者，如有授权遵照授权协议使用。
+          - generic [ref=e557]:
+            - separator [ref=e558]
+            - paragraph [ref=e559]: 萌娘百科®、Moegirlpedia®是注册商标
+            - paragraph [ref=e560]:
+              - link "隐私权政策" [ref=e561] [cursor=pointer]:
+                - /url: /%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91:%E9%9A%90%E7%A7%81%E6%9D%83%E6%94%BF%E7%AD%96
+              - text: "|"
+              - link "关于萌娘百科" [ref=e562] [cursor=pointer]:
+                - /url: /%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91:%E5%85%B3%E4%BA%8E
+              - text: "|"
+              - link "免责声明" [ref=e563] [cursor=pointer]:
+                - /url: /%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E
+      - navigation [ref=e564]:
+        - list [ref=e566]:
+          - listitem [ref=e567]:
+            - link "上传文件" [ref=e568] [cursor=pointer]:
+              - /url: https://commons.moegirl.org.cn/Special:%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6
+          - listitem [ref=e569]:
+            - link "特殊页面" [ref=e570] [cursor=pointer]:
+              - /url: /Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2
+          - listitem [ref=e571]:
+            - link "打印版本" [ref=e572] [cursor=pointer]:
+              - /url: javascript:print();
+          - listitem [ref=e573]:
+            - link "固定链接" [ref=e574] [cursor=pointer]:
+              - /url: /index.php?title=%E6%97%A7%E6%89%8B%E8%A1%A8&oldid=5669809
+          - listitem [ref=e575]:
+            - link "页面信息" [ref=e576] [cursor=pointer]:
+              - /url: /index.php?title=%E6%97%A7%E6%89%8B%E8%A1%A8&action=info
+          - listitem [ref=e577]:
+            - link "链入页面" [ref=e578] [cursor=pointer]:
+              - /url: /Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E6%97%A7%E6%89%8B%E8%A1%A8
+          - listitem [ref=e579]:
+            - link "相关更改" [ref=e580] [cursor=pointer]:
+              - /url: /Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E6%97%A7%E6%89%8B%E8%A1%A8
+        - button [ref=e582] [cursor=pointer]:
+          - img [ref=e584]
+      - generic:
+        - button "目录" [ref=e587] [cursor=pointer]:
+          - img [ref=e589]
+        - button "评论" [ref=e594] [cursor=pointer]:
+          - img [ref=e596]
+  - generic [ref=e599]:
+    - img [ref=e601]:
+      - img [ref=e602]
+    - generic [ref=e606]:
+      - text: 订阅萌娘百科推送服务，热门ACG资讯率先掌握~
+      - button "添加订阅" [ref=e607] [cursor=pointer]:
+        - generic [ref=e608]: 添加订阅
+    - button "close" [ref=e609] [cursor=pointer]:
+      - img [ref=e611]
+  - generic [ref=e617]:
+    - img [ref=e619]:
+      - img [ref=e620]
+    - button "close" [ref=e625] [cursor=pointer]:
+      - img [ref=e627]
+    - generic [ref=e631]:
+      - generic [ref=e632]: 有新的未读公告
+      - generic [ref=e633]:
+        - generic [ref=e634]: 提示：全站公告已移动到右上角的头像菜单中。
+        - button "查看公告" [ref=e636] [cursor=pointer]:
+          - generic [ref=e637]: 查看公告
+  - generic [ref=e638]:
+    - text: 阅读更多：旧手表（https://zh.moegirl.org.cn/%E6%97%A7%E6%89%8B%E8%A1%A8 ）
+    - text: 本文引自萌娘百科(https://zh.moegirl.org.cn )，文字内容默认使用《知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆》协议。

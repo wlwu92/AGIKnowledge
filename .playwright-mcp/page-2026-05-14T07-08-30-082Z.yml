@@ -1,0 +1,360 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: Emage 游戏 名称 Emage 游戏 名称
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEmage%2B%25E6%25B8%25B8%25E6%2588%258F%2B%25E5%2590%258D%25E7%25A7%25B0&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNfFzj00G4hZHs8IcWAlIEXYE0fgtnOmqcIPZVtGl98j0eThUjU_6dy2Rj4ZV4A_j7mz1BG4_4G01ufTOJmZzi6JLQKUj-nlislQ4Ewwq-83DND5iZw&aep=1&ntc=1&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ2J8OegQIERAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "图片" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNfFzj00G4hZHs8IcWAlIEXYE0fgtnOmqcIPZVtGl98j0eThUjU_6dy2Rj4ZV4A_j7mz1BG4_4G01ufTOJmZzi6JLQKUj-nlislQ4Ewwq-83DND5iZw&q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQtKgLegQIFxAB
+              - generic [ref=e91]: 图片
+          - listitem [ref=e92]:
+            - link "购物" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNfFzj00G4hZHs8IcWAlIEXYE0fgtnOmqcIPZVtGl98j0eThUjU_6dy2Rj4ZV4A_j7mz1BG4_4G01ufTOJmZzi6JLQKUj-nlislQ4Ewwq-83DND5iZw&q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&ved=1t:220175&ictx=111
+              - generic [ref=e95]: 购物
+          - listitem [ref=e96]:
+            - link "视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNfFzj00G4hZHs8IcWAlIEXYE0fgtnOmqcIPZVtGl98j0eThUjU_6dy2Rj4ZV4A_j7mz1BG4_4G01ufTOJmZzi6JLQKUj-nlislQ4Ewwq-83DND5iZw&q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQtKgLegQIFRAB
+              - generic [ref=e99]: 视频
+          - listitem [ref=e100]:
+            - link "新闻" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNfFzj00G4hZHs8IcWAlIEXYE0fgtnOmqcIPZVtGl98j0eThUjU_6dy2Rj4ZV4A_j7mz1BG4_4G01ufTOJmZzi6JLQKUj-nlislQ4Ewwq-83DND5iZw&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ0pQJegQIFBAB
+              - generic [ref=e103]: 新闻
+          - listitem [ref=e104]:
+            - link "短视频" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNfFzj00G4hZHs8IcWAlIEXYE0fgtnOmqcIPZVtGl98j0eThUjU_6dy2Rj4ZV4A_j7mz1BG4_4G01ufTOJmZzi6JLQKUj-nlislQ4Ewwq-83DND5iZw&q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQs6gLegQIExAB
+              - generic [ref=e107]: 短视频
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - main [ref=e126]:
+      - generic [ref=e130]:
+        - generic [ref=e133]:
+          - heading "网页搜索结果" [level=2] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e138]:
+              - link "MAGES. - 萌娘百科万物皆可萌的百科全书 萌娘百科 https://zh.moegirl.org.cn › MAGES" [ref=e140] [cursor=pointer]:
+                - /url: https://zh.moegirl.org.cn/MAGES.
+                - heading "MAGES. - 萌娘百科万物皆可萌的百科全书" [level=3] [ref=e141]
+                - generic [ref=e143]:
+                  - img [ref=e147]
+                  - generic [ref=e149]:
+                    - generic [ref=e151]: 萌娘百科
+                    - generic [ref=e153]: https://zh.moegirl.org.cn › MAGES
+              - button "关于这条结果的详细信息" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 2025年10月9日 —
+              - generic [ref=e162]:
+                - text: MAGES.是一家日本公司，主要业务包括
+                - emphasis [ref=e163]: 游戏
+                - text: 、音乐、声优事务所和节目制作，代表作有科学冒险系列、秋之回忆系列。
+                - emphasis [ref=e164]: 名称
+                - text: . “MAGES”意为魔法师，也是核心业务Music ...
+        - generic [ref=e175]:
+          - heading "正在搜索 再多想一会儿" [level=2] [ref=e179]:
+            - generic [ref=e180]:
+              - generic [ref=e182]: 正在搜索
+              - generic [ref=e192]: 再多想一会儿
+          - progressbar [ref=e194]
+        - generic [ref=e239]:
+          - heading "图片" [level=2] [ref=e243]
+          - generic [ref=e247]:
+            - generic [ref=e251] [cursor=pointer]:
+              - link "英文名字游戏id设计- 抖音 抖音":
+                - /url: https://www.douyin.com/search/%E8%8B%B1%E6%96%87%E5%90%8D%E5%AD%97%E6%B8%B8%E6%88%8Fid%E8%AE%BE%E8%AE%A1
+              - button "英文名字游戏id设计- 抖音" [ref=e253]:
+                - img "英文名字游戏id设计- 抖音" [ref=e255]
+              - generic [ref=e257]:
+                - generic [ref=e259]: 英文名字游戏id设计- 抖音
+                - generic [ref=e260]:
+                  - generic [ref=e267]: 抖音
+                  - button "关于这条结果的详细信息" [ref=e270]:
+                    - img [ref=e273]
+            - generic [ref=e278] [cursor=pointer]:
+              - link "Vault - Male Image - Google Play 上的应用 Google Play":
+                - /url: https://play.google.com/store/apps/details?id=com.vault_male_image&hl=zh
+              - button "Vault - Male Image - Google Play 上的应用" [ref=e280]:
+                - img "Vault - Male Image - Google Play 上的应用" [ref=e282]
+              - generic [ref=e284]:
+                - generic [ref=e286]: Vault - Male Image - Google Play 上的应用
+                - generic [ref=e287]:
+                  - generic [ref=e294]: Google Play
+                  - button "关于这条结果的详细信息" [ref=e297]:
+                    - img [ref=e300]
+            - generic [ref=e305] [cursor=pointer]:
+              - link "emage-me》App - App Store App Store - Apple":
+                - /url: https://apps.apple.com/mo/app/emage-me/id1473829846
+              - button "emage-me》App - App Store" [ref=e307]:
+                - img "emage-me》App - App Store" [ref=e309]
+              - generic [ref=e311]:
+                - generic [ref=e313]: emage-me》App - App Store
+                - generic [ref=e314]:
+                  - generic [ref=e321]: App Store - Apple
+                  - button "关于这条结果的详细信息" [ref=e324]:
+                    - img [ref=e327]
+          - button "显示更多图片" [ref=e330] [cursor=pointer]:
+            - separator [ref=e331]
+            - generic [ref=e332]:
+              - generic [ref=e333]: 显示更多图片
+              - img [ref=e335]
+        - generic [ref=e339]:
+          - heading "網頁搜尋結果" [level=2] [ref=e340]
+          - generic [ref=e341]:
+            - generic [ref=e344]:
+              - link "emage-me - App Store Apple https://apps.apple.com › app › emage-..." [ref=e346] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/emage-me/id1473829846?l=zh-Hant-TW
+                - heading "emage-me - App Store" [level=3] [ref=e347]
+                - generic [ref=e352]:
+                  - generic [ref=e354]: Apple
+                  - generic [ref=e356]: https://apps.apple.com › app › emage-...
+              - generic [ref=e357]:
+                - generic [ref=e358]: ·
+                - link "转为简体网页" [ref=e359] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/emage-me/id1473829846?l=zh-Hant-TW
+              - button "关于这条结果的详细信息" [ref=e360] [cursor=pointer]:
+                - img [ref=e363]
+            - generic [ref=e367]:
+              - text: 在App Store 下載
+              - emphasis [ref=e368]: emage-me
+              - text: 的《emage-me》。查看截圖、評分與評論、使用者提示以及更多與《emage-me》類似的遊戲。
+        - generic [ref=e372]:
+          - generic [ref=e375]:
+            - link "Android Apps by eMage Systems LLC on ... Google Play https://play.google.com › store › apps › dev" [ref=e377] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/dev?id=4783955118472178138
+              - heading "Android Apps by eMage Systems LLC on ..." [level=3] [ref=e378]
+              - generic [ref=e383]:
+                - generic [ref=e385]: Google Play
+                - generic [ref=e387]: https://play.google.com › store › apps › dev
+            - generic [ref=e388]:
+              - generic [ref=e389]: ·
+              - link "翻译此页" [ref=e390] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/dev?id=4783955118472178138
+            - button "关于这条结果的详细信息" [ref=e391] [cursor=pointer]:
+              - img [ref=e394]
+          - generic [ref=e398]:
+            - emphasis [ref=e399]: Android Apps by eMage Systems LLC on Google Play
+            - text: . Games · Apps · Movies & TV ... eMage Systems LLC. Relive the experience. Icon image. VR Media Player. eMage ...
+          - generic [ref=e401]:
+            - text: 缺少字词： 名称 ‎| 必须包含：
+            - link "名称" [ref=e402] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=Emage+%E6%B8%B8%E6%88%8F+%22%E5%90%8D%E7%A7%B0%22&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ5t4CegQIPhAB
+        - generic [ref=e406]:
+          - generic [ref=e409]:
+            - link "2021中国出海游戏公司TOP50 emagecompany.com https://resource.emagecompany.com › ..." [ref=e411] [cursor=pointer]:
+              - /url: https://resource.emagecompany.com/it/2021chuhaiyouxigs.html
+              - heading "2021中国出海游戏公司TOP50" [level=3] [ref=e412]
+              - generic [ref=e417]:
+                - generic [ref=e419]: emagecompany.com
+                - generic [ref=e421]: https://resource.emagecompany.com › ...
+            - button "关于这条结果的详细信息" [ref=e422] [cursor=pointer]:
+              - img [ref=e425]
+          - generic [ref=e429]:
+            - text: 代表
+            - emphasis [ref=e430]: 游戏名称
+            - text: . 1, FunPlus, 《State of Survival》《阿瓦隆之王》. 2, 莉莉丝, 《万国 ... ©2000-2026
+            - emphasis [ref=e431]: Emage
+            - text: . 隐私及版权通告. 粤ICP备13067922号 粤公网安备 ...
+        - generic [ref=e435]:
+          - generic [ref=e438]:
+            - link "Image - 所有遊戲 Steam https://store.steampowered.com › app" [ref=e440] [cursor=pointer]:
+              - /url: https://store.steampowered.com/app/2193380/Image/?l=tchinese
+              - heading "Image - 所有遊戲" [level=3] [ref=e441]
+              - generic [ref=e446]:
+                - generic [ref=e448]: Steam
+                - generic [ref=e450]: https://store.steampowered.com › app
+            - generic [ref=e451]:
+              - generic [ref=e452]: ·
+              - link "转为简体网页" [ref=e453] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/2193380/Image/?l=tchinese
+            - button "关于这条结果的详细信息" [ref=e454] [cursor=pointer]:
+              - img [ref=e457]
+          - generic [ref=e461]:
+            - text: 所有遊戲 > 動作遊戲 > Image · 社群中心. Image. 在Steam 行動應用程式中開啟. 以輕鬆 ...
+            - emphasis [ref=e462]: "名稱: Image"
+            - text: "類型: 動作, 冒險. 開發人員: Daniel Seman. 發行商: Galactic ..."
+          - img "评分为 3.0 星（最高 5 星）， (27) 条用户评价" [ref=e467]:
+            - text: 6/10
+            - img [ref=e468]
+            - text: (27)
+        - generic [ref=e474]:
+          - generic [ref=e477]:
+            - 'link "Adam Image 遊戲合集: r/RG350 Reddit · r/RG350 8条评论 · 2年前" [ref=e479] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/RG350/comments/13lzzt8/adam_image_game_collection/?tl=zh-hant
+              - 'heading "Adam Image 遊戲合集: r/RG350" [level=3] [ref=e480]'
+              - generic [ref=e485]:
+                - generic [ref=e487]: Reddit · r/RG350
+                - generic [ref=e489]: 8条评论 · 2年前
+            - button "关于这条结果的详细信息" [ref=e490] [cursor=pointer]:
+              - img [ref=e493]
+          - generic [ref=e497]:
+            - text: 我發現有些
+            - emphasis [ref=e498]: 遊戲
+            - text: 資料夾沒載入，像是GBC 和NES 這種。 在你重新下載檔案之前，我建議你先去看看每個韌體的Wiki 頁面。 你的裝置有可能在找不同
+            - emphasis [ref=e499]: 名稱
+            - text: 的資料夾。
+        - generic [ref=e503]:
+          - generic [ref=e506]:
+            - link "2. 公司概況 Taiwan Semiconductor https://www.tsmc.com › annualReports › pdf_c" [ref=e508] [cursor=pointer]:
+              - /url: https://www.tsmc.com/download/ir/annualReports/2010/pdf_c/c_2.pdf
+              - heading "2. 公司概況" [level=3] [ref=e509]
+              - generic [ref=e514]:
+                - generic [ref=e516]: Taiwan Semiconductor
+                - generic [ref=e518]: https://www.tsmc.com › annualReports › pdf_c
+            - generic [ref=e519]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e520] [cursor=pointer]:
+              - img [ref=e523]
+          - generic [ref=e525]:
+            - generic [ref=e526]: 台積公司成立於民國七十六年二月二十一日，總部設立於台. 灣新竹科學工業園區，是全球規模最大的專業積體電路製造. 服務公司。台積公司開創並專注於生產客戶設計之晶片， ...
+            - generic [ref=e527]: 18 页
+        - generic [ref=e531]:
+          - generic [ref=e534]:
+            - link "List of NES Games by Image Classic Games Paradise http://www.classicgamesparadise.com › ..." [ref=e536] [cursor=pointer]:
+              - /url: http://www.classicgamesparadise.com/image%20list%20nes.html
+              - heading "List of NES Games by Image" [level=3] [ref=e537]
+              - generic [ref=e542]:
+                - generic [ref=e544]: Classic Games Paradise
+                - generic [ref=e546]: http://www.classicgamesparadise.com › ...
+            - generic [ref=e547]:
+              - generic [ref=e548]: ·
+              - link "翻译此页" [ref=e549] [cursor=pointer]:
+                - /url: http://www.classicgamesparadise.com/image%20list%20nes.html
+            - button "关于这条结果的详细信息" [ref=e550] [cursor=pointer]:
+              - img [ref=e553]
+          - generic [ref=e557]:
+            - emphasis [ref=e558]: Adventure Island
+            - text: · Adventure Island II · Adventure Island III · Alfred Chicken · The Addams Family · The Addams Family II · Athena · Back to the Future II & III ...
+        - generic [ref=e562]:
+          - generic [ref=e565]:
+            - link "#連假行程#奇美博物館玩不完除了特展《埃及之王：法老 ... Instagram · chimeimuseum 70+ 个赞 · 1个月前" [ref=e567] [cursor=pointer]:
+              - /url: https://www.instagram.com/p/DWiOf1IEi0W/
+              - heading "#連假行程#奇美博物館玩不完除了特展《埃及之王：法老 ..." [level=3] [ref=e568]
+              - generic [ref=e573]:
+                - generic [ref=e575]: Instagram · chimeimuseum
+                - generic [ref=e577]: 70+ 个赞 · 1个月前
+            - button "关于这条结果的详细信息" [ref=e578] [cursor=pointer]:
+              - img [ref=e581]
+          - generic [ref=e585]:
+            - text: 奇美博物館已經隆重推出四款
+            - emphasis [ref=e586]: 遊戲
+            - text: ，小編尤其大推首款AR實境
+            - emphasis [ref=e587]: 遊戲
+            - text: "-【穿越時空的航海家】，只要三人以上即可組團在博物館內冒險，新手友善，更值得老手挑戰！ #連假 ..."
+      - generic [ref=e589]:
+        - generic [ref=e594]:
+          - heading "用户还搜索了" [level=2] [ref=e596]
+          - generic [ref=e598]:
+            - link "5pb" [ref=e603] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=5pb&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ1QJ6BAggEAE
+              - generic [ref=e604]:
+                - generic [ref=e609]: 5pb
+                - img [ref=e613]
+            - link "Mages 中文" [ref=e619] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=Mages+%E4%B8%AD%E6%96%87&sa=X&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ1QJ6BAghEAE
+              - generic [ref=e620]:
+                - generic [ref=e625]: Mages 中文
+                - img [ref=e629]
+        - navigation [ref=e631]:
+          - heading "网页导航" [level=1] [ref=e632]
+          - text: "1"
+          - link "Page 2" [ref=e635] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=10&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAE
+            - text: "2"
+          - link "Page 3" [ref=e637] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=20&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAG
+            - text: "3"
+          - link "Page 4" [ref=e639] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=30&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAI
+            - text: "4"
+          - link "Page 5" [ref=e641] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=40&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAK
+            - text: "5"
+          - link "Page 6" [ref=e643] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=50&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAM
+            - text: "6"
+          - link "Page 7" [ref=e645] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=60&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAO
+            - text: "7"
+          - link "Page 8" [ref=e647] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=70&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAQ
+            - text: "8"
+          - link "Page 9" [ref=e649] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=80&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAS
+            - text: "9"
+          - link "Page 10" [ref=e651] [cursor=pointer]:
+            - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=90&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8tMDegQIIhAU
+            - text: "10"
+          - heading "下一页" [level=2] [ref=e653]:
+            - link "下一页" [ref=e654] [cursor=pointer]:
+              - /url: /search?q=Emage+%E6%B8%B8%E6%88%8F+%E5%90%8D%E7%A7%B0&sca_esv=4c0e757566be5d36&ei=7HQFapXHBeHHkPIP6vS0wAc&start=10&sa=N&sstk=Af77f_f4K3w7dvDox3XlMiCT1NVhGzwBQWI_DhdEDHc4nVH1cLi3uyVk9vZ8UjbCVKRD7IRzj8AARcs6MTFnt1bYXjZf5TEhTs3nxA&ved=2ahUKEwiV7d2anLiUAxXhI0QIHWo6DXgQ8NMDegQIIhAW
+              - generic [ref=e656]: 下一页
+      - navigation
+    - contentinfo [ref=e657]:
+      - heading "页脚链接" [level=1] [ref=e658]
+      - generic [ref=e662]:
+        - generic [ref=e666]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e668] [cursor=pointer]:
+            - generic [ref=e669]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e671]:
+              - text: "-"
+              - generic [ref=e672]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e674] [cursor=pointer]: 更新位置信息
+        - generic [ref=e677]:
+          - link "帮助" [ref=e678] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e679] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e680] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e681] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

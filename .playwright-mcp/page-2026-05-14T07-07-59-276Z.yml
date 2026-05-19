@@ -1,0 +1,431 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: Emage エマージュ 続作 Emage エマージュ 続作
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEmage%2B%25E3%2582%25A8%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%25A5%2B%25E7%25B6%259A%25E4%25BD%259C&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOmFtF5N3S1V5r-EXeLn-eMpPTGtu9kiciRaDorekPdOU4VBg9BNtYbVUSccQFZvEfoqg4tNjvgP4-LxAH_rlgHhRs0Wlerdof22S2HHOgvnwAug1rw&aep=1&ntc=1&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ2J8OegQIEhAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "图片" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOmFtF5N3S1V5r-EXeLn-eMpPTGtu9kiciRaDorekPdOU4VBg9BNtYbVUSccQFZvEfoqg4tNjvgP4-LxAH_rlgHhRs0Wlerdof22S2HHOgvnwAug1rw&q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQtKgLegQIGBAB
+              - generic [ref=e91]: 图片
+          - listitem [ref=e92]:
+            - link "购物" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOmFtF5N3S1V5r-EXeLn-eMpPTGtu9kiciRaDorekPdOU4VBg9BNtYbVUSccQFZvEfoqg4tNjvgP4-LxAH_rlgHhRs0Wlerdof22S2HHOgvnwAug1rw&q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&ved=1t:220175&ictx=111
+              - generic [ref=e95]: 购物
+          - listitem [ref=e96]:
+            - link "视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOmFtF5N3S1V5r-EXeLn-eMpPTGtu9kiciRaDorekPdOU4VBg9BNtYbVUSccQFZvEfoqg4tNjvgP4-LxAH_rlgHhRs0Wlerdof22S2HHOgvnwAug1rw&q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQtKgLegQIFhAB
+              - generic [ref=e99]: 视频
+          - listitem [ref=e100]:
+            - link "短视频" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOmFtF5N3S1V5r-EXeLn-eMpPTGtu9kiciRaDorekPdOU4VBg9BNtYbVUSccQFZvEfoqg4tNjvgP4-LxAH_rlgHhRs0Wlerdof22S2HHOgvnwAug1rw&q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQs6gLegQIFBAB
+              - generic [ref=e103]: 短视频
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOmFtF5N3S1V5r-EXeLn-eMpPTGtu9kiciRaDorekPdOU4VBg9BNtYbVUSccQFZvEfoqg4tNjvgP4-LxAH_rlgHhRs0Wlerdof22S2HHOgvnwAug1rw&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ0pQJegQIFRAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - heading "您是不是要找： Emerge エマージュ 続作" [level=2] [ref=e132]:
+          - text: 您是不是要找：
+          - link "Emerge エマージュ 続作" [ref=e133] [cursor=pointer]:
+            - /url: /search?sca_esv=4c0e757566be5d36&q=Emerge+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&spell=1&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQBSgAegQIEBAB
+        - generic [ref=e149]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - img [ref=e158]
+                - heading "AI 概览" [level=2] [ref=e160]
+              - button "关于这条结果的详细信息" [ref=e164]:
+                - img [ref=e166]
+            - generic [ref=e187]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: ご指定の「Emage（エマージュ）」に関する続作情報は、検索結果では確認できませんでした。
+                - generic [ref=e192]: 該当する可能性がある単語について以下の通り情報をまとめました。
+                - list [ref=e194]:
+                  - listitem [ref=e195]:
+                    - generic [ref=e196]:
+                      - strong [ref=e197]: "マジックグッズ (Emerge):"
+                      - text: 空の箱に物体が出現する手品。
+                  - listitem [ref=e198]:
+                    - generic [ref=e199]:
+                      - strong [ref=e200]: "音楽CD (image):"
+                      - text: シリーズ累計350万部を超えるリラクシング・オムニバスCD。
+                  - listitem [ref=e201]:
+                    - generic [ref=e202]:
+                      - strong [ref=e203]: "キッチン (EMAGE):"
+                      - text: タカラスタンダードのシステムキッチン。
+                  - listitem [ref=e204]:
+                    - generic [ref=e205]:
+                      - strong [ref=e206]: "アクセサリー (emerge):"
+                      - text: スカルモチーフのシルバーアクセサリーブランド。
+                  - listitem [ref=e207]:
+                    - generic [ref=e208]:
+                      - strong [ref=e209]: "美容室 (Emerge):"
+                      - text: ヘアセット専門の美容室。
+                    - generic [ref=e211]:
+                      - link [ref=e212] [cursor=pointer]:
+                        - /url: https://beauty.hotpepper.jp/slnH000456472/
+                      - button [ref=e213] [cursor=pointer]:
+                        - generic [ref=e215]:
+                          - generic [ref=e216]: ホットペッパービューティー
+                          - generic [ref=e217]: "+4"
+                - generic [ref=e219]: もし、これら以外に「ゲーム」や「アニメ」などの特定の作品を指している場合は、より詳細な情報（どのような作品か）を教えていただければ、再度お調べします。
+                - generic [ref=e221]: この情報で該当するものはありましたか？
+                - list [ref=e223]:
+                  - listitem [ref=e224]:
+                    - generic [ref=e225]:
+                      - strong [ref=e226]: キッチン
+                      - text: の新作カタログ？
+                  - listitem [ref=e227]:
+                    - generic [ref=e228]:
+                      - text: マジックの
+                      - strong [ref=e229]: 新しいバージョン
+                      - text: ？
+                - generic [ref=e231]: 教えていただければ、引き続き探します。
+              - generic [ref=e238]:
+                - list [ref=e241]:
+                  - listitem [ref=e242]:
+                    - generic [ref=e243]:
+                      - link "エマージュ 上野御徒町(Emerge) - ホットペッパービューティー. 在新标签页中打开。" [ref=e244] [cursor=pointer]:
+                        - /url: https://beauty.hotpepper.jp/slnH000456472/
+                      - generic [ref=e245]:
+                        - generic [ref=e247]:
+                          - generic [ref=e248]: エマージュ 上野御徒町(Emerge) - ホットペッパービューティー
+                          - generic [ref=e249]: エマージュ 上野御徒町(Emerge)の写真/上野駅3分!結婚. 大切な日のヘアセットはお任せ☆結婚式/二次会/入卒園式...
+                        - generic [ref=e251]:
+                          - generic [ref=e256]: ホットペッパービューティー
+                          - button "关于这条结果" [ref=e258] [cursor=pointer]:
+                            - img [ref=e259]
+                  - listitem [ref=e262]:
+                    - generic [ref=e263]:
+                      - link "2014年 システムキッチンカタログ - タカラスタンダード. 在新标签页中打开。" [ref=e264] [cursor=pointer]:
+                        - /url: https://www.takara-standard.co.jp/docs/pdf/catalog/system_kitchen/sk_2014.pdf
+                      - generic [ref=e265]:
+                        - generic [ref=e267]:
+                          - generic [ref=e268]: 2014年 システムキッチンカタログ - タカラスタンダード
+                          - generic [ref=e269]: ホーローシステムキッチン EMAGE エマージュ. 使う場所やシーンごとに小物を分けて. 整理できる、 エリア別収納。 ...
+                        - generic [ref=e270]:
+                          - generic [ref=e275]: タカラスタンダード
+                          - button [ref=e277] [cursor=pointer]:
+                            - img [ref=e278]
+                  - listitem [ref=e281]:
+                    - generic [ref=e282]:
+                      - link [ref=e283] [cursor=pointer]:
+                        - /url: https://prtimes.jp/main/html/rd/p/000000907.000012949.html
+                      - generic [ref=e284]:
+                        - generic [ref=e286]:
+                          - generic [ref=e287]: 18年目のライブ・イマージュが東京・渋谷で開幕 - PR TIMES
+                          - generic [ref=e288]: 2018年6月15日 — シリーズ累計350万部を超える人気コンピCD『image（イマージュ）』と連動した、リラクシング系のオムニバス・コンサー...
+                        - generic [ref=e290]:
+                          - generic [ref=e295]: PR TIMES
+                          - button [ref=e297] [cursor=pointer]:
+                            - img [ref=e298]
+                - button [ref=e301] [cursor=pointer]:
+                  - generic [ref=e302]: 全部显示
+          - button "显示更多 AI 概览" [ref=e306]:
+            - generic [ref=e308] [cursor=pointer]:
+              - generic [ref=e309]: 展开
+              - img [ref=e311]
+      - main [ref=e314]:
+        - generic [ref=e318]:
+          - generic [ref=e321]:
+            - heading "ウェブ検索結果" [level=2] [ref=e322]
+            - generic [ref=e323]:
+              - generic [ref=e326]:
+                - link "2014年 システムキッチンカタログ タカラスタンダード https://www.takara-standard.co.jp › system_kitchen" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.takara-standard.co.jp/docs/pdf/catalog/system_kitchen/sk_2014.pdf
+                  - heading "2014年 システムキッチンカタログ" [level=3] [ref=e329]
+                  - generic [ref=e334]:
+                    - generic [ref=e336]: タカラスタンダード
+                    - generic [ref=e338]: https://www.takara-standard.co.jp › system_kitchen
+                - generic [ref=e339]:
+                  - generic:
+                    - generic: PDF
+                - button "关于这条结果的详细信息" [ref=e340] [cursor=pointer]:
+                  - img [ref=e343]
+              - generic [ref=e345]:
+                - generic [ref=e347]:
+                  - text: ホーローシステムキッチン
+                  - emphasis [ref=e348]: EMAGE エマージュ
+                  - text: . 使う場所やシーンごとに小物を分けて. 整理できる、 エリア別収納。 【アイラック】 P79. -. たっぷりの奥行. 奥まで広々使え ...
+                - generic [ref=e349]: 46 页
+          - generic [ref=e353]:
+            - generic [ref=e356]:
+              - link "emerge/エマージュ SV925.K10 スカルコインリング ふらっと ... Instagram · emerge_artjewelrystudio 30+ 个赞 · 2周前" [ref=e358] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DXrNzxUH0re/?img_index=3
+                - heading "emerge/エマージュ SV925.K10 スカルコインリング ふらっと ..." [level=3] [ref=e359]
+                - generic [ref=e364]:
+                  - generic [ref=e366]: Instagram · emerge_artjewelrystudio
+                  - generic [ref=e368]: 30+ 个赞 · 2周前
+              - button "关于这条结果的详细信息" [ref=e369] [cursor=pointer]:
+                - img [ref=e372]
+            - generic [ref=e376]:
+              - text: 売上済みの
+              - emphasis [ref=e377]: 作品
+              - text: ですが一応載っけときます、 ACCシリーズは全ての
+              - emphasis [ref=e378]: 作品
+              - text: と同じく型なし、 また、このシリーズは毎回異なるパーツでの製作のため、テイストは ...
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - link "emerge エマージュ スカル スタッド ピアス 1P 片耳用 ... Yahoo!ショッピング https://store.shopping.yahoo.co.jp › emg-se..." [ref=e387] [cursor=pointer]:
+                - /url: https://store.shopping.yahoo.co.jp/ginnokura/emg-sep-8.html
+                - heading "emerge エマージュ スカル スタッド ピアス 1P 片耳用 ..." [level=3] [ref=e388]
+                - generic [ref=e393]:
+                  - generic [ref=e395]: Yahoo!ショッピング
+                  - generic [ref=e397]: https://store.shopping.yahoo.co.jp › emg-se...
+              - generic [ref=e398]:
+                - generic [ref=e399]: ·
+                - link "翻译此页" [ref=e400] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://store.shopping.yahoo.co.jp/ginnokura/emg-sep-8.html&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e401] [cursor=pointer]:
+                - img [ref=e404]
+            - generic [ref=e408]:
+              - text: アクセサリーブランド emerge
+              - emphasis [ref=e409]: エマージュ
+              - text: シルバー925 メンズ ピアス 指輪 シルバーピアス スカルピアス ドクロピアス ※こちらの商品は受注制作となります。
+          - generic [ref=e413]:
+            - generic [ref=e416]:
+              - link "エマージュ 上野御徒町(Emerge) ホットペッパービューティー https://beauty.hotpepper.jp › slnH000456472" [ref=e418] [cursor=pointer]:
+                - /url: https://beauty.hotpepper.jp/slnH000456472/
+                - heading "エマージュ 上野御徒町(Emerge)" [level=3] [ref=e419]
+                - generic [ref=e424]:
+                  - generic [ref=e426]: ホットペッパービューティー
+                  - generic [ref=e428]: https://beauty.hotpepper.jp › slnH000456472
+              - generic [ref=e429]:
+                - generic [ref=e430]: ·
+                - link "翻译此页" [ref=e431] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://beauty.hotpepper.jp/slnH000456472/&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e432] [cursor=pointer]:
+                - img [ref=e435]
+            - generic [ref=e439]:
+              - emphasis [ref=e440]: エマージュ
+              - text: 上野御徒町(Emerge)の写真/上野駅3分!結婚. 大切な日のヘアセットはお任せ☆結婚式/二次会/入卒園式/発表会/女子会様々なシーンに最適なアレンジ♪周りに差が
+              - emphasis [ref=e441]: つく
+              - text: ...
+            - generic [ref=e444]:
+              - generic [ref=e445]:
+                - img "评分为 4.6 星（最高 5 星）， (1,196) 条用户评价" [ref=e446]:
+                  - text: "4.6"
+                  - img [ref=e447]
+                  - text: (1,196)
+                - text: ·
+              - text: 消费水平：￥2,500～
+          - generic [ref=e453]:
+            - generic [ref=e456]:
+              - link "Emerge～エマージュ カラーミーショップ http://panoramagic.shop-pro.jp › ..." [ref=e458] [cursor=pointer]:
+                - /url: http://panoramagic.shop-pro.jp/?pid=189821794
+                - heading "Emerge～エマージュ" [level=3] [ref=e459]
+                - generic [ref=e461]:
+                  - img [ref=e465]
+                  - generic [ref=e467]:
+                    - generic [ref=e469]: カラーミーショップ
+                    - generic [ref=e471]: http://panoramagic.shop-pro.jp › ...
+              - generic [ref=e472]:
+                - generic [ref=e473]: ·
+                - link "翻译此页" [ref=e474] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=http://panoramagic.shop-pro.jp/?pid%3D189821794&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e475] [cursor=pointer]:
+                - img [ref=e478]
+            - generic [ref=e481]: 空っぽの透明な箱の中に一瞬で物体が出現します！ 出せる物体は、スポンジ、紙幣、トランプ、電球、レモン、小さなルービックキューブなどお好みで選択可能。 操作も簡単 ...
+            - generic [ref=e484]: JP¥1,000
+          - generic [ref=e491]:
+            - generic [ref=e494]:
+              - link "遊漁船イマージュ/image リニューアル完了 2021年9月11日 YouTube · Fishing boat image 9680+ 次观看 · 4年前" [ref=e496] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=b20LOmbZvhA
+                - heading "遊漁船イマージュ/image リニューアル完了 2021年9月11日" [level=3] [ref=e497]
+                - generic [ref=e502]:
+                  - generic [ref=e504]: YouTube · Fishing boat image
+                  - generic [ref=e506]: 9680+ 次观看 · 4年前
+              - button "关于这条结果的详细信息" [ref=e507] [cursor=pointer]:
+                - img [ref=e510]
+            - generic [ref=e512]:
+              - button "遊漁船イマージュ/image リニューアル完了 2021年9月11日，由遊漁船 イマージュ image上传到YouTube上. 在 Google 上播放. 5:48" [ref=e513] [cursor=pointer]:
+                - generic [ref=e515]:
+                  - img [ref=e521]
+                  - generic [ref=e524]:
+                    - generic [ref=e525]: 5:48
+                    - img [ref=e528]
+              - generic [ref=e531]: 遊漁船 イマージュ image•9.6K views · 14:40 · Go to channel ... 36歳女性漁師応援ドキュメント＜続編＞. まさるの大旅小旅•137K views · 59 ...
+          - generic [ref=e535]:
+            - generic [ref=e538]:
+              - link "アニメージュプラス - アニメ・声優・特撮・漫画のニュース ... アニメージュプラス https://animageplus.jp" [ref=e540] [cursor=pointer]:
+                - /url: https://animageplus.jp/
+                - heading "アニメージュプラス - アニメ・声優・特撮・漫画のニュース ..." [level=3] [ref=e541]
+                - generic [ref=e546]:
+                  - generic [ref=e548]: アニメージュプラス
+                  - generic [ref=e550]: https://animageplus.jp
+              - generic [ref=e551]:
+                - generic [ref=e552]: ·
+                - link "翻译此页" [ref=e553] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://animageplus.jp/&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e554] [cursor=pointer]:
+                - img [ref=e557]
+            - generic [ref=e560]: アニメ雑誌のパイオニア『Animage』（徳間書店）のニュースサイトです。アニメ、コミック、声優、特撮、おもちゃ、ゲームなど幅広いジャンルのおすすめニュースを ...
+          - generic [ref=e564]:
+            - generic [ref=e567]:
+              - link "ピアニスト 村松健さんのこと | ケルトの笛ブログ ケルトの笛屋さん https://blog.celtnofue.com › 記事" [ref=e569] [cursor=pointer]:
+                - /url: https://blog.celtnofue.com/archives/5741
+                - heading "ピアニスト 村松健さんのこと | ケルトの笛ブログ" [level=3] [ref=e570]
+                - generic [ref=e575]:
+                  - generic [ref=e577]: ケルトの笛屋さん
+                  - generic [ref=e579]: https://blog.celtnofue.com › 記事
+              - generic [ref=e580]:
+                - generic [ref=e581]: ·
+                - link "翻译此页" [ref=e582] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://blog.celtnofue.com/archives/5741&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e583] [cursor=pointer]:
+                - img [ref=e586]
+            - generic [ref=e589]:
+              - generic [ref=e590]: 2020年7月23日 —
+              - text: hataoさんが個人的に大好きな日本人ピアニスト村松健さんの音楽についてご紹介します。
+          - generic [ref=e594]:
+            - generic [ref=e597]:
+              - link "18年目のライブ・イマージュが東京・渋谷で開幕 PR TIMES https://prtimes.jp › イベント" [ref=e599] [cursor=pointer]:
+                - /url: https://prtimes.jp/main/html/rd/p/000000907.000012949.html
+                - heading "18年目のライブ・イマージュが東京・渋谷で開幕" [level=3] [ref=e600]
+                - generic [ref=e605]:
+                  - generic [ref=e607]: PR TIMES
+                  - generic [ref=e609]: https://prtimes.jp › イベント
+              - generic [ref=e610]:
+                - generic [ref=e611]: ·
+                - link "翻译此页" [ref=e612] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://prtimes.jp/main/html/rd/p/000000907.000012949.html&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e613] [cursor=pointer]:
+                - img [ref=e616]
+            - generic [ref=e619]:
+              - generic [ref=e620]: 2018年6月15日 —
+              - generic [ref=e621]:
+                - text: シリーズ累計350万部を超える人気コンピCD『
+                - emphasis [ref=e622]: image
+                - text: （
+                - emphasis [ref=e623]: イマージュ
+                - text: ）』と連動した、リラクシング系のオムニバス・コンサート＜live
+                - emphasis [ref=e624]: image
+                - text: 18 dix-huit ...
+          - generic [ref=e628]:
+            - generic [ref=e631]:
+              - link "Emerge 横浜駅店【エマージュ】の美容師・新卒の求人 リジョブ https://relax-job.com › ... › 横浜市" [ref=e633] [cursor=pointer]:
+                - /url: https://relax-job.com/job/B2957546/sid/659410
+                - heading "Emerge 横浜駅店【エマージュ】の美容師・新卒の求人" [level=3] [ref=e634]
+                - generic [ref=e639]:
+                  - generic [ref=e641]: リジョブ
+                  - generic [ref=e643]: https://relax-job.com › ... › 横浜市
+              - generic [ref=e644]:
+                - generic [ref=e645]: ·
+                - link "翻译此页" [ref=e646] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://relax-job.com/job/B2957546/sid/659410&hl=zh-CN&sl=ja&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e647] [cursor=pointer]:
+                - img [ref=e650]
+            - generic [ref=e653]:
+              - generic [ref=e654]: 2026年3月23日 —
+              - text: "役職・採用対象. 新卒: ☆2026年新卒アシスタント募集☆ 「お給料を貰いながら練習に集中できる！」 講師常駐環境の週5日アカデミーで効率的に高い技術が ..."
+            - generic [ref=e656]:
+              - text: 缺少字词： 続 ‎| 必须包含：
+              - link "続" [ref=e657] [cursor=pointer]:
+                - /url: /search?sca_esv=4c0e757566be5d36&q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%22%E7%B6%9A%22+%E4%BD%9C&sa=X&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ5t4CegQISRAB
+        - navigation [ref=e660]:
+          - heading "网页导航" [level=1] [ref=e661]
+          - text: "1"
+          - link "Page 2" [ref=e664] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=10&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAE
+            - text: "2"
+          - link "Page 3" [ref=e666] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=20&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAG
+            - text: "3"
+          - link "Page 4" [ref=e668] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=30&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAI
+            - text: "4"
+          - link "Page 5" [ref=e670] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=40&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAK
+            - text: "5"
+          - link "Page 6" [ref=e672] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=50&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAM
+            - text: "6"
+          - link "Page 7" [ref=e674] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=60&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAO
+            - text: "7"
+          - link "Page 8" [ref=e676] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=70&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAQ
+            - text: "8"
+          - link "Page 9" [ref=e678] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=80&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAS
+            - text: "9"
+          - link "Page 10" [ref=e680] [cursor=pointer]:
+            - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=90&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8tMDegQINxAU
+            - text: "10"
+          - heading "下一页" [level=2] [ref=e682]:
+            - link "下一页" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=Emage+%E3%82%A8%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5+%E7%B6%9A%E4%BD%9C&sca_esv=4c0e757566be5d36&ei=zHQFas2qBq7KkPIPib_BqAE&start=10&sa=N&sstk=Af77f_fqxGsmeBZHxn9dT97jxEs4BC1a_wWYcVExX49KwzLvulmfHSaqiPqyc8bpB8C26HkgIWVli2gpwqZnTZuSAHad6GpFkgQWfg&ved=2ahUKEwjNwL2LnLiUAxUuJUQIHYlfEBUQ8NMDegQINxAW
+              - generic [ref=e685]: 下一页
+        - navigation
+    - contentinfo [ref=e686]:
+      - heading "页脚链接" [level=1] [ref=e687]
+      - generic [ref=e691]:
+        - generic [ref=e695]:
+          - button "洛杉矶县 加利福尼亚 - 是根据您的 IP 地址推断出来的" [ref=e697] [cursor=pointer]:
+            - generic [ref=e698]: 洛杉矶县 加利福尼亚
+            - generic [ref=e700]:
+              - text: "-"
+              - generic [ref=e701]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e703] [cursor=pointer]: 更新位置信息
+        - generic [ref=e706]:
+          - link "帮助" [ref=e707] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e708] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e709] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e710] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

@@ -1,0 +1,394 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: "\"Emage\" 游戏 Steam \"Emage\" 游戏 Steam"
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%2522Emage%2522%2B%25E6%25B8%25B8%25E6%2588%258F%2BSteam&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4CdevaFXj2U84euI-vNNo4UARBZiEMiLkftjOcHGEGsV2MOlFd3m5QwFdaI-5AC0RgRFlJ4dW3FWbXvWy2AT4NIhKwzWhHnMkrXtxsV13CyIeA2-_jZ6CA6h0UtdnaJXABWKsCzOkQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ2J8OegQIERAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "购物" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4CdevaFXj2U84euI-vNNo4UARBZiEMiLkftjOcHGEGsV2MOlFd3m5QwFdaI-5AC0RgRFlJ4dW3FWbXvWy2AT4NIhKwzWhHnMkrXtxsV13CyIeA2-_jZ6CA6h0UtdnaJXABWKsCzOkQ&q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&ved=1t:220175&ictx=111
+              - generic [ref=e91]: 购物
+          - listitem [ref=e92]:
+            - link "图片" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4CdevaFXj2U84euI-vNNo4UARBZiEMiLkftjOcHGEGsV2MOlFd3m5QwFdaI-5AC0RgRFlJ4dW3FWbXvWy2AT4NIhKwzWhHnMkrXtxsV13CyIeA2-_jZ6CA6h0UtdnaJXABWKsCzOkQ&q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sa=X&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQtKgLegQIFhAB
+              - generic [ref=e95]: 图片
+          - listitem [ref=e96]:
+            - link "视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4CdevaFXj2U84euI-vNNo4UARBZiEMiLkftjOcHGEGsV2MOlFd3m5QwFdaI-5AC0RgRFlJ4dW3FWbXvWy2AT4NIhKwzWhHnMkrXtxsV13CyIeA2-_jZ6CA6h0UtdnaJXABWKsCzOkQ&q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sa=X&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQtKgLegQIFRAB
+              - generic [ref=e99]: 视频
+          - listitem [ref=e100]:
+            - link "短视频" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4CdevaFXj2U84euI-vNNo4UARBZiEMiLkftjOcHGEGsV2MOlFd3m5QwFdaI-5AC0RgRFlJ4dW3FWbXvWy2AT4NIhKwzWhHnMkrXtxsV13CyIeA2-_jZ6CA6h0UtdnaJXABWKsCzOkQ&q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sa=X&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQs6gLegQIFBAB
+              - generic [ref=e103]: 短视频
+          - listitem [ref=e104]:
+            - link "新闻" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4CdevaFXj2U84euI-vNNo4UARBZiEMiLkftjOcHGEGsV2MOlFd3m5QwFdaI-5AC0RgRFlJ4dW3FWbXvWy2AT4NIhKwzWhHnMkrXtxsV13CyIeA2-_jZ6CA6h0UtdnaJXABWKsCzOkQ&sa=X&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ0pQJegQIExAB
+              - generic [ref=e107]: 新闻
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e144]:
+        - heading "正在搜索 再多想一会儿" [level=2] [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e151]: 正在搜索
+            - generic [ref=e161]: 再多想一会儿
+        - progressbar [ref=e163]
+      - main [ref=e205]:
+        - generic [ref=e209]:
+          - generic [ref=e212]:
+            - heading "网页搜索结果" [level=2] [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e217]:
+                - link "旧手表 萌娘百科 https://zh.moegirl.org.cn › 旧手表" [ref=e219] [cursor=pointer]:
+                  - /url: https://zh.moegirl.org.cn/%E6%97%A7%E6%89%8B%E8%A1%A8
+                  - heading "旧手表" [level=3] [ref=e220]
+                  - generic [ref=e222]:
+                    - img [ref=e226]
+                    - generic [ref=e228]:
+                      - generic [ref=e230]: 萌娘百科
+                      - generic [ref=e232]: https://zh.moegirl.org.cn › 旧手表
+                - button "关于这条结果的详细信息" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 2022年2月19日 —
+                - generic [ref=e241]:
+                  - text: 跟弃、溺子、
+                  - emphasis [ref=e242]: Emage
+                  - text: ∴Utae、
+                  - emphasis [ref=e243]: Emage
+                  - text: ∴kian. 模式. 单人
+                  - emphasis [ref=e244]: 游戏
+                  - text: . 发行时间. 2017年12 ... 该作品在2017年初在摩点进行众筹，2017年12月21日在
+                  - emphasis [ref=e245]: Steam
+                  - text: 上发布，是灰烬天国第 ...
+          - generic [ref=e249]:
+            - generic [ref=e252]:
+              - link "昨晚想著夠時間發誰知道發佈上傳steam測試後再玩 ... Threads https://www.threads.com › post › 昨晚..." [ref=e254] [cursor=pointer]:
+                - /url: https://www.threads.com/@00vchannel/post/DUepXCYkmAT/%E6%98%A8%E6%99%9A%E6%83%B3%E8%91%97%E5%A4%A0%E6%99%82%E9%96%93%E7%99%BC%E8%AA%B0%E7%9F%A5%E9%81%93%E7%99%BC%E4%BD%88%E4%B8%8A%E5%82%B3steam%E6%B8%AC%E8%A9%A6%E5%BE%8C%E5%86%8D%E7%8E%A9%E4%B8%80%E6%AC%A1%E5%8F%88%E7%99%BC%E7%8F%BE%E4%BA%86%E5%BE%88%E5%A4%9Abug%E4%BD%86%E6%98%AF-%E9%80%A3%E5%81%9A20%E5%A4%9A%E5%B0%8F%E6%99%82-%E7%8F%BE%E5%9C%A8%E7%B5%82%E6%96%BC%E5%AE%8C%E5%85%A8%E6%BA%96%E5%82%99%E5%A5%BD%E4%BA%86demo%E5%B7%B2%E7%B6%93%E4%B8%8A%E5%82%B3%E5%88%B0steam%E4%BD%86%E6%98%AF%E9%82%84%E6%B2%92%E6%9C%89%E7%99%BC%E4%BD%88%E8%AC%9D%E8%AC%9D
+                - heading "昨晚想著夠時間發誰知道發佈上傳steam測試後再玩 ..." [level=3] [ref=e255]
+                - generic [ref=e260]:
+                  - generic [ref=e262]: Threads
+                  - generic [ref=e264]: https://www.threads.com › post › 昨晚...
+              - generic [ref=e265]:
+                - generic [ref=e266]: ·
+                - link "转为简体网页" [ref=e267] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.threads.com/@00vchannel/post/DUepXCYkmAT/%25E6%2598%25A8%25E6%2599%259A%25E6%2583%25B3%25E8%2591%2597%25E5%25A4%25A0%25E6%2599%2582%25E9%2596%2593%25E7%2599%25BC%25E8%25AA%25B0%25E7%259F%25A5%25E9%2581%2593%25E7%2599%25BC%25E4%25BD%2588%25E4%25B8%258A%25E5%2582%25B3steam%25E6%25B8%25AC%25E8%25A9%25A6%25E5%25BE%258C%25E5%2586%258D%25E7%258E%25A9%25E4%25B8%2580%25E6%25AC%25A1%25E5%258F%2588%25E7%2599%25BC%25E7%258F%25BE%25E4%25BA%2586%25E5%25BE%2588%25E5%25A4%259Abug%25E4%25BD%2586%25E6%2598%25AF-%25E9%2580%25A3%25E5%2581%259A20%25E5%25A4%259A%25E5%25B0%258F%25E6%2599%2582-%25E7%258F%25BE%25E5%259C%25A8%25E7%25B5%2582%25E6%2596%25BC%25E5%25AE%258C%25E5%2585%25A8%25E6%25BA%2596%25E5%2582%2599%25E5%25A5%25BD%25E4%25BA%2586demo%25E5%25B7%25B2%25E7%25B6%2593%25E4%25B8%258A%25E5%2582%25B3%25E5%2588%25B0steam%25E4%25BD%2586%25E6%2598%25AF%25E9%2582%2584%25E6%25B2%2592%25E6%259C%2589%25E7%2599%25BC%25E4%25BD%2588%25E8%25AC%259D%25E8%25AC%259D&hl=zh-CN&sl=zh-TW&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e268] [cursor=pointer]:
+                - img [ref=e271]
+            - generic [ref=e275]:
+              - text: ...
+              - emphasis [ref=e276]: steam
+              - text: 測試後再玩一次又發現了很多bug… 但是 ... 有時候會突然下殞石雨~. May be a video
+              - emphasis [ref=e277]: game
+              - text: screenshot of video
+              - emphasis [ref=e278]: games
+              - text: ", radar and text ..."
+              - emphasis [ref=e279]: emage
+              - text: 150. 365. 16. 14. 15.
+          - generic [ref=e283]:
+            - generic [ref=e286]:
+              - link "海沙风云- 维基百科，自由的百科全书 维基百科 https://zh.wikipedia.org › zh-cn › 海沙風雲" [ref=e288] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙风云- 维基百科，自由的百科全书" [level=3] [ref=e289]
+                - generic [ref=e294]:
+                  - generic [ref=e296]: 维基百科
+                  - generic [ref=e298]: https://zh.wikipedia.org › zh-cn › 海沙風雲
+              - button "关于这条结果的详细信息" [ref=e299] [cursor=pointer]:
+                - img [ref=e302]
+            - generic [ref=e306]:
+              - text: 《海沙风云》是中国异美工作室（旧名红茶
+              - emphasis [ref=e307]: Games
+              - text: ）制作的一款文字冒险
+              - emphasis [ref=e308]: 游戏
+              - text: ，
+              - emphasis [ref=e309]: 游戏
+              - text: 于2021年8月18日在
+              - emphasis [ref=e310]: Steam
+              - text: 发行。 ...
+              - emphasis [ref=e311]: EMAGE
+              - text: . 引擎 · Unity. 模式, 单人. 发行日, 2021年8月18日 ...
+          - generic [ref=e315]:
+            - generic [ref=e318]:
+              - link "海沙風雲- 維基百科，自由的百科全書 维基百科 https://zh.wikipedia.org › zh-tw › 海沙..." [ref=e320] [cursor=pointer]:
+                - /url: https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - heading "海沙風雲- 維基百科，自由的百科全書" [level=3] [ref=e321]
+                - generic [ref=e326]:
+                  - generic [ref=e328]: 维基百科
+                  - generic [ref=e330]: https://zh.wikipedia.org › zh-tw › 海沙...
+              - generic [ref=e331]:
+                - generic [ref=e332]: ·
+                - link "转为简体网页" [ref=e333] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://zh.wikipedia.org/zh-tw/%25E6%25B5%25B7%25E6%25B2%2599%25E9%25A2%25A8%25E9%259B%25B2&hl=zh-CN&sl=zh-TW&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e334] [cursor=pointer]:
+                - img [ref=e337]
+            - generic [ref=e341]:
+              - text: 《海沙風雲》是中國異美工作室（舊名紅茶
+              - emphasis [ref=e342]: Games
+              - text: ）製作的一款文字冒險
+              - emphasis [ref=e343]: 遊戲
+              - text: ，
+              - emphasis [ref=e344]: 遊戲
+              - text: 於2021年8月18日在
+              - emphasis [ref=e345]: Steam
+              - text: 發行。 ... Misata（米莎塔）. 美術 · 核燃黑貓、Sam Ashton. 音樂,
+              - emphasis [ref=e346]: EMAGE
+              - text: .
+          - generic [ref=e350]:
+            - generic [ref=e353]:
+              - link "利博公司游戏网址「微信—90470—」「网易订阅」 - 育儿问答 数孪模型科技 https://www.emagecloud.com › forum" [ref=e355] [cursor=pointer]:
+                - /url: https://www.emagecloud.com/forum.php?mod=viewthread&tid=48469
+                - heading "利博公司游戏网址「微信—90470—」「网易订阅」 - 育儿问答" [level=3] [ref=e356]
+                - generic [ref=e361]:
+                  - generic [ref=e363]: 数孪模型科技
+                  - generic [ref=e365]: https://www.emagecloud.com › forum
+              - button "关于这条结果的详细信息" [ref=e366] [cursor=pointer]:
+                - img [ref=e369]
+            - generic [ref=e372]:
+              - generic [ref=e373]: 2025年11月22日 —
+              - generic [ref=e374]:
+                - text: ...
+                - emphasis [ref=e375]: 游戏
+                - text: 网址「微信—97853300—」【开户|上分|客服|注册|国际|公司|经理】2025年11月，《Forza Motorsport极限竞速》宣布
+                - emphasis [ref=e376]: Steam
+                - text: ...
+                - emphasis [ref=e377]: EMAGE
+                - text: 平台 · 解决方案; 知识服务. 知识库 ...
+            - generic [ref=e380]:
+              - generic [ref=e381]:
+                - link "玉和国际游戏开号「微信—90470—」「网易订阅」 - 育儿问答" [ref=e384] [cursor=pointer]:
+                  - /url: https://www.emagecloud.com/forum.php?mod=viewthread&tid=43085
+                  - generic [ref=e385]:
+                    - text: 玉和国际
+                    - emphasis [ref=e386]: 游戏
+                    - text: 开号「微信—90470—」「网易订阅」 - 育儿问答
+                - generic [ref=e388]: 2026年4月23日
+              - generic [ref=e389]:
+                - link "玉和国际游戏开户「微信—90470—」「网易订阅」 - 育儿问答" [ref=e392] [cursor=pointer]:
+                  - /url: https://home.emagecloud.com/forum.php?mod=viewthread&tid=168243
+                  - generic [ref=e393]:
+                    - text: 玉和国际
+                    - emphasis [ref=e394]: 游戏
+                    - text: 开户「微信—90470—」「网易订阅」 - 育儿问答
+                - generic [ref=e396]: 2026年4月14日
+              - link "www.emagecloud.com站内的其它相关信息" [ref=e400] [cursor=pointer]:
+                - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam+site:www.emagecloud.com&sca_esv=4c0e757566be5d36&sa=X&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQrQIoAnoECEAQAw
+          - generic [ref=e404]:
+            - generic [ref=e407]:
+              - link "遠翰eMAGE 商用數位看板播放器測試/ 操作簡易板型多變 XFastest News https://news.xfastest.com › review-10" [ref=e409] [cursor=pointer]:
+                - /url: https://news.xfastest.com/review/review-10/34489/emage-ds-box-eview-2-0/
+                - heading "遠翰eMAGE 商用數位看板播放器測試/ 操作簡易板型多變" [level=3] [ref=e410]
+                - generic [ref=e415]:
+                  - generic [ref=e417]: XFastest News
+                  - generic [ref=e419]: https://news.xfastest.com › review-10
+              - generic [ref=e420]:
+                - generic [ref=e421]: ·
+                - link "转为简体网页" [ref=e422] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://news.xfastest.com/review/review-10/34489/emage-ds-box-eview-2-0/&hl=zh-CN&sl=zh-TW&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e423] [cursor=pointer]:
+                - img [ref=e426]
+            - generic [ref=e429]:
+              - generic [ref=e430]: 2017年5月22日 —
+              - generic [ref=e431]:
+                - emphasis [ref=e432]: eMAGE
+                - text: DS BOX 播放器開箱. 遠翰使用的
+                - emphasis [ref=e433]: eMAGE
+                - text: DS BOX，為Andriod 系統的機上 ...
+                - emphasis [ref=e434]: Steam
+                - text: 禁止開發者在
+                - emphasis [ref=e435]: 遊戲
+                - text: 中強制玩家觀看「廣告」的商業模式 · Ellen.
+          - generic [ref=e439]:
+            - generic [ref=e442]:
+              - link "【黛安娜與佩克拉要聯動！？】 卡普空開發發行的月球科幻 ... Facebook · 遊戲角落 640+ 个回应 · 3周前" [ref=e444] [cursor=pointer]:
+                - /url: https://www.facebook.com/udngame/posts/%E9%BB%9B%E5%AE%89%E5%A8%9C%E8%88%87%E4%BD%A9%E5%85%8B%E6%8B%89-%E8%A6%81%E8%81%AF%E5%8B%95%E5%8D%A1%E6%99%AE%E7%A9%BA%E9%96%8B%E7%99%BC%E7%99%BC%E8%A1%8C%E7%9A%84%E6%9C%88%E7%90%83%E7%A7%91%E5%B9%BB%E6%88%B0%E9%AC%A5%E6%96%B0%E4%BD%9C%E4%BA%BA%E6%A9%9F%E8%BF%B7%E7%B6%B2%E6%96%BC-417-%E4%B8%8A%E5%B8%82%E7%8D%B2%E5%BE%97%E5%A3%93%E5%80%92%E6%80%A7%E5%A5%BD%E8%A9%95423-%E5%8D%BB%E7%AA%81%E7%84%B6%E7%99%BC%E4%BA%86%E4%B8%80%E9%83%A8%E7%9F%AD%E7%89%87%E6%9A%97%E7%A4%BA%E5%B0%87%E8%88%87-hololive-%E4%B8%89%E6%9C%9F%E7%94%9F%E5%85%94%E7%94%B0%E4%BD%A9%E5%85%8B/1571592021636930/
+                - heading "【黛安娜與佩克拉要聯動！？】 卡普空開發發行的月球科幻 ..." [level=3] [ref=e445]
+                - generic [ref=e450]:
+                  - generic [ref=e452]: Facebook · 遊戲角落
+                  - generic [ref=e454]: 640+ 个回应 · 3周前
+              - button "关于这条结果的详细信息" [ref=e455] [cursor=pointer]:
+                - img [ref=e458]
+            - generic [ref=e462]:
+              - emphasis [ref=e463]: emage
+              - text: U demage เต. 1w · 9 likes. Robert Boxter. PEKOMATA. 1w. Fakname Lee ... 【
+              - emphasis [ref=e464]: 遊戲
+              - text: 提交審核
+              - emphasis [ref=e465]: Steam
+              - text: 被卡了3年】 一款
+              - emphasis [ref=e466]: 遊戲
+              - text: 想在
+              - emphasis [ref=e467]: Steam
+              - text: 審核上架需3 ...
+          - generic [ref=e471]:
+            - heading "图片" [level=2] [ref=e475]
+            - generic [ref=e479]:
+              - generic [ref=e483] [cursor=pointer]:
+                - link "海沙风云- 维基百科，自由的百科全书 维基百科- Wikipedia":
+                  - /url: https://zh.wikipedia.org/zh-cn/%E6%B5%B7%E6%B2%99%E9%A2%A8%E9%9B%B2
+                - button "海沙风云- 维基百科，自由的百科全书" [ref=e485]:
+                  - img "海沙风云- 维基百科，自由的百科全书" [ref=e487]
+                - generic [ref=e489]:
+                  - generic [ref=e491]: 海沙风云- 维基百科，自由的百科全书
+                  - generic [ref=e492]:
+                    - generic [ref=e499]: 维基百科- Wikipedia
+                    - button "关于这条结果的详细信息" [ref=e502]:
+                      - img [ref=e505]
+              - generic [ref=e510] [cursor=pointer]:
+                - link "PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ... Facebook":
+                  - /url: https://www.facebook.com/groups/400211066833663/posts/3010738019114275/
+                - button "PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ..." [ref=e512]:
+                  - img "PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ..." [ref=e514]
+                - generic [ref=e516]:
+                  - generic [ref=e518]: PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ...
+                  - generic [ref=e519]:
+                    - generic [ref=e526]: Facebook
+                    - button "关于这条结果的详细信息" [ref=e529]:
+                      - img [ref=e532]
+              - generic [ref=e537] [cursor=pointer]:
+                - link "PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ... Facebook":
+                  - /url: https://www.facebook.com/groups/400211066833663/posts/3010738019114275/
+                - button "PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ..." [ref=e539]:
+                  - img "PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ..." [ref=e541]
+                - generic [ref=e543]:
+                  - generic [ref=e545]: PS4 games | Used - like new | BND0.00 | Muara, Brunei-Muara ...
+                  - generic [ref=e546]:
+                    - generic [ref=e553]: Facebook
+                    - button "关于这条结果的详细信息" [ref=e556]:
+                      - img [ref=e559]
+            - button "显示更多图片" [ref=e562] [cursor=pointer]:
+              - separator [ref=e563]
+              - generic [ref=e564]:
+                - generic [ref=e565]: 显示更多图片
+                - img [ref=e567]
+          - generic [ref=e571]:
+            - heading "网页搜索结果" [level=2] [ref=e572]
+            - generic [ref=e573]:
+              - generic [ref=e576]:
+                - 'link "ARC 770LE 玩游戏时随机重启: r/IntelArc Reddit · r/IntelArc 20+ 条评论 · 3年前" [ref=e578] [cursor=pointer]':
+                  - /url: https://www.reddit.com/r/IntelArc/comments/129oj53/random_restarts_with_arc_770le_during_game_play/?tl=zh-hans
+                  - 'heading "ARC 770LE 玩游戏时随机重启: r/IntelArc" [level=3] [ref=e579]'
+                  - generic [ref=e584]:
+                    - generic [ref=e586]: Reddit · r/IntelArc
+                    - generic [ref=e588]: 20+ 条评论 · 3年前
+                - button "关于这条结果的详细信息" [ref=e589] [cursor=pointer]:
+                  - img [ref=e592]
+              - generic [ref=e596]:
+                - emphasis [ref=e597]: emage
+                - text: . ARC 的硬件不错，问题是驱动，如果他们不修复驱动，Battlemage 就 ...
+                - emphasis [ref=e598]: Steam 游戏
+                - text: 玩着没问题，然后玩几分钟就整个系统都卡死了. 15 个点赞 ...
+          - generic [ref=e602]:
+            - generic [ref=e605]:
+              - link "蜜柚视频APP无限看下载安装 禾苗通信 http://www.sprocomm.com › content- › appx-40859" [ref=e607] [cursor=pointer]:
+                - /url: http://www.sprocomm.com/content-/appx-40859.html
+                - heading "蜜柚视频APP无限看下载安装" [level=3] [ref=e608]
+                - generic [ref=e613]:
+                  - generic [ref=e615]: 禾苗通信
+                  - generic [ref=e617]: http://www.sprocomm.com › content- › appx-40859
+              - button "关于这条结果的详细信息" [ref=e618] [cursor=pointer]:
+                - img [ref=e621]
+            - generic [ref=e625]:
+              - text: 电脑
+              - emphasis [ref=e626]: 游戏
+              - text: ·
+              - emphasis [ref=e627]: 游戏
+              - text: 首页 · 单机
+              - emphasis [ref=e628]: 游戏
+              - text: · 网络
+              - emphasis [ref=e629]: 游戏
+              - text: · 独立
+              - emphasis [ref=e630]: 游戏
+              - text: · 低配置 ...
+              - emphasis [ref=e631]: steam
+              - text: 双人
+              - emphasis [ref=e632]: 游戏
+              - text: · 女生必玩 · 国产大作 · 手游电脑版. 当前 ...
+              - emphasis [ref=e633]: EMAGE
+              - text: 441.6）。在跨数据集评测BEATv2 上 ...
+        - navigation [ref=e636]:
+          - heading "网页导航" [level=1] [ref=e637]
+          - text: "1"
+          - link "Page 2" [ref=e640] [cursor=pointer]:
+            - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sca_esv=4c0e757566be5d36&ei=23QFaqCrAbXIkPIPjdvfiAg&start=10&sa=N&sstk=Af77f_fJhTllWmYT9Yu9e7nmA3pNWo4Jh974oI18l1z-h-LY7QITjdy0K4Hn0iNdFuUJVCtwyE7lO6ayv-DU7X_S99FWAqhQyZqsHg&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ8tMDegQINhAE
+            - text: "2"
+          - link "Page 3" [ref=e642] [cursor=pointer]:
+            - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sca_esv=4c0e757566be5d36&ei=23QFaqCrAbXIkPIPjdvfiAg&start=20&sa=N&sstk=Af77f_fJhTllWmYT9Yu9e7nmA3pNWo4Jh974oI18l1z-h-LY7QITjdy0K4Hn0iNdFuUJVCtwyE7lO6ayv-DU7X_S99FWAqhQyZqsHg&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ8tMDegQINhAG
+            - text: "3"
+          - link "Page 4" [ref=e644] [cursor=pointer]:
+            - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sca_esv=4c0e757566be5d36&ei=23QFaqCrAbXIkPIPjdvfiAg&start=30&sa=N&sstk=Af77f_fJhTllWmYT9Yu9e7nmA3pNWo4Jh974oI18l1z-h-LY7QITjdy0K4Hn0iNdFuUJVCtwyE7lO6ayv-DU7X_S99FWAqhQyZqsHg&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ8tMDegQINhAI
+            - text: "4"
+          - link "Page 5" [ref=e646] [cursor=pointer]:
+            - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sca_esv=4c0e757566be5d36&ei=23QFaqCrAbXIkPIPjdvfiAg&start=40&sa=N&sstk=Af77f_fJhTllWmYT9Yu9e7nmA3pNWo4Jh974oI18l1z-h-LY7QITjdy0K4Hn0iNdFuUJVCtwyE7lO6ayv-DU7X_S99FWAqhQyZqsHg&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ8tMDegQINhAK
+            - text: "5"
+          - heading "下一页" [level=2] [ref=e648]:
+            - link "下一页" [ref=e649] [cursor=pointer]:
+              - /url: /search?q=%22Emage%22+%E6%B8%B8%E6%88%8F+Steam&sca_esv=4c0e757566be5d36&ei=23QFaqCrAbXIkPIPjdvfiAg&start=10&sa=N&sstk=Af77f_fJhTllWmYT9Yu9e7nmA3pNWo4Jh974oI18l1z-h-LY7QITjdy0K4Hn0iNdFuUJVCtwyE7lO6ayv-DU7X_S99FWAqhQyZqsHg&ved=2ahUKEwjghMySnLiUAxU1JEQIHY3tF4EQ8NMDegQINhAM
+              - generic [ref=e651]: 下一页
+        - navigation
+    - contentinfo [ref=e652]:
+      - heading "页脚链接" [level=1] [ref=e653]
+      - generic [ref=e657]:
+        - generic [ref=e661]:
+          - button "90012 加利福尼亚洛杉矶 - 根据您的活动记录" [ref=e663] [cursor=pointer]:
+            - generic [ref=e664]: 90012 加利福尼亚洛杉矶
+            - generic [ref=e666]:
+              - text: "-"
+              - generic [ref=e667]: 根据您的活动记录
+          - text: "-"
+          - button "更新位置信息" [ref=e669] [cursor=pointer]: 更新位置信息
+        - generic [ref=e672]:
+          - link "帮助" [ref=e673] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e674] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e675] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e676] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

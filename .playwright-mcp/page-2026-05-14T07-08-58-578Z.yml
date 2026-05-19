@@ -1,0 +1,433 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "首页" [ref=e7] [cursor=pointer]:
+          - /url: //www.bilibili.com
+          - img [ref=e8]
+          - generic [ref=e10]:
+            - text: 首页
+            - img [ref=e11]
+      - listitem [ref=e14]:
+        - link "番剧" [ref=e15] [cursor=pointer]:
+          - /url: //www.bilibili.com/anime/
+      - listitem [ref=e16]:
+        - link "直播" [ref=e17] [cursor=pointer]:
+          - /url: //live.bilibili.com/
+      - listitem [ref=e18]:
+        - link "游戏中心" [ref=e19] [cursor=pointer]:
+          - /url: //game.bilibili.com/
+      - listitem [ref=e20]:
+        - link "会员购" [ref=e21] [cursor=pointer]:
+          - /url: //show.bilibili.com/platform/home.html?msource=pc_web
+      - listitem [ref=e22]:
+        - link "漫画" [ref=e23] [cursor=pointer]:
+          - /url: //manga.bilibili.com?from=bill_top_mnav
+      - listitem [ref=e24]:
+        - link "赛事" [ref=e25] [cursor=pointer]:
+          - /url: //www.bilibili.com/v/game/match/
+    - list [ref=e26]:
+      - listitem [ref=e27] [cursor=pointer]:
+        - img [ref=e29]
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - heading "异美拿回《海沙风云》发行权 续作有望|《王国之心》上架Steam|幸存者like 《苦痛殿堂》添加中文支持" [level=1] [ref=e37]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - img [ref=e41]
+            - generic [ref=e42]: "5380"
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - generic [ref=e45]: "2"
+          - generic [ref=e47]: 2024-06-15 18:50:03
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - generic [ref=e50]: 未经作者授权，禁止转载
+      - generic "哔哩哔哩播放器" [ref=e60]
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - generic "点赞（Q）" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+            - generic [ref=e77]: "287"
+          - generic "投币（W）" [ref=e79] [cursor=pointer]:
+            - img [ref=e80]
+            - generic [ref=e82]: "18"
+          - generic "收藏（E）" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e87]: "21"
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e93]: "6"
+        - img [ref=e96] [cursor=pointer]
+      - generic [ref=e99]: 海沙风云 Far Away 42 史低18.9 中文 97%好评如潮(5600+) ==== 原子之心 Atomic Heart 239→107.55 平史 中文 83%特别好评(23000+) ==== 苦痛殿堂 Halls of Torment 30 史低24 中文 96%好评如潮(20000+)
+      - generic [ref=e101]:
+        - link "推荐宝藏游戏" [ref=e104] [cursor=pointer]:
+          - /url: https://m.bilibili.com/topic-detail?topic_id=12477&topic_name=%E6%8E%A8%E8%8D%90%E5%AE%9D%E8%97%8F%E6%B8%B8%E6%88%8F&spm_id_from=0.0.top.function_card.click
+          - img [ref=e105]
+          - generic [ref=e108]: 推荐宝藏游戏
+          - img [ref=e109]
+        - link "王国之心" [ref=e113] [cursor=pointer]:
+          - /url: //search.bilibili.com/all?keyword=%E7%8E%8B%E5%9B%BD%E4%B9%8B%E5%BF%83&from_source=video_tag
+        - link "steam" [ref=e116] [cursor=pointer]:
+          - /url: //search.bilibili.com/all?keyword=steam&from_source=video_tag
+        - link "海沙风云" [ref=e119] [cursor=pointer]:
+          - /url: //search.bilibili.com/all?keyword=%E6%B5%B7%E6%B2%99%E9%A3%8E%E4%BA%91&from_source=video_tag
+        - link "苦痛殿堂" [ref=e122] [cursor=pointer]:
+          - /url: //search.bilibili.com/all?keyword=%E8%8B%A6%E7%97%9B%E6%AE%BF%E5%A0%82&from_source=video_tag
+        - link "游戏推荐" [ref=e125] [cursor=pointer]:
+          - /url: //search.bilibili.com/all?keyword=%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90&from_source=video_tag
+    - generic:
+      - generic:
+        - generic [ref=e127]:
+          - link [ref=e130] [cursor=pointer]:
+            - /url: //space.bilibili.com/220746669/?spm_id_from=333.788.upinfo.head.click
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - link "嗨游君" [ref=e135] [cursor=pointer]:
+                - /url: //space.bilibili.com/220746669/?spm_id_from=333.788.upinfo.detail.click
+              - link " 发消息" [ref=e136] [cursor=pointer]:
+                - /url: //message.bilibili.com/?spm_id_from=333.788.upinfo.detail.click#whisper/mid220746669
+                - generic [ref=e137]: 
+                - text: 发消息
+            - generic "单机游戏UP 每天都有好玩的新游 游戏折扣推荐 终极打工仔 商务QQ372363941 请备注" [ref=e138]
+        - generic [ref=e146]:
+          - link "这波填补了变身界没有卡皮巴拉的空白！ 微粒贷" [ref=e148] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e151]:
+              - generic "这波填补了变身界没有卡皮巴拉的空白！" [ref=e152]
+              - generic [ref=e153]:
+                - img [ref=e154]
+                - generic [ref=e158]: 微粒贷
+          - img [ref=e160]
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e165]: 接下来播放
+                - generic [ref=e167] [cursor=pointer]: 自动连播
+              - generic [ref=e171]:
+                - link [ref=e175] [cursor=pointer]:
+                  - /url: /video/BV13y411a7qC/?spm_id_from=333.788.recommend_more_video.-1
+                - generic [ref=e176]:
+                  - link "【IGN】Steam版《王国之心》公布预告" [ref=e177] [cursor=pointer]:
+                    - /url: /video/BV13y411a7qC/?spm_id_from=333.788.recommend_more_video.-1
+                    - paragraph [ref=e178]: 【IGN】Steam版《王国之心》公布预告
+                  - link "IGN中国" [ref=e180] [cursor=pointer]:
+                    - /url: //space.bilibili.com/652239032/
+                    - img [ref=e181]
+                    - generic [ref=e182]: IGN中国
+                  - generic [ref=e183]:
+                    - img [ref=e184]
+                    - text: 8.3万
+                    - img [ref=e185]
+                    - text: "84"
+            - generic [ref=e187]:
+              - generic [ref=e189]:
+                - link [ref=e193] [cursor=pointer]:
+                  - /url: /video/BV1YW42197gn/?spm_id_from=333.788.recommend_more_video.0
+                - generic [ref=e194]:
+                  - link "又怪又好玩？卡普空新IP《祇：女神之路》是款什么样的游戏？" [ref=e195] [cursor=pointer]:
+                    - /url: /video/BV1YW42197gn/?spm_id_from=333.788.recommend_more_video.0
+                    - paragraph [ref=e196]: 又怪又好玩？卡普空新IP《祇：女神之路》是款什么样的游戏？
+                  - link "Mo默明" [ref=e198] [cursor=pointer]:
+                    - /url: //space.bilibili.com/5798753/
+                    - img [ref=e199]
+                    - generic [ref=e200]: Mo默明
+                  - generic [ref=e201]:
+                    - img [ref=e202]
+                    - text: 7.4万
+                    - img [ref=e203]
+                    - text: "110"
+              - generic [ref=e205]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: /video/BV1xv421i74a/?spm_id_from=333.788.recommend_more_video.1
+                - generic [ref=e210]:
+                  - link "满分冷门神作！横版动作天花板！Steam史低游戏推荐" [ref=e211] [cursor=pointer]:
+                    - /url: /video/BV1xv421i74a/?spm_id_from=333.788.recommend_more_video.1
+                    - paragraph [ref=e212]: 满分冷门神作！横版动作天花板！Steam史低游戏推荐
+                  - link "YXECG游戏资讯" [ref=e214] [cursor=pointer]:
+                    - /url: //space.bilibili.com/1393437/
+                    - img [ref=e215]
+                    - generic [ref=e216]: YXECG游戏资讯
+                  - generic [ref=e217]:
+                    - img [ref=e218]
+                    - text: 29.9万
+                    - img [ref=e219]
+                    - text: "214"
+              - generic [ref=e221]:
+                - link [ref=e225] [cursor=pointer]:
+                  - /url: /video/BV1z5pgzAENn/?spm_id_from=333.788.recommend_more_video.2
+                - generic [ref=e226]:
+                  - link "怪猎like1折！steam折扣游戏推荐：双影奇境、的士快跑、暖雪、苦痛殿堂、幻兽帕鲁、奇怪的RPG，还有Epic喜加三" [ref=e227] [cursor=pointer]:
+                    - /url: /video/BV1z5pgzAENn/?spm_id_from=333.788.recommend_more_video.2
+                    - paragraph [ref=e228]: 怪猎like1折！steam折扣游戏推荐：双影奇境、的士快跑、暖雪、苦痛殿堂、幻兽帕鲁、奇怪的RPG，还有Epic喜加三
+                  - link "steam游戏推荐" [ref=e230] [cursor=pointer]:
+                    - /url: //space.bilibili.com/10154196/
+                    - img [ref=e231]
+                    - generic [ref=e232]: steam游戏推荐
+                  - generic [ref=e233]:
+                    - img [ref=e234]
+                    - text: 15.5万
+                    - img [ref=e235]
+                    - text: "130"
+              - generic [ref=e237]:
+                - link [ref=e241] [cursor=pointer]:
+                  - /url: /video/BV1eougz4Egs/?spm_id_from=333.788.recommend_more_video.3
+                - generic [ref=e242]:
+                  - link "“幸压抑”苦等《丝之歌》6年未果？还有17年没发售的游戏呢" [ref=e243] [cursor=pointer]:
+                    - /url: /video/BV1eougz4Egs/?spm_id_from=333.788.recommend_more_video.3
+                    - paragraph [ref=e244]: “幸压抑”苦等《丝之歌》6年未果？还有17年没发售的游戏呢
+                  - link "杉果Sonkwo" [ref=e246] [cursor=pointer]:
+                    - /url: //space.bilibili.com/17236262/
+                    - img [ref=e247]
+                    - generic [ref=e248]: 杉果Sonkwo
+                  - generic [ref=e249]:
+                    - img [ref=e250]
+                    - text: 6.0万
+                    - img [ref=e251]
+                    - text: "57"
+              - generic [ref=e253]:
+                - link [ref=e257] [cursor=pointer]:
+                  - /url: /video/BV1kEknYzE56/?spm_id_from=333.788.recommend_more_video.4
+                - generic [ref=e258]:
+                  - link "Steam喜加一好评游戏仅3元！《最终幻想7：重生》预购背刺！" [ref=e259] [cursor=pointer]:
+                    - /url: /video/BV1kEknYzE56/?spm_id_from=333.788.recommend_more_video.4
+                    - paragraph [ref=e260]: Steam喜加一好评游戏仅3元！《最终幻想7：重生》预购背刺！
+                  - link "杉果Sonkwo" [ref=e262] [cursor=pointer]:
+                    - /url: //space.bilibili.com/17236262/
+                    - img [ref=e263]
+                    - generic [ref=e264]: 杉果Sonkwo
+                  - generic [ref=e265]:
+                    - img [ref=e266]
+                    - text: 9.8万
+                    - img [ref=e267]
+                    - text: "55"
+              - generic [ref=e269]:
+                - link [ref=e273] [cursor=pointer]:
+                  - /url: /video/BV1HhDFBfENN/?spm_id_from=333.788.recommend_more_video.5
+                - generic [ref=e274]:
+                  - link "疯狂背刺！春促刚过立刻降价？！演都不演了？Steam骨折游戏推荐！" [ref=e275] [cursor=pointer]:
+                    - /url: /video/BV1HhDFBfENN/?spm_id_from=333.788.recommend_more_video.5
+                    - paragraph [ref=e276]: 疯狂背刺！春促刚过立刻降价？！演都不演了？Steam骨折游戏推荐！
+                  - link "杨先森Leon" [ref=e278] [cursor=pointer]:
+                    - /url: //space.bilibili.com/345860072/
+                    - img [ref=e279]
+                    - generic [ref=e280]: 杨先森Leon
+                  - generic [ref=e281]:
+                    - img [ref=e282]
+                    - text: 9.9万
+                    - img [ref=e283]
+                    - text: "195"
+              - generic [ref=e285]:
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: /video/BV1WiV2zHEMS/?spm_id_from=333.788.recommend_more_video.6
+                - generic [ref=e290]:
+                  - link "《Steam玩家都在买什么？第一季度全球销量榜TOP10，黑马逆袭经典回归！》" [ref=e291] [cursor=pointer]:
+                    - /url: /video/BV1WiV2zHEMS/?spm_id_from=333.788.recommend_more_video.6
+                    - paragraph [ref=e292]: 《Steam玩家都在买什么？第一季度全球销量榜TOP10，黑马逆袭经典回归！》
+                  - link "CdkeyNogap" [ref=e294] [cursor=pointer]:
+                    - /url: //space.bilibili.com/167559887/
+                    - img [ref=e295]
+                    - generic [ref=e296]: CdkeyNogap
+                  - generic [ref=e297]:
+                    - img [ref=e298]
+                    - text: 6.7万
+                    - img [ref=e299]
+                    - text: "90"
+              - generic [ref=e301]:
+                - link [ref=e305] [cursor=pointer]:
+                  - /url: /video/BV1k29QBnEDM/?spm_id_from=333.788.recommend_more_video.7
+                - generic [ref=e306]:
+                  - link "诚意推荐！20以下“神作佳作”全扫光！Steam五一假期骨折游戏推荐" [ref=e307] [cursor=pointer]:
+                    - /url: /video/BV1k29QBnEDM/?spm_id_from=333.788.recommend_more_video.7
+                    - paragraph [ref=e308]: 诚意推荐！20以下“神作佳作”全扫光！Steam五一假期骨折游戏推荐
+                  - link "杨先森Leon" [ref=e310] [cursor=pointer]:
+                    - /url: //space.bilibili.com/345860072/
+                    - img [ref=e311]
+                    - generic [ref=e312]: 杨先森Leon
+                  - generic [ref=e313]:
+                    - img [ref=e314]
+                    - text: 10.5万
+                    - img [ref=e315]
+                    - text: "195"
+              - generic [ref=e317]:
+                - link [ref=e321] [cursor=pointer]:
+                  - /url: /video/BV1xFWEzzEnU/?spm_id_from=333.788.recommend_more_video.8
+                - generic [ref=e322]:
+                  - link "【游戏推荐】10款近期JRPG佳作绝赞好评！每一款都别具风味值得入库" [ref=e323] [cursor=pointer]:
+                    - /url: /video/BV1xFWEzzEnU/?spm_id_from=333.788.recommend_more_video.8
+                    - paragraph [ref=e324]: 【游戏推荐】10款近期JRPG佳作绝赞好评！每一款都别具风味值得入库
+                  - link "碎碎念工坊" [ref=e326] [cursor=pointer]:
+                    - /url: //space.bilibili.com/43995149/
+                    - img [ref=e327]
+                    - generic [ref=e328]: 碎碎念工坊
+                  - generic [ref=e329]:
+                    - img [ref=e330]
+                    - text: 18.8万
+                    - img [ref=e331]
+                    - text: "234"
+              - generic [ref=e333]:
+                - link [ref=e337] [cursor=pointer]:
+                  - /url: /video/BV1F8DCBJEss/?spm_id_from=333.788.recommend_more_video.9
+                - generic [ref=e338]:
+                  - link "主创开除团队解散！明末和卡赞相继出事！卖不到200万就没续作？#游戏情报#" [ref=e339] [cursor=pointer]:
+                    - /url: /video/BV1F8DCBJEss/?spm_id_from=333.788.recommend_more_video.9
+                    - paragraph [ref=e340]: 主创开除团队解散！明末和卡赞相继出事！卖不到200万就没续作？#游戏情报#
+                  - link "YXECG游戏资讯" [ref=e342] [cursor=pointer]:
+                    - /url: //space.bilibili.com/1393437/
+                    - img [ref=e343]
+                    - generic [ref=e344]: YXECG游戏资讯
+                  - generic [ref=e345]:
+                    - img [ref=e346]
+                    - text: 14.8万
+                    - img [ref=e347]
+                    - text: "480"
+              - generic [ref=e349]:
+                - link [ref=e353] [cursor=pointer]:
+                  - /url: /video/BV1SzzhBeEN7/?spm_id_from=333.788.recommend_more_video.10
+                - generic [ref=e354]:
+                  - link "限免试玩+史低狂欢！价格杀疯了！Steam多款殿堂神作迎历史冰点价，多款顶级3A迎来骨折价，这波神价狂欢现在不上车就真没了！【Steam每周史低推荐盘点】" [ref=e355] [cursor=pointer]:
+                    - /url: /video/BV1SzzhBeEN7/?spm_id_from=333.788.recommend_more_video.10
+                    - paragraph [ref=e356]: 限免试玩+史低狂欢！价格杀疯了！Steam多款殿堂神作迎历史冰点价，多款顶级3A迎来骨折价，这波神价狂欢现在不上车就真没了！【Steam每周史低推荐盘点】
+                  - link "哒布溜ow" [ref=e358] [cursor=pointer]:
+                    - /url: //space.bilibili.com/367423471/
+                    - img [ref=e359]
+                    - generic [ref=e360]: 哒布溜ow
+                  - generic [ref=e361]:
+                    - img [ref=e362]
+                    - text: 1.6万
+                    - img [ref=e363]
+                    - text: "3"
+              - generic [ref=e365]:
+                - link [ref=e369] [cursor=pointer]:
+                  - /url: /video/BV1ajdqBaEuP/?spm_id_from=333.788.recommend_more_video.11
+                - generic [ref=e370]:
+                  - link "错过就后悔！反派肉鸽爽游限时免费白送！【steam史低游戏推荐】" [ref=e371] [cursor=pointer]:
+                    - /url: /video/BV1ajdqBaEuP/?spm_id_from=333.788.recommend_more_video.11
+                    - paragraph [ref=e372]: 错过就后悔！反派肉鸽爽游限时免费白送！【steam史低游戏推荐】
+                  - link "B菌电磁炮" [ref=e374] [cursor=pointer]:
+                    - /url: //space.bilibili.com/6458603/
+                    - img [ref=e375]
+                    - generic [ref=e376]: B菌电磁炮
+                  - generic [ref=e377]:
+                    - img [ref=e378]
+                    - text: 2.6万
+                    - img [ref=e379]
+                    - text: "8"
+              - generic [ref=e381]:
+                - link [ref=e385] [cursor=pointer]:
+                  - /url: /video/BV1fJdvYGE6F/?spm_id_from=333.788.recommend_more_video.12
+                - generic [ref=e386]:
+                  - link "女性主角游戏 必玩神作盘点 Steam榜单推荐" [ref=e387] [cursor=pointer]:
+                    - /url: /video/BV1fJdvYGE6F/?spm_id_from=333.788.recommend_more_video.12
+                    - paragraph [ref=e388]: 女性主角游戏 必玩神作盘点 Steam榜单推荐
+                  - link "大西瓜顶呱呱" [ref=e390] [cursor=pointer]:
+                    - /url: //space.bilibili.com/383694695/
+                    - img [ref=e391]
+                    - generic [ref=e392]: 大西瓜顶呱呱
+                  - generic [ref=e393]:
+                    - img [ref=e394]
+                    - text: 5.8万
+                    - img [ref=e395]
+                    - text: "60"
+              - generic [ref=e397]:
+                - link [ref=e401] [cursor=pointer]:
+                  - /url: /video/BV1CVZSY8Ege/?spm_id_from=333.788.recommend_more_video.13
+                - generic [ref=e402]:
+                  - link "动作游戏天花板！时隔2年首次大降价！【Steam游戏推荐25.4.3】" [ref=e403] [cursor=pointer]:
+                    - /url: /video/BV1CVZSY8Ege/?spm_id_from=333.788.recommend_more_video.13
+                    - paragraph [ref=e404]: 动作游戏天花板！时隔2年首次大降价！【Steam游戏推荐25.4.3】
+                  - link "杨先森Leon" [ref=e406] [cursor=pointer]:
+                    - /url: //space.bilibili.com/345860072/
+                    - img [ref=e407]
+                    - generic [ref=e408]: 杨先森Leon
+                  - generic [ref=e409]:
+                    - img [ref=e410]
+                    - text: 23.8万
+                    - img [ref=e411]
+                    - text: "225"
+              - generic [ref=e413]:
+                - link [ref=e417] [cursor=pointer]:
+                  - /url: /video/BV1Cm4y127mm/?spm_id_from=333.788.recommend_more_video.14
+                - generic [ref=e418]:
+                  - link "养女儿游戏《火山的女儿》发售 两天 千条评测 99%好评|Steam喜加一" [ref=e419] [cursor=pointer]:
+                    - /url: /video/BV1Cm4y127mm/?spm_id_from=333.788.recommend_more_video.14
+                    - paragraph [ref=e420]: 养女儿游戏《火山的女儿》发售 两天 千条评测 99%好评|Steam喜加一
+                  - link "嗨游君" [ref=e422] [cursor=pointer]:
+                    - /url: //space.bilibili.com/220746669/
+                    - img [ref=e423]
+                    - generic [ref=e424]: 嗨游君
+                  - generic [ref=e425]:
+                    - img [ref=e426]
+                    - text: 22.1万
+                    - img [ref=e427]
+                    - text: "205"
+              - generic [ref=e429]:
+                - link [ref=e433] [cursor=pointer]:
+                  - /url: /video/BV1Fx4y147Mo/?spm_id_from=333.788.recommend_more_video.15
+                - generic [ref=e434]:
+                  - link "比《星露谷》贵8元的贵替！发售两天 98%好评如潮 千条好评《Fields of Mistria》开启抢先体验" [ref=e435] [cursor=pointer]:
+                    - /url: /video/BV1Fx4y147Mo/?spm_id_from=333.788.recommend_more_video.15
+                    - paragraph [ref=e436]: 比《星露谷》贵8元的贵替！发售两天 98%好评如潮 千条好评《Fields of Mistria》开启抢先体验
+                  - link "嗨游君" [ref=e438] [cursor=pointer]:
+                    - /url: //space.bilibili.com/220746669/
+                    - img [ref=e439]
+                    - generic [ref=e440]: 嗨游君
+                  - generic [ref=e441]:
+                    - img [ref=e442]
+                    - text: 27.3万
+                    - img [ref=e443]
+                    - text: "256"
+              - generic [ref=e445]:
+                - link [ref=e449] [cursor=pointer]:
+                  - /url: /video/BV1R8B4BcEQa/?spm_id_from=333.788.recommend_more_video.16
+                - generic [ref=e450]:
+                  - link "2025十款肉鸽游戏推荐" [ref=e451] [cursor=pointer]:
+                    - /url: /video/BV1R8B4BcEQa/?spm_id_from=333.788.recommend_more_video.16
+                    - paragraph [ref=e452]: 2025十款肉鸽游戏推荐
+                  - link "走马观游" [ref=e454] [cursor=pointer]:
+                    - /url: //space.bilibili.com/3546391609608708/
+                    - img [ref=e455]
+                    - generic [ref=e456]: 走马观游
+                  - generic [ref=e457]:
+                    - img [ref=e458]
+                    - text: 20.1万
+                    - img [ref=e459]
+                    - text: "654"
+              - generic [ref=e461]:
+                - link [ref=e465] [cursor=pointer]:
+                  - /url: /video/BV1PG88zQEQf/?spm_id_from=333.788.recommend_more_video.17
+                - generic [ref=e466]:
+                  - link "?没眼花!《歧路旅人2》时隔八月再次新低！+最低3.6值快乐水的神作！Steam本周20款新史低/史低游戏！《天国拯救2》《缉私警察》《嗜血印》等都新史低！" [ref=e467] [cursor=pointer]:
+                    - /url: /video/BV1PG88zQEQf/?spm_id_from=333.788.recommend_more_video.17
+                    - paragraph [ref=e468]: "?没眼花!《歧路旅人2》时隔八月再次新低！+最低3.6值快乐水的神作！Steam本周20款新史低/史低游戏！《天国拯救2》《缉私警察》《嗜血印》等都新史低！"
+                  - link "STEAM特惠资讯" [ref=e470] [cursor=pointer]:
+                    - /url: //space.bilibili.com/36417437/
+                    - img [ref=e471]
+                    - generic [ref=e472]: STEAM特惠资讯
+                  - generic [ref=e473]:
+                    - img [ref=e474]
+                    - text: 7.2万
+                    - img [ref=e475]
+                    - text: "186"
+              - generic [ref=e477]:
+                - link [ref=e481] [cursor=pointer]:
+                  - /url: /video/BV1Dr4y1g7mC/?spm_id_from=333.788.recommend_more_video.18
+                - generic [ref=e482]:
+                  - link "下一款宝可梦又何必是宝可梦 “类宝可梦”游戏推荐【steam夏日特卖推荐】" [ref=e483] [cursor=pointer]:
+                    - /url: /video/BV1Dr4y1g7mC/?spm_id_from=333.788.recommend_more_video.18
+                    - paragraph [ref=e484]: 下一款宝可梦又何必是宝可梦 “类宝可梦”游戏推荐【steam夏日特卖推荐】
+                  - link "嗨游君" [ref=e486] [cursor=pointer]:
+                    - /url: //space.bilibili.com/220746669/
+                    - img [ref=e487]
+                    - generic [ref=e488]: 嗨游君
+                  - generic [ref=e489]:
+                    - img [ref=e490]
+                    - text: 29.2万
+                    - img [ref=e491]
+                    - text: "135"
+            - generic [ref=e492] [cursor=pointer]: 展开
+          - link "打破金融高墙，来B站翻开资本B面！" [ref=e494] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e495]: 打破金融高墙，来B站翻开资本B面！

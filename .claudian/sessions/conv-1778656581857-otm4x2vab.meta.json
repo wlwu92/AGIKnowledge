@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778656581857-otm4x2vab",
+  "providerId": "claude",
+  "title": "Explain DevContainer concepts and usage",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778656581857,
+  "updatedAt": 1778657958227,
+  "lastResponseAt": 1778657482621,
+  "sessionId": "05042fda-2341-4d0f-bfbc-6e6c79cd00c7",
+  "providerState": {
+    "providerSessionId": "05042fda-2341-4d0f-bfbc-6e6c79cd00c7"
+  },
+  "currentNote": "03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 2281,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38528,
+    "contextWindow": 200000,
+    "contextTokens": 40809,
+    "percentage": 20,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,866 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "GAMERSKY.COM" [ref=e6] [cursor=pointer]:
+      - /url: https://www.gamersky.com/
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e10] [cursor=pointer]: 手机客户端
+        - generic [ref=e11]: "|"
+        - paragraph [ref=e13] [cursor=pointer]: 网站导航
+        - generic [ref=e14]: "|"
+        - link "最新单机游戏" [ref=e16] [cursor=pointer]:
+          - /url: https://ku.gamersky.com/release/
+        - generic [ref=e17]: "|"
+        - link "通知" [ref=e19] [cursor=pointer]:
+          - /url: javascript:;
+        - generic [ref=e20]: "|"
+      - generic [ref=e21]:
+        - link "登录" [ref=e22] [cursor=pointer]:
+          - /url: javascript:;
+        - link "注册" [ref=e23] [cursor=pointer]:
+          - /url: https://i.gamersky.com/user/register
+  - text: ✓ ✓
+  - link [ref=e25] [cursor=pointer]:
+    - /url: https://imgf.gamersky.com/html_fx/HotelArchitectXW.html
+  - generic [ref=e31]:
+    - link [ref=e34] [cursor=pointer]:
+      - /url: https://www.gamersky.com/
+    - generic [ref=e35]:
+      - link [ref=e37] [cursor=pointer]:
+        - /url: javascript:;
+      - generic [ref=e39]:
+        - link "首页" [ref=e40] [cursor=pointer]:
+          - /url: https://www.gamersky.com/
+        - link "单机游戏" [ref=e41] [cursor=pointer]:
+          - /url: https://www.gamersky.com/pcgame/
+        - link "网络游戏" [ref=e42] [cursor=pointer]:
+          - /url: https://ol.gamersky.com/
+        - link "电视游戏" [ref=e43] [cursor=pointer]:
+          - /url: http://tv.gamersky.com/
+        - link "手机游戏" [ref=e44] [cursor=pointer]:
+          - /url: http://shouyou.gamersky.com/
+      - generic [ref=e45]:
+        - link "资讯" [ref=e46] [cursor=pointer]:
+          - /url: https://www.gamersky.com/news/
+        - link "攻略" [ref=e47] [cursor=pointer]:
+          - /url: https://www.gamersky.com/handbook/
+        - link "下载" [ref=e48] [cursor=pointer]:
+          - /url: https://down.gamersky.com/
+        - link "找游戏" [ref=e49] [cursor=pointer]:
+          - /url: https://ku.gamersky.com/
+        - link "专区" [ref=e50] [cursor=pointer]:
+          - /url: https://www.gamersky.com/z/
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "网页游戏" [ref=e59] [cursor=pointer]:
+            - /url: http://web.gamersky.com/
+          - generic [ref=e61]:
+            - link "1.76原始传奇" [ref=e63] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=yscqdhw240604
+            - generic [ref=e64]: "|"
+            - link "鬼服高爆版" [ref=e66] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=bzscdhw251202
+            - generic [ref=e67]: "|"
+            - link "盗墓笔记" [ref=e69] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=dmbjdhw251202
+            - generic [ref=e70]: "|"
+            - link "霸者天下" [ref=e72] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=bztxdhwny260309
+            - generic [ref=e73]: "|"
+            - link "传奇打金猪" [ref=e75] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=wjcqdhw240604
+            - generic [ref=e76]: "|"
+            - link "微微三国" [ref=e78] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=wwsg1dhw250902
+            - generic [ref=e79]: "|"
+            - link "权利的游戏" [ref=e81] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=qydhw240606
+            - generic [ref=e82]: "|"
+            - link "道士三条狗" [ref=e84] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=wzzxdhw240606
+            - generic [ref=e85]: "|"
+            - link "云中诀" [ref=e87] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=yzjdhwny260305
+            - generic [ref=e88]: "|"
+            - link "神兵奇迹MU" [ref=e90] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=sbqjdhw260305
+            - generic [ref=e91]: "|"
+            - link "开天西游" [ref=e93] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=ktxydhw250428
+            - generic [ref=e94]: "|"
+            - link "新不良人" [ref=e96] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=xblrdhwny260128
+        - listitem [ref=e97]:
+          - link "热门单机" [ref=e99] [cursor=pointer]:
+            - /url: https://www.gamersky.com/z/
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - link "生化危机4RE" [ref=e103] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/resident4re/
+              - generic [ref=e104]: "|"
+              - link "博德之门3" [ref=e106] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/baldursgate3/
+                - text: 博德之门3
+              - generic [ref=e108]: "|"
+              - link "文明7" [ref=e110] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/civilization7/
+              - generic [ref=e111]: "|"
+              - link "剑星" [ref=e113] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/stellarblade/
+              - generic [ref=e114]: "|"
+              - link "最后生还者2" [ref=e116] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/thelastofus2/
+              - generic [ref=e117]: "|"
+              - link "王国之泪" [ref=e119] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/zeldabotw2/
+              - generic [ref=e120]: "|"
+              - link "只狼" [ref=e122] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/sekiro/
+              - generic [ref=e123]: "|"
+              - link "羊蹄山之魂" [ref=e125] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/ghost-of-yotei/
+              - generic [ref=e126]: "|"
+              - link "无双起源" [ref=e128] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/zsgwsqy/
+              - generic [ref=e129]: "|"
+              - link "荒野大镖客2" [ref=e131] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/rdr2/
+              - generic [ref=e132]: "|"
+              - link "巫师3" [ref=e134] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/thewitcher3/
+              - generic [ref=e135]: "|"
+              - link "黑神话悟空" [ref=e137] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/bmwukong/
+                - text: 黑神话悟空
+            - generic [ref=e139]:
+              - link "暗黑破坏神4" [ref=e141] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/diablo4/
+              - generic [ref=e142]: "|"
+              - link "双影奇境" [ref=e144] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/split-fiction/
+              - generic [ref=e145]: "|"
+              - link "光与影" [ref=e147] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/expedition-33/
+              - generic [ref=e148]: "|"
+              - link "战神5" [ref=e150] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/godofwar5/
+              - generic [ref=e151]: "|"
+              - link "赛博朋克2077" [ref=e153] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/cyberpunk/
+              - generic [ref=e154]: "|"
+              - link "丝之歌" [ref=e156] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/hollowknightss/
+              - generic [ref=e157]: "|"
+              - link "宝可梦朱紫" [ref=e159] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/pokemonsav/
+              - generic [ref=e160]: "|"
+              - link "艾尔登法环" [ref=e162] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/eldenring/
+              - generic [ref=e163]: "|"
+              - link "上古卷轴5" [ref=e165] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/tes5/
+              - generic [ref=e166]: "|"
+              - link "明末渊虚之羽" [ref=e168] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/mingmo/
+              - generic [ref=e169]: "|"
+              - link "仁王2" [ref=e171] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/nioh2/
+              - generic [ref=e172]: "|"
+              - link "刺客信条影" [ref=e174] [cursor=pointer]:
+                - /url: https://www.gamersky.com/z/acred/
+        - listitem [ref=e175]:
+          - link "近期新作" [ref=e177] [cursor=pointer]:
+            - /url: https://www.gamersky.com/AreaIndex/n/
+          - generic [ref=e179]:
+            - link "8020号指令" [ref=e181] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/directive-8020/
+            - generic [ref=e182]: "|"
+            - link "新英雄无敌" [ref=e184] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/heroes-of-might-magic-olden-era/
+            - generic [ref=e185]: "|"
+            - link "沙罗周期" [ref=e187] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/saros/
+            - generic [ref=e188]: "|"
+            - link "异环" [ref=e190] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/neverness-to-everness/
+            - generic [ref=e191]: "|"
+            - link "代号三国龙起" [ref=e193] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/rewritten-the-three-kingdoms/
+            - generic [ref=e194]: "|"
+            - link "识质存在" [ref=e196] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/pragmata/
+            - generic [ref=e197]: "|"
+            - link "吸血鬼新作" [ref=e199] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/vampire-crawlers/
+            - generic [ref=e200]: "|"
+            - link "王者荣耀" [ref=e202] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/aovw/
+            - generic [ref=e203]: "|"
+            - link "红色沙漠" [ref=e205] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/crimson-desert/
+              - text: 红色沙漠
+            - generic [ref=e207]: "|"
+            - link "怪猎物语3" [ref=e209] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/monster-hunter-stories3/
+            - generic [ref=e210]: "|"
+            - link "生化9" [ref=e212] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/re9/
+              - text: 生化9
+            - generic [ref=e214]: "|"
+            - link "杀戮尖塔2" [ref=e216] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/slaythespire2/
+        - listitem [ref=e217]:
+          - link "即将上市" [ref=e219] [cursor=pointer]:
+            - /url: https://www.gamersky.com/AreaIndex/f/
+          - generic [ref=e221]:
+            - link "深海迷航2" [ref=e223] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/subnautica-2/
+            - generic [ref=e224]: "|"
+            - link "乐高蝙蝠侠" [ref=e226] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/lego-batman4/
+            - generic [ref=e227]: "|"
+            - link "地平线6" [ref=e229] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/forza-horizon-6/
+            - generic [ref=e230]: "|"
+            - link "007新作" [ref=e232] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/james-bond-007-first-light/
+            - generic [ref=e233]: "|"
+            - link "权游国王大道" [ref=e235] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/game-of-thrones2022/
+            - generic [ref=e236]: "|"
+            - link "艾略特" [ref=e238] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/mxjqnwy/
+            - generic [ref=e239]: "|"
+            - link "沃德灵共生" [ref=e241] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/voidling-bound/
+            - generic [ref=e242]: "|"
+            - link "薛定谔电话" [ref=e244] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/schrodinger-s-call/
+            - generic [ref=e245]: "|"
+            - link "哥特王朝" [ref=e247] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/gothic-1-remake/
+            - generic [ref=e248]: "|"
+            - link "艾恩葛朗特" [ref=e250] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/echoes-of-aincrad/
+            - generic [ref=e251]: "|"
+            - link "AC4重制" [ref=e253] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/ac4-resynced/
+            - generic [ref=e254]: "|"
+            - link "轮回之兽" [ref=e256] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/beast-of-reincarnation/
+      - list [ref=e259]:
+        - listitem [ref=e260]:
+          - link [ref=e262] [cursor=pointer]:
+            - /url: https://imgf.gamersky.com/html_fx/HotelArchitectQZTL.html
+            - img [ref=e263]
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - link "正文内容" [ref=e266] [cursor=pointer]:
+            - /url: javascript:;
+          - link "游戏视频" [ref=e267] [cursor=pointer]:
+            - /url: javascript:;
+          - link "游戏图片" [ref=e268] [cursor=pointer]:
+            - /url: javascript:;
+          - link "评论(146)" [ref=e269] [cursor=pointer]:
+            - /url: javascript:;
+            - text: 评论
+            - generic [ref=e270]: (146)
+        - generic [ref=e272]:
+          - generic [ref=e274] [cursor=pointer]: 本站
+          - generic [ref=e275]:
+            - textbox [ref=e276]
+            - button "搜本站" [ref=e277] [cursor=pointer]
+    - generic [ref=e278]:
+      - generic [ref=e279]:
+        - generic [ref=e280]:
+          - generic [ref=e281]:
+            - link "游民星空" [ref=e282] [cursor=pointer]:
+              - /url: https://www.gamersky.com/
+            - text: ">"
+            - link "资讯中心" [ref=e283] [cursor=pointer]:
+              - /url: /news/
+            - text: "> 正文"
+          - generic [ref=e284]:
+            - heading "惹怒核心玩家！国游团队突发舆论风波 删帖致歉仍难平息" [level=1] [ref=e285]
+            - generic [ref=e286]: 2026-04-09 15:21:58 来源：游民星空 作者：猛鲨男鱼王 编辑：猛鲨男鱼王 浏览：8641
+          - generic [ref=e287]:
+            - paragraph [ref=e288]: 2026年4月9日消息，国产Galgame独立游戏工作室异美（前红茶Games，代表作《海沙风云》《梦灯花》）突发舆论危机。
+            - paragraph [ref=e289]: 4月8日晚，其B站官方账号转发争议性内容。该工作室核心受众以男性玩家为主，相关操作被认为严重触及玩家情感底线。
+            - paragraph [ref=e290]:
+              - link "游民星空" [ref=e291] [cursor=pointer]:
+                - /url: https://www.gamersky.com/showimage/id_gamersky.shtml?https://img1.gamersky.com/upimg/pic/2026/04/09/origin_202604091511476764.png
+                - img "游民星空" [ref=e292]
+            - paragraph
+            - paragraph [ref=e293]: 事发后工作室紧急删帖并致歉，称系运营人员个人失误、账号管理疏漏，对涉事员工处以扣薪、调整年终评级。但处罚过轻、回应敷衍未能平息怒火，大量玩家涌入官方评论区抵制。
+            - paragraph [ref=e294]:
+              - link "游民星空" [ref=e295] [cursor=pointer]:
+                - /url: https://www.gamersky.com/showimage/id_gamersky.shtml?https://img1.gamersky.com/upimg/pic/2026/04/09/origin_202604091512133568.png
+                - img "游民星空" [ref=e296]
+            - paragraph
+            - paragraph [ref=e297]: 该工作室曾以《海沙风云》创下Steam 98%好评（现已回落至97%）的国产AVG标杆成绩。此次运营事故 + 公关失当，导致其多年积累口碑一夜崩盘，遭玩家大规模抵制。
+            - paragraph [ref=e298]:
+              - iframe [ref=e299]:
+                - generic [ref=f20e4]:
+                  - generic [ref=f20e5]:
+                    - generic [ref=f20e6]:
+                      - generic [ref=f20e7]: Steam好评率
+                      - generic [ref=f20e8]: 分享海报
+                    - generic [ref=f20e10]:
+                      - generic [ref=f20e11]:
+                        - generic [ref=f20e12]:
+                          - generic [ref=f20e13]: 97%
+                          - generic [ref=f20e14]:
+                            - paragraph [ref=f20e15]: 7,937名玩家评测
+                            - paragraph [ref=f20e16]: 所有语言评测
+                        - generic [ref=f20e17]: 好评如潮
+                      - generic [ref=f20e21]:
+                        - generic [ref=f20e22]:
+                          - generic [ref=f20e23]: 100%
+                          - generic [ref=f20e24]:
+                            - paragraph [ref=f20e25]: 68名玩家评测
+                            - paragraph [ref=f20e26]: 近期好评率
+                        - generic [ref=f20e27]:
+                          - generic [ref=f20e28]: 99%
+                          - generic [ref=f20e29]:
+                            - paragraph [ref=f20e30]: 840名玩家评测
+                            - paragraph [ref=f20e31]: 首周好评率
+                      - generic [ref=f20e37]:
+                        - generic [ref=f20e38]:
+                          - generic [ref=f20e39]: 97%
+                          - generic [ref=f20e40]:
+                            - paragraph [ref=f20e41]: 7,626名玩家评测
+                            - paragraph [ref=f20e42]: 简体中文评测
+                        - generic [ref=f20e43]: 好评如潮
+                      - generic [ref=f20e47]:
+                        - generic [ref=f20e48]:
+                          - generic [ref=f20e49]: 100%
+                          - generic [ref=f20e50]:
+                            - paragraph [ref=f20e51]: 62名玩家评测
+                            - paragraph [ref=f20e52]: 近期好评率
+                        - generic [ref=f20e53]:
+                          - generic [ref=f20e54]: 99%
+                          - generic [ref=f20e55]:
+                            - paragraph [ref=f20e56]: 816名玩家评测
+                            - paragraph [ref=f20e57]: 首周好评率
+                    - generic [ref=f20e58]: 数据时间 2026-04-09 15:15
+                  - generic [ref=f20e59]:
+                    - generic [ref=f20e60]:
+                      - img "游戏信息图片" [ref=f20e61]
+                      - generic [ref=f20e62]:
+                        - generic [ref=f20e63]: 海沙风云
+                        - generic [ref=f20e64]: Far Away
+                    - generic [ref=f20e65]: 查看数据详情
+            - paragraph [ref=e300]:
+              - link "游民星空" [ref=e301] [cursor=pointer]:
+                - /url: https://www.gamersky.com/showimage/id_gamersky.shtml?https://img1.gamersky.com/upimg/pic/2026/04/09/origin_202604091515283109.jpg
+                - img "游民星空" [ref=e302]
+            - paragraph [ref=e303]:
+              - link "游民星空" [ref=e304] [cursor=pointer]:
+                - /url: https://www.gamersky.com/showimage/id_gamersky.shtml?https://img1.gamersky.com/upimg/pic/2026/04/09/origin_202604091515294107.jpg
+                - img "游民星空" [ref=e305]
+            - paragraph [ref=e306]:
+              - link "游民星空" [ref=e307] [cursor=pointer]:
+                - /url: https://www.gamersky.com/showimage/id_gamersky.shtml?https://img1.gamersky.com/upimg/pic/2026/04/09/origin_202604091515309549.jpg
+                - img "游民星空" [ref=e308]
+            - paragraph
+            - paragraph [ref=e309]:
+              - strong [ref=e311]: 本文由游民星空制作发布，未经允许禁止转载。
+            - generic [ref=e312]:
+              - generic [ref=e314]: 话题投票
+              - list [ref=e315]:
+                - listitem [ref=e316]: 你如何看待异美工作室此次的运营事故及后续处理？
+                - listitem [ref=e317]:
+                  - radio "无法接受，坚决抵制。这就是砸饭碗" [ref=e318]
+                  - text: 无法接受，坚决抵制。这就是砸饭碗
+                - listitem [ref=e319]:
+                  - radio "观望后续。虽然运营糟糕，但游戏本身质量不错" [ref=e320]
+                  - text: 观望后续。虽然运营糟糕，但游戏本身质量不错
+                - listitem [ref=e321]:
+                  - link "投 票" [ref=e322] [cursor=pointer]:
+                    - /url: javascript:;
+                  - link "查 看" [ref=e323] [cursor=pointer]:
+                    - /url: http://www.gamersky.com/Common/Vote.html?GeneralId=2121399
+            - paragraph [ref=e324]:
+              - text: 更多相关资讯请关注：
+              - link "海沙风云专区" [ref=e325] [cursor=pointer]:
+                - /url: https://ku.gamersky.com/2021/far-away/
+          - generic [ref=e326] [cursor=pointer]:
+            - generic [ref=e328]: "9"
+            - emphasis [ref=e329]: 人喜欢
+          - generic [ref=e331]:
+            - generic [ref=e332] [cursor=pointer]:
+              - generic [ref=e333]: 游民星空APP
+              - generic [ref=e334]: 随时掌握游戏情报
+            - generic [ref=e335]:
+              - generic "分享" [ref=e337]
+              - generic [ref=e338]:
+                - link "举报" [ref=e339] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 举报
+                - generic [ref=e341]: "|"
+                - link "收藏" [ref=e342] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 收藏
+                - generic [ref=e344]: "|"
+          - list [ref=e347]:
+            - listitem [ref=e348]: 相关资讯：
+            - listitem [ref=e349]:
+              - link "好评悬疑、机甲战棋！25元以下Steam游戏推荐" [ref=e350] [cursor=pointer]:
+                - /url: https://www.gamersky.com/news/202503/1893386.shtml
+            - listitem [ref=e351]:
+              - link "尘埃落定！《海沙风云》Steam权限转交给研发商" [ref=e352] [cursor=pointer]:
+                - /url: https://www.gamersky.com/news/202406/1774964.shtml
+            - listitem [ref=e353]:
+              - link "中文本格AVG合集Steam史低：115元打包4款国产精品" [ref=e354] [cursor=pointer]:
+                - /url: https://www.gamersky.com/news/202201/1456016.shtml
+            - listitem [ref=e355]:
+              - link "粤语配音警匪港片味 国产游戏《海沙风云》明日发售" [ref=e356] [cursor=pointer]:
+                - /url: https://www.gamersky.com/news/202108/1416152.shtml
+          - generic [ref=e358]:
+            - img [ref=e361]
+            - generic [ref=e362]:
+              - link [ref=e364] [cursor=pointer]:
+                - /url: https://ku.gamersky.com/2021/far-away/
+                - img [ref=e365]
+              - list [ref=e367]:
+                - listitem [ref=e368]:
+                  - link "海沙风云" [ref=e369] [cursor=pointer]:
+                    - /url: https://ku.gamersky.com/2021/far-away/
+                - listitem [ref=e370]: 游戏制作：Gratesca
+                - listitem [ref=e371]: 游戏发行：Gratesca
+                - listitem [ref=e372]: 游戏平台：PC
+                - listitem [ref=e373]: 上市时间：2021-08-18
+                - listitem [ref=e374]:
+                  - text: 游戏标签：
+                  - link "黑色幽默" [ref=e375] [cursor=pointer]:
+                    - /url: https://ku.gamersky.com/sp/0-0-0-216-0-0.html
+                  - link "多结局" [ref=e376] [cursor=pointer]:
+                    - /url: https://ku.gamersky.com/sp/0-0-0-73-0-0.html
+                  - link "文字游戏" [ref=e377] [cursor=pointer]:
+                    - /url: https://ku.gamersky.com/sp/0-0-0-4390-0-0.html
+                  - link "剧情丰富" [ref=e378] [cursor=pointer]:
+                    - /url: https://ku.gamersky.com/sp/0-0-0-210-0-0.html
+              - generic [ref=e379]:
+                - link "9.2" [ref=e381] [cursor=pointer]:
+                  - /url: https://ku.gamersky.com/2021/far-away/
+                  - generic [ref=e382]: "9.2"
+                - generic [ref=e385]:
+                  - link "想 玩" [ref=e386] [cursor=pointer]:
+                    - /url: javascript:;
+                  - link "玩过 评分" [ref=e387] [cursor=pointer]:
+                    - /url: javascript:;
+                    - text: 玩过
+                    - text: 评分
+              - generic [ref=e389]:
+                - generic [ref=e391]: 暂无购买渠道
+                - generic [ref=e392]:
+                  - link "众评" [ref=e393] [cursor=pointer]:
+                    - /url: https://ku.gamersky.com/2021/far-away/
+                  - generic [ref=e394]: "|"
+                  - link "资讯" [ref=e395] [cursor=pointer]:
+                    - /url: http://www.gamersky.com/news/90442/
+                  - generic [ref=e396]: "|"
+                  - link "攻略" [ref=e397] [cursor=pointer]:
+                    - /url: http://www.gamersky.com/handbook/90442/
+                  - generic [ref=e398]: "|"
+                  - link "下载" [ref=e399] [cursor=pointer]:
+                    - /url: http://down.gamersky.com/soft/90442/
+                  - generic [ref=e400]: "|"
+                  - link "图片" [ref=e401] [cursor=pointer]:
+                    - /url: javascript:;
+                  - generic [ref=e402]: "|"
+                  - link "视频" [ref=e403] [cursor=pointer]:
+                    - /url: http://www.gamersky.com/news/v_1341933/
+                  - generic [ref=e404]: "|"
+                  - link "官网" [ref=e405] [cursor=pointer]:
+                    - /url: https://store.steampowered.com/app/1250760/?utm_source=gamersky.com
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - generic [ref=e412]:
+              - text: 评论(
+              - emphasis [ref=e413]: "0"
+              - text: 人参与，
+              - emphasis [ref=e414]: "0"
+              - text: 条评论)
+            - textbox "快来说两句吧！" [ref=e416]
+            - generic [ref=e417]:
+              - generic [ref=e418]:
+                - link "插入表情" [ref=e420] [cursor=pointer]:
+                  - /url: javascript:;
+                - link "上传图片" [ref=e422] [cursor=pointer]:
+                  - /url: javascript:;
+              - link "发布" [ref=e423] [cursor=pointer]:
+                - /url: javascript:;
+          - generic [ref=e425]:
+            - heading "全部评论" [level=3] [ref=e426]
+            - generic [ref=e427]:
+              - link "推荐" [ref=e428] [cursor=pointer]:
+                - /url: javascript:;
+              - generic [ref=e429]: "|"
+              - link "最早" [ref=e430] [cursor=pointer]:
+                - /url: javascript:;
+              - generic [ref=e431]: "|"
+              - link "最新" [ref=e432] [cursor=pointer]:
+                - /url: javascript:;
+      - generic [ref=e433]:
+        - list [ref=e437]:
+          - listitem [ref=e438]:
+            - link [ref=e441] [cursor=pointer]:
+              - /url: https://imgf.gamersky.com/html_fx/VulturesFK.html
+          - listitem [ref=e442]:
+            - link [ref=e445] [cursor=pointer]:
+              - /url: https://imgf.gamersky.com/html_fx/VulturesFK.html
+          - listitem [ref=e446]:
+            - link [ref=e449] [cursor=pointer]:
+              - /url: https://imgf.gamersky.com/html_fx/VulturesFK.html
+        - generic [ref=e452]: 《海沙风云》最新动态
+        - list [ref=e453]:
+          - listitem [ref=e454]:
+            - link "尘埃落定！《海沙风云》Steam权限转交给研发商" [ref=e456] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202406/1774964.shtml
+              - img "尘埃落定！《海沙风云》Steam权限转交给研发商" [ref=e457]
+            - link "尘埃落定！《海沙风云》Steam权限转交给研发商" [ref=e459] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202406/1774964.shtml
+            - generic [ref=e460]: 2024-06-14
+          - listitem [ref=e461]:
+            - link "《海沙风云》推荐：亲身体验“港式警匪片”的魅力" [ref=e463] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202202/1457566.shtml
+              - img "《海沙风云》推荐：亲身体验“港式警匪片”的魅力" [ref=e464]
+            - link "《海沙风云》推荐：亲身体验“港式警匪片”的魅力" [ref=e466] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202202/1457566.shtml
+            - generic [ref=e467]: 2022-02-02
+          - listitem [ref=e468]:
+            - link "粤语配音警匪港片味 国产游戏《海沙风云》明日发售" [ref=e470] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202108/1416152.shtml
+              - img "粤语配音警匪港片味 国产游戏《海沙风云》明日发售" [ref=e471]
+            - link "粤语配音警匪港片味 国产游戏《海沙风云》明日发售" [ref=e473] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202108/1416152.shtml
+            - generic [ref=e474]: 2021-08-17
+        - generic [ref=e475]:
+          - generic [ref=e476]: 休闲娱乐
+          - link "更多" [ref=e478] [cursor=pointer]:
+            - /url: https://www.gamersky.com/ent/
+        - list [ref=e479]:
+          - listitem [ref=e480]:
+            - link "穿低腰裤要选好内裤 女生对波儿是对胸的囧图 穿低腰裤要选好内裤 女生对波儿是对胸的囧图" [ref=e481] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139930.shtml
+              - img "穿低腰裤要选好内裤 女生对波儿是对胸的囧图" [ref=e482]
+              - text: 穿低腰裤要选好内裤 女生对波儿是对胸的囧图
+            - link "曝索尼PS商城将迎来重磅改动！568港元或真成历史 曝索尼PS商城将迎来重磅改动！568港元或真成历史" [ref=e483] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139506.shtml
+              - img "曝索尼PS商城将迎来重磅改动！568港元或真成历史" [ref=e484]
+              - text: 曝索尼PS商城将迎来重磅改动！568港元或真成历史
+          - listitem [ref=e485]:
+            - link "《生化维罗妮卡RE》重大爆料！公布时间定了 马上见 《生化维罗妮卡RE》重大爆料！公布时间定了 马上见" [ref=e486] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139494.shtml
+              - img "《生化维罗妮卡RE》重大爆料！公布时间定了 马上见" [ref=e487]
+              - text: 《生化维罗妮卡RE》重大爆料！公布时间定了 马上见
+            - link "GTA6玩家心态炸了！R星新动态让人大失所望 GTA6玩家心态炸了！R星新动态让人大失所望" [ref=e488] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139383.shtml
+              - img "GTA6玩家心态炸了！R星新动态让人大失所望" [ref=e489]
+              - text: GTA6玩家心态炸了！R星新动态让人大失所望
+          - listitem [ref=e490]:
+            - link "《瘟疫传说：传承》全新图首曝！画面超神场景唯美 《瘟疫传说：传承》全新图首曝！画面超神场景唯美" [ref=e491] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139365.shtml
+              - img "《瘟疫传说：传承》全新图首曝！画面超神场景唯美" [ref=e492]
+              - text: 《瘟疫传说：传承》全新图首曝！画面超神场景唯美
+            - link "R星总部大门紧闭 拒绝沟通！英国政界怒批：极其失望 R星总部大门紧闭 拒绝沟通！英国政界怒批：极其失望" [ref=e493] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139354.shtml
+              - img "R星总部大门紧闭 拒绝沟通！英国政界怒批：极其失望" [ref=e494]
+              - text: R星总部大门紧闭 拒绝沟通！英国政界怒批：极其失望
+        - generic [ref=e496]: 综合热点资讯
+        - list [ref=e497]:
+          - listitem [ref=e498]:
+            - link "《GTA6》正式解锁时间终于公开！各地区汇总一览" [ref=e499] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139892.shtml
+          - listitem [ref=e500]:
+            - link "《生化危机10》首批重磅爆料！系列人气女神回归" [ref=e501] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2138275.shtml
+          - listitem [ref=e502]:
+            - link "傅首尔被大量网暴后 首次回应“傅首尔面容”" [ref=e503] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139086.shtml
+          - listitem [ref=e504]:
+            - link "国产游戏尺度逆天!温泉剧情被指露骨擦边 官方回应" [ref=e505] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139308.shtml
+          - listitem [ref=e506]:
+            - link "PS5 Pro重磅3A实机首曝！60FPS稳定无压力" [ref=e507] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2138787.shtml
+          - listitem [ref=e508]:
+            - link "日本开始流行“脱袜鉴脚”挑战？当街品鉴直播上传" [ref=e509] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139595.shtml
+          - listitem [ref=e510]:
+            - link "大司马直播突遭封禁！只因春丽衣着暴露 身上就两块布" [ref=e511] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139933.shtml
+          - listitem [ref=e512]:
+            - link "《黑神话：悟空》联名新品火爆开售！深度定制 699元" [ref=e513] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139551.shtml
+          - listitem [ref=e514]:
+            - link "Epic国区官方发文道歉！用黑神话鞭策自己 预告新游" [ref=e515] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2138911.shtml
+          - listitem [ref=e516]:
+            - link "GTA6玩家心态炸了！R星新动态让人大失所望" [ref=e517] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139383.shtml
+        - generic [ref=e518]:
+          - generic [ref=e519]: 单机游戏下载
+          - link "更多" [ref=e521] [cursor=pointer]:
+            - /url: https://down.gamersky.com/
+        - generic [ref=e522]:
+          - link "《刮个爽》官方中文版下载 刮个爽" [ref=e523] [cursor=pointer]:
+            - /url: https://down.gamersky.com/pc/202603/2108575.shtml
+            - img "《刮个爽》官方中文版下载" [ref=e524]
+            - generic [ref=e526]: 刮个爽
+          - link "《杀戮尖塔2》官方中文版下载 杀戮尖塔2" [ref=e527] [cursor=pointer]:
+            - /url: https://down.gamersky.com/pc/202603/2101147.shtml
+            - img "《杀戮尖塔2》官方中文版下载" [ref=e528]
+            - generic [ref=e530]: 杀戮尖塔2
+        - list [ref=e531]:
+          - listitem [ref=e532]:
+            - link "《魔法门：上古纪元》官方抢先体验版下载" [ref=e533] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/202605/2136799.shtml
+          - listitem [ref=e534]:
+            - link "《哥布林维克：窃贼大亨》官方正版下载" [ref=e535] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/202605/2136791.shtml
+          - listitem [ref=e536]:
+            - 'link "《Team Principal: A Racing Manager》官方正版下载" [ref=e537] [cursor=pointer]':
+              - /url: https://down.gamersky.com/pc/202604/2132360.shtml
+          - listitem [ref=e538]:
+            - 'link "《BAZOOKA: Rhythm Game》官方正版下载" [ref=e539] [cursor=pointer]':
+              - /url: https://down.gamersky.com/pc/202604/2132359.shtml
+          - listitem [ref=e540]:
+            - link "《八号窗口：千禧年》官方中文版下载" [ref=e541] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/202604/2132350.shtml
+          - listitem [ref=e542]:
+            - link "《Toad's Soul Hopper》官方中文版下载" [ref=e543] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/202604/2132343.shtml
+          - listitem [ref=e544]:
+            - link "《姆明：暖心冬日》官方中文版下载" [ref=e545] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/202604/2132337.shtml
+          - listitem [ref=e546]:
+            - link "《这是我的宝藏！》官方中文版下载" [ref=e547] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/202604/2132330.shtml
+        - generic [ref=e548]:
+          - generic [ref=e549]: 好物推荐
+          - link "更多" [ref=e551] [cursor=pointer]:
+            - /url: https://www.gamersky.com/news/105458/
+        - list [ref=e552]:
+          - listitem [ref=e553]:
+            - link "中国玩家又成销冠! 94%好评沙盒“双点酒店”！" [ref=e555] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139947.shtml
+              - img "中国玩家又成销冠! 94%好评沙盒“双点酒店”！" [ref=e556]
+            - link "中国玩家又成销冠! 94%好评沙盒“双点酒店”！" [ref=e558] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139947.shtml
+            - generic [ref=e559]: 发布时间：2026-05-13
+          - listitem [ref=e560]:
+            - link "硬核“老生化”发售！爆杀丧尸+生存恐惧" [ref=e562] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139934.shtml
+              - img "硬核“老生化”发售！爆杀丧尸+生存恐惧" [ref=e563]
+            - link "硬核“老生化”发售！爆杀丧尸+生存恐惧" [ref=e565] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2139934.shtml
+            - generic [ref=e566]: 发布时间：2026-05-13
+          - listitem [ref=e567]:
+            - link "《退休勇者当厂长》工业革命 逆袭异世界战力上线" [ref=e569] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2138702.shtml
+              - img "《退休勇者当厂长》工业革命 逆袭异世界战力上线" [ref=e570]
+            - link "《退休勇者当厂长》工业革命 逆袭异世界战力上线" [ref=e572] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/202605/2138702.shtml
+            - generic [ref=e573]: 发布时间：2026-05-11
+        - generic [ref=e574]:
+          - generic [ref=e575]: 游民星空联运游戏
+          - link "更多" [ref=e577] [cursor=pointer]:
+            - /url: https://web.gamersky.com/
+        - list [ref=e578]:
+          - listitem [ref=e579]:
+            - link "凡人修仙传" [ref=e580] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=frxxz9gg260408
+              - img [ref=e581]
+              - paragraph [ref=e582]: 凡人修仙传
+            - link "怼怼梦三国" [ref=e583] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=ddmsg9gg260430
+              - img [ref=e584]
+              - paragraph [ref=e585]: 怼怼梦三国
+            - link "航海霸业" [ref=e586] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=hhby9gg260408
+              - img [ref=e587]
+              - paragraph [ref=e588]: 航海霸业
+          - listitem [ref=e589]:
+            - link "神兵奇迹" [ref=e590] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=sbqj9gg251231
+              - img [ref=e591]
+              - paragraph [ref=e592]: 神兵奇迹
+            - link "超鬼打金服" [ref=e593] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=bzsc9gg260319
+              - img [ref=e594]
+              - paragraph [ref=e595]: 超鬼打金服
+            - link "群英风华录" [ref=e596] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=qyfhl9gg260512
+              - img [ref=e597]
+              - paragraph [ref=e598]: 群英风华录
+          - listitem [ref=e599]:
+            - link "精灵猎人" [ref=e600] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=jlle9gg260512
+              - img [ref=e601]
+              - paragraph [ref=e602]: 精灵猎人
+            - link "超神觉醒" [ref=e603] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=csjx9gg260430
+              - img [ref=e604]
+              - paragraph [ref=e605]: 超神觉醒
+            - link "异星战舰" [ref=e606] [cursor=pointer]:
+              - /url: http://web-cps.gamersky.com/InstPage/index.html?key=yxzj9gg260430
+              - img [ref=e607]
+              - paragraph [ref=e608]: 异星战舰
+        - list [ref=e611]:
+          - listitem [ref=e612]:
+            - link [ref=e615] [cursor=pointer]:
+              - /url: https://imgf.gamersky.com/html_fx/HotelArchitectFK.html
+          - listitem [ref=e616]:
+            - link [ref=e619] [cursor=pointer]:
+              - /url: https://imgf.gamersky.com/html_fx/HotelArchitectFK.html
+          - listitem [ref=e620]:
+            - link [ref=e623] [cursor=pointer]:
+              - /url: https://imgf.gamersky.com/html_fx/HotelArchitectFK.html
+  - generic [ref=e625]:
+    - list [ref=e628]:
+      - listitem [ref=e629]:
+        - link "单机游戏" [ref=e631] [cursor=pointer]:
+          - /url: https://www.gamersky.com/pcgame/
+        - generic [ref=e632]:
+          - generic [ref=e633]:
+            - link "游戏资讯" [ref=e634] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/pc/zx/
+            - link "游戏评测" [ref=e635] [cursor=pointer]:
+              - /url: https://www.gamersky.com/review/pc/
+            - link "游戏下载" [ref=e636] [cursor=pointer]:
+              - /url: https://down.gamersky.com/pc/
+            - link "单机排行榜" [ref=e637] [cursor=pointer]:
+              - /url: https://www.gamersky.com/top/
+          - generic [ref=e638]:
+            - link "游戏专区" [ref=e639] [cursor=pointer]:
+              - /url: https://www.gamersky.com/z/
+            - link "游戏攻略" [ref=e640] [cursor=pointer]:
+              - /url: https://www.gamersky.com/handbook/game/gl/
+            - link "发售表" [ref=e641] [cursor=pointer]:
+              - /url: https://ku.gamersky.com/release/
+      - listitem [ref=e642]:
+        - link "主机游戏" [ref=e644] [cursor=pointer]:
+          - /url: https://www.gamersky.com/console/
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - link "PS5" [ref=e647] [cursor=pointer]:
+              - /url: https://www.gamersky.com/console/ps5/
+            - link "游戏评测" [ref=e648] [cursor=pointer]:
+              - /url: https://www.gamersky.com/review/tv/
+            - link "主机硬件" [ref=e649] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/tv/hd/
+          - generic [ref=e650]:
+            - link "XSX" [ref=e651] [cursor=pointer]:
+              - /url: https://www.gamersky.com/console/xsx/
+            - link "电玩资讯" [ref=e652] [cursor=pointer]:
+              - /url: https://www.gamersky.com/news/tv/zx/
+      - listitem [ref=e653]:
+        - link "手机游戏" [ref=e655] [cursor=pointer]:
+          - /url: https://shouyou.gamersky.com/
+        - generic [ref=e656]:
+          - generic [ref=e657]:
+            - link "手游频道" [ref=e658] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/
+            - link "苹果频道" [ref=e659] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/ios/
+            - link "手游攻略" [ref=e660] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/gl/
+            - link "新游频道" [ref=e661] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/zx/news/
+          - generic [ref=e662]:
+            - link "安卓频道" [ref=e663] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/android/
+            - link "手游评测" [ref=e664] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/review/
+            - link "手游下载" [ref=e665] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/ku/
+            - link "手游产业" [ref=e666] [cursor=pointer]:
+              - /url: https://shouyou.gamersky.com/zx/chanye/
+      - listitem [ref=e667]:
+        - link "动漫星空" [ref=e669] [cursor=pointer]:
+          - /url: https://acg.gamersky.com/
+        - generic [ref=e670]:
+          - generic [ref=e671]:
+            - link "精彩杂谈" [ref=e672] [cursor=pointer]:
+              - /url: http://acg.gamersky.com/otaku/zt/
+            - link "动漫图库" [ref=e673] [cursor=pointer]:
+              - /url: http://acg.gamersky.com/pic/
+            - link "动漫音乐" [ref=e674] [cursor=pointer]:
+              - /url: http://acg.gamersky.com/music/
+          - generic [ref=e675]:
+            - link "动漫资讯" [ref=e676] [cursor=pointer]:
+              - /url: http://acg.gamersky.com/news/
+            - link "动漫周边" [ref=e677] [cursor=pointer]:
+              - /url: http://acg.gamersky.com/otaku/zb/
+      - listitem [ref=e678]:
+        - generic [ref=e679]: 其他综合
+        - generic [ref=e680]:
+          - generic [ref=e681]:
+            - link "杂谈文库" [ref=e682] [cursor=pointer]:
+              - /url: https://www.gamersky.com/wenku/
+            - link "游戏硬件" [ref=e683] [cursor=pointer]:
+              - /url: https://www.gamersky.com/hardware/
+            - link "讲武堂" [ref=e684] [cursor=pointer]:
+              - /url: http://i.gamersky.com/feed/external/93
+          - generic [ref=e685]:
+            - link "休闲娱乐" [ref=e686] [cursor=pointer]:
+              - /url: https://www.gamersky.com/ent/
+            - link "趣味科技" [ref=e687] [cursor=pointer]:
+              - /url: https://www.gamersky.com/tech/
+            - link "游民社区" [ref=e688] [cursor=pointer]:
+              - /url: http://club.gamersky.com/
+    - generic [ref=e689]:
+      - link "关于本站" [ref=e690] [cursor=pointer]:
+        - /url: https://www.gamersky.com/about/index.html
+      - text: "|"
+      - link "网站招聘" [ref=e691] [cursor=pointer]:
+        - /url: https://www.gamersky.com/about/join.html
+      - text: "|"
+      - link "联系我们" [ref=e692] [cursor=pointer]:
+        - /url: https://www.gamersky.com/about/contact.html
+      - text: "|"
+      - link "玩家投稿" [ref=e693] [cursor=pointer]:
+        - /url: https://www.gamersky.com/about/post.html
+      - text: "|"
+      - link "新浪微博" [ref=e694] [cursor=pointer]:
+        - /url: https://weibo.com/mygamersky
+      - text: "|"
+      - link "手机客户端" [ref=e695] [cursor=pointer]:
+        - /url: https://a.gamersky.com/index.html?14
+      - link "冀ICP备05003890号-1" [ref=e696] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/#/Integrated/index
+      - text: 冀ICP证B2-20180049 冀网文[2024]1963-004号
+      - link "冀公网备13019902000982" [ref=e697] [cursor=pointer]:
+        - /url: https://beian.mps.gov.cn/#/query/webSearch
+      - generic [ref=e698]:
+        - generic [ref=e699]:
+          - link [ref=e700] [cursor=pointer]:
+            - /url: https://cyberpolice.mps.gov.cn/#/
+            - img [ref=e701]
+          - generic: 网络违法犯罪举报网站
+        - generic [ref=e702]:
+          - link [ref=e703] [cursor=pointer]:
+            - /url: http://www.hbjbzx.gov.cn/
+            - img [ref=e704]
+          - generic: 河北互联网违法和不良信息举报
+        - generic [ref=e705]:
+          - link [ref=e706] [cursor=pointer]:
+            - /url: https://www.12377.cn/
+            - img [ref=e707]
+          - generic: 中国互联网举报中心
+        - generic [ref=e708]:
+          - link [ref=e709] [cursor=pointer]:
+            - /url: http://www.hbjbzx.gov.cn/2023-11/14/content_9097408.htm
+            - img [ref=e710]
+          - generic: 涉企举报专区
+      - text: 违法和不良信息举报电话：0311-89619111 邮箱：jubao@gamersky.com 从业人员违法违规行为举报：181@gamersky.com 未成年人专用举报：182@gamersky.com
+      - link "举报公示" [ref=e711] [cursor=pointer]:
+        - /url: https://db5.gamersky.com/Get/GetUrl.aspx?urlid=0&id=1532771&judge=true
+      - text: Copyright©2003-2026
+      - link "GamerSky.com" [ref=e712] [cursor=pointer]:
+        - /url: https://www.gamersky.com/
+      - text: All rights reserved. 游民星空 版权所有

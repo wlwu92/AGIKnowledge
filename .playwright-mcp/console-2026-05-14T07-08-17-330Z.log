@@ -1,0 +1,6 @@
+[    4974ms] [WARNING] This page is using the deprecated ResourceLoader module "jquery.ui".
+Please use Codex instead. @ https://zh.moegirl.org.cn/load.php?lang=zh-cn&modules=startup&only=scripts&raw=1&skin=moeskin:11
+[    4979ms] [WARNING] This page is using the deprecated ResourceLoader module "mediawiki.Uri".
+[1.43] Please use browser native URL. See https://www.mediawiki.org/wiki/Migrating_mw.Uri_to_URL @ https://zh.moegirl.org.cn/load.php?lang=zh-cn&modules=startup&only=scripts&raw=1&skin=moeskin:11
+[    4983ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ https://app.moegirl.org.cn/moe-auth/modal-builder/index.umd.cjs:0
+[    5009ms] [INFO] Widget:SideBarPic pre-init-check jQuery.fn.init @ https://zh.moegirl.org.cn/load.php?lang=zh&modules=ext.gadget.LocalObjectStorage%2CLogout-confirm%2CPurgecache%2CReferenceTooltips%2CShowAvatar%2CSideBarPic%2CUserLinkAvatar%2Ccode-prettify%2Cdisplayname-default%2CjQueryLazyload%2ClibBottomRightCorner%2ClibCachedCode%2ClibOOUIDialog%2ClibPolyfill%2ClibRequestAnimationFrame%2ClibStandardMessages%2CnoteTA%2CpageInfo%2Creport%2Csite-js%2Csite-lib%2Cwikidiff2&skin=moeskin&version=6q9ag:12

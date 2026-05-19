@@ -1,0 +1,329 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "首页" [ref=e9] [cursor=pointer]:
+            - /url: /
+          - text: 
+        - listitem [ref=e10]:
+          - link " 登录／注册" [ref=e11] [cursor=pointer]:
+            - /url: /get/login
+            - generic [ref=e12]: 
+            - text: 登录／注册
+        - listitem [ref=e13]:
+          - link "English English " [ref=e14] [cursor=pointer]:
+            - /url: /en
+            - img "English" [ref=e15]
+            - text: English
+            - generic [ref=e16]: 
+          - text: 
+      - generic [ref=e17]:
+        - generic:
+          - list:
+            - listitem [ref=e18]:
+              - link " 新浪微博" [ref=e19] [cursor=pointer]:
+                - /url: http://weibo.com/indienova
+                - generic [ref=e21]: 
+                - generic [ref=e22]: 新浪微博
+            - listitem [ref=e23]:
+              - link " indienova" [ref=e24] [cursor=pointer]:
+                - /url: https://assets.indienova.com/assets/images/QR_WeChat-new.jpg
+                - generic [ref=e26]: 
+                - generic [ref=e27]: indienova
+            - listitem [ref=e28]:
+              - link " QQ 群：点击查看全部群聊" [ref=e29] [cursor=pointer]:
+                - /url: https://assets.indienova.com/assets/images/QR_QQ_6.jpg
+                - generic [ref=e31]: 
+                - generic [ref=e32]: QQ 群：点击查看全部群聊
+            - listitem [ref=e33]:
+              - link " 知乎专栏" [ref=e34] [cursor=pointer]:
+                - /url: http://zhuanlan.zhihu.com/indienova
+                - generic [ref=e36]: 
+                - generic [ref=e37]: 知乎专栏
+            - listitem [ref=e38]:
+              - link " indienova" [ref=e39] [cursor=pointer]:
+                - /url: https://store.steampowered.com/publisher/indienova
+                - generic [ref=e41]: 
+                - generic [ref=e42]: indienova
+            - listitem [ref=e43]:
+              - link " Facebook" [ref=e44] [cursor=pointer]:
+                - /url: https://www.facebook.com/Indienova-1689611754692764/
+                - generic [ref=e46]: 
+                - generic [ref=e47]: Facebook
+            - listitem [ref=e48]:
+              - link " Twitter" [ref=e49] [cursor=pointer]:
+                - /url: https://twitter.com/indienovacn
+                - generic [ref=e51]: 
+                - generic [ref=e52]: Twitter
+            - listitem [ref=e53]:
+              - link " info(at)indienova.com" [ref=e54] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e56]: 
+                - generic [ref=e57]: info(at)indienova.com
+    - banner [ref=e58]:
+      - generic [ref=e60]:
+        - generic:
+          - generic: 
+        - link "indienova" [ref=e62] [cursor=pointer]:
+          - /url: /
+          - img "indienova" [ref=e63]
+        - navigation [ref=e64]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - link "文章 " [ref=e67] [cursor=pointer]:
+                - /url: /indie-game-news/
+                - generic [ref=e68]:
+                  - text: 文章
+                  - generic [ref=e69]: 
+              - text:    
+            - listitem [ref=e70]:
+              - link "专题 " [ref=e71] [cursor=pointer]:
+                - /url: /column
+                - generic [ref=e72]:
+                  - text: 专题
+                  - generic [ref=e73]: 
+              - text:                                            
+            - listitem [ref=e74]:
+              - link "开发 " [ref=e75] [cursor=pointer]:
+                - /url: /indie-game-development/
+                - generic [ref=e76]:
+                  - text: 开发
+                  - generic [ref=e77]: 
+              - text:       
+            - listitem [ref=e78]:
+              - link "游戏 " [ref=e79] [cursor=pointer]:
+                - /url: /usergames
+                - generic [ref=e80]:
+                  - text: 游戏
+                  - generic [ref=e81]: 
+              - text:              
+            - listitem [ref=e82]:
+              - link "日志" [ref=e83] [cursor=pointer]:
+                - /url: /blogs/all
+                - generic [ref=e84]: 日志
+            - listitem [ref=e85]:
+              - link "小组" [ref=e86] [cursor=pointer]:
+                - /url: /groups
+                - generic [ref=e87]: 小组
+            - listitem [ref=e88]:
+              - link "钥玩 " [ref=e89] [cursor=pointer]:
+                - /url: /novapress
+                - generic [ref=e90]:
+                  - text: 钥玩
+                  - superscript [ref=e91]:
+                    - generic [ref=e92]: 
+          - generic [ref=e93]:
+            - link " " [ref=e94] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e95]: 
+              - generic [ref=e96]: 
+            - generic [ref=e97]:
+              - textbox "搜索网站内容关键字 ..."
+    - generic [ref=e100]:
+      - link "GameDB @ indienova beta" [ref=e102] [cursor=pointer]:
+        - /url: /gamedb
+        - img "GameDB @ indienova" [ref=e103]
+        - superscript [ref=e104]: beta
+      - navigation [ref=e105]:
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link " 首页" [ref=e108] [cursor=pointer]:
+              - /url: /gamedb
+              - generic [ref=e109]: 
+              - text: 首页
+          - listitem [ref=e110]:
+            - link " 平台 " [ref=e111] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e112]: 
+              - text: 平台
+              - generic [ref=e113]: 
+            - text:           
+          - listitem [ref=e114]:
+            - link " 精选 " [ref=e115] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e116]: 
+              - text: 精选
+              - generic [ref=e117]: 
+            - text:         
+          - listitem [ref=e118]:
+            - link " 列表 " [ref=e119] [cursor=pointer]:
+              - /url: /gamedb/lists_recent/p/1
+              - generic [ref=e120]: 
+              - text: 列表
+              - generic [ref=e121]: 
+            - text:  
+          - listitem [ref=e122]:
+            - generic [ref=e123]:
+              - textbox "搜索游戏" [ref=e124]
+              - button "" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: 
+      - generic:
+        - generic: 
+    - generic [ref=e129]:
+      - 'heading "游戏公司：异美工作室 COMPANY: GRATESCA STUDIO" [level=1] [ref=e136]':
+        - text: 游戏公司：异美工作室
+        - generic [ref=e137]: "COMPANY: GRATESCA STUDIO"
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - generic [ref=e146]:
+            - link "按最近更新排列" [ref=e147] [cursor=pointer]:
+              - /url: /gamedb/company/gratesca-studio/p/1
+            - link "按发行时间排列" [ref=e148] [cursor=pointer]:
+              - /url: /gamedb/company/gratesca-studio/s/release/p/1
+            - link "按媒体评分排列" [ref=e149] [cursor=pointer]:
+              - /url: /gamedb/company/gratesca-studio/s/rating/p/1
+            - link "按会员评分排列" [ref=e150] [cursor=pointer]:
+              - /url: /gamedb/company/gratesca-studio/s/user_rating/p/1
+          - link "梦灯花 梦灯花 Noctuary" [ref=e153] [cursor=pointer]:
+            - /url: /game/noctuary--1
+            - img "梦灯花" [ref=e154]
+            - generic [ref=e155]:
+              - text: 梦灯花
+              - generic [ref=e156]: Noctuary
+          - link "海沙风云 海沙风云 Far Away" [ref=e159] [cursor=pointer]:
+            - /url: /game/far-away
+            - img "海沙风云" [ref=e160]
+            - generic [ref=e161]:
+              - text: 海沙风云
+              - generic [ref=e162]: Far Away
+          - 'link "梦灯花：花海风云 梦灯花：花海风云 Noctuary: New Journey" [ref=e165] [cursor=pointer]':
+            - /url: /game/noctuary-new-journey
+            - img "梦灯花：花海风云" [ref=e166]
+            - generic [ref=e167]:
+              - text: 梦灯花：花海风云
+              - generic [ref=e168]: "Noctuary: New Journey"
+        - generic [ref=e169]:
+          - img [ref=e171]
+          - generic [ref=e172]:
+            - heading "官方网站" [level=4] [ref=e173]
+            - paragraph [ref=e174]:
+              - link "访问官方网站" [ref=e175] [cursor=pointer]:
+                - /url: https://weibo.com/hongchagames
+            - generic [ref=e176]:
+              - generic [ref=e177] [cursor=pointer]: 查找游戏：
+              - textbox "查找游戏：" [ref=e178]:
+                - /placeholder: 搜索游戏
+              - button "" [ref=e179] [cursor=pointer]:
+                - generic [ref=e180]: 
+              - generic [ref=e181]: 两个字符以上
+    - contentinfo [ref=e182]:
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img "indeinova" [ref=e187]
+            - paragraph [ref=e188]:
+              - text: 由喜爱
+              - strong [ref=e189]: 独立游戏
+              - text: ，追求游戏乐趣的我们建立于
+              - strong [ref=e190]: "2013"
+              - text: 年。
+            - link " " [ref=e191] [cursor=pointer]:
+              - /url: http://weibo.com/indienova
+              - generic [ref=e192]: 
+              - generic [ref=e193]: 
+            - link " " [ref=e194] [cursor=pointer]:
+              - /url: https://assets.indienova.com/assets/images/QR_WeChat-new.jpg
+              - generic [ref=e195]: 
+              - generic [ref=e196]: 
+            - link " " [ref=e197] [cursor=pointer]:
+              - /url: https://assets.indienova.com/assets/images/QR_QQ_6.jpg
+              - generic [ref=e198]: 
+              - generic [ref=e199]: 
+            - link " " [ref=e200] [cursor=pointer]:
+              - /url: http://zhuanlan.zhihu.com/indienova
+              - generic [ref=e201]: 
+              - generic [ref=e202]: 
+            - link " " [ref=e204] [cursor=pointer]:
+              - /url: http://steamcommunity.com/id/indienova/
+              - generic [ref=e205]: 
+              - generic [ref=e206]: 
+            - link " " [ref=e207] [cursor=pointer]:
+              - /url: https://www.facebook.com/Indienova-1689611754692764/
+              - generic [ref=e208]: 
+              - generic [ref=e209]: 
+            - link " " [ref=e210] [cursor=pointer]:
+              - /url: https://twitter.com/indienovacn
+              - generic [ref=e211]: 
+              - generic [ref=e212]: 
+            - link " " [ref=e213] [cursor=pointer]:
+              - /url: https://github.com/eastecho
+              - generic [ref=e214]: 
+              - generic [ref=e215]: 
+          - paragraph [ref=e216]: "ServerID: NOVA-MAIN"
+        - generic [ref=e218]:
+          - heading "关注我们" [level=4] [ref=e219]
+          - generic [ref=e220]:
+            - img [ref=e221]
+            - paragraph [ref=e222]: 扫描二维码关注微信公众号
+        - generic [ref=e224]:
+          - heading "容易错过的内容" [level=4] [ref=e225]
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "会员开发的游戏" [ref=e228] [cursor=pointer]:
+                - /url: /usergames
+            - listitem [ref=e229]:
+              - link "游戏开发资源大全" [ref=e230] [cursor=pointer]:
+                - /url: /sp/gameDevResource
+            - listitem [ref=e231]:
+              - link "推荐的 Steam 游戏" [ref=e232] [cursor=pointer]:
+                - /url: /steam/recommended
+            - listitem [ref=e233]:
+              - link "必买的 Steam 游戏" [ref=e234] [cursor=pointer]:
+                - /url: /steam/mustbuy
+            - listitem [ref=e235]:
+              - link "会员日志／DevLog" [ref=e236] [cursor=pointer]:
+                - /url: /blogs/all
+            - listitem [ref=e237]:
+              - link "游戏开发素材" [ref=e238] [cursor=pointer]:
+                - /url: /resource
+            - listitem [ref=e239]:
+              - link "游戏古登堡计划" [ref=e240] [cursor=pointer]:
+                - /url: /corp/gutenberg
+            - listitem [ref=e241]:
+              - link "向 indienova 投稿" [ref=e242] [cursor=pointer]:
+                - /url: /corp/contribute
+        - generic [ref=e244]:
+          - heading "快速联系我们" [level=4] [ref=e245]
+          - generic [ref=e246]:
+            - paragraph [ref=e247]:
+              - text: 您可以
+              - link "注册／登录" [ref=e248] [cursor=pointer]:
+                - /url: /get/login
+                - strong [ref=e249]: 注册／登录
+              - text: 后再发送信息，以便我们直接通过站内私信快速联系您。
+            - generic [ref=e250]:
+              - generic [ref=e252]: 
+              - textbox "您的名字" [ref=e253]
+            - generic [ref=e254]:
+              - generic [ref=e256]: 
+              - textbox "邮件地址" [ref=e257]
+            - textbox "信息" [ref=e258]
+            - button "发送信息" [ref=e259] [cursor=pointer]
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - link "隐私声明" [ref=e264] [cursor=pointer]:
+            - /url: /corp/privacy
+          - text: /
+          - link "常见问题" [ref=e265] [cursor=pointer]:
+            - /url: /corp/faq
+          - text: /
+          - link "关于我们" [ref=e266] [cursor=pointer]:
+            - /url: /corp/about
+          - text: /
+          - link "联系我们" [ref=e267] [cursor=pointer]:
+            - /url: /corp/suggestion
+        - paragraph [ref=e268]:
+          - generic [ref=e269]:
+            - link "京 ICP 备 16052096 号" [ref=e270] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/
+            - link "京公网安备 11010702001852号" [ref=e271] [cursor=pointer]:
+              - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010702001852
+              - img [ref=e272]
+              - text: 京公网安备 11010702001852号
+            - text: 增值电信业务经营许可证：
+            - link "京 B2-20160196" [ref=e273] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/
+        - paragraph [ref=e274]: 烽火连城（北京）科技有限公司
+        - paragraph [ref=e275]: 版权所有 © 2013, 2026 indienova 保留所有权利
+  - text: 

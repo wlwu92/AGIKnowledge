@@ -1,0 +1,415 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8QPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: Emage 续作 sequel Emage 续作 sequel
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DEmage%2B%25E7%25BB%25AD%25E4%25BD%259C%2Bsequel%26sei%3DwXQFao_XDYyqur8Pw9SL8A4&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI 模式" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNSi3e5aSfkGU8n253rjd5e6zAhLd16-73llWk3wAUrTAUJAEaQtfC23D1LsT7ElGKWKMgTVXH5VW26ddIDdXLKVKD9T-vRiGfnHAi42sAGJHDyhPbQ&aep=1&ntc=1&sa=X&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q2J8OegQIFBAD
+              - generic [ref=e83]: AI 模式
+          - listitem [ref=e84]:
+            - link "全部" [disabled] [ref=e85]:
+              - generic [ref=e87]: 全部
+          - listitem [ref=e88]:
+            - link "图片" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNSi3e5aSfkGU8n253rjd5e6zAhLd16-73llWk3wAUrTAUJAEaQtfC23D1LsT7ElGKWKMgTVXH5VW26ddIDdXLKVKD9T-vRiGfnHAi42sAGJHDyhPbQ&q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sa=X&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8QtKgLegQIGhAB
+              - generic [ref=e91]: 图片
+          - listitem [ref=e92]:
+            - link "购物" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNSi3e5aSfkGU8n253rjd5e6zAhLd16-73llWk3wAUrTAUJAEaQtfC23D1LsT7ElGKWKMgTVXH5VW26ddIDdXLKVKD9T-vRiGfnHAi42sAGJHDyhPbQ&q=Emage+%E7%BB%AD%E4%BD%9C+sequel&ved=1t:220175&ictx=111
+              - generic [ref=e95]: 购物
+          - listitem [ref=e96]:
+            - link "视频" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNSi3e5aSfkGU8n253rjd5e6zAhLd16-73llWk3wAUrTAUJAEaQtfC23D1LsT7ElGKWKMgTVXH5VW26ddIDdXLKVKD9T-vRiGfnHAi42sAGJHDyhPbQ&q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sa=X&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8QtKgLegQIGBAB
+              - generic [ref=e99]: 视频
+          - listitem [ref=e100]:
+            - link "新闻" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&q=Emage+%E7%BB%AD%E4%BD%9C+sequel&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNSi3e5aSfkGU8n253rjd5e6zAhLd16-73llWk3wAUrTAUJAEaQtfC23D1LsT7ElGKWKMgTVXH5VW26ddIDdXLKVKD9T-vRiGfnHAi42sAGJHDyhPbQ&sa=X&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q0pQJegQIFxAB
+              - generic [ref=e103]: 新闻
+          - listitem [ref=e104]:
+            - link "短视频" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=4c0e757566be5d36&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNSi3e5aSfkGU8n253rjd5e6zAhLd16-73llWk3wAUrTAUJAEaQtfC23D1LsT7ElGKWKMgTVXH5VW26ddIDdXLKVKD9T-vRiGfnHAi42sAGJHDyhPbQ&q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sa=X&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Qs6gLegQIFhAB
+              - generic [ref=e107]: 短视频
+          - listitem [ref=e108]:
+            - button "更多过滤条件" [ref=e109] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 更多
+                  - img [ref=e114]
+        - button "工具" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 工具
+            - img [ref=e122]
+    - heading "搜索结果" [level=1] [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e142]:
+        - generic [ref=e147]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - img [ref=e151]
+              - heading "AI 概览" [level=2] [ref=e153]
+            - button "关于这条结果的详细信息" [ref=e157]:
+              - img [ref=e159]
+          - generic [ref=e180]:
+            - generic [ref=e183]:
+              - generic [ref=e184]: 根据我的搜索结果，并没有关于名为 "Emage" 的知名艺术、游戏或影视作品的续作信息。
+              - generic [ref=e185]: 考虑到您提及的拼写，可能存在以下情况：
+              - list [ref=e187]:
+                - listitem [ref=e188]:
+                  - generic [ref=e189]:
+                    - strong [ref=e190]: 拼写偏差：
+                    - text: 您是否指的其实是某款游戏或艺术创作工具（例如
+                    - emphasis [ref=e191]: Image
+                    - text: 相关产品）？
+                - listitem [ref=e192]:
+                  - generic [ref=e193]:
+                    - strong [ref=e194]: 小众作品：
+                    - text: 它是某个独立工作室或个人发布的作品。
+              - generic [ref=e196]:
+                - text: 如果能提供更多关于 "Emage" 的背景信息（例如：它是
+                - strong [ref=e197]: 动漫
+                - text: 、
+                - strong [ref=e198]: 游戏
+                - text: 、还是
+                - strong [ref=e199]: AI绘画工具
+                - text: ），我能更好地帮您查询相关动态。
+              - generic [ref=e201]: 您可以告诉我：
+              - list [ref=e203]:
+                - listitem [ref=e204]:
+                  - generic [ref=e205]:
+                    - text: 这个作品是
+                    - strong [ref=e206]: 做什么的
+                    - text: ？（艺术、游戏、工具？）
+                - listitem [ref=e207]:
+                  - generic [ref=e208]:
+                    - text: 您是在
+                    - strong [ref=e209]: 哪里看到它的
+                    - text: ？
+              - separator [ref=e211]
+              - strong [ref=e214]: "其他热门续作动态 (2026年5月情况):"
+              - list [ref=e216]:
+                - listitem [ref=e217]:
+                  - generic [ref=e218]:
+                    - strong [ref=e219]: "《塞努亚的传说：地狱之刃2》 (Senua's Saga: Hellblade II)"
+                    - text: ": 现已上市，带来更震撼的视觉与心理恐怖体验。"
+                - listitem [ref=e220]:
+                  - generic [ref=e221]:
+                    - strong [ref=e222]: 《无主之地4》 (Borderlands 4)
+                    - text: ": 正在筹备新的终局内容和突袭Boss更新。"
+                - listitem [ref=e223]:
+                  - generic [ref=e224]:
+                    - strong [ref=e225]: 《穿着Prada的女魔头2》 (The Devil Wears Prada 2)
+                    - text: ": 2026年5月院线上映中。"
+                  - generic [ref=e227]:
+                    - link [ref=e228] [cursor=pointer]:
+                      - /url: https://borderlands.2k.com/borderlands-4/
+                    - button [ref=e229] [cursor=pointer]:
+                      - generic [ref=e231]:
+                        - generic [ref=e232]: 2K Games
+                        - generic [ref=e233]: "+2"
+            - list [ref=e243]:
+              - listitem [ref=e244]:
+                - generic [ref=e245]:
+                  - link "Borderlands 4 - 2K Games. 在新标签页中打开。" [ref=e246] [cursor=pointer]:
+                    - /url: https://borderlands.2k.com/borderlands-4/
+                  - generic [ref=e247]:
+                    - generic [ref=e249]:
+                      - generic [ref=e250]: Borderlands 4 - 2K Games
+                      - generic [ref=e251]: New endgame content coming soon to Borderlands 4. Raid Boss ...
+                    - generic [ref=e253]:
+                      - generic [ref=e258]: 2K Games
+                      - button "关于这条结果" [ref=e260] [cursor=pointer]:
+                        - img [ref=e261]
+              - listitem [ref=e264]:
+                - generic [ref=e265]:
+                  - 'link "Senua''s Saga: Hellblade II - Now Available on Console ... - Xbox. 在新标签页中打开。" [ref=e266] [cursor=pointer]':
+                    - /url: https://www.xbox.com/en-US/games/senuas-saga-hellblade-II
+                  - generic [ref=e267]:
+                    - generic [ref=e269]:
+                      - generic [ref=e270]: "Senua's Saga: Hellblade II - Now Available on Console ... - Xbox"
+                      - generic [ref=e271]: "The sequel to the award winning Hellblade: Senua's Sacrifice..."
+                    - generic [ref=e273]:
+                      - generic [ref=e278]: Xbox
+                      - button [ref=e280] [cursor=pointer]:
+                        - img [ref=e281]
+              - listitem [ref=e284]:
+                - generic [ref=e285]:
+                  - link [ref=e286] [cursor=pointer]:
+                    - /url: https://www.disneyplus.com/en-gb/explore/articles/tucci-in-italy-season-2
+                  - generic [ref=e287]:
+                    - generic [ref=e289]:
+                      - generic [ref=e290]: Tucci in Italy season 2 serves up more of 'la dolce vita'
+                      - generic [ref=e291]: "2026年5月13日 — Tucci in Italy season 2 now streaming: where to watch, episo..."
+                    - generic [ref=e293]:
+                      - generic [ref=e298]: Disney Plus
+                      - button [ref=e300] [cursor=pointer]:
+                        - img [ref=e301]
+        - button "显示更多 AI 概览" [ref=e306]:
+          - generic [ref=e308] [cursor=pointer]:
+            - generic [ref=e309]: 展开
+            - img [ref=e311]
+      - main [ref=e314]:
+        - generic [ref=e318]:
+          - generic [ref=e321]:
+            - heading "Web results" [level=2] [ref=e322]
+            - generic [ref=e323]:
+              - generic [ref=e326]:
+                - link "Mortal Kombat 2 (2026) [.FULLMOVIE.] Available Now ... Fort Bend County (.gov) https://www.fortbendcountytx.gov › files › _sid_" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.fortbendcountytx.gov/sites/default/files/webform/apply_here/_sid_/s3er.pdf
+                  - heading "Mortal Kombat 2 (2026) [.FULLMOVIE.] Available Now ..." [level=3] [ref=e329]
+                  - generic [ref=e334]:
+                    - generic [ref=e336]: Fort Bend County (.gov)
+                    - generic [ref=e338]: https://www.fortbendcountytx.gov › files › _sid_
+                - generic [ref=e339]:
+                  - generic:
+                    - generic: PDF
+                - button "关于这条结果的详细信息" [ref=e340] [cursor=pointer]:
+                  - img [ref=e343]
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - generic [ref=e348]: 7小时前
+                  - text: —
+                - generic [ref=e349]:
+                  - text: "The Lead: The"
+                  - emphasis [ref=e350]: sequel
+                  - text: follows Jaskirat Singh Rangi (Ranveer Singh), who is now deeply embedded in the Karachi underworld as Hamza Ali Mazari. Key ...
+          - generic [ref=e354]:
+            - generic [ref=e357]:
+              - link "Cosmopolitan | The long-awaited sequel ... Instagram · cosmopolitan 5530+ 个赞 · 6天前" [ref=e359] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DYDJ_V2mtor/
+                - heading "Cosmopolitan | The long-awaited sequel ..." [level=3] [ref=e360]
+                - generic [ref=e365]:
+                  - generic [ref=e367]: Instagram · cosmopolitan
+                  - generic [ref=e369]: 5530+ 个赞 · 6天前
+              - button "关于这条结果的详细信息" [ref=e370] [cursor=pointer]:
+                - img [ref=e373]
+            - generic [ref=e377]:
+              - emphasis [ref=e378]: The long-awaited sequel is finally here
+              - text: (!), and while spending more time with the core four cast feels like putting on a perfectly ...
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - 'link "Senua''s Saga: Hellblade II - Now Available on Console ... Xbox https://www.xbox.com › en-US › games › s..." [ref=e387] [cursor=pointer]':
+                - /url: https://www.xbox.com/en-US/games/senuas-saga-hellblade-II
+                - 'heading "Senua''s Saga: Hellblade II - Now Available on Console ..." [level=3] [ref=e388]'
+                - generic [ref=e393]:
+                  - generic [ref=e395]: Xbox
+                  - generic [ref=e397]: https://www.xbox.com › en-US › games › s...
+              - generic [ref=e398]:
+                - generic [ref=e399]: ·
+                - link "翻译此页" [ref=e400] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.xbox.com/en-US/games/senuas-saga-hellblade-II&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e401] [cursor=pointer]:
+                - img [ref=e404]
+            - generic [ref=e408]:
+              - text: The
+              - emphasis [ref=e409]: sequel
+              - text: "to the award winning Hellblade: Senua's Sacrifice, Senua returns in a brutal journey of survival through the myth and torment of Viking Iceland."
+            - generic [ref=e412]: US$49.99
+          - generic [ref=e416]:
+            - generic [ref=e419]:
+              - link "Borderlands 4 - 2K Games 2K Games https://borderlands.2k.com › borderlands-4" [ref=e421] [cursor=pointer]:
+                - /url: https://borderlands.2k.com/borderlands-4/
+                - heading "Borderlands 4 - 2K Games" [level=3] [ref=e422]
+                - generic [ref=e427]:
+                  - generic [ref=e429]: 2K Games
+                  - generic [ref=e431]: https://borderlands.2k.com › borderlands-4
+              - generic [ref=e432]:
+                - generic [ref=e433]: ·
+                - link "翻译此页" [ref=e434] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://borderlands.2k.com/borderlands-4/&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e435] [cursor=pointer]:
+                - img [ref=e438]
+            - generic [ref=e441]: New endgame content coming soon to Borderlands 4. Raid Boss 2 and a Takedown are on the horizon as free updates for all players, with Bounty Pack 3 dropping at ...
+          - generic [ref=e445]:
+            - generic [ref=e448]:
+              - 'link "The sequel paradox: Research shows less innovation sells ... Binghamton University https://www.binghamton.edu › news › story" [ref=e450] [cursor=pointer]':
+                - /url: https://www.binghamton.edu/news/story/6010/the-sequel-paradox-research-shows-less-innovation-sells-more-tickets-but-only-at-first
+                - 'heading "The sequel paradox: Research shows less innovation sells ..." [level=3] [ref=e451]'
+                - generic [ref=e456]:
+                  - generic [ref=e458]: Binghamton University
+                  - generic [ref=e460]: https://www.binghamton.edu › news › story
+              - generic [ref=e461]:
+                - generic [ref=e462]: ·
+                - link "翻译此页" [ref=e463] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.binghamton.edu/news/story/6010/the-sequel-paradox-research-shows-less-innovation-sells-more-tickets-but-only-at-first&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e464] [cursor=pointer]:
+                - img [ref=e467]
+            - generic [ref=e471]:
+              - text: The
+              - emphasis [ref=e472]: sequel
+              - text: "paradox: Research shows less innovation sells more tickets — but only at first. Binghamton marketing expert discusses his research on ..."
+          - generic [ref=e476]:
+            - generic [ref=e479]:
+              - link "Trivia Crack Retro Quiz - Apps on Google Play Google Play https://play.google.com › store › apps › details" [ref=e481] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.etermax.trivia.preguntados2
+                - heading "Trivia Crack Retro Quiz - Apps on Google Play" [level=3] [ref=e482]
+                - generic [ref=e487]:
+                  - generic [ref=e489]: Google Play
+                  - generic [ref=e491]: https://play.google.com › store › apps › details
+              - generic [ref=e492]:
+                - generic [ref=e493]: ·
+                - link "翻译此页" [ref=e494] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://play.google.com/store/apps/details?id%3Dcom.etermax.trivia.preguntados2&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e495] [cursor=pointer]:
+                - img [ref=e498]
+            - generic [ref=e501]: Guess what! You can rediscover the fun of answering questions, challenging friends, and exploring the world, and find joy in a timeless experience.
+            - generic [ref=e504]:
+              - generic [ref=e505]:
+                - img "评分为 4.5 星（最高 5 星）， (480,743) 条用户评价" [ref=e506]:
+                  - text: "4.5"
+                  - img [ref=e507]
+                  - text: (480,743)
+                - text: ·
+              - text: 免费 · ‎Android · ‎游戏
+          - generic [ref=e513]:
+            - generic [ref=e516]:
+              - link "Jamis® Bikes - Jamis® Bikes Jamis® Bikes https://www.jamisbikes.com" [ref=e518] [cursor=pointer]:
+                - /url: https://www.jamisbikes.com/
+                - heading "Jamis® Bikes - Jamis® Bikes" [level=3] [ref=e519]
+                - generic [ref=e524]:
+                  - generic [ref=e526]: Jamis® Bikes
+                  - generic [ref=e528]: https://www.jamisbikes.com
+              - generic [ref=e529]:
+                - generic [ref=e530]: ·
+                - link "翻译此页" [ref=e531] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.jamisbikes.com/&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e532] [cursor=pointer]:
+                - img [ref=e535]
+            - generic [ref=e538]: Jamis Bicycles rolled out its first bicycle in 1979 and has since built a reputation as a brand unmatched in performance, value, and style.
+          - generic [ref=e542]:
+            - generic [ref=e545]:
+              - 'link "Call of Duty®: Warzone™ Season 03 Reloaded Call of Duty https://www.callofduty.com › warzone" [ref=e547] [cursor=pointer]':
+                - /url: https://www.callofduty.com/warzone
+                - 'heading "Call of Duty®: Warzone™ Season 03 Reloaded" [level=3] [ref=e548]'
+                - generic [ref=e553]:
+                  - generic [ref=e555]: Call of Duty
+                  - generic [ref=e557]: https://www.callofduty.com › warzone
+              - generic [ref=e558]:
+                - generic [ref=e559]: ·
+                - link "翻译此页" [ref=e560] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.callofduty.com/warzone&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e561] [cursor=pointer]:
+                - img [ref=e564]
+            - generic [ref=e567]: Season 03 delivers an all-new Battle Pass. Receive back up to 1,100 COD Points as you level up. Use them to get next season's Battle Pass so the action never ...
+          - generic [ref=e571]:
+            - generic [ref=e574]:
+              - link "Tucci in Italy season 2 serves up more of 'la dolce vita' Disney Plus https://www.disneyplus.com › ... › Articles" [ref=e576] [cursor=pointer]:
+                - /url: https://www.disneyplus.com/en-gb/explore/articles/tucci-in-italy-season-2
+                - heading "Tucci in Italy season 2 serves up more of 'la dolce vita'" [level=3] [ref=e577]
+                - generic [ref=e582]:
+                  - generic [ref=e584]: Disney Plus
+                  - generic [ref=e586]: https://www.disneyplus.com › ... › Articles
+              - generic [ref=e587]:
+                - generic [ref=e588]: ·
+                - link "翻译此页" [ref=e589] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.disneyplus.com/en-gb/explore/articles/tucci-in-italy-season-2&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e590] [cursor=pointer]:
+                - img [ref=e593]
+            - generic [ref=e596]:
+              - generic [ref=e597]: 20小时前 —
+              - text: National Geographic and Stanley Tucci reunite for a new season of Tucci in Italy. Learn about the docuseries, where to watch and what to ...
+          - generic [ref=e601]:
+            - generic [ref=e604]:
+              - link "Kingsman sequel premieres early for nation's 'real statesmen' Army.mil https://www.army.mil › article › kingsman_..." [ref=e606] [cursor=pointer]:
+                - /url: https://www.army.mil/article/194310/kingsman_sequel_premieres_early_for_nations_real_statesmen
+                - heading "Kingsman sequel premieres early for nation's 'real statesmen'" [level=3] [ref=e607]
+                - generic [ref=e612]:
+                  - generic [ref=e614]: Army.mil
+                  - generic [ref=e616]: https://www.army.mil › article › kingsman_...
+              - generic [ref=e617]:
+                - generic [ref=e618]: ·
+                - link "翻译此页" [ref=e619] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.army.mil/article/194310/kingsman_sequel_premieres_early_for_nations_real_statesmen&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e620] [cursor=pointer]:
+                - img [ref=e623]
+            - generic [ref=e626]:
+              - generic [ref=e627]: 2017年9月23日 —
+              - text: "Masterminds behind the plan to premiere \"Kingsman: The Golden Circle\" at Knox Friday said Waybur Theater was the fitting location."
+        - navigation [ref=e630]:
+          - heading "网页导航" [level=1] [ref=e631]
+          - text: "1"
+          - link "Page 2" [ref=e634] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=10&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAE
+            - text: "2"
+          - link "Page 3" [ref=e636] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=20&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAG
+            - text: "3"
+          - link "Page 4" [ref=e638] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=30&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAI
+            - text: "4"
+          - link "Page 5" [ref=e640] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=40&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAK
+            - text: "5"
+          - link "Page 6" [ref=e642] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=50&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAM
+            - text: "6"
+          - link "Page 7" [ref=e644] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=60&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAO
+            - text: "7"
+          - link "Page 8" [ref=e646] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=70&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAQ
+            - text: "8"
+          - link "Page 9" [ref=e648] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=80&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAS
+            - text: "9"
+          - link "Page 10" [ref=e650] [cursor=pointer]:
+            - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=90&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8tMDegQIKBAU
+            - text: "10"
+          - heading "下一页" [level=2] [ref=e652]:
+            - link "下一页" [ref=e653] [cursor=pointer]:
+              - /url: /search?q=Emage+%E7%BB%AD%E4%BD%9C+sequel&sca_esv=4c0e757566be5d36&ei=wnQFaqnZCMylkPIP_7an-Ac&start=10&sa=N&sstk=Af77f_dbakbcxtGdpEYg4wLbE1Gnytoh6ARN_9f3z4qeZosTX2deGwPzBYnAUOOccmyhQc5n4nApzN8jtuHyPSN3_Lrsx1REiIqQ2Q&ved=2ahUKEwipwt2GnLiUAxXMEkQIHX_bCX8Q8NMDegQIKBAW
+              - generic [ref=e655]: 下一页
+        - navigation
+    - contentinfo [ref=e656]:
+      - heading "页脚链接" [level=1] [ref=e657]
+      - generic [ref=e661]:
+        - generic [ref=e665]:
+          - button "洛杉矶县 加利福尼亚 - 是根据您的 IP 地址推断出来的" [ref=e667] [cursor=pointer]:
+            - generic [ref=e668]: 洛杉矶县 加利福尼亚
+            - generic [ref=e670]:
+              - text: "-"
+              - generic [ref=e671]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e673] [cursor=pointer]: 更新位置信息
+        - generic [ref=e676]:
+          - link "帮助" [ref=e677] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e678] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e679] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e680] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1
