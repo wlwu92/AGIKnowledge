@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779269196342-28dkru871",
+  "providerId": "claude",
+  "title": "Brainstorm 3DGS for humanoid robot perception",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779269196342,
+  "updatedAt": 1779288306693,
+  "lastResponseAt": 1779270448890,
+  "sessionId": "30fb5335-e9c0-4016-a54d-cf3fbb03c692",
+  "providerState": {
+    "providerSessionId": "30fb5335-e9c0-4016-a54d-cf3fbb03c692"
+  },
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 430,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 69248,
+    "contextWindow": 200000,
+    "contextTokens": 69678,
+    "percentage": 35,
+    "contextWindowIsAuthoritative": true
+  }
+}

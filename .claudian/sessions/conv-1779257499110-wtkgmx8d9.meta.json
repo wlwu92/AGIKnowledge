@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779257499110-wtkgmx8d9",
+  "providerId": "claude",
+  "title": "Summarize Chrome Inbox bookmarks",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779257499111,
+  "updatedAt": 1779261538650,
+  "lastResponseAt": 1779257637488,
+  "sessionId": "7be926da-28cc-4950-b990-b6dee722b397",
+  "providerState": {
+    "providerSessionId": "7be926da-28cc-4950-b990-b6dee722b397"
+  },
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 104,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49920,
+    "contextWindow": 200000,
+    "contextTokens": 50024,
+    "percentage": 25,
+    "contextWindowIsAuthoritative": true
+  }
+}

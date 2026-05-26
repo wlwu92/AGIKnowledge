@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779499520629-4kgmw4hpn",
+  "providerId": "claude",
+  "title": "Analyze MotionBricks system",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779499520630,
+  "updatedAt": 1779802031515,
+  "lastResponseAt": 1779499889860,
+  "sessionId": "5f1524dd-0ed0-43f6-9dda-8bdbe6991364",
+  "providerState": {
+    "providerSessionId": "5f1524dd-0ed0-43f6-9dda-8bdbe6991364"
+  },
+  "currentNote": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-MotionBricks-实时模块化运动生成.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 698,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 53760,
+    "contextWindow": 200000,
+    "contextTokens": 54458,
+    "percentage": 27,
+    "contextWindowIsAuthoritative": true
+  }
+}

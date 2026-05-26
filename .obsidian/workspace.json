@@ -4,235 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "a2ca64b623b15e75",
+        "id": "f81c36cd6f0c99b2",
         "type": "tabs",
         "children": [
           {
-            "id": "2e2db897cd4f660f",
+            "id": "582f53d6d54f4943",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-TRAM-全局3D人体轨迹与运动重建.md",
+                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-参数化人体模型综述.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-11-TRAM-全局3D人体轨迹与运动重建"
+              "title": "2026-05-12-参数化人体模型综述"
             }
           },
           {
-            "id": "659b0882fc88dfab",
+            "id": "b2d5ed2ea32a9f13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md",
+                "file": "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-20-3DGS人形机器人实时决策-闪念笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "容器化管理实验环境最佳实践"
+              "title": "2026-05-20-3DGS人形机器人实时决策-闪念笔记"
             }
           },
           {
-            "id": "cd4c79e3f542b621",
+            "id": "5be1a6020307c414",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/cephfs-分布式文件系统调研.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cephfs-分布式文件系统调研"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
-            "id": "d622029b0a715911",
+            "id": "057134275260ab1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/3fs-ai原生并行文件系统.md",
+                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-MotionBricks-实时模块化运动生成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3fs-ai原生并行文件系统"
+              "title": "2026-05-23-MotionBricks-实时模块化运动生成"
             }
           },
           {
-            "id": "09cc3206ca2fe356",
+            "id": "dd965621d19174b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/cephfs-分布式文件系统调研.md",
+                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-26-SeaweedFS-分布式存储系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cephfs-分布式文件系统调研"
-            }
-          },
-          {
-            "id": "a4e7a21dbd3cc50e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/cephfs-分布式文件系统调研.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cephfs-分布式文件系统调研"
-            }
-          },
-          {
-            "id": "3d1a1bd93f11d47a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-14-Audio-Driven-Robot-Motion-音频驱动机器人运动全链路.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-14-Audio-Driven-Robot-Motion-音频驱动机器人运动全链路"
-            }
-          },
-          {
-            "id": "46ffc29f94e91362",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-14-Audio-Driven-Robot-Motion-音频驱动机器人运动全链路.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-14-Audio-Driven-Robot-Motion-音频驱动机器人运动全链路"
-            }
-          },
-          {
-            "id": "140691402e6ddf79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-EMAGE-全身共语手势生成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-14-EMAGE-全身共语手势生成"
-            }
-          },
-          {
-            "id": "fb472136a122b838",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-GestureLSM-潜在捷径共语手势生成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-14-GestureLSM-潜在捷径共语手势生成"
-            }
-          },
-          {
-            "id": "cf3cb4fc3e1c001b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "容器化管理实验环境最佳实践"
-            }
-          },
-          {
-            "id": "17d8043a23329cf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-IaC基础设施即代码工具链.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-19-IaC基础设施即代码工具链"
-            }
-          },
-          {
-            "id": "08aa17d01b1959a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-IaC基础设施即代码工具链.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-19-IaC基础设施即代码工具链"
-            }
-          },
-          {
-            "id": "15fdf3d3e4cf5ac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-ansible-自动化运维平台.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-19-ansible-自动化运维平台"
-            }
-          },
-          {
-            "id": "ba2528ca5cedb561",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-ansible-自动化运维平台.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-19-ansible-自动化运维平台"
-            }
-          },
-          {
-            "id": "70626101f69585d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-分层决策-PackerAnsibleTerraformDocker的分工与边界.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-19-分层决策-PackerAnsibleTerraformDocker的分工与边界"
+              "title": "2026-05-26-SeaweedFS-分布式存储系统"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -351,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-分层决策-PackerAnsibleTerraformDocker的分工与边界.md",
+                "file": "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-26-SeaweedFS-分布式存储系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-05-19-分层决策-PackerAnsibleTerraformDocker的分工与边界 的大纲"
+              "title": "2026-05-26-SeaweedFS-分布式存储系统 的大纲"
             }
           },
           {
@@ -385,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 665.5
+    "width": 682.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -402,37 +244,37 @@
   },
   "active": "baa1ca4a64dcbfb6",
   "lastOpenFiles": [
-    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-ansible-自动化运维平台.md",
-    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-分层决策-PackerAnsibleTerraformDocker的分工与边界.md",
-    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-IaC基础设施即代码工具链.md",
-    "03_L3_系统架构与路径 (Systems & Architectures)/容器化管理实验环境最佳实践.md",
-    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-19-jupyter-docker-stacks-JupyterDocker镜像套件.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-GestureLSM-潜在捷径共语手势生成.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-EMAGE-全身共语手势生成.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-PantoMatrix-音频驱动3D姿态合成框架.md",
+    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-26-JuiceFS-分布式POSIX文件系统.md",
+    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-26-MinIO-AIStor-企业级AI数据存储.md",
+    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-26-SeaweedFS-分布式存储系统.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-MotionBricks-实时模块化运动生成.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-26-Project-Instinct-人形机器人本能全身控制.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-26-Any2Track-任意干扰下运动跟踪.md",
+    "03_L3_系统架构与路径 (Systems & Architectures)/2026-05-26-Aholo-Viewer-群核开源10亿高斯点浏览器.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-26-CARI4D-类别无关4D人机交互重建.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-26-DLA-Dream-Lift-Animate-单图可动画化高斯虚拟人像.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-HSMR-生物力学骨架人体重建.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-GEM-X-全身SOMA人体姿态估计.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-GEM-统一人体运动估计与生成模型.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-23-GR00T-人形机器人全身控制平台.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-20-NLF-神经定位场连续3D人体姿态形状估计.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-23-SKEL-生物力学参数化人体模型.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-20-GraspSplats-3D特征高斯泼溅零样本机器人抓取.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-GVHMR-重力视角人体运动恢复.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-20-Dr-Robot-可微机器人渲染.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-20-3DGS人形机器人实时决策-闪念笔记.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-参数化人体模型综述.md",
     "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-14-Audio-Driven-Robot-Motion-音频驱动机器人运动全链路.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-14-SAM-3-Meta开放词汇分割基础模型.md",
-    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-claude-code-router.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-EgoPointVQA-HINT-手势引导的第一人称视频问答.md",
-    "04_L4_应用、伦理与前沿/2026-05-14-Audio-Driven-Robot-Motion-音频驱动机器人运动全链路.md",
-    "03_L3_系统架构与路径 (Systems & Architectures)/cephfs-分布式文件系统调研.md",
+    "01_L1_哲学与理论基石 (Philosophy & Foundation)/learning-as-maintenance.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-20-DETR-端到端目标检测变换器.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-20-RT-DETR-实时目标检测变换器.md",
+    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-20-Hesai-ETX-禾赛800线激光雷达.md",
+    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-20-SparseOcc-稀疏3D占用预测.md",
+    "Clippings",
     "04_L4_应用、伦理与前沿",
-    "03_L3_系统架构与路径 (Systems & Architectures)/beegfs-并行文件系统.md",
-    "03_L3_系统架构与路径 (Systems & Architectures)/3fs-ai原生并行文件系统.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-MHR-Momentum-Human-Rig-参数化人体模型.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-MANO-手部参数化模型.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-Dyn-HaMR-动态相机下双手4D运动重建.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-11-WHAM-世界坐标系人体运动重建.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-SAM-3D-Body-单图全身3D网格恢复.md",
-    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-经典Prompt设计-金庸群侠传RPG.md",
-    "04_L4_应用、伦理与前沿 (Applications & Frontiers)/2026-05-11-灵巧手带来空心杯电机增量市场-华安证券.md",
-    "CLAUDE.md",
-    "99_索引与地图 (Index & Maps)/标签体系.md",
-    "02_L2_核心技术与算法 (Core Tech & Algorithms)/2026-05-12-GarmentMeasurements-服装测量生成.md",
     "未命名.base",
     "00_资料与素材 (Attachments & Resources)/Inbox",
     "00_资料与素材 (Attachments & Resources)/Clippings",
-    "Clippings",
     "未命名.canvas",
     "知识图谱.canvas",
     "2.canvas",

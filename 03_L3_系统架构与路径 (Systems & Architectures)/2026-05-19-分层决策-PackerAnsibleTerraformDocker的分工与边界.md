@@ -336,7 +336,7 @@ ansible-pull -U https://github.com/team/dev-env.git plays/init.yml
 
 | 工具 | 在本场景中的角色 |
 |------|----------------|
-| Ansible | 全部：从 Homebrew 包到 dotfiles 到 VS Code 扩展 |
+| Ansible | 全部：Shell 环境、Homebrew 包、Git 配置、语言运行时、VS Code 扩展、macOS 系统设置、SSH 密钥——完整实现见 [[2026-05-19-ansible-自动化运维平台#场景二：开发机环境配置（macOS / Linux）\|Ansible 开发机场景]] |
 | Packer | 不需要——开发机不是 VM，没有镜像概念 |
 | Terraform | 不需要——没有云资源 |
 | Docker | 开发工具之一（Ansible 负责安装） |
@@ -373,13 +373,13 @@ ansible-pull -U https://github.com/team/dev-env.git plays/init.yml
 
 ### 常见误判案例
 
-| 误判 | 原因 | 正确做法 |
-|------|------|---------|
-| "NCCL 参数用 Ansible 写进 /etc/environment" | 宿主机级配置，所有容器共享 | 改为写进 Docker 镜像的 ENV 或 docker-compose 的 environment，不同训练独立 |
-| "Docker daemon 配置放到 AMI 里" | 这些基础配置不变 | 但 registry 地址、代理配置会变，放 Ansible 更灵活 |
-| "用户管理放到 Packer AMI 里" | 人员相对固定 | 员工入职/离职不改 AMI？放 Ansible |
-| "用 Ansible 的 cloud 模块替代 Terraform" | Ansible 也能创建 AWS 资源 | 但 Terraform 有状态管理和 preview，更适合资源编排 |
-| "用 docker_container 模块替代 Docker Compose" | Ansible 能管理容器 | 复杂多容器场景该用 Compose 或 K8s，Ansible 只做"装 Docker + 写配置文件" |
+| 误判                                       | 原因                  | 正确做法                                                      |
+| ---------------------------------------- | ------------------- | --------------------------------------------------------- |
+| "NCCL 参数用 Ansible 写进 /etc/environment"   | 宿主机级配置，所有容器共享       | 改为写进 Docker 镜像的 ENV 或 docker-compose 的 environment，不同训练独立 |
+| "Docker daemon 配置放到 AMI 里"               | 这些基础配置不变            | 但 registry 地址、代理配置会变，放 Ansible 更灵活                        |
+| "用户管理放到 Packer AMI 里"                    | 人员相对固定              | 员工入职/离职不改 AMI？放 Ansible                                   |
+| "用 Ansible 的 cloud 模块替代 Terraform"       | Ansible 也能创建 AWS 资源 | 但 Terraform 有状态管理和 preview，更适合资源编排                        |
+| "用 docker_container 模块替代 Docker Compose" | Ansible 能管理容器       | 复杂多容器场景该用 Compose 或 K8s，Ansible 只做"装 Docker + 写配置文件"      |
 
 ## 关联笔记
 

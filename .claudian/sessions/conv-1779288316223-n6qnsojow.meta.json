@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779288316223-n6qnsojow",
+  "providerId": "claude",
+  "title": "Process Chrome Inbox bookmarks",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779288316224,
+  "updatedAt": 1779498161044,
+  "lastResponseAt": 1779288470247,
+  "sessionId": "14b20333-d855-4e95-a7e8-ebc3bc0f2902",
+  "providerState": {
+    "providerSessionId": "14b20333-d855-4e95-a7e8-ebc3bc0f2902"
+  },
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 94,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 64128,
+    "contextWindow": 200000,
+    "contextTokens": 64222,
+    "percentage": 32,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779247527760-cw70xzezs",
+  "providerId": "claude",
+  "title": "Brainstorm AI paradigms vs deployment reality",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779247527760,
+  "updatedAt": 1779250443562,
+  "lastResponseAt": 1779250073480,
+  "sessionId": "bb8a8db0-fd7e-4623-b904-d609baa3400f",
+  "providerState": {
+    "providerSessionId": "bb8a8db0-fd7e-4623-b904-d609baa3400f"
+  },
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 128,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44672,
+    "contextWindow": 200000,
+    "contextTokens": 44800,
+    "percentage": 22,
+    "contextWindowIsAuthoritative": true
+  }
+}
