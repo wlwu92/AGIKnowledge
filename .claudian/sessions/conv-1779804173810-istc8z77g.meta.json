@@ -4,20 +4,20 @@
   "title": "Brainstorm AI training cluster storage selection",
   "titleGenerationStatus": "success",
   "createdAt": 1779804173810,
-  "updatedAt": 1779804300658,
-  "lastResponseAt": 1779804300658,
+  "updatedAt": 1779892711563,
+  "lastResponseAt": 1779892711563,
   "sessionId": "690341ed-cfdd-48f2-b6a7-b019ff5d8f77",
   "providerState": {
     "providerSessionId": "690341ed-cfdd-48f2-b6a7-b019ff5d8f77"
   },
   "usage": {
     "model": "deepseek-chat",
-    "inputTokens": 320,
+    "inputTokens": 1266,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 40576,
+    "cacheReadInputTokens": 76544,
     "contextWindow": 200000,
-    "contextTokens": 40896,
-    "percentage": 20,
+    "contextTokens": 77810,
+    "percentage": 39,
     "contextWindowIsAuthoritative": true
   }
 }

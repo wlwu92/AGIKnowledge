@@ -11,7 +11,7 @@
   "mediaFolder": "",
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
-  "sharedEnvironmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-d53f4acb24a9487ba46b9e7d5caf1327\nANTHROPIC_MODEL=deepseek-chat\nANTHROPIC_SMALL_FAST_MODEL=deepseek-chat\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-chat\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-chat\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-chat\nAPI_TIMEOUT_MS=3000000\nCLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
+  "sharedEnvironmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-3cd8a0fb899f4571b31a03352b42def1\nANTHROPIC_MODEL=deepseek-chat\nANTHROPIC_SMALL_FAST_MODEL=deepseek-chat\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-chat\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-chat\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-chat\nAPI_TIMEOUT_MS=3000000\nCLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
   "envSnippets": [],
   "customContextLimits": {},
   "keyboardNavigation": {
